@@ -1,0 +1,16 @@
+## Interface: 70000
+## Title: CinematicCanceler
+## Description: Automatically and immediately cancels all in-game cinematics and movies
+## Notes: Automatically and immediately cancels all in-game cinematics and movies
+## Author: oscarucb
+## Credits: 
+## Version: 1.3.3
+## X-Build: 24
+## X-ReleaseDate: 2016-07-31T05:31:41Z
+## X-Revision: $Revision: 24 $
+## X-Curse-Packaged-Version: 1.3.3
+## X-Curse-Project-Name: CinematicCanceler
+## X-Curse-Project-ID: cinematiccanceler
+## X-Curse-Repository-ID: wow/cinematiccanceler/mainline
+
+CinematicCanceler.lua

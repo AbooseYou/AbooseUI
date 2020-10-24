@@ -1,0 +1,1112 @@
+
+OneRing_Config = {
+	["CharProfiles"] = {
+		["Stormrage-Tríggered-3"] = "default",
+	},
+	["_GameVersion"] = "9.0.1",
+	["_OPieVersion"] = "Xe 1a (3.102)",
+	["ProfileStorage"] = {
+		["default"] = {
+			["ClickActivation"] = true,
+			["Bindings"] = {
+				["Shit"] = "SHIFT-X",
+				["DruidUtility"] = false,
+				["DruidFeral"] = false,
+				["RaidSymbols"] = false,
+				["OPieTracking"] = false,
+				["Gear"] = "ALT-C",
+				["rldMarkers"] = "SHIFT-F",
+				["Tr"] = "CTRL-C",
+				["CommonTrades"] = false,
+				["RaidStuff"] = "SHIFT-Z",
+				["Gear2"] = "ALT-C",
+				["Mounts"] = "SHIFT-Q",
+				["MageTravel"] = "SHIFT-C",
+				["DruidShift"] = false,
+				["FParth"] = "\\",
+				["OPieAutoQuest"] = false,
+				["MiniMsp"] = "ALT-V",
+				["Gear1"] = "SHIFT-B",
+				["ReadyPull"] = "SHIFT-V",
+			},
+			["RotationTokens"] = {
+				["ABuep5u5q8r"] = "OPCCTa",
+				["ABue4QlA7k2"] = "ABue4QlA7ky",
+				["ABuepzwUFKwJ"] = "ABuegI7hs=j",
+				["ABuea=SLMywS"] = "ABuea=SLMyw=",
+				["ABueffl0Xmh"] = "ABueffl0Xms",
+			},
+		},
+	},
+	["PersistentStorage"] = {
+		["RingKeeper"] = {
+			["Shit"] = {
+				{
+					"item", -- [1]
+					140192, -- [2]
+					["sliceToken"] = "ABuepzwUFKN",
+				}, -- [1]
+				{
+					"ring", -- [1]
+					"arthStones", -- [2]
+					["sliceToken"] = "ABueffl0Xmh",
+				}, -- [2]
+				{
+					"item", -- [1]
+					141605, -- [2]
+					["sliceToken"] = "ABuepzwUFK/",
+				}, -- [3]
+				{
+					["id"] = 193753,
+					["sliceToken"] = "ABuepzwUFKV",
+				}, -- [4]
+				{
+					"item", -- [1]
+					110560, -- [2]
+					["sliceToken"] = "ABuepzwUFKB",
+				}, -- [5]
+				{
+					"item", -- [1]
+					52251, -- [2]
+					["sliceToken"] = "ABuepcY=b63",
+				}, -- [6]
+				{
+					"item", -- [1]
+					40586, -- [2]
+					["sliceToken"] = "ABuep5yBhd3",
+				}, -- [7]
+				{
+					"item", -- [1]
+					65274, -- [2]
+					["sliceToken"] = "ABuep5yBhds",
+				}, -- [8]
+				{
+					"item", -- [1]
+					40769, -- [2]
+					["sliceToken"] = "ABuep5yBhda",
+				}, -- [9]
+				{
+					"item", -- [1]
+					49040, -- [2]
+					["sliceToken"] = "ABuep5yBhdp",
+				}, -- [10]
+				{
+					"toy", -- [1]
+					40768, -- [2]
+					["sliceToken"] = "ABuep52WnWr",
+				}, -- [11]
+				{
+					"toy", -- [1]
+					156833, -- [2]
+					["sliceToken"] = "ABuesCSO1u1",
+				}, -- [12]
+				{
+					"ring", -- [1]
+					"EngTeles", -- [2]
+					["sliceToken"] = "ABuepzwUFKwK",
+				}, -- [13]
+				{
+					"ring", -- [1]
+					"CommonTrades", -- [2]
+					["sliceToken"] = "ABuep5u5q8r",
+				}, -- [14]
+				{
+					"ring", -- [1]
+					"CModePorts", -- [2]
+					["sliceToken"] = "ABuepxBIAjV",
+				}, -- [15]
+				{
+					"specset", -- [1]
+					4, -- [2]
+					["sliceToken"] = "ABuepcY=b6i",
+				}, -- [16]
+				{
+					["id"] = 50977,
+					["sliceToken"] = "ABueaG4xxMr",
+				}, -- [17]
+				{
+					["id"] = 126892,
+					["sliceToken"] = "ABueswVOqZr",
+				}, -- [18]
+				{
+					"item", -- [1]
+					65360, -- [2]
+					["sliceToken"] = "ABuefaMNB7e",
+				}, -- [19]
+				{
+					"item", -- [1]
+					166560, -- [2]
+					["sliceToken"] = "ABuefaMNB7r",
+				}, -- [20]
+				{
+					["sliceToken"] = "ABueh89oEJei",
+					["id"] = 83958,
+				}, -- [21]
+				{
+					"item", -- [1]
+					49040, -- [2]
+					["sliceToken"] = "ABue4Lm5M71",
+				}, -- [22]
+				{
+					"item", -- [1]
+					40769, -- [2]
+					["sliceToken"] = "ABue4Lm5M7r",
+				}, -- [23]
+				["name"] = "Shit?",
+				["save"] = true,
+			},
+			["EngTeles"] = {
+				{
+					"toy", -- [1]
+					48933, -- [2]
+					["sliceToken"] = "ABuepzwUFKZ",
+				}, -- [1]
+				{
+					"toy", -- [1]
+					112059, -- [2]
+					["sliceToken"] = "ABuepzwUFK=",
+				}, -- [2]
+				{
+					"toy", -- [1]
+					87215, -- [2]
+					["sliceToken"] = "ABuepzwUFKL",
+				}, -- [3]
+				{
+					"toy", -- [1]
+					168808, -- [2]
+					["sliceToken"] = "ABuegImcIx1",
+				}, -- [4]
+				{
+					"toy", -- [1]
+					168807, -- [2]
+					["sliceToken"] = "ABuegImcIxr",
+				}, -- [5]
+				["name"] = "Eng Teles",
+				["save"] = true,
+			},
+			["OPieDeletedRings"] = {
+				["TrinketSlots"] = true,
+				["WorldMarkers"] = true,
+				["SpecMenu"] = true,
+			},
+			["MiniMsp"] = {
+				{
+					"opie.databroker.launcher", -- [1]
+					"BagnonLauncher", -- [2]
+					["sliceToken"] = "ABueh89oEJww",
+				}, -- [1]
+				{
+					"opie.databroker.launcher", -- [1]
+					"Masque", -- [2]
+					["sliceToken"] = "ABueh89oEJwq",
+				}, -- [2]
+				{
+					"opie.databroker.launcher", -- [1]
+					"Dominos", -- [2]
+					["sliceToken"] = "ABueh89oEJM",
+				}, -- [3]
+				{
+					"opie.databroker.launcher", -- [1]
+					"BigWigs", -- [2]
+					["sliceToken"] = "ABueh89oEJN",
+				}, -- [4]
+				{
+					"opie.databroker.launcher", -- [1]
+					"ExRT", -- [2]
+					["sliceToken"] = "ABueh89oEJB",
+				}, -- [5]
+				{
+					"opie.databroker.launcher", -- [1]
+					"BtWLoadOuts", -- [2]
+					["sliceToken"] = "ABueh89oEJ/",
+				}, -- [6]
+				{
+					"opie.databroker.launcher", -- [1]
+					"WeakAuras", -- [2]
+					["sliceToken"] = "ABueh89oEJV",
+				}, -- [7]
+				{
+					"opie.databroker.launcher", -- [1]
+					"SavedInstances", -- [2]
+					["sliceToken"] = "ABueh89oEJC",
+				}, -- [8]
+				["name"] = "MiniMsp",
+				["save"] = true,
+			},
+			["Toys"] = {
+				{
+					"toy", -- [1]
+					86589, -- [2]
+					["sliceToken"] = "ABuegI7hs=z",
+				}, -- [1]
+				{
+					"toy", -- [1]
+					141862, -- [2]
+					["sliceToken"] = "ABuegI7hs=l",
+				}, -- [2]
+				{
+					"toy", -- [1]
+					1973, -- [2]
+					["sliceToken"] = "ABuegI7hs=k",
+				}, -- [3]
+				{
+					"toy", -- [1]
+					35275, -- [2]
+					["sliceToken"] = "ABuegI7hs=j",
+				}, -- [4]
+				{
+					"toy", -- [1]
+					119092, -- [2]
+					["sliceToken"] = "ABuegI7hs=4",
+				}, -- [5]
+				{
+					"toy", -- [1]
+					169275, -- [2]
+					["sliceToken"] = "ABuegI7hs=d",
+				}, -- [6]
+				{
+					"toy", -- [1]
+					134032, -- [2]
+					["sliceToken"] = "ABuehkvoR9r",
+				}, -- [7]
+				{
+					"toy", -- [1]
+					163736, -- [2]
+					["sliceToken"] = "ABuegI7hs=s",
+				}, -- [8]
+				{
+					"toy", -- [1]
+					128807, -- [2]
+					["sliceToken"] = "ABuehHjmvn1",
+				}, -- [9]
+				{
+					"toy", -- [1]
+					166779, -- [2]
+					["sliceToken"] = "ABuehL0KNye",
+				}, -- [10]
+				["name"] = "Toys",
+				["save"] = true,
+			},
+			["OPieFlagStore"] = {
+				["StoreVersion"] = 2,
+			},
+			["Gear"] = {
+				{
+					"equipmentset", -- [1]
+					"Sholder-Clock", -- [2]
+					["show"] = "[spec:103/105/102] hide;",
+					["sliceToken"] = "ABue3ty4Lby",
+				}, -- [1]
+				{
+					"equipmentset", -- [1]
+					"Chest - Luffa ST", -- [2]
+					["show"] = "[spec:102/103/105] hide;",
+					["sliceToken"] = "ABues9xTM2v",
+				}, -- [2]
+				{
+					"equipmentset", -- [1]
+					"Chest-Luffa", -- [2]
+					["show"] = "[spec:105/103/102] hide;",
+					["sliceToken"] = "ABue3qtIKIu",
+				}, -- [3]
+				{
+					"equipmentset", -- [1]
+					"Neck-Luffa", -- [2]
+					["show"] = "[spec:105/103/102] hide;",
+					["sliceToken"] = "ABues9xTM2c",
+				}, -- [4]
+				{
+					"equipmentset", -- [1]
+					"MASS AOE", -- [2]
+					["show"] = "[spec:105/103/102] hide;",
+					["sliceToken"] = "ABue3qtIKIy",
+				}, -- [5]
+				{
+					"equipmentset", -- [1]
+					"Chest-Neck", -- [2]
+					["show"] = "[spec:105/103/102] hide;",
+					["sliceToken"] = "ABues9xTM2x",
+				}, -- [6]
+				{
+					"equipmentset", -- [1]
+					"Luffa-legs AOE", -- [2]
+					["show"] = "[spec:105/103/102] hide;",
+					["sliceToken"] = "ABues9xTM25",
+				}, -- [7]
+				{
+					"equipmentset", -- [1]
+					"Cat - ST", -- [2]
+					["show"] = "[spec:105/104/102] hide;",
+					["sliceToken"] = "ABuesDua8Hf",
+				}, -- [8]
+				{
+					"equipmentset", -- [1]
+					"Cat - AOE", -- [2]
+					["show"] = "[spec:105/104/102] hide;",
+					["sliceToken"] = "ABuesDua8Hd",
+				}, -- [9]
+				{
+					"equipmentset", -- [1]
+					"Resto Kek", -- [2]
+					["show"] = "[spec:102/103/104] hide;",
+					["sliceToken"] = "ABuesCAnSbs",
+				}, -- [10]
+				{
+					"equipmentset", -- [1]
+					"Boomken", -- [2]
+					["show"] = "[spec:105/104/103] hide;",
+					["sliceToken"] = "ABuesCAnSba",
+				}, -- [11]
+				["name"] = "Gear",
+				["save"] = true,
+				["hotkey"] = "ALT-C",
+				["limit"] = "Iabooseyou-Stormrage",
+			},
+			["rldMarkers"] = {
+				{
+					"worldmark", -- [1]
+					1, -- [2]
+					["sliceToken"] = "ABuepcuisSp",
+					["icon"] = 878241,
+				}, -- [1]
+				{
+					"worldmark", -- [1]
+					2, -- [2]
+					["sliceToken"] = "ABuepcuisSo",
+					["icon"] = 878242,
+				}, -- [2]
+				{
+					"worldmark", -- [1]
+					3, -- [2]
+					["sliceToken"] = "ABuepcuisS2",
+					["icon"] = 878243,
+				}, -- [3]
+				{
+					"worldmark", -- [1]
+					4, -- [2]
+					["sliceToken"] = "ABuepcuisSi",
+					["icon"] = 878244,
+				}, -- [4]
+				{
+					"worldmark", -- [1]
+					5, -- [2]
+					["sliceToken"] = "ABuepcuisSu",
+					["icon"] = 878245,
+				}, -- [5]
+				{
+					"worldmark", -- [1]
+					6, -- [2]
+					["sliceToken"] = "ABuepcuisSy",
+				}, -- [6]
+				{
+					"worldmark", -- [1]
+					7, -- [2]
+					["sliceToken"] = "ABuepcuisSt",
+					["icon"] = 897137,
+				}, -- [7]
+				{
+					"worldmark", -- [1]
+					8, -- [2]
+					["sliceToken"] = "ABuepcuisS1",
+					["icon"] = 132097,
+				}, -- [8]
+				{
+					"worldmark", -- [1]
+					0, -- [2]
+					["sliceToken"] = "ABuepcuisSe",
+					["c"] = "ccd8e5",
+					["icon"] = 1339440,
+				}, -- [9]
+				{
+					"ring", -- [1]
+					"RaidSymbols", -- [2]
+					["sliceToken"] = "ABuepcuisSr",
+				}, -- [10]
+				["name"] = "World Markers",
+				["save"] = true,
+				["hotkey"] = "SHIFT-F",
+			},
+			["Tr"] = {
+				{
+					"equipmentset", -- [1]
+					"Apoc - Fever", -- [2]
+					["show"] = "[spec:105/103/102] hide;",
+					["sliceToken"] = "ABuesCAnSb3",
+				}, -- [1]
+				["name"] = "Tr",
+				["save"] = true,
+				["hotkey"] = "CTRL-C",
+				["limit"] = "Iabooseyou-Stormrage",
+			},
+			["arthStones"] = {
+				{
+					"toy", -- [1]
+					165670, -- [2]
+					["sliceToken"] = "ABuef5PNeZr",
+				}, -- [1]
+				{
+					"toy", -- [1]
+					165669, -- [2]
+					["sliceToken"] = "ABueffl0Xms",
+				}, -- [2]
+				{
+					"toy", -- [1]
+					162973, -- [2]
+					["sliceToken"] = "ABueffl0Xma",
+				}, -- [3]
+				{
+					"toy", -- [1]
+					163045, -- [2]
+					["sliceToken"] = "ABueffl0Xmp",
+				}, -- [4]
+				{
+					"toy", -- [1]
+					165802, -- [2]
+					["sliceToken"] = "ABuefCZSqqe",
+				}, -- [5]
+				{
+					"toy", -- [1]
+					166746, -- [2]
+					["sliceToken"] = "ABuegcLTSCe",
+				}, -- [6]
+				{
+					"toy", -- [1]
+					168907, -- [2]
+					["sliceToken"] = "ABuegWJ9dTe",
+				}, -- [7]
+				{
+					"toy", -- [1]
+					166747, -- [2]
+					["sliceToken"] = "ABueh2gXDne",
+				}, -- [8]
+				{
+					"toy", -- [1]
+					172179, -- [2]
+					["sliceToken"] = "ABueh6Gtxae",
+				}, -- [9]
+				["name"] = "HearthStones",
+				["save"] = true,
+			},
+			["CModePorts"] = {
+				{
+					["id"] = 131204,
+					["sliceToken"] = "ABuepxBIAjC",
+				}, -- [1]
+				{
+					["id"] = 131205,
+					["sliceToken"] = "ABuepxBIAjX",
+				}, -- [2]
+				{
+					["id"] = 131206,
+					["sliceToken"] = "ABuepxBIAjZ",
+				}, -- [3]
+				{
+					["id"] = 131222,
+					["sliceToken"] = "ABuepxBIAj=",
+				}, -- [4]
+				{
+					["id"] = 131225,
+					["sliceToken"] = "ABuepxBIAjL",
+				}, -- [5]
+				{
+					["id"] = 131231,
+					["sliceToken"] = "ABuepxBIAjK",
+				}, -- [6]
+				{
+					["id"] = 131229,
+					["sliceToken"] = "ABuepxBIAjJ",
+				}, -- [7]
+				{
+					["id"] = 131232,
+					["sliceToken"] = "ABuepxBIAjH",
+				}, -- [8]
+				{
+					["id"] = 131228,
+					["sliceToken"] = "ABuepxBIAj0",
+				}, -- [9]
+				["save"] = true,
+				["limit"] = "Ureterrible-Area52",
+				["name"] = "CMode Ports",
+			},
+			["RaidStuff"] = {
+				{
+					"item", -- [1]
+					141446, -- [2]
+					["sliceToken"] = "ABuepzwUFK0",
+				}, -- [1]
+				{
+					"item", -- [1]
+					153647, -- [2]
+					["sliceToken"] = "ABuefsDsAU1",
+				}, -- [2]
+				{
+					"item", -- [1]
+					120257, -- [2]
+					["sliceToken"] = "ABuepzwUFKw9",
+				}, -- [3]
+				{
+					"item", -- [1]
+					160053, -- [2]
+					["sliceToken"] = "ABue3V35Qlp",
+				}, -- [4]
+				{
+					"item", -- [1]
+					152641, -- [2]
+					["sliceToken"] = "ABued15X4/e",
+				}, -- [5]
+				{
+					"item", -- [1]
+					152640, -- [2]
+					["sliceToken"] = "ABued1VC2ce",
+				}, -- [6]
+				{
+					"item", -- [1]
+					152638, -- [2]
+					["sliceToken"] = "ABueddjDAVe",
+				}, -- [7]
+				{
+					"item", -- [1]
+					152639, -- [2]
+					["sliceToken"] = "ABuedD0Aj9r",
+				}, -- [8]
+				{
+					"item", -- [1]
+					166804, -- [2]
+					["sliceToken"] = "ABueg6v=spi",
+				}, -- [9]
+				{
+					"item", -- [1]
+					168313, -- [2]
+					["sliceToken"] = "ABuegnsq3c3",
+				}, -- [10]
+				{
+					"item", -- [1]
+					168311, -- [2]
+					["sliceToken"] = "ABuegmtHcSe",
+				}, -- [11]
+				{
+					"item", -- [1]
+					168310, -- [2]
+					["sliceToken"] = "ABueg6v=spt",
+				}, -- [12]
+				{
+					"item", -- [1]
+					168314, -- [2]
+					["sliceToken"] = "ABueg9F8MVr",
+				}, -- [13]
+				{
+					"item", -- [1]
+					166240, -- [2]
+					["sliceToken"] = "ABueg6v=spu",
+				}, -- [14]
+				{
+					"item", -- [1]
+					126936, -- [2]
+					["sliceToken"] = "ABueg6v=spy",
+				}, -- [15]
+				{
+					"item", -- [1]
+					158204, -- [2]
+					["sliceToken"] = "ABuedRdl9tt",
+				}, -- [16]
+				{
+					"item", -- [1]
+					158201, -- [2]
+					["sliceToken"] = "ABuedRdl9tu",
+				}, -- [17]
+				{
+					"item", -- [1]
+					158202, -- [2]
+					["sliceToken"] = "ABuedRdl9ty",
+				}, -- [18]
+				{
+					"item", -- [1]
+					132514, -- [2]
+					["sliceToken"] = "ABuegzON43e",
+				}, -- [19]
+				{
+					"item", -- [1]
+					168654, -- [2]
+					["sliceToken"] = "ABuegRNAAje",
+				}, -- [20]
+				{
+					"item", -- [1]
+					168651, -- [2]
+					["sliceToken"] = "ABueh4H7uKe",
+				}, -- [21]
+				{
+					"item", -- [1]
+					168652, -- [2]
+					["sliceToken"] = "ABuehkQoZDe",
+				}, -- [22]
+				{
+					"item", -- [1]
+					156631, -- [2]
+					["sliceToken"] = "ABuehxm9OJe",
+				}, -- [23]
+				{
+					"item", -- [1]
+					168656, -- [2]
+					["sliceToken"] = "ABue4GC7aIo",
+				}, -- [24]
+				{
+					["id"] = 203539,
+					["sliceToken"] = "ABue4GC7aI2",
+				}, -- [25]
+				{
+					["id"] = 203538,
+					["sliceToken"] = "ABue4GC7aIi",
+				}, -- [26]
+				{
+					"item", -- [1]
+					174906, -- [2]
+					["sliceToken"] = "ABue4Lvg4Fe",
+				}, -- [27]
+				{
+					"item", -- [1]
+					163784, -- [2]
+					["sliceToken"] = "ABuejHiYgGe",
+				}, -- [28]
+				{
+					"item", -- [1]
+					80610, -- [2]
+					["sliceToken"] = "ABuekgQFiwe",
+				}, -- [29]
+				["name"] = "Raid Stuff",
+				["save"] = true,
+			},
+			["Bing"] = {
+				{
+					"toy", -- [1]
+					87214, -- [2]
+					["sliceToken"] = "ABue4QlA7ku",
+				}, -- [1]
+				{
+					"toy", -- [1]
+					111821, -- [2]
+					["sliceToken"] = "ABue4QlA7ky",
+				}, -- [2]
+				{
+					"toy", -- [1]
+					168667, -- [2]
+					["sliceToken"] = "ABue4QlA7kt",
+				}, -- [3]
+				["name"] = "Bing",
+				["save"] = true,
+			},
+			["Gear2"] = {
+				{
+					"equipmentset", -- [1]
+					"Frost", -- [2]
+					["show"] = "[spec:252/250] hide;",
+					["sliceToken"] = "ABuesCdsCEb",
+				}, -- [1]
+				{
+					"equipmentset", -- [1]
+					"Unholy", -- [2]
+					["show"] = "[spec:250/251] hide;",
+					["sliceToken"] = "ABuesCjyDr1",
+				}, -- [2]
+				{
+					"equipmentset", -- [1]
+					"DEAD", -- [2]
+					["sliceToken"] = "ABue30jKU9a",
+				}, -- [3]
+				{
+					"equipmentset", -- [1]
+					"Tank DPS", -- [2]
+					["sliceToken"] = "ABuedpsedv1",
+				}, -- [4]
+				{
+					"equipmentset", -- [1]
+					"Raid", -- [2]
+					["sliceToken"] = "ABuedpsedvr",
+				}, -- [5]
+				["limit"] = "Tríggered-Stormrage",
+				["save"] = true,
+				["hotkey"] = "ALT-C",
+				["name"] = "Gear",
+			},
+			["Mounts"] = {
+				{
+					["sliceToken"] = "ABuedRbUZk1",
+					["id"] = 193007,
+				}, -- [1]
+				{
+					["sliceToken"] = "ABuepzwUFKt",
+					["id"] = 42776,
+				}, -- [2]
+				{
+					["sliceToken"] = "ABuepcKkj=D",
+					["id"] = 231434,
+				}, -- [3]
+				{
+					["id"] = 229388,
+					["sliceToken"] = "ABuepxVSotr",
+				}, -- [4]
+				{
+					["id"] = 229387,
+					["sliceToken"] = "ABuea73KOG1",
+				}, -- [5]
+				{
+					["id"] = 229386,
+					["sliceToken"] = "ABues=bfj2l",
+				}, -- [6]
+				{
+					["id"] = 231435,
+					["sliceToken"] = "ABuesXz08ur",
+				}, -- [7]
+				{
+					["sliceToken"] = "ABueatmpOte",
+					["id"] = 100332,
+				}, -- [8]
+				{
+					["sliceToken"] = "ABuepzwUFK1",
+					["id"] = 122708,
+				}, -- [9]
+				{
+					["sliceToken"] = "ABuea/GnPIr",
+					["id"] = 75973,
+				}, -- [10]
+				{
+					["sliceToken"] = "ABueddOV=de",
+					["id"] = 279569,
+				}, -- [11]
+				{
+					["sliceToken"] = "ABuedfsmbJt",
+					["id"] = 279611,
+				}, -- [12]
+				{
+					"mount", -- [1]
+					1248, -- [2]
+					["sliceToken"] = "ABuegUedBf1",
+				}, -- [13]
+				{
+					"ring", -- [1]
+					"Bing", -- [2]
+					["sliceToken"] = "ABue4QlA7k2",
+				}, -- [14]
+				{
+					"ring", -- [1]
+					"Toys", -- [2]
+					["sliceToken"] = "ABuepzwUFKwJ",
+				}, -- [15]
+				{
+					"ring", -- [1]
+					"Pets", -- [2]
+					["sliceToken"] = "ABueagGom1V",
+				}, -- [16]
+				{
+					"mount", -- [1]
+					1227, -- [2]
+					["sliceToken"] = "ABuegZ2OJPe",
+				}, -- [17]
+				{
+					"mount", -- [1]
+					1211, -- [2]
+					["sliceToken"] = "ABuehjUSLde",
+				}, -- [18]
+				{
+					"mount", -- [1]
+					1218, -- [2]
+					["sliceToken"] = "ABuehl1h5/e",
+				}, -- [19]
+				{
+					"mount", -- [1]
+					1289, -- [2]
+					["sliceToken"] = "ABueh6Gtxar",
+				}, -- [20]
+				["name"] = "Mounts",
+				["save"] = true,
+				["hotkey"] = "SHIFT-Q",
+			},
+			["Gear3"] = {
+				{
+					"equipmentset", -- [1]
+					"HEALING", -- [2]
+					["sliceToken"] = "ABuej4hDsBT",
+				}, -- [1]
+				{
+					"equipmentset", -- [1]
+					"REty", -- [2]
+					["sliceToken"] = "ABuej4hDsBR",
+				}, -- [2]
+				{
+					"equipmentset", -- [1]
+					"Nude", -- [2]
+					["sliceToken"] = "ABuej4hDsB7",
+				}, -- [3]
+				{
+					"equipmentset", -- [1]
+					"Prot", -- [2]
+					["sliceToken"] = "ABuej4hDsBE",
+				}, -- [4]
+				{
+					"equipmentset", -- [1]
+					"TW RET", -- [2]
+					["sliceToken"] = "ABuej4hDsBW",
+				}, -- [5]
+				{
+					"equipmentset", -- [1]
+					"TW 3 Healing", -- [2]
+					["sliceToken"] = "ABuej4hDsBQ",
+				}, -- [6]
+				{
+					"equipmentset", -- [1]
+					"Tank FULL AOE", -- [2]
+					["sliceToken"] = "ABuej4hDsBm",
+				}, -- [7]
+				{
+					"equipmentset", -- [1]
+					"Ret TD AOE", -- [2]
+					["sliceToken"] = "ABuej4hDsBn",
+				}, -- [8]
+				["save"] = true,
+				["limit"] = "Pallyness-Stormrage",
+				["name"] = "Gear",
+			},
+			["Pets"] = {
+				{
+					"battlepet", -- [1]
+					"BattlePet-0-000003AEFB1E", -- [2]
+					["sliceToken"] = "ABueagGom1C",
+				}, -- [1]
+				{
+					"battlepet", -- [1]
+					"BattlePet-0-00000DB69011", -- [2]
+					["sliceToken"] = "ABueagGom1X",
+				}, -- [2]
+				{
+					"battlepet", -- [1]
+					"BattlePet-0-000007C9EA37", -- [2]
+					["sliceToken"] = "ABueagGom1=",
+				}, -- [3]
+				{
+					"battlepet", -- [1]
+					"BattlePet-0-0000085B3580", -- [2]
+					["sliceToken"] = "ABueagGom1K",
+				}, -- [4]
+				{
+					"battlepet", -- [1]
+					"BattlePet-0-00000D728264", -- [2]
+					["sliceToken"] = "ABueagGom1J",
+				}, -- [5]
+				{
+					"battlepet", -- [1]
+					"BattlePet-0-00000D5497CF", -- [2]
+					["sliceToken"] = "ABueagGom1H",
+				}, -- [6]
+				{
+					"battlepet", -- [1]
+					"BattlePet-0-00001034B32D", -- [2]
+					["sliceToken"] = "ABue3NcwOxe",
+				}, -- [7]
+				{
+					"battlepet", -- [1]
+					"BattlePet-0-0000108144C3", -- [2]
+					["sliceToken"] = "ABuedfkHpae",
+				}, -- [8]
+				["name"] = "Pets",
+				["save"] = true,
+			},
+			["FParth"] = {
+				{
+					"toy", -- [1]
+					150743, -- [2]
+					["sliceToken"] = "ABueh1SN8l3",
+				}, -- [1]
+				{
+					"toy", -- [1]
+					150746, -- [2]
+					["sliceToken"] = "ABueh1SN8ls",
+				}, -- [2]
+				{
+					"toy", -- [1]
+					150744, -- [2]
+					["sliceToken"] = "ABueh1SN8la",
+				}, -- [3]
+				{
+					"toy", -- [1]
+					150745, -- [2]
+					["sliceToken"] = "ABueh1SN8lp",
+				}, -- [4]
+				["name"] = "FParth",
+				["save"] = true,
+				["hotkey"] = "\\",
+			},
+			["Pull"] = {
+				{
+					["sliceToken"] = "ABuea=SLMyw=",
+					["c"] = "ff14f6",
+					["id"] = "/rt pull 10",
+					["icon"] = 134290,
+				}, -- [1]
+				{
+					["sliceToken"] = "ABuea=SLMywT",
+					["c"] = "ff008c",
+					["id"] = "/rt pull 3",
+					["icon"] = 134284,
+				}, -- [2]
+				{
+					["sliceToken"] = "ABuea=SLMyw0",
+					["c"] = "ff2769",
+					["id"] = "/rt pull 15",
+					["icon"] = 134278,
+				}, -- [3]
+				["name"] = "Pull",
+				["save"] = true,
+			},
+			["MageTravel"] = {
+				{
+					["id"] = "/cast [mod] {{spell:268969}}; {{spell:281403}}",
+					["sliceToken"] = "OPCMP8t",
+				}, -- [1]
+				{
+					["id"] = "/cast [mod] {{spell:281402}}; {{spell:281404}}",
+					["sliceToken"] = "OPCMP8z",
+				}, -- [2]
+				{
+					["id"] = "/cast [mod] {{spell:224871}}; {{spell:224869}}",
+					["sliceToken"] = "OPCMPb",
+				}, -- [3]
+				{
+					["id"] = "/cast [mod] {{spell:132620/132626}}; {{spell:132621/132627}}",
+					["sliceToken"] = "OPCMPv",
+				}, -- [4]
+				{
+					["id"] = "/cast [mod] {{spell:53142}}; {{spell:53140}}",
+					["sliceToken"] = "OPCMPr",
+				}, -- [5]
+				{
+					["id"] = "/cast [mod] {{spell:35717/33691}}; {{spell:33690}}",
+					["sliceToken"] = "OPCMPs",
+				}, -- [6]
+				{
+					["id"] = "/cast [mod] {{spell:10059}}; {{spell:3561}}",
+					["sliceToken"] = "OPCMPw",
+				}, -- [7]
+				{
+					["id"] = "/cast [mod] {{spell:11419}}; {{spell:3565}}",
+					["sliceToken"] = "OPCMPd",
+				}, -- [8]
+				{
+					["id"] = "/cast [mod] {{spell:11420}}; {{spell:3566}}",
+					["sliceToken"] = "OPCMPt",
+				}, -- [9]
+				{
+					["id"] = "/cast [mod] {{spell:11418}}; {{spell:3563}}",
+					["sliceToken"] = "OPCMPu",
+				}, -- [10]
+				{
+					["id"] = "/cast [mod] {{spell:11416}}; {{spell:3562}}",
+					["sliceToken"] = "OPCMPi",
+				}, -- [11]
+				{
+					["id"] = "/cast [mod] {{spell:11417}}; {{spell:3567}}",
+					["sliceToken"] = "OPCMPo",
+				}, -- [12]
+				{
+					["id"] = "/cast [mod] {{spell:32267}}; {{spell:32272}}",
+					["sliceToken"] = "OPCMPl",
+				}, -- [13]
+				{
+					["id"] = "/cast [mod] {{spell:32266}}; {{spell:32271}}",
+					["sliceToken"] = "OPCMPx",
+				}, -- [14]
+				{
+					["id"] = 193759,
+					["sliceToken"] = "ABuefoiWdvr",
+				}, -- [15]
+				{
+					"ring", -- [1]
+					"ExtraPortals", -- [2]
+					["sliceToken"] = "OPCMPe",
+					["onlyNonEmpty"] = true,
+				}, -- [16]
+				["name"] = "Portals and Teleports",
+				["save"] = true,
+				["hotkey"] = "ALT-G",
+				["limit"] = "MAGE",
+			},
+			["Gear1"] = {
+				{
+					"equipmentset", -- [1]
+					"HEALING", -- [2]
+					["show"] = "[spec:70/66] hide;",
+					["sliceToken"] = "ABuej4hDsBw2",
+				}, -- [1]
+				{
+					"equipmentset", -- [1]
+					"RET", -- [2]
+					["show"] = "[spec:65/66] hide;",
+					["sliceToken"] = "ABuej4hDsBwi",
+				}, -- [2]
+				{
+					"equipmentset", -- [1]
+					"Nude", -- [2]
+					["sliceToken"] = "ABuej4hDsBwu",
+				}, -- [3]
+				{
+					"equipmentset", -- [1]
+					"Prot", -- [2]
+					["show"] = "[spec:65/70] hide;",
+					["sliceToken"] = "ABuej4hDsBwy",
+				}, -- [4]
+				{
+					"equipmentset", -- [1]
+					"TW RET", -- [2]
+					["show"] = "[spec:65/66] hide;",
+					["sliceToken"] = "ABuej4hDsBwt",
+				}, -- [5]
+				{
+					"equipmentset", -- [1]
+					"TW 3 Healing", -- [2]
+					["show"] = "[spec:66/70] hide;",
+					["sliceToken"] = "ABuej4hDsBw1",
+				}, -- [6]
+				{
+					"equipmentset", -- [1]
+					"Tank FULL AOE", -- [2]
+					["show"] = "[spec:65/70] hide;",
+					["sliceToken"] = "ABuej4hDsBwr",
+				}, -- [7]
+				{
+					"equipmentset", -- [1]
+					"Ret TD AOE", -- [2]
+					["show"] = "[spec:65/66] hide;",
+					["sliceToken"] = "ABuej4hDsBwe",
+				}, -- [8]
+				["name"] = "Gear",
+				["save"] = true,
+			},
+			["ReadyPull"] = {
+				{
+					["sliceToken"] = "ABuea=SLMyw7",
+					["c"] = "ff00d3",
+					["id"] = "/readycheck\n",
+					["icon"] = 132161,
+				}, -- [1]
+				{
+					["sliceToken"] = "ABuea=SLMywE",
+					["c"] = "6f00ff",
+					["id"] = "/rt pull 0",
+					["icon"] = 132147,
+				}, -- [2]
+				{
+					"ring", -- [1]
+					"Pull", -- [2]
+					["sliceToken"] = "ABuea=SLMywS",
+				}, -- [3]
+				{
+					["sliceToken"] = "ABueaVNoK81",
+					["icon"] = 132181,
+					["id"] = "/rt inv",
+				}, -- [4]
+				["name"] = "Ready/Pull",
+				["save"] = true,
+			},
+		},
+	},
+	["_GameLocale"] = "enUS",
+}
+OPie_SavedData = nil

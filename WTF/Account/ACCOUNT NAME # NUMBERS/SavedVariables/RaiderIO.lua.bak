@@ -1,0 +1,34 @@
+
+RaiderIO_Config = {
+	["useEnglishAbbreviations"] = false,
+	["enableKeystoneTooltips"] = true,
+	["disableScoreColors"] = false,
+	["showMainBestScore"] = true,
+	["inverseProfileModifier"] = false,
+	["showRoleIcons"] = true,
+	["showSimpleScoreColors"] = false,
+	["enableWhoMessages"] = true,
+	["showRaiderIOProfile"] = true,
+	["enableLFGDropdown"] = true,
+	["enableGuildTooltips"] = true,
+	["showMainsScore"] = true,
+	["mplusHeadlineMode"] = 1,
+	["hidePersonalRaiderIOProfile"] = false,
+	["enableLFGTooltips"] = true,
+	["enableUnitTooltips"] = true,
+	["enableFriendsTooltips"] = true,
+	["showRaidEncountersInProfile"] = true,
+	["showDropDownCopyURL"] = true,
+	["showAverageScore"] = true,
+	["enableProfileModifier"] = true,
+	["enableClientEnhancements"] = true,
+	["positionProfileAuto"] = true,
+	["lockProfile"] = false,
+	["showScoreInCombat"] = true,
+	["enableWhoTooltips"] = true,
+	["showClientGuildBest"] = true,
+}
+RaiderIO_LastCharacter = "us-Pallybank-illidan"
+RaiderIO_MissingCharacters = {
+}
+RaiderIO_CachedRuns = nil

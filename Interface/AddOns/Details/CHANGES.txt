@@ -1,0 +1,10 @@
+lightweight tag 701baee6147b909e2629f38c919666a4d5fc1dc4 DetailsRetail.9.0.1.7932.143
+Author:	Tercio Jose <terciob19@hotmail.com>
+Date:	Fri Oct 23 15:42:25 2020 -0300
+
+commit 701baee6147b909e2629f38c919666a4d5fc1dc4
+Author: Tercio Jose <terciob19@hotmail.com>
+Date:   Fri Oct 23 15:42:25 2020 -0300
+
+    fix
+

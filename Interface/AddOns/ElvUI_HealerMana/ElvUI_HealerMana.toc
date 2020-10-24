@@ -1,0 +1,8 @@
+## Interface: 80200
+## Author: Klix
+## Version: 0.03
+## Title: |cfffe7b2cElvUI|r Healer Mana
+## Notes: Only display the mana of the healer when in a party.
+## RequiredDeps: ElvUI
+
+ElvUI_HealerMana.lua

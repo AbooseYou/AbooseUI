@@ -1,0 +1,10 @@
+lightweight tag c1c40eb176fca97a3cf3fba163058cbc6680e118 v5.4.1
+Author:	Boshi Lian <farmer1992@gmail.com>
+Date:	Tue Oct 20 03:14:49 2020 -0700
+
+commit c1c40eb176fca97a3cf3fba163058cbc6680e118
+Author: Boshi Lian <farmer1992@gmail.com>
+Date:   Tue Oct 20 03:14:49 2020 -0700
+
+    minimap now configable
+

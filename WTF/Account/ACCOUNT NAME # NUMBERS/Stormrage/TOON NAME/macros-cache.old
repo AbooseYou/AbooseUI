@@ -1,0 +1,64 @@
+VER 3 0100000000000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Bestow Faith
+END
+VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
+/cast [target=mouseover,noharm,exists] Holy Shock; [harm] Holy Shock; Holy Shock 
+END
+VER 3 0100000000000013 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Light of Dawn
+/cast Rule of Law
+/cast Light of Dawn
+END
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Holy Shock
+END
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Flash of Light
+END
+VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Holy Light
+END
+VER 3 010000000000000E "  " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:4/3]Rule of law;[talent:1/2]Bestow Faith;Abyssal Healing Potion
+END
+VER 3 010000000000000D "  " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Light of the Martyr
+END
+VER 3 0100000000000008 "  " "INV_MISC_QUESTIONMARK"
+/cast [target=mouseover,noharm,exists] Flash of Light;[harm] Judgment; Flash of Light
+END
+VER 3 0100000000000007 "  " "INV_MISC_QUESTIONMARK"
+/cast [target=mouseover,noharm,exists] Holy Light; [harm] Crusader Strike; Holy Light 
+END
+VER 3 0100000000000014 "   " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Word of Glory
+END
+VER 3 010000000000000B "#4" "INV_MISC_QUESTIONMARK"
+/cast Lay on Hands
+END
+VER 3 0100000000000012 "#6" "INV_MISC_QUESTIONMARK"
+/cast Blessing of Protection
+END
+VER 3 010000000000000C "#8" "INV_MISC_QUESTIONMARK"
+/cast Blessing of Protection
+END
+VER 3 0100000000000010 "#9" "INV_MISC_QUESTIONMARK"
+/cast Lay on Hands
+END
+VER 3 010000000000000F "#R" "INV_MISC_QUESTIONMARK"
+/use Mchimba's Ritual Bandages
+END
+VER 3 0100000000000009 "a" "INV_MISC_QUESTIONMARK"
+/roll 6
+/roll 6
+END
+VER 3 0100000000000011 "H" "INV_MISC_QUESTIONMARK"
+/cast Blessing of Sacrifice
+END

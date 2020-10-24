@@ -1,0 +1,42 @@
+tag 5e773496d0d48ed8506befa089e7a9f19e16ca87 2.9.0
+Author:	Benjamin Staneck <staneck@gmail.com>
+Date:	Tue Oct 13 22:43:21 2020 +0200
+
+Update for Shadowlands
+
+commit a3cc0156c843226b09048c9c6c0c780a101b6444
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Wed Aug 26 21:24:37 2020 +0200
+
+    Update for 9.0 backdrop changes
+
+commit ad126ae5ae502a87e2743c4f84b3332f284bb997
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Fri May 31 18:21:17 2019 +0200
+
+    Update TOC to 80100
+
+commit b7b6afac3160a7a724b8199a25af971b5a0fd3b6
+Author: mogami <mogami@akiruno.local>
+Date:   Sat Aug 25 15:50:54 2018 +0900
+
+    Updating TOC and change list.
+
+commit d215d377d785ea1270deb2db7242764f671a3dc3
+Author: mogami <mogami@akiruno.local>
+Date:   Sat Aug 25 15:49:53 2018 +0900
+
+    Fixed bug "Unable to change default name for macros" reported by xalcon .
+
+commit 500f0a126424f4421b940a8b54be4a0c9765e79c
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Fri Aug 10 05:26:28 2018 +0200
+
+    reformat xml file
+
+commit f62754fdd768d0188cfb52fee8e5117be459f197
+Author: Benjamin Staneck <staneck@gmail.com>
+Date:   Fri Aug 10 05:16:11 2018 +0200
+
+    new description
+
