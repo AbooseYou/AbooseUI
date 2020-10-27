@@ -32,7 +32,7 @@ OneRing_Config = {
 			["RotationTokens"] = {
 				["ABuep5u5q8r"] = "OPCCTa",
 				["ABue4QlA7k2"] = "ABue4QlA7ky",
-				["ABuepzwUFKwJ"] = "ABuegI7hs=j",
+				["ABuepzwUFKwJ"] = "ABuegI7hs=k",
 				["ABuea=SLMywS"] = "ABuea=SLMyw=",
 				["ABueffl0Xmh"] = "ABueffl0Xms",
 			},
@@ -125,8 +125,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABueaG4xxMr",
 				}, -- [17]
 				{
-					["id"] = 126892,
 					["sliceToken"] = "ABueswVOqZr",
+					["id"] = 126892,
 				}, -- [18]
 				{
 					"item", -- [1]
@@ -727,8 +727,8 @@ OneRing_Config = {
 					["id"] = 42776,
 				}, -- [2]
 				{
-					["sliceToken"] = "ABuepcKkj=D",
 					["id"] = 231434,
+					["sliceToken"] = "ABuepcKkj=D",
 				}, -- [3]
 				{
 					["id"] = 229388,

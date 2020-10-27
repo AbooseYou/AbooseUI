@@ -5,14 +5,10 @@ VWQL = {
 		["FilterType"] = {
 		},
 		["Quests"] = {
-			[51694] = true,
-			[55340] = true,
 			[50421] = true,
-			[51623] = true,
 			[51433] = true,
-			[52157] = true,
 		},
-		["VERSION"] = 94,
+		["VERSION"] = 95,
 	},
 	["ShellGameLocked"] = true,
 	["Pallybank-Illidan"] = {
@@ -24,12 +20,12 @@ VWQL = {
 		["Filter"] = 63,
 	},
 	["Myironballs-Stormrage"] = {
-		["FilterType"] = {
-		},
+		["VERSION"] = 95,
 		["Filter"] = 63,
 		["Quests"] = {
 		},
-		["VERSION"] = 94,
+		["FilterType"] = {
+		},
 	},
 	["Õbv-Area52"] = {
 		["VERSION"] = 94,
@@ -80,24 +76,21 @@ VWQL = {
 			[50874] = true,
 			[43774] = true,
 		},
-		["VERSION"] = 92,
+		["VERSION"] = 95,
 	},
 	["Abooseyou-Stormrage"] = {
-		["VERSION"] = 95,
 		["Filter"] = 63,
-		["RegularQuestMode"] = true,
+		["VERSION"] = 95,
 		["Quests"] = {
 		},
 		["FilterType"] = {
 		},
 	},
 	["LFG_HideEyeInList"] = true,
-	["ReverseSort"] = true,
-	["AzeriteFormat"] = 20,
 	["Affixes-Stormrage"] = {
 		["Filter"] = 63,
 		["HideMap"] = true,
-		["VERSION"] = 94,
+		["VERSION"] = 95,
 		["Quests"] = {
 			[51029] = true,
 			[51667] = true,
@@ -113,6 +106,8 @@ VWQL = {
 		["FilterType"] = {
 		},
 	},
+	["AzeriteFormat"] = 20,
+	["ReverseSort"] = true,
 	["Obq-Area52"] = {
 		["VERSION"] = 90,
 		["Filter"] = 63,
@@ -122,7 +117,8 @@ VWQL = {
 		["FilterType"] = {
 		},
 	},
-	["Arrow_PointY"] = -133.3177032470703,
+	["SortPrio"] = {
+	},
 	["Abooseyou-Illidan"] = {
 		["VERSION"] = 92,
 		["Filter"] = 63,
@@ -132,18 +128,17 @@ VWQL = {
 		["FilterType"] = {
 		},
 	},
-	["Gettingddos-Frostmourne"] = {
-		["VERSION"] = 90,
+	["Mylilbank-Area52"] = {
 		["Filter"] = 63,
-		["RegularQuestMode"] = true,
-		["Quests"] = {
-		},
 		["FilterType"] = {
 		},
+		["Quests"] = {
+		},
+		["VERSION"] = 94,
 	},
 	["Usb-Stormrage"] = {
 		["Filter"] = 63,
-		["VERSION"] = 94,
+		["VERSION"] = 95,
 		["Quests"] = {
 			[50483] = true,
 			[52879] = true,
@@ -178,7 +173,7 @@ VWQL = {
 			[51644] = true,
 			[50512] = true,
 			[51585] = true,
-			[51461] = true,
+			[55304] = true,
 			[51778] = true,
 			[50296] = true,
 			[50459] = true,
@@ -193,7 +188,7 @@ VWQL = {
 			[51121] = true,
 			[51172] = true,
 			[52875] = true,
-			[55304] = true,
+			[51461] = true,
 		},
 		["FilterType"] = {
 		},
@@ -206,7 +201,15 @@ VWQL = {
 		},
 		["Filter"] = 63,
 	},
-	["AnchorQCBTop"] = 361.9523010253906,
+	["Õbv-Mal'Ganis"] = {
+		["VERSION"] = 90,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
 	["ShellGameSize"] = 288.999755859375,
 	["Yikz-Mal'Ganis"] = {
 		["VERSION"] = 90,
@@ -225,22 +228,11 @@ VWQL = {
 		},
 		["VERSION"] = 89,
 	},
-	["Tríggered-Stormrage"] = {
-		["VERSION"] = 94,
+	["Abooseu-Frostmourne"] = {
+		["VERSION"] = 90,
 		["Filter"] = 63,
+		["RegularQuestMode"] = true,
 		["Quests"] = {
-			[52169] = true,
-			[50872] = true,
-			[51450] = true,
-			[43943] = true,
-			[52471] = true,
-			[52937] = true,
-			[50875] = true,
-			[50853] = true,
-			[50846] = true,
-			[52250] = true,
-			[52251] = true,
-			[49413] = true,
 		},
 		["FilterType"] = {
 		},
@@ -254,15 +246,7 @@ VWQL = {
 		["FilterType"] = {
 		},
 	},
-	["Õbv-Mal'Ganis"] = {
-		["VERSION"] = 90,
-		["Filter"] = 63,
-		["RegularQuestMode"] = true,
-		["Quests"] = {
-		},
-		["FilterType"] = {
-		},
-	},
+	["AnchorQCBTop"] = 361.9523010253906,
 	["Obv-Darkspear"] = {
 		["VERSION"] = 92,
 		["Filter"] = 63,
@@ -316,166 +300,6 @@ VWQL = {
 		["VERSION"] = 94,
 	},
 	["DisableIconsGeneralMap947"] = true,
-	["Rogueness-Illidan"] = {
-		["Filter"] = 63,
-		["FilterType"] = {
-		},
-		["Quests"] = {
-			[51050] = true,
-			[50877] = true,
-			[55466] = true,
-			[51232] = true,
-			[50874] = true,
-			[50636] = true,
-		},
-		["VERSION"] = 94,
-	},
-	["Pallyness-Stormrage"] = {
-		["Filter"] = 63,
-		["VERSION"] = 94,
-		["Quests"] = {
-			[52471] = true,
-			[55466] = true,
-		},
-		["FilterType"] = {
-		},
-	},
-	["Dateandrape-Scilla"] = {
-		["VERSION"] = 90,
-		["Filter"] = 63,
-		["RegularQuestMode"] = true,
-		["Quests"] = {
-		},
-		["FilterType"] = {
-		},
-	},
-	["Monkelf-Mal'Ganis"] = {
-		["VERSION"] = 90,
-		["Filter"] = 63,
-		["RegularQuestMode"] = true,
-		["Quests"] = {
-		},
-		["FilterType"] = {
-		},
-	},
-	["Obq-Mal'Ganis"] = {
-		["Filter"] = 63,
-		["FilterType"] = {
-		},
-		["Quests"] = {
-		},
-		["VERSION"] = 92,
-	},
-	["AnchorQCBLeft"] = 2248.0478515625,
-	["Ignore"] = {
-	},
-	["Slaphappÿ-Area52"] = {
-		["VERSION"] = 92,
-		["FilterType"] = {
-		},
-		["Quests"] = {
-		},
-		["Filter"] = 63,
-	},
-	["Arrow_Point2"] = "CENTER",
-	["Arrow_Point1"] = "CENTER",
-	["Aboose-Stormrage"] = {
-		["Filter"] = 63,
-		["HideMap"] = true,
-		["VERSION"] = 94,
-		["Quests"] = {
-			[51029] = true,
-			[58705] = true,
-			[58747] = true,
-			[52163] = true,
-			[58743] = true,
-		},
-		["FilterType"] = {
-		},
-	},
-	["Trollsalotz-Mal'Ganis"] = {
-		["Filter"] = 63,
-		["FilterType"] = {
-		},
-		["Quests"] = {
-		},
-		["VERSION"] = 90,
-	},
-	["Agateophobia-Frostmourne"] = {
-		["VERSION"] = 90,
-		["Filter"] = 63,
-		["RegularQuestMode"] = true,
-		["Quests"] = {
-		},
-		["FilterType"] = {
-		},
-	},
-	["Scale"] = 0.8,
-	["Rogueness-Stormrage"] = {
-		["VERSION"] = 92,
-		["HideMap"] = true,
-		["Filter"] = 63,
-		["Quests"] = {
-			[55264] = true,
-			[54895] = true,
-			[51890] = true,
-			[51891] = true,
-			[56139] = true,
-			[51583] = true,
-			[52238] = true,
-			[58749] = true,
-			[55466] = true,
-			[51284] = true,
-			[51033] = true,
-			[58742] = true,
-			[50295] = true,
-			[55300] = true,
-			[52455] = true,
-			[52964] = true,
-			[51405] = true,
-		},
-		["FilterType"] = {
-		},
-	},
-	["Arrow_PointX"] = -323.143310546875,
-	["Pallyneess-Illidan"] = {
-		["VERSION"] = 94,
-		["FilterType"] = {
-		},
-		["Quests"] = {
-			[58742] = true,
-			[52849] = true,
-			[58749] = true,
-		},
-		["Filter"] = 63,
-	},
-	["Monksaness-Stormrage"] = {
-		["VERSION"] = 92,
-		["Filter"] = 63,
-		["RegularQuestMode"] = true,
-		["Quests"] = {
-		},
-		["FilterType"] = {
-		},
-	},
-	["Redicule-Icecrown"] = {
-		["VERSION"] = 92,
-		["Filter"] = 63,
-		["RegularQuestMode"] = true,
-		["Quests"] = {
-		},
-		["FilterType"] = {
-		},
-	},
-	["Pallyness-Zul'jin"] = {
-		["VERSION"] = 92,
-		["Filter"] = 63,
-		["RegularQuestMode"] = true,
-		["Quests"] = {
-		},
-		["FilterType"] = {
-		},
-	},
 	["Iabooseyou-Stormrage"] = {
 		["Filter"] = 63,
 		["FilterType"] = {
@@ -636,17 +460,19 @@ VWQL = {
 			[46932] = true,
 			[55304] = true,
 		},
-		["VERSION"] = 94,
+		["VERSION"] = 95,
 	},
-	["Affixe-Stormrage"] = {
+	["Pallyness-Stormrage"] = {
+		["Filter"] = 63,
+		["VERSION"] = 95,
+		["Quests"] = {
+			[52471] = true,
+			[55466] = true,
+		},
 		["FilterType"] = {
 		},
-		["Filter"] = 63,
-		["Quests"] = {
-		},
-		["VERSION"] = 94,
 	},
-	["Abooseu-Frostmourne"] = {
+	["Dateandrape-Scilla"] = {
 		["VERSION"] = 90,
 		["Filter"] = 63,
 		["RegularQuestMode"] = true,
@@ -655,15 +481,180 @@ VWQL = {
 		["FilterType"] = {
 		},
 	},
-	["Mylilbank-Area52"] = {
+	["Monkelf-Mal'Ganis"] = {
+		["VERSION"] = 90,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Obq-Mal'Ganis"] = {
 		["Filter"] = 63,
 		["FilterType"] = {
 		},
 		["Quests"] = {
 		},
+		["VERSION"] = 92,
+	},
+	["AnchorQCBLeft"] = 2248.0478515625,
+	["Ignore"] = {
+	},
+	["Slaphappÿ-Area52"] = {
+		["VERSION"] = 92,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Arrow_Point2"] = "CENTER",
+	["Arrow_Point1"] = "CENTER",
+	["Aboose-Stormrage"] = {
+		["Filter"] = 63,
+		["HideMap"] = true,
 		["VERSION"] = 94,
+		["Quests"] = {
+			[51029] = true,
+			[58705] = true,
+			[58747] = true,
+			[52163] = true,
+			[58743] = true,
+		},
+		["FilterType"] = {
+		},
 	},
-	["SortPrio"] = {
+	["Trollsalotz-Mal'Ganis"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 90,
 	},
+	["Agateophobia-Frostmourne"] = {
+		["VERSION"] = 90,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Scale"] = 0.8,
+	["Rogueness-Stormrage"] = {
+		["VERSION"] = 92,
+		["HideMap"] = true,
+		["Filter"] = 63,
+		["Quests"] = {
+			[55264] = true,
+			[54895] = true,
+			[51890] = true,
+			[51891] = true,
+			[56139] = true,
+			[51583] = true,
+			[52238] = true,
+			[58749] = true,
+			[55466] = true,
+			[51284] = true,
+			[51033] = true,
+			[58742] = true,
+			[50295] = true,
+			[55300] = true,
+			[52455] = true,
+			[52964] = true,
+			[51405] = true,
+		},
+		["FilterType"] = {
+		},
+	},
+	["Arrow_PointX"] = -323.143310546875,
+	["Pallyneess-Illidan"] = {
+		["VERSION"] = 94,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+			[58742] = true,
+			[52849] = true,
+			[58749] = true,
+		},
+		["Filter"] = 63,
+	},
+	["Monksaness-Stormrage"] = {
+		["VERSION"] = 92,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Redicule-Icecrown"] = {
+		["VERSION"] = 92,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Pallyness-Zul'jin"] = {
+		["VERSION"] = 92,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Rogueness-Illidan"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+			[58747] = true,
+			[55466] = true,
+		},
+		["VERSION"] = 95,
+	},
+	["Affixe-Stormrage"] = {
+		["FilterType"] = {
+		},
+		["Filter"] = 63,
+		["Quests"] = {
+		},
+		["VERSION"] = 95,
+	},
+	["Tríggered-Stormrage"] = {
+		["VERSION"] = 95,
+		["Filter"] = 63,
+		["Quests"] = {
+			[52169] = true,
+			[50872] = true,
+			[51450] = true,
+			[43943] = true,
+			[52471] = true,
+			[52937] = true,
+			[50875] = true,
+			[50853] = true,
+			[50846] = true,
+			[52250] = true,
+			[52251] = true,
+			[49413] = true,
+		},
+		["FilterType"] = {
+		},
+	},
+	["Gettingddos-Frostmourne"] = {
+		["VERSION"] = 90,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Arrow_PointY"] = -133.3177032470703,
 	["HideLegion"] = true,
 }

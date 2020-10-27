@@ -70,9 +70,9 @@ SimulationCraftDB = {
 			},
 			["frame"] = {
 				["ofsx"] = 23.22211074829102,
+				["ofsy"] = 14.22209167480469,
 				["point"] = "LEFT",
 				["relativePoint"] = "LEFT",
-				["ofsy"] = 14.22209167480469,
 			},
 		},
 		["Trollsalotz - Mal'Ganis"] = {
@@ -102,6 +102,9 @@ SimulationCraftDB = {
 		["Sevensins - Scilla"] = {
 		},
 		["Ureterrible - Stormrage"] = {
+			["minimap"] = {
+				["minimapPos"] = 146.5602493514209,
+			},
 		},
 		["Aboose - Stormrage"] = {
 		},

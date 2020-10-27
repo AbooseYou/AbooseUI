@@ -1,15 +1,3 @@
-VER 3 0100000000000005 " " "INV_MISC_QUESTIONMARK"
-#showtooltip
-/use [@mouseover,help,nodead][help,nodead][@player] Bestow Faith
-END
-VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
-/cast [target=mouseover,noharm,exists] Holy Shock; [harm] Holy Shock; Holy Shock 
-END
-VER 3 0100000000000013 " " "INV_MISC_QUESTIONMARK"
-#showtooltip Light of Dawn
-/cast Rule of Law
-/cast Light of Dawn
-END
 VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help,nodead][help,nodead][@player] Holy Shock
@@ -21,6 +9,18 @@ END
 VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [@mouseover,help,nodead][help,nodead][@player] Holy Light
+END
+VER 3 0100000000000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Bestow Faith
+END
+VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
+/cast [target=mouseover,noharm,exists] Holy Shock; [harm] Holy Shock; Holy Shock 
+END
+VER 3 0100000000000013 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Light of Dawn
+/cast Rule of Law
+/cast Light of Dawn
 END
 VER 3 010000000000000E "  " "INV_MISC_QUESTIONMARK"
 #showtooltip

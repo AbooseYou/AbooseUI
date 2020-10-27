@@ -16,14 +16,14 @@ AddOnSkinsDB = {
 		["Paintchíps - Stormrage"] = "Default",
 		["Õbv - Area 52"] = "Default",
 		["Mylilbank - Area 52"] = "Default",
-		["Pallyness - Zul'jin"] = "Default",
+		["Slaphappÿ - Area 52"] = "Default",
 		["Usb - Stormrage"] = "Default",
 		["Pallyness - Stormrage"] = "Default",
 		["Tríggered - Stormrage"] = "Default",
 		["Rogueness - Stormrage"] = "Default",
 		["Affixe - Stormrage"] = "Default",
 		["Rogueness - Illidan"] = "Default",
-		["Slaphappÿ - Area 52"] = "Default",
+		["Pallyness - Zul'jin"] = "Default",
 		["Affixes - Stormrage"] = "Default",
 		["Redicule - Icecrown"] = "Default",
 	},
@@ -36,6 +36,4 @@ AddOnSkinsDB = {
 	},
 }
 AddOnSkinsDS = {
-	[4.46] = {
-	},
 }

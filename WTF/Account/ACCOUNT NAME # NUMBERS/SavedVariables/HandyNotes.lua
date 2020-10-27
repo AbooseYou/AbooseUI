@@ -1,13 +1,38 @@
 
 HandyNotesDB = {
 	["profileKeys"] = {
-		["Rogueness - Illidan"] = "ABooseUI",
-		["Pallyness - Stormrage"] = "ABooseUI",
+		["Affixe - Stormrage"] = "Affixe - Stormrage",
 		["Pallybank - Illidan"] = "ABooseUI",
+		["Paintchíps - Stormrage"] = "Paintchíps - Stormrage",
+		["Aboose - Stormrage"] = "Aboose - Stormrage",
+		["Usb - Stormrage"] = "Usb - Stormrage",
+		["Ureterrible - Stormrage"] = "ABooseUI",
+		["Tríggered - Stormrage"] = "Tríggered - Stormrage",
+		["Iabooseyou - Stormrage"] = "Iabooseyou - Stormrage",
+		["Pallyness - Stormrage"] = "ABooseUI",
+		["Rogueness - Illidan"] = "ABooseUI",
 		["Abooseyou - Stormrage"] = "ABooseUI",
+		["Affixes - Stormrage"] = "Affixes - Stormrage",
+		["Myironballs - Stormrage"] = "Myironballs - Stormrage",
 	},
 	["profiles"] = {
+		["Affixe - Stormrage"] = {
+		},
+		["Paintchíps - Stormrage"] = {
+		},
+		["Usb - Stormrage"] = {
+		},
+		["Tríggered - Stormrage"] = {
+		},
+		["Iabooseyou - Stormrage"] = {
+		},
+		["Aboose - Stormrage"] = {
+		},
 		["ABooseUI"] = {
+		},
+		["Affixes - Stormrage"] = {
+		},
+		["Myironballs - Stormrage"] = {
 		},
 	},
 }

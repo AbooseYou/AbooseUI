@@ -1,22 +1,23 @@
 
 ProjectAzilrokaDB = {
 	["profileKeys"] = {
-		["Affixe - Stormrage"] = "Aboose UI",
-		["Abooseyou - Stormrage"] = "Aboose UI",
-		["Pallybank - Illidan"] = "Aboose UI",
 		["Mylilbank - Area 52"] = "Aboose UI",
-		["Õbv - Area 52"] = "Aboose UI",
-		["Paintchíps - Stormrage"] = "Default",
-		["Aboose - Stormrage"] = "Aboose UI",
-		["Usb - Stormrage"] = "Default",
-		["Pallyness - Stormrage"] = "Aboose UI",
-		["Tríggered - Stormrage"] = "Aboose UI",
-		["Iabooseyou - Stormrage"] = "Default",
+		["Ureterrible - Stormrage"] = "Aboose UI",
 		["Myironballs - Stormrage"] = "Aboose UI",
-		["Rogueness - Illidan"] = "Default",
+		["Iabooseyou - Stormrage"] = "Aboose UI",
+		["Aboose - Stormrage"] = "Aboose UI",
 		["Lilobv - Illidan"] = "Aboose UI",
-		["Affixes - Stormrage"] = "Aboose UI",
+		["Abooseyou - Stormrage"] = "Aboose UI",
 		["Pallyneess - Illidan"] = "Default",
+		["Paintchíps - Stormrage"] = "Aboose UI",
+		["Usb - Stormrage"] = "Aboose UI",
+		["Tríggered - Stormrage"] = "Aboose UI",
+		["Affixe - Stormrage"] = "Aboose UI",
+		["Õbv - Area 52"] = "Aboose UI",
+		["Rogueness - Illidan"] = "Aboose UI",
+		["Pallybank - Illidan"] = "Aboose UI",
+		["Affixes - Stormrage"] = "Aboose UI",
+		["Pallyness - Stormrage"] = "Aboose UI",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -72,13 +73,13 @@ ProjectAzilrokaDB = {
 						-116.0000152587891, -- [5]
 					},
 				},
-				["WorldMapFrame"] = {
+				["SpellBookFrame"] = {
 					["Points"] = {
-						"TOPLEFT", -- [1]
+						nil, -- [1]
 						nil, -- [2]
-						"TOPLEFT", -- [3]
-						16.25396919250488, -- [4]
-						-94.47618865966797, -- [5]
+						nil, -- [3]
+						15.99999809265137, -- [4]
+						-116.0000152587891, -- [5]
 					},
 				},
 				["Enable"] = false,
@@ -100,13 +101,13 @@ ProjectAzilrokaDB = {
 						-116.0000076293945, -- [5]
 					},
 				},
-				["SpellBookFrame"] = {
+				["WorldMapFrame"] = {
 					["Points"] = {
-						nil, -- [1]
+						"TOPLEFT", -- [1]
 						nil, -- [2]
-						nil, -- [3]
-						15.99999809265137, -- [4]
-						-116.0000152587891, -- [5]
+						"TOPLEFT", -- [3]
+						16.25396919250488, -- [4]
+						-94.47618865966797, -- [5]
 					},
 				},
 			},
@@ -121,17 +122,17 @@ ProjectAzilrokaDB = {
 			["EnhancedShadows"] = {
 				["Enable"] = false,
 			},
-			["AuraReminder"] = {
-				["Enable"] = false,
+			["ReputationReward"] = {
+				["ShowAll"] = true,
 			},
 			["BigButtons"] = {
 				["Enable"] = false,
 			},
 			["SquareMinimapButtons"] = {
-				["MoveMail"] = false,
+				["BarMouseOver"] = true,
 				["MoveQueue"] = false,
 				["ButtonSpacing"] = 1,
-				["BarMouseOver"] = true,
+				["MoveMail"] = false,
 				["IconSize"] = 31,
 			},
 			["DragonOverlay"] = {
@@ -293,8 +294,8 @@ ProjectAzilrokaDB = {
 					["Enable"] = false,
 				},
 			},
-			["ReputationReward"] = {
-				["ShowAll"] = true,
+			["AuraReminder"] = {
+				["Enable"] = false,
 			},
 			["Cooldown"] = {
 				["fonts"] = {
@@ -397,6 +398,7 @@ stAddonManagerServerDB = {
 		["Iabooseyou"] = true,
 		["Affixe"] = true,
 		["Paintchíps"] = true,
+		["Ureterrible"] = true,
 		["Abooseyou"] = true,
 		["Myironballs"] = true,
 	},
