@@ -224,7 +224,7 @@ function iFilger:UpdateActiveCooldowns()
 
 			if (CurrentDuration and CurrentDuration >= COOLDOWN_MIN_DURATION) then
 				if Panel.db.StatusBar then
-					local timervalue, formatid = PA:GetTimeInfo(CurrentDuration, iFilger.db.cooldown.threshold)
+					local timervalue, formatid = PA:GetTimeInfo(CurrentDuration, iFilger.db.Cooldown.threshold)
 					local color = PA.TimeColors[formatid]
 
 					button.StatusBar:SetValue(CurrentDuration / Duration)
@@ -281,7 +281,7 @@ function iFilger:UpdateItemCooldowns()
 
 			if (CurrentDuration and CurrentDuration >= COOLDOWN_MIN_DURATION) then
 				if Panel.db.StatusBar then
-					local timervalue, formatid = PA:GetTimeInfo(CurrentDuration, iFilger.db.cooldown.threshold)
+					local timervalue, formatid = PA:GetTimeInfo(CurrentDuration, iFilger.db.Cooldown.threshold)
 					local color = PA.TimeColors[formatid]
 
 					button.StatusBar:SetValue(CurrentDuration / Duration)
@@ -619,7 +619,7 @@ function iFilger:CreateAuraIcon(element)
 			s.elapsed = (s.elapsed or 0) + elapsed
 			if (s.elapsed > COOLDOWN_MIN_DURATION) then
 				local expiration = Frame.expiration - GetTime()
-				local timervalue, formatid = PA:GetTimeInfo(expiration, iFilger.db.cooldown.threshold)
+				local timervalue, formatid = PA:GetTimeInfo(expiration, iFilger.db.Cooldown.threshold)
 				local color = PA.TimeColors[formatid]
 				if timervalue then
 					local Normalized = expiration / Frame.duration
@@ -801,7 +801,7 @@ function iFilger:GetOptions()
 
 	PA.Options.args.iFilger = PA.ACH:Group(iFilger.Title, iFilger.Description, nil, 'tab')
 	PA.Options.args.iFilger.args.Description = PA.ACH:Description(iFilger.Description, 0)
-	PA.Options.args.iFilger.args.Enable = PA.ACH:Toggle(PA.ACL['Enable'], nil, 1, nil, nil, nil, nil, function(info, value) iFilger.db[info[#info]] = value if (not iFilger.isEnabled) then iFilger:Initialize() else _G.StaticPopup_Show('PROJECTAZILROKA_RL') end end)
+	PA.Options.args.iFilger.args.Enable = PA.ACH:Toggle(PA.ACL['Enable'], nil, 1, nil, nil, nil, function(info) return iFilger.db[info[#info]] end, function(info, value) iFilger.db[info[#info]] = value if (not iFilger.isEnabled) then iFilger:Initialize() else _G.StaticPopup_Show('PROJECTAZILROKA_RL') end end)
 
 	PA.Options.args.iFilger.args.AuthorHeader = PA.ACH:Header(PA.ACL['Authors:'], -2)
 	PA.Options.args.iFilger.args.Authors = PA.ACH:Description(iFilger.Authors, -1, 'large')

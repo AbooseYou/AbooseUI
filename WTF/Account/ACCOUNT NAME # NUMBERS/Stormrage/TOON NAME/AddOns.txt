@@ -6,7 +6,7 @@ Details_EncounterDetails: enabled
 AzeriteTooltip: enabled
 RCLootCouncil: disabled
 Castbars: disabled
-Auctionator: enabled
+Auctionator: disabled
 AngryKeystones: disabled
 Lorti UI: disabled
 AdvancedInterfaceOptions: enabled
@@ -218,7 +218,7 @@ Details_DeathGraphs: enabled
 Details_TimeLine: enabled
 Details_ChartViewer: enabled
 Guild_Roster_Manager: enabled
-HandyNotes: enabled
+HandyNotes: disabled
 Hekili: enabled
 TomCats: enabled
 VocalRaidAssistant: enabled
@@ -226,3 +226,11 @@ AddOnSkins: enabled
 ElvUI: enabled
 ElvUI_HealerMana: enabled
 ElvUI_CustomTags: enabled
+AAP-Shadowlands: disabled
+AAP-EasternKingdoms: disabled
+CandyBuckets: disabled
+!BugGrabber: enabled
+BugSack: enabled
+CopyPasta2: enabled
+Gnobesy: enabled
+WoWMoneyStatistics: enabled

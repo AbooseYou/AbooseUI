@@ -1,6 +1,7 @@
 
 NameplateSCTDB = {
 	["profileKeys"] = {
+		["Abooseez - Frostmourne"] = "Default",
 		["Abooseu - Frostmourne"] = "Default",
 		["Druiidness - Stormrage"] = "Default",
 		["Abooseyou - Illidan"] = "Default",
@@ -26,7 +27,9 @@ NameplateSCTDB = {
 		["Obq - Mal'Ganis"] = "Default",
 		["Obv - Area 52"] = "Default",
 		["Affixe - Stormrage"] = "Default",
+		["Õbv - Frostmourne"] = "Default",
 		["Pallyneess - Illidan"] = "Default",
+		["Agateophobia - Frostmourne"] = "Default",
 		["Mylilbank - Area 52"] = "Default",
 		["Abooseyou - Frostmourne"] = "Default",
 		["Slaphappÿ - Area 52"] = "Default",

@@ -1,33 +1,94 @@
-local SLE, T, E, L, V, P, G = unpack(select(2, ...))
-if SLE._Compatibility["ElvUI_NihilistUI"] then return end
-local ES = SLE:GetModule("EnhancedShadows")
+local SLE, _, E, L, _, P = unpack(select(2, ...))
+local ENH = SLE:GetModule("EnhancedShadows")
 local SUF = SLE:GetModule("UnitFrames")
-local UF = E:GetModule('UnitFrames')
-local format = format
+local DT = E:GetModule('DataTexts')
+
+-- GLOBALS: MICRO_BUTTONS
+
+local _G = _G
+local unpack = unpack
+local format, gsub, strlower = format, gsub, strlower
+local tinsert, pairs = tinsert, pairs
+local COLOR = COLOR
+
+function ENH:UpdateDatatextOptions()
+	ENH:UpdateDefaults()
+	-- for name, frame in next, DT.db.panels do
+	for name, frame in next, DT.RegisteredPanels do
+		E.Options.args.sle.args.modules.args.shadows.args.datatexts.args[name] = {
+			order = 1,
+			type = 'group',
+			name = function() return format(E.db.datatexts.panels[name].enable and '%s' or '|cffFF3333%s|r', name) end,
+			get = function(info) return E.db.sle.shadows.datatexts.panels[name][info[#info]] end,
+			set = function(info, value) E.db.sle.shadows.datatexts.panels[name][info[#info]] = value; ENH:ToggleDTShadows() end,
+			args = {
+				backdrop = {
+					order = 2,
+					type = 'toggle',
+					name = L["Panel"],
+					desc = L["Enables a shadow for the panel or backdrop of this frame."],
+					disabled = function() return not E.db.datatexts.panels[name].enable end,
+				},
+				size = {
+					order = 3,
+					type = 'range',
+					name = L["Size"],
+					min = 2, max = 10, step = 1,
+					disabled = function() return not E.db.datatexts.panels[name].enable end,
+					set = function(info, value)
+						E.db.sle.shadows.datatexts.panels[name][info[#info]] = value
+						if ENH.DummyPanels[name] and ENH.DummyPanels[name].enhshadow then
+							frame = ENH.DummyPanels[name]
+						end
+						frame.enhshadow.size = value
+						ENH:UpdateShadow(frame.enhshadow)
+					end,
+				},
+			},
+		}
+		if name == 'LeftChatDataPanel' or name == 'RightChatDataPanel' then
+			E.Options.args.sle.args.modules.args.shadows.args.datatexts.args[name].args.backdrop.set = function(info, value)
+				E.db.sle.shadows.datatexts.panels[name][info[#info]] = value
+				if ENH.DummyPanels[name] and ENH.DummyPanels[name].enhshadow then
+					frame = ENH.DummyPanels[name]
+				end
+				frame.enhshadow.backdrop = value
+				ENH:UpdateShadow(frame.enhshadow)
+				ENH:UpdateShadow(_G.LeftChatPanel.enhshadow)
+				ENH:UpdateShadow(_G.RightChatPanel.enhshadow)
+				ENH:ToggleDTShadows()
+			end
+		end
+	end
+end
+
+local function updateFrame(frame, size, backdrop)
+	if not frame or not frame.enhshadow then return end
+	if size then frame.enhshadow.size = size end
+	if backdrop then frame.enhshadow.backdrop = backdrop end
+	ENH:UpdateShadow(frame.enhshadow)
+end
 
 local function configTable()
 	if not SLE.initialized then return end
-	local ACH = E.Libs.ACH
+	-- local ACH = E.Libs.ACH
 
 	E.Options.args.sle.args.modules.args.shadows = {
 		order = 1,
-		type = "group",
+		type = 'group',
 		name = L["Enhanced Shadows"],
-		childGroups = "tab",
-		get = function(info) return E.db.sle.shadows[info[#info]] end,
-		set = function(info, value) E.db.sle.shadows[info[#info]] = value; SUF:UpdateUnitFrames(); ES:UpdateShadows(); end,
+		childGroups = 'tab',
 		args = {
 			enable = {
 				order = 1,
-				type = "toggle",
+				type = 'toggle',
 				name = L["Enable"],
-				hidden = true, -- TODO: Hidden until I implement this feature
 				get = function(info) return E.private.sle.module.shadows[info[#info]] end,
-				set = function(info, value) E.private.sle.module.shadows[info[#info]] = value; E:StaticPopup_Show("PRIVATE_RL") end,
+				set = function(info, value) E.private.sle.module.shadows[info[#info]] = value; E:StaticPopup_Show('PRIVATE_RL') end,
 			},
 			shadowcolor = {
 				order = 2,
-				type = "color",
+				type = 'color',
 				hasAlpha = false,
 				name = COLOR,
 				disabled = function() return not E.private.sle.module.shadows.enable end,
@@ -40,372 +101,637 @@ local function configTable()
 					local t = E.db.sle.shadows[info[#info]]
 					t.r, t.g, t.b = r, g, b
 					SLE:UpdateMedia()
-					ES:UpdateShadows()
-					SUF:UpdateUnitFrames()
+					ENH:UpdateShadows()
+					SUF:UpdateShadows()
 				end,
 			},
-			size = {
-				order = 3,
-				type = 'range',
-				name = L["Size"],
-				min = 2, max = 10, step = 1,
-				disabled = function() return not E.private.sle.module.shadows.enable end,
-			},
 			general = {
-				order = 4,
-				type = "group",
+				order = 1,
+				type = 'group',
 				name = L["General"],
-				get = function(info) return E.private.sle.module.shadows[info[#info]] end,
-				set = function(info, value) E.private.sle.module.shadows[info[#info]] = value; E:StaticPopup_Show("PRIVATE_RL") end,
+				disabled = function() return not E.private.sle.module.shadows.enable end,
 				args = {
-					general = {
+					chat = {
 						order = 1,
 						type = 'group',
-						name = L["General"],
-						guiInline = true,
+						-- name = L["Chat"],
+						name = function() return format(E.db.chat.panelBackdrop ~= 'HIDEBOTH' and '%s' or '|cffFF3333%s|r', L["Chat"]) end,
+						-- disabled = function() return not (E.db.chat.panelBackdrop == 'SHOWBOTH' or E.db.chat.panelBackdrop == 'LEFT') end,
+						get = function(info) return E.db.sle.shadows.chat[info[#info-1]][info[#info]] end,
 						args = {
-							vehicle = {
+							elvconfig = {
+								order = 0,
+								type = 'execute',
+								name = 'ElvUI: '..L["Chat"],
+								width = 'full',
+								func = function() E.Libs['AceConfigDialog']:SelectGroup('ElvUI', 'chat', 'panels') end,
+							},
+							LeftChatPanel = {
 								order = 1,
-								type = "toggle",
-								name = L["Enhanced Vehicle Bar"],
-								disabled = function() return not E.private.sle.module.shadows.enable end,
+								type = 'group',
+								name = '',
+								guiInline = true,
+								args = {
+									backdrop = {
+										order = 1,
+										type = 'toggle',
+										name = L["Left Chat"],
+										desc = L["Enables a shadow for the panel or backdrop of this frame."],
+										disabled = function() return not (E.db.chat.panelBackdrop == 'SHOWBOTH' or E.db.chat.panelBackdrop == 'LEFT') end,
+										-- disabled = function() return not (E.db.chat.panelBackdrop ~= 'HIDEBOTH') end,
+										set = function(info, value)
+											E.db.sle.shadows.chat.LeftChatPanel[info[#info]] = value
+											updateFrame(_G.LeftChatPanel, nil, value)
+											ENH:UpdateShadow(ENH.DummyPanels.LeftChatDataPanel.enhshadow)
+											ENH:ToggleCHShadows()
+										end,
+									},
+									size = {
+										order = 2,
+										type = 'range',
+										name = L["Size"],
+										min = 2, max = 10, step = 1,
+										disabled = function() return not E.db.sle.shadows.chat.LeftChatPanel.backdrop or not (E.db.chat.panelBackdrop == 'SHOWBOTH' or E.db.chat.panelBackdrop == 'LEFT') end,
+										set = function(info, value) E.db.sle.shadows.chat.LeftChatPanel[info[#info]] = value; updateFrame(_G.LeftChatPanel, value) end,
+									},
+								},
+							},
+							RightChatPanel = {
+								order = 2,
+								type = 'group',
+								name = '',
+								guiInline = true,
+								args = {
+									backdrop = {
+										order = 1,
+										type = 'toggle',
+										name = L["Right Chat"],
+										desc = L["Enables a shadow for the panel or backdrop of this frame."],
+										disabled = function() return not (E.db.chat.panelBackdrop == 'SHOWBOTH' or E.db.chat.panelBackdrop == 'LEFT') end,
+										set = function(info, value)
+											E.db.sle.shadows.chat.RightChatPanel[info[#info]] = value
+											updateFrame(_G.RightChatPanel, nil, value)
+											ENH:UpdateShadow(ENH.DummyPanels.RightChatDataPanel.enhshadow)
+											ENH:ToggleCHShadows()
+										end,
+									},
+									size = {
+										order = 2,
+										type = 'range',
+										name = L["Size"],
+										min = 2, max = 10, step = 1,
+										disabled = function() return not E.db.sle.shadows.chat.RightChatPanel.backdrop end,
+										set = function(info, value) E.db.sle.shadows.chat.RightChatPanel[info[#info]] = value; updateFrame(_G.RightChatPanel, value) end,
+									},
+								},
+							},
+						},
+					},
+					minimap = { --* Minimap config looks good
+						order = 1,
+						type = 'group',
+						name = function() return format(E.private.general.minimap.enable and '%s' or '|cffFF3333%s|r', L["Minimap"]) end,
+						args = {
+							elvconfig = {
+								order = 0,
+								type = 'execute',
+								name = 'ElvUI: '..L["Minimap"],
+								width = 'full',
+								func = function() E.Libs['AceConfigDialog']:SelectGroup('ElvUI', 'maps', 'minimap') end,
 							},
 							minimap = {
-								order = 3,
-								type = "toggle",
-								name = L["Minimap"],
-								disabled = function() return not E.private.general.minimap.enable or not E.private.sle.module.shadows.enable end,
+								order = 1,
+								type = 'group',
+								name = '',
+								guiInline = true,
+								get = function(info) return E.db.sle.shadows.minimap[info[#info]] end,
+								args = {
+									backdrop = {
+										order = 1,
+										type = 'toggle',
+										name = L["Minimap"],
+										desc = L["Enables a shadow for the panel or backdrop of this frame."],
+										disabled = function() return not E.private.general.minimap.enable end,
+										set = function(info, value) E.db.sle.shadows.minimap[info[#info]] = value; ENH:HandleMinimap() end,
+									},
+									size = {
+										order = 2,
+										type = 'range',
+										name = L["Size"],
+										min = 2, max = 10, step = 1,
+										disabled = function() return not E.private.general.minimap.enable or not E.db.sle.shadows.minimap.backdrop end,
+										set = function(info, value)
+											E.db.sle.shadows.minimap[info[#info]] = value
+											updateFrame(_G.MMHolder, value)
+											updateFrame(ENH.DummyPanels.Minimap, value)
+										end,
+									},
+								},
 							},
 						},
 					},
-					chat = {
-						order = 2,
-						type = "group",
-						name = L["Chat"],
-						guiInline = true,
-						get = function(info) return E.private.sle.module.shadows.chat[info[#info]] end,
-						set = function(info, value) E.private.sle.module.shadows.chat[info[#info]] = value; E:StaticPopup_Show("PRIVATE_RL") end,
+					panels = {
+						order = 1,
+						type = 'group',
+						name = function() return format((E.db.general.bottomPanel or E.db.general.topPanel) and '%s' or '|cffFF3333%s|r', L["Panels"]) end,
 						args = {
-							left = {
+							elvconfig = {
+								order = 0,
+								type = 'execute',
+								name = 'ElvUI: '..L["Panels"],
+								width = 'full',
+								func = function() E.Libs['AceConfigDialog']:SelectGroup('ElvUI', 'general', 'general') end,
+							},
+							bottomPanel = {
 								order = 1,
-								type = "toggle",
-								name = L["Left Chat"],
-								disabled = function() return not E.private.sle.module.shadows.enable end,
+								type = 'group',
+								name = '',
+								guiInline = true,
+								get = function(info) return E.db.sle.shadows.general.bottomPanel[info[#info]] end,
+								set = function(info, value) E.db.sle.shadows.general.bottomPanel[info[#info]] = value; ENH:HandleElvUIPanels() end,
+								args = {
+									backdrop = {
+										order = 1,
+										type = 'toggle',
+										name = L["Bottom Panel"],
+										desc = L["Enables a shadow for the panel or backdrop of this frame."],
+										disabled = function() return not E.db.general.bottomPanel end,
+									},
+									size = {
+										order = 2,
+										type = 'range',
+										name = L["Size"],
+										min = 2, max = 10, step = 1,
+										disabled = function() return not E.db.general.bottomPanel or not E.db.sle.shadows.general.bottomPanel.backdrop end,
+										set = function(info, value)
+											E.db.sle.shadows.general.bottomPanel[info[#info]] = value
+											updateFrame(_G.ElvUI_BottomPanel, value)
+											-- local frame = _G.ElvUI_BottomPanel
+											-- if frame and frame.enhshadow then
+											-- 	frame.enhshadow.size = value
+											-- 	ENH:UpdateShadow(frame.enhshadow)
+											-- end
+										end,
+										-- get = function(info) return E.db.sle.shadows.minimap[info[#info]] end,
+										-- set = function(info, value)
+										-- 	E.db.sle.shadows.minimap[info[#info]] = value
+
+										-- 	_G.MMHolder.enhshadow.size = value
+										-- 	ENH:UpdateShadow(_G.MMHolder.enhshadow)
+										-- 	ENH.DummyPanels.Minimap.enhshadow.size = value
+										-- 	ENH:UpdateShadow(ENH.DummyPanels.Minimap.enhshadow)
+										-- end,
+									},
+								},
 							},
-							right = {
-								order = 2,
-								type = "toggle",
-								name = L["Right Chat"],
-								disabled = function() return not E.private.sle.module.shadows.enable end,
-							},
-						},
-					},
-					databars = {
-						order = 2,
-						type = "group",
-						name = L["DataBars"],
-						guiInline = true,
-						get = function(info) return E.private.sle.module.shadows.databars[info[#info]] end,
-						set = function(info, value) E.private.sle.module.shadows.databars[info[#info]] = value; E:StaticPopup_Show("PRIVATE_RL") end,
-						args = {
-							honorbar = {
+							topPanel = {
 								order = 1,
-								type = "toggle",
-								name = L["HONOR"],
-								disabled = function() return not E.private.sle.module.shadows.enable end,
-							},
-							expbar = {
-								order = 1,
-								type = "toggle",
-								name = L["XPBAR_LABEL"],
-								disabled = function() return not E.private.sle.module.shadows.enable end,
-							},
-							repbar = {
-								order = 1,
-								type = "toggle",
-								name = L["REPUTATION"],
-								disabled = function() return not E.private.sle.module.shadows.enable end,
-							},
-							azeritebar = {
-								order = 1,
-								type = "toggle",
-								name = L["Azerite Bar"],
-								disabled = function() return not E.private.sle.module.shadows.enable end,
-							},
-						},
-					},
-					datatexts = {
-						order = 2,
-						type = "group",
-						name = L["DataTexts"],
-						guiInline = true,
-						get = function(info) return E.private.sle.module.shadows.datatexts[info[#info]] end,
-						set = function(info, value) E.private.sle.module.shadows.datatexts[info[#info]] = value; E:StaticPopup_Show("PRIVATE_RL") end,
-						args = {
-							leftchat = {
-								order = 1,
-								type = "toggle",
-								name = L["Left Chat"],
-								disabled = function() return not E.private.sle.module.shadows.enable end,
-							},
-							rightchat = {
-								order = 2,
-								type = "toggle",
-								name = L["Right Chat"],
-								disabled = function() return not E.private.sle.module.shadows.enable end,
+								type = 'group',
+								name = '',
+								guiInline = true,
+								get = function(info) return E.db.sle.shadows.general.topPanel[info[#info]] end,
+								set = function(info, value) E.db.sle.shadows.general.topPanel[info[#info]] = value; ENH:HandleElvUIPanels() end,
+								-- disabled = function() return not E.private.general.minimap.enable end,
+								args = {
+									backdrop = {
+										order = 1,
+										type = 'toggle',
+										name = L["Top Panel"],
+										desc = L["Enables a shadow for the panel or backdrop of this frame."],
+										disabled = function() return not E.db.general.topPanel end,
+									},
+									size = {
+										order = 2,
+										type = 'range',
+										name = L["Size"],
+										min = 2, max = 10, step = 1,
+										disabled = function() return not E.db.general.topPanel or not E.db.sle.shadows.general.topPanel.backdrop end,
+										-- get = function(info) return E.db.sle.shadows.minimap[info[#info]] end,
+										-- set = function(info, value)
+										-- 	E.db.sle.shadows.minimap[info[#info]] = value
+
+										-- 	_G.MMHolder.enhshadow.size = value
+										-- 	ENH:UpdateShadow(_G.MMHolder.enhshadow)
+										-- 	ENH.DummyPanels.Minimap.enhshadow.size = value
+										-- 	ENH:UpdateShadow(ENH.DummyPanels.Minimap.enhshadow)
+										-- end,
+									},
+								},
 							},
 						},
 					},
 				},
 			},
 			actionbars = {
-				order = 5,
-				type = "group",
+				order = 10,
+				type = 'group',
 				name = L["ActionBars"],
-				get = function(info) return E.private.sle.module.shadows.actionbars[info[#info]] end,
-				set = function(info, value) E.private.sle.module.shadows.actionbars[info[#info]] = value; E:StaticPopup_Show("PRIVATE_RL") end,
+				disabled = function() return not E.private.sle.module.shadows.enable or not E.private.actionbar.enable end,
 				args = {
-					microbar = {
-						order = 1,
-						type = "toggle",
-						name = L["Micro Bar"],
-						disabled = function() return not E.private.actionbar.enable or not E.private.sle.module.shadows.enable end,
-					},
-					microbarbuttons = {
-						order = 2,
-						type = "toggle",
-						name = L["SLE_EnhShadows_MicroButtons_Option"],
-						disabled = function() return not E.private.actionbar.enable or not E.private.sle.module.shadows.enable end,
-					},
-					stancebar = {
-						order = 3,
-						type = "toggle",
-						name = L["Stance Bar"],
-						disabled = function() return not E.private.actionbar.enable or not E.private.sle.module.shadows.enable end,
-					},
-					stancebarbuttons = {
-						order = 4,
-						type = "toggle",
-						name = L["SLE_EnhShadows_StanceButtons_Option"],
-						disabled = function() return not E.private.actionbar.enable or not E.private.sle.module.shadows.enable end,
-					},
-					petbar = {
-						order = 5,
-						type = "toggle",
-						name = L["Pet Bar"],
-						disabled = function() return not E.private.actionbar.enable or not E.private.sle.module.shadows.enable end,
-					},
-					petbarbuttons = {
-						order = 6,
-						type = "toggle",
-						name = L["SLE_EnhShadows_PetButtons_Option"],
-						disabled = function() return not E.private.actionbar.enable or not E.private.sle.module.shadows.enable end,
-					},
-					spacer = ACH:Spacer(7),
-				},
-			},
-			unitframes = {
-				order = 5,
-				type = "group",
-				name = L["UnitFrames"],
-				get = function(info)
-					local unitframe, option = info[#info-1], info[#info]
-					if unitframe and option then return E.db.sle.shadows.unitframes[unitframe][option] end
-				end,
-				set = function(info, value)
-					local unitframe, option = info[#info-1], info[#info]
-					local ufname = E:StringTitle(unitframe)
-
-					E.db.sle.shadows.unitframes[unitframe][option] = value;
-					ufname = ufname:gsub("t(arget)", "T%1")
-
-					SUF['Arrange'..ufname]()
-				end,
-				args = {
-					player = {
-						order = 1,
-						type = 'group',
-						name = PLAYER,
-						args = {},
-					},
-					target = {
-						order = 2,
-						type = 'group',
-						name = TARGET,
-						args = {},
-					},
-					targettarget = {
-						order = 3,
-						type = 'group',
-						name = TARGET..TARGET,
-						args = {},
-					},
-					targettargettarget = {
-						order = 4,
-						type = 'group',
-						name = TARGET..TARGET..TARGET,
-						args = {},
-					},
-					focus = {
-						order = 5,
-						type = 'group',
-						name = FOCUS,
-						args = {},
-					},
-					focustarget = {
-						order = 6,
-						type = 'group',
-						name = FOCUS..TARGET,
-						args = {},
-					},
-					pet = {
-						order = 7,
-						type = 'group',
-						name = PET,
-						args = {},
-					},
-					pettarget = {
-						order = 8,
-						type = 'group',
-						name = PET..TARGET,
-						args = {},
-					},
-					boss = {
-						order = 9,
-						type = 'group',
-						name = BOSS,
-						args = {},
-					},
-					arena = {
-						order = 10,
-						type = 'group',
-						name = ARENA,
-						args = {},
-					},
-					party = {
+					barPet = {
 						order = 11,
 						type = 'group',
-						name = PARTY,
-						args = {},
+						name = function() return format(E.db.actionbar.barPet.enabled and '%s' or '|cffFF3333%s|r', L["Pet Bar"]) end,
+						disabled = function() return not E.ActionBars.Initialized end,
+						get = function(info) return E.db.sle.shadows.actionbars.petbar[info[#info]] end,
+						set = function(info, value) E.db.sle.shadows.actionbars.petbar[info[#info]] = value; ENH:ToggleABShadows() end,
+						args = {
+							buttons = {
+								order = 1,
+								type = 'toggle',
+								name = L["Buttons"],
+								desc = format(L["Enables a shadow on the %s when it's enabled."], strlower(L["Buttons"])),
+							},
+							backdrop = {
+								order = 2,
+								type = 'toggle',
+								name = L["Backdrop"],
+								desc = format(L["Enables a shadow on the %s when it's enabled."], strlower(L["Backdrop"])),
+							},
+							size = {
+								order = 3,
+								type = 'range',
+								name = L["Size"],
+								min = 2, max = 10, step = 1,
+								set = function(info, value)
+									E.db.sle.shadows.actionbars.petbar[info[#info]] = value
+									_G.ElvUI_BarPet.enhshadow.size = value
+									ENH:UpdateShadow(_G.ElvUI_BarPet.enhshadow)
+									for i = 1, 12 do
+										local button = _G['PetActionButton'..i]
+										if not button then break end
+										button.enhshadow.size = value
+										ENH:UpdateShadow(button.enhshadow)
+									end
+								end,
+							},
+						},
 					},
-					raid = {
-						order = 12,
+					microbar = {
+						order = 11,
 						type = 'group',
-						name = RAID,
-						args = {},
+						name = function() return format(E.db.actionbar.microbar.enabled and '%s' or '|cffFF3333%s|r', L["Micro Bar"]) end,
+						disabled = function() return not E.ActionBars.Initialized end,
+						get = function(info) return E.db.sle.shadows.actionbars.microbar[info[#info]] end,
+						set = function(info, value) E.db.sle.shadows.actionbars.microbar[info[#info]] = value; ENH:ToggleABShadows() end,
+						args = {
+							buttons = {
+								order = 1,
+								type = 'toggle',
+								name = L["Buttons"],
+								desc = format(L["Enables a shadow on the %s when it's enabled."], strlower(L["Buttons"])),
+							},
+							backdrop = {
+								order = 2,
+								type = 'toggle',
+								name = L["Backdrop"],
+								desc = format(L["Enables a shadow on the %s when it's enabled."], strlower(L["Backdrop"])),
+							},
+							size = {
+								order = 3,
+								type = 'range',
+								name = L["Size"],
+								min = 2, max = 10, step = 1,
+								set = function(info, value)
+									E.db.sle.shadows.actionbars.microbar[info[#info]] = value
+									_G.ElvUI_MicroBar.enhshadow.size = value
+									ENH:UpdateShadow(_G.ElvUI_MicroBar.enhshadow)
+
+									for i=1, (#MICRO_BUTTONS) do
+										local button = _G[MICRO_BUTTONS[i]]
+										if not button then break end
+										button.enhshadow.size = value
+										ENH:UpdateShadow(button.enhshadow)
+									end
+								end,
+							},
+						},
 					},
-					raid40 = {
-						order = 13,
+					stancebar = {
+						order = 11,
 						type = 'group',
-						name = RAID..'40',
-						args = {},
+						name = function() return format(E.db.actionbar.stanceBar.enabled and '%s' or '|cffFF3333%s|r', L["Stance Bar"]) end,
+						disabled = function() return not E.ActionBars.Initialized end,
+						get = function(info) return E.db.sle.shadows.actionbars.stancebar[info[#info]] end,
+						set = function(info, value) E.db.sle.shadows.actionbars.stancebar[info[#info]] = value; ENH:ToggleABShadows() end,
+						args = {
+							buttons = {
+								order = 1,
+								type = 'toggle',
+								name = L["Buttons"],
+								desc = format(L["Enables a shadow on the %s when it's enabled."], strlower(L["Buttons"])),
+							},
+							backdrop = {
+								order = 2,
+								type = 'toggle',
+								name = L["Backdrop"],
+								desc = format(L["Enables a shadow on the %s when it's enabled."], strlower(L["Backdrop"])),
+							},
+							size = {
+								order = 3,
+								type = 'range',
+								name = L["Size"],
+								min = 2, max = 10, step = 1,
+								set = function(info, value)
+									E.db.sle.shadows.actionbars.stancebar[info[#info]] = value
+									_G.ElvUI_StanceBar.enhshadow.size = value
+									ENH:UpdateShadow(_G.ElvUI_StanceBar.enhshadow)
+									for i = 1, 12 do
+										local button = _G['ElvUI_StanceBarButton'..i]
+										if not button then break end
+										button.enhshadow.size = value
+										ENH:UpdateShadow(button.enhshadow)
+									end
+								end,
+							},
+						},
+					},
+					-- -- TODO: Add Enhanced Vehicle UI Later
+					-- vehicle = {
+					-- 	order = 11,
+					-- 	type = 'group',
+					-- 	name = L["Enhanced Vehicle Bar"],
+					-- 	-- disabled = function() return not E.db.actionbar.stanceBar.enabled or not E.private.actionbar.enable end,
+					-- 	args = {
+					-- 		buttons = {
+					-- 			order = 1,
+					-- 			type = 'toggle',
+					-- 			name = L["Buttons"],
+					-- 			desc = format(L["Enables a shadow on the %s when it's enabled."], strlower(L["Buttons"])),
+					-- 			get = function(info) return E.db.sle.shadows.actionbars.vehicle[info[#info]] end,
+					-- 			set = function(info, value) E.db.sle.shadows.actionbars.vehicle[info[#info]] = value; ENH:ToggleABShadows() end,
+					-- 		},
+					-- 		backdrop = {
+					-- 			order = 2,
+					-- 			type = 'toggle',
+					-- 			name = L["Backdrop"],
+					-- 			desc = format(L["Enables a shadow on the %s when it's enabled."], strlower(L["Backdrop"])),
+					-- 			get = function(info) return E.db.sle.shadows.actionbars.vehicle[info[#info]] end,
+					-- 			set = function(info, value) E.db.sle.shadows.actionbars.vehicle[info[#info]] = value; ENH:ToggleABShadows() end,
+					-- 		},
+					-- 		size = {
+					-- 			order = 3,
+					-- 			type = 'range',
+					-- 			name = L["Size"],
+					-- 			min = 2, max = 10, step = 1,
+					-- 			get = function(info) return E.db.sle.shadows.actionbars.vehicle[info[#info]] end,
+					-- 			set = function(info, value)
+					-- 				E.db.sle.shadows.actionbars.vehicle[info[#info]] = value
+
+					-- 				_G.ElvUISL_EnhancedVehicleBar.enhshadow.size = value
+					-- 				ENH:UpdateShadow(_G.ElvUISL_EnhancedVehicleBar.enhshadow)
+					-- 				for i = 1, 12 do
+					-- 					local button = _G['ElvUISL_EnhancedVehicleBarButton'..i]
+					-- 					if not button then break end
+					-- 					button.enhshadow.size = value
+					-- 					ENH:UpdateShadow(button.enhshadow)
+					-- 				end
+					-- 			end,
+					-- 		},
+					-- 	},
+					-- },
+				},
+			},
+			databars = {
+				order = 10,
+				type = 'group',
+				name = L["DataBars"],
+				disabled = function() return not E.private.sle.module.shadows.enable end,
+				args = {},
+			},
+			datatexts = {
+				order = 10,
+				type = 'group',
+				name = L["DataTexts"],
+				disabled = function() return not E.private.sle.module.shadows.enable end,
+				args = {},
+			},
+			unitframes = {
+				order = 10,
+				type = 'group',
+				name = L["UnitFrames"],
+				disabled = function() return not E.private.sle.module.shadows.enable or not E.UnitFrames.Initialized end,
+				args = {
+					size = {
+						order = 0,
+						type = 'range',
+						name = L["Size"],
+						min = 2, max = 10, step = 1,
+						get = function(info) return E.db.sle.shadows.unitframes[info[#info]] end,
+						set = function(info, value) E.db.sle.shadows.unitframes[info[#info]] = value; SUF:UpdateUnitFrames() end,
+						disabled = function() return not E.UnitFrames.Initialized end,
 					},
 				},
 			},
 		},
 	}
 
-	--! Need simpy or azil majic on how to sort a bit
-	--* Using hard coded above until then
-	-- for unit in next, UF.units do
-	-- 	E.Options.args.sle.args.modules.args.shadows.args.unitframes.args[unit] = {
-	-- 		order = 1,
-	-- 		type = 'group',
-	-- 		name = gsub(E:StringTitle(unit), 't(arget)', 'T%1'),
-	-- 		args = {},
-	-- 	}
-	-- end
+	-- Inserts Azerite, Experience, Honor, Reputation, & Threat Databars shadow options into the config
+	for bar, tbl in next, ENH.frames.databars do
+		local frame, name = unpack(tbl)
+		frame = _G[frame]
 
-	for unit in next, E.Options.args.sle.args.modules.args.shadows.args.unitframes.args do
-		E.Options.args.sle.args.modules.args.shadows.args.unitframes.args[unit].disabled = function() return not E.private.sle.module.shadows.enable or not E.db.unitframe.units[unit].enable end
-
-		if UF.units[unit] then
-			E.Options.args.sle.args.modules.args.shadows.args.unitframes.args[unit].args.configplayer = {
-				order = 0,
-				type = 'execute',
-				name = gsub('ElvUI: '..E:StringTitle(unit)..' '..L["Frame"], 't(arget)', 'T%1'),
-				width = 'full',
-				func = function() E.Libs["AceConfigDialog"]:SelectGroup("ElvUI", "unitframe", "individualUnits", unit, "generalGroup") end,
-				hidden = function()
-					if not E.private.skins.blizzard.enable then return true end
-					return not (E.private.skins.blizzard.character or E.private.skins.blizzard.inspect)
-				end,
-			}
-			if unit == 'player' then
-				E.Options.args.sle.args.modules.args.shadows.args.unitframes.args[unit].args.classbar = {
-					order = 4,
+		E.Options.args.sle.args.modules.args.shadows.args.databars.args[bar] = {
+			order = 50,
+			type = 'group',
+			name = function() return format(E.db.databars[bar].enable and '%s' or '|cffFF3333%s|r', name) end,
+			get = function(info) return E.db.sle.shadows.databars[bar][info[#info]] end,
+			set = function(info, value) E.db.sle.shadows.databars[bar][info[#info]] = value; ENH:ToggleDBShadows() end,
+			args = {
+				elvconfig = {
+					order = 0,
+					type = 'execute',
+					name = 'ElvUI: '..name,
+					width = 'full',
+					func = function() E.Libs['AceConfigDialog']:SelectGroup('ElvUI', 'databars', bar) end,
+				},
+				backdrop = {
+					order = 2,
 					type = 'toggle',
-					name = L["Classbar"],
-				}
-			end
-		end
-
-		if unit == 'boss' or unit == 'arena' or UF.headers[unit] then
-			E.Options.args.sle.args.modules.args.shadows.args.unitframes.args[unit].args.configplayer = {
-				order = 0,
-				type = 'execute',
-				name = 'ElvUI: '..E:StringTitle(unit)..' '..L["Frame"],
-				width = 'full',
-				func = function() E.Libs["AceConfigDialog"]:SelectGroup("ElvUI", "unitframe", "groupUnits", unit, "generalGroup") end,
-				hidden = function()
-					if not E.private.skins.blizzard.enable then return true end
-					return not (E.private.skins.blizzard.character or E.private.skins.blizzard.inspect)
-				end,
-			}
-
-			-- TODO: Adds a section for a button (to return to S&L enhshadows) or to mirror shadow options (WIP)
-			--* The idea is to make options we have more known
-			-- E.Options.args.unitframe.args.groupUnits.args[unit].args.generalGroup.args.slshadow = {
-			-- 	order = -1,
-			-- 	name = 'S&L Shadows',
-			-- 	type = 'group',
-			-- 	inline = true,
-			-- 	args = {
-			-- 		configplayer = {
-			-- 			order = 0,
-			-- 			type = 'execute',
-			-- 			name = 'S&L: '..E:StringTitle(unit)..' Shadows',
-			-- 			width = 'full',
-			-- 			func = function() E.Libs["AceConfigDialog"]:SelectGroup("ElvUI", "sle", 'modules', "shadows", "unitframes", unit) end,
-			-- 			hidden = function()
-			-- 				if not E.private.skins.blizzard.enable then return true end
-			-- 				return not (E.private.skins.blizzard.character or E.private.skins.blizzard.inspect)
-			-- 			end,
-			-- 		}
-			-- 	}
-			-- }
-		end
-
-		E.Options.args.sle.args.modules.args.shadows.args.unitframes.args[unit].args.legacy = {
-			order = 1,
-			type = 'toggle',
-			name = L["Legacy Shadows"],
-			desc = L["Tries to place a shadow around the health, power, and classbars as one frame instead of individual frames."],
-		}
-		E.Options.args.sle.args.modules.args.shadows.args.unitframes.args[unit].args.health = {
-			order = 2,
-			type = 'toggle',
-			name = L["Health"],
-		}
-		E.Options.args.sle.args.modules.args.shadows.args.unitframes.args[unit].args.power = {
-			order = 3,
-			type = 'toggle',
-			name = L["Power"],
+					name = L["Panel"],
+					desc = L["Enables a shadow for the panel or backdrop of this frame."],
+					disabled = function() return not E.db.databars[bar].enable end,
+				},
+				size = {
+					order = 3,
+					type = 'range',
+					name = L["Size"],
+					min = 2, max = 10, step = 1,
+					disabled = function() return not E.db.databars[bar].enable end,
+					set = function(info, value)
+						E.db.sle.shadows.databars[bar][info[#info]] = value
+						frame.enhshadow.size = value
+						ENH:UpdateShadow(frame.enhshadow)
+					end,
+				},
+			},
 		}
 	end
+	ENH:UpdateDatatextOptions()
+	-- -- for name, frame in next, DT.db.panels do
+	-- for name, frame in next, DT.RegisteredPanels do
+	-- 	E.Options.args.sle.args.modules.args.shadows.args.datatexts.args[name] = {
+	-- 		order = 1,
+	-- 		type = 'group',
+	-- 		name = function() return format(E.db.datatexts.panels[name].enable and '%s' or '|cffFF3333%s|r', name) end,
+	-- 		get = function(info) return E.db.sle.shadows.datatexts.panels[name][info[#info]] end,
+	-- 		set = function(info, value) E.db.sle.shadows.datatexts.panels[name][info[#info]] = value; ENH:ToggleDTShadows() end,
+	-- 		args = {
+	-- 			backdrop = {
+	-- 				order = 2,
+	-- 				type = 'toggle',
+	-- 				name = L["Panel"],
+	-- 				disabled = function() return not E.db.datatexts.panels[name].enable end,
+	-- 			},
+	-- 			size = {
+	-- 				order = 3,
+	-- 				type = 'range',
+	-- 				name = L["Size"],
+	-- 				min = 2, max = 10, step = 1,
+	-- 				disabled = function() return not E.db.datatexts.panels[name].enable end,
+	-- 				set = function(info, value)
+	-- 					E.db.sle.shadows.datatexts.panels[name][info[#info]] = value
+	-- 					if ENH.DummyPanels[name] and ENH.DummyPanels[name].enhshadow then
+	-- 						frame = ENH.DummyPanels[name]
+	-- 					end
+	-- 					frame.enhshadow.size = value
+	-- 					ENH:UpdateShadow(frame.enhshadow)
+	-- 				end,
+	-- 			},
+	-- 		},
+	-- 	}
+	-- 	if name == 'LeftChatDataPanel' or name == 'RightChatDataPanel' then
+	-- 		E.Options.args.sle.args.modules.args.shadows.args.datatexts.args[name].args.backdrop.set = function(info, value)
+	-- 			E.db.sle.shadows.datatexts.panels[name][info[#info]] = value
+	-- 			if ENH.DummyPanels[name] and ENH.DummyPanels[name].enhshadow then
+	-- 				frame = ENH.DummyPanels[name]
+	-- 			end
+	-- 			frame.enhshadow.backdrop = value
+	-- 			ENH:UpdateShadow(frame.enhshadow)
+	-- 			ENH:UpdateShadow(_G.LeftChatPanel.enhshadow)
+	-- 			ENH:UpdateShadow(_G.RightChatPanel.enhshadow)
+	-- 			ENH:ToggleDTShadows()
+	-- 		end
+	-- 	end
+	-- end
 
-	for i = 1, 10 do
-		E.Options.args.sle.args.modules.args.shadows.args.actionbars.args["bar"..i] = {
-			order = i + 7,
-			type = "toggle",
-			name = L["Bar "]..i,
-			disabled = function() return not E.private.actionbar.enable or not E.db.actionbar['bar'..i].enabled or not E.private.sle.module.shadows.enable end,
+	for unit, config in pairs(ENH.frames.unitframes) do
+		E.Options.args.sle.args.modules.args.shadows.args.unitframes.args[unit] = {
+			order = config.order,
+			type = 'group',
+			name = function() return format(E.db.unitframe.units[unit].enable and '%s' or '|cffFF3333%s|r', gsub(E:StringTitle(unit), 't(arget)', 'T%1')) end,
+			disabled = function() return not E.private.unitframe.enable end,
+			get = function(info) return E.db.sle.shadows.unitframes[unit][info[#info]] end,
+			set = function(info, value)
+				E.db.sle.shadows.unitframes[unit][info[#info]] = value;
+				local ufname = E:StringTitle(unit):gsub('t(arget)', 'T%1')
+				SUF['Arrange'..ufname]()
+			end,
+			args = {
+				elvuiconfig = {
+					order = 0,
+					type = 'execute',
+					name = gsub('ElvUI: '..E:StringTitle(unit)..' '..L["Frame"], 't(arget)', 'T%1'),
+					width = 'full',
+					func = function() E.Libs['AceConfigDialog']:SelectGroup('ElvUI', 'unitframe', config.group, unit, 'generalGroup') end,
+					disabled = function() return false end,
+				},
+				legacy = {
+					order = 1,
+					type = 'toggle',
+					name = L["Legacy Shadows"],
+					desc = L["Tries to place a shadow around the health, power, and classbars as one frame instead of individual frames."],
+					disabled = function() return not E.db.unitframe.units[unit].enable end,
+				},
+				health = {
+					order = 2,
+					type = 'toggle',
+					name = L["Health"],
+					disabled = function() return not E.db.unitframe.units[unit].enable end,
+				},
+				power = {
+					order = 3,
+					type = 'toggle',
+					name = L["Power"],
+					disabled = function() return not E.db.unitframe.units[unit].enable end,
+				},
+			},
 		}
-		E.Options.args.sle.args.modules.args.shadows.args.actionbars.args["bar"..i.."buttons"] = {
-			order = i + 7,
-			type = "toggle",
-			name = format(L["SLE_EnhShadows_BarButtons_Option"], i),
-			disabled = function() return not E.private.actionbar.enable or not E.db.actionbar['bar'..i].enabled or not E.private.sle.module.shadows.enable end,
+
+		if unit == 'player' then
+			E.Options.args.sle.args.modules.args.shadows.args.unitframes.args[unit].args.classbar = {
+				order = 4,
+				type = 'toggle',
+				name = L["Classbar"],
+				disabled = function() return not E.db.unitframe.units[unit].enable or not (E.db.unitframe.units[unit].classbar.detachFromFrame or E.db.unitframe.units[unit].classbar.fill ~= 'fill') end,
+			}
+		end
+	end
+
+	-- TODO: Adds a section for a button (to return to S&L enhshadows) or to mirror shadow options
+	-- * The idea is to make options we have more known
+	-- E.Options.args.unitframe.args.groupUnits.args[unit].args.generalGroup.args.slshadow = {
+	-- 	order = -1,
+	-- 	name = 'S&L Shadows',
+	-- 	type = 'group',
+	-- 	inline = true,
+	-- 	args = {
+	-- 		configplayer = {
+	-- 			order = 0,
+	-- 			type = 'execute',
+	-- 			name = 'S&L: '..E:StringTitle(unit)..' Shadows',
+	-- 			width = 'full',
+	-- 			func = function() E.Libs["AceConfigDialog"]:SelectGroup("ElvUI", "sle", 'modules', "shadows", "unitframes", unit) end,
+	-- 			hidden = function()
+	-- 				if not E.private.skins.blizzard.enable then return true end
+	-- 				return not (E.private.skins.blizzard.character or E.private.skins.blizzard.inspect)
+	-- 			end,
+	-- 		}
+	-- 	}
+	-- }
+
+	-- Inserts Actionbars 1-10 shadow options into the config
+	for i = 1, 10 do
+		E.Options.args.sle.args.modules.args.shadows.args.actionbars.args['bar'..i] = {
+			order = i,
+			type = 'group',
+			name = function() return format(E.db.actionbar['bar'..i].enabled and '%s' or '|cffFF3333%s|r', L["Bar "]..i) end,
+			disabled = function() return not E.ActionBars.Initialized end,
+			get = function(info) return E.db.sle.shadows.actionbars['bar'..i][info[#info]] end,
+			set = function(info, value) E.db.sle.shadows.actionbars['bar'..i][info[#info]] = value; ENH:ToggleABShadows() end,
+			args = {
+				buttons = {
+					order = 1,
+					type = 'toggle',
+					name = L["Buttons"],
+					desc = format(L["Enables a shadow on the %s when it's enabled."], strlower(L["Buttons"])),
+				},
+				backdrop = {
+					order = 2,
+					type = 'toggle',
+					name = L["Backdrop"],
+					desc = format(L["Enables a shadow on the %s when it's enabled."], strlower(L["Backdrop"])),
+				},
+				size = {
+					order = 3,
+					type = 'range',
+					name = L["Size"],
+					min = 2, max = 10, step = 1,
+					set = function(info, value)
+						E.db.sle.shadows.actionbars['bar'..i][info[#info]] = value
+						_G['ElvUI_Bar'..i].enhshadow.size = value
+						ENH:UpdateShadow(_G['ElvUI_Bar'..i].enhshadow)
+
+						for k = 1, 12 do
+							local buttonBars = {_G['ElvUI_Bar'..i..'Button'..k]}
+							for _, button in pairs(buttonBars) do
+								button.enhshadow.size = value
+								ENH:UpdateShadow(button.enhshadow)
+							end
+						end
+					end,
+				},
+			},
 		}
 	end
 end

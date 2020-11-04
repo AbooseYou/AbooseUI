@@ -6,6 +6,192 @@ DeathGraphsDBDeaths = {
 		["name"] = "Vexiona",
 		["id"] = 2370,
 		["diff"] = 15,
+		["player_db"] = {
+			["Calcnerd"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Calcnerd",
+				["class"] = "WARRIOR",
+			},
+			["Deathmurt"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Deathmurt",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Skeetshots"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Skeetshots",
+				["class"] = "HUNTER",
+			},
+			["Splashfest"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Splashfest",
+				["class"] = "MAGE",
+			},
+			["Dreari"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Dreari",
+				["class"] = "ROGUE",
+			},
+			["Jurohh"] = {
+				["name"] = "Jurohh",
+				["class"] = "ROGUE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Sezy"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Sezy",
+				["class"] = "HUNTER",
+			},
+			["Meowpheus"] = {
+				["name"] = "Meowpheus",
+				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Earthcrush"] = {
+				["name"] = "Earthcrush",
+				["class"] = "SHAMAN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Jurow"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Jurow",
+				["class"] = "SHAMAN",
+			},
+			["Seiche"] = {
+				["name"] = "Seiche",
+				["class"] = "MONK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Aeila"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Aeila",
+				["class"] = "WARLOCK",
+			},
+			["Pallyness"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Pallyness",
+				["class"] = "PALADIN",
+			},
+			["Hammathorn"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Hammathorn",
+				["class"] = "PALADIN",
+			},
+			["Etuscan"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Etuscan",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Càtàlyst"] = {
+				["name"] = "Càtàlyst",
+				["class"] = "MAGE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Tissia"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Tissia",
+				["class"] = "HUNTER",
+			},
+			["Xandreari"] = {
+				["name"] = "Xandreari",
+				["class"] = "DEATHKNIGHT",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Psifi"] = {
+				["name"] = "Psifi",
+				["class"] = "PRIEST",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Nenka"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Nenka",
+				["class"] = "WARRIOR",
+			},
+			["Murderlock"] = {
+				["name"] = "Murderlock",
+				["class"] = "WARLOCK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Tauryn"] = {
+				["name"] = "Tauryn",
+				["class"] = "DEATHKNIGHT",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Malkizor"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Malkizor",
+				["class"] = "ROGUE",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 9,
@@ -18,216 +204,12 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["diff"] = 15,
 		},
-		["player_db"] = {
-			["Calcnerd"] = {
-				["name"] = "Calcnerd",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Deathmurt"] = {
-				["name"] = "Deathmurt",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Skeetshots"] = {
-				["name"] = "Skeetshots",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Splashfest"] = {
-				["name"] = "Splashfest",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Dreari"] = {
-				["name"] = "Dreari",
-				["class"] = "ROGUE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Jurohh"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Jurohh",
-				["class"] = "ROGUE",
-			},
-			["Sezy"] = {
-				["name"] = "Sezy",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Meowpheus"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Meowpheus",
-				["class"] = "DRUID",
-			},
-			["Earthcrush"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Earthcrush",
-				["class"] = "SHAMAN",
-			},
-			["Jurow"] = {
-				["name"] = "Jurow",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Seiche"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Seiche",
-				["class"] = "MONK",
-			},
-			["Aeila"] = {
-				["name"] = "Aeila",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Pallyness"] = {
-				["name"] = "Pallyness",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Hammathorn"] = {
-				["name"] = "Hammathorn",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Etuscan"] = {
-				["name"] = "Etuscan",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Càtàlyst"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Càtàlyst",
-				["class"] = "MAGE",
-			},
-			["Tissia"] = {
-				["name"] = "Tissia",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Xandreari"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Xandreari",
-				["class"] = "DEATHKNIGHT",
-			},
-			["Psifi"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Psifi",
-				["class"] = "PRIEST",
-			},
-			["Nenka"] = {
-				["name"] = "Nenka",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Murderlock"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Murderlock",
-				["class"] = "WARLOCK",
-			},
-			["Tauryn"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Tauryn",
-				["class"] = "DEATHKNIGHT",
-			},
-			["Malkizor"] = {
-				["name"] = "Malkizor",
-				["class"] = "ROGUE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["237315"] = {
 		["hash"] = "237315",
 		["type"] = "deaths",
 		["name"] = "Drest'agath",
 		["id"] = 2373,
-		["player_db"] = {
-			["Jurow"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Jurow",
-				["overall"] = {
-				},
-			},
-			["Etuscan"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Etuscan",
-				["overall"] = {
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 7,
@@ -241,6 +223,24 @@ DeathGraphsDBDeaths = {
 			["id"] = 2343,
 			["killed"] = true,
 		},
+		["player_db"] = {
+			["Jurow"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Jurow",
+			},
+			["Etuscan"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Etuscan",
+			},
+		},
 		["diff"] = 15,
 	},
 	["237515"] = {
@@ -249,6 +249,88 @@ DeathGraphsDBDeaths = {
 		["name"] = "N'Zoth the Corruptor",
 		["id"] = 2375,
 		["diff"] = 15,
+		["player_db"] = {
+			["Seiche"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Seiche",
+				["class"] = "MONK",
+			},
+			["Tauryn"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Tauryn",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Pallyness"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Pallyness",
+				["class"] = "PALADIN",
+			},
+			["Xandreari"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Xandreari",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Jurohh"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Jurohh",
+				["class"] = "ROGUE",
+			},
+			["Murderlock"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Murderlock",
+				["class"] = "WARLOCK",
+			},
+			["Deathmurt"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Deathmurt",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Shamanewdles"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Shamanewdles",
+				["class"] = "SHAMAN",
+			},
+			["Càtàlyst"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Càtàlyst",
+				["class"] = "MAGE",
+			},
+			["Malkizor"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Malkizor",
+				["class"] = "ROGUE",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 12,
@@ -261,6 +343,13 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["diff"] = 15,
 		},
+	},
+	["237715"] = {
+		["hash"] = "237715",
+		["type"] = "deaths",
+		["name"] = "Dark Inquisitor Xanesh",
+		["id"] = 2377,
+		["diff"] = 15,
 		["player_db"] = {
 			["Seiche"] = {
 				["name"] = "Seiche",
@@ -270,9 +359,9 @@ DeathGraphsDBDeaths = {
 				["deaths"] = {
 				},
 			},
-			["Tauryn"] = {
-				["name"] = "Tauryn",
-				["class"] = "DEATHKNIGHT",
+			["Aeila"] = {
+				["name"] = "Aeila",
+				["class"] = "WARLOCK",
 				["overall"] = {
 				},
 				["deaths"] = {
@@ -286,30 +375,6 @@ DeathGraphsDBDeaths = {
 				["deaths"] = {
 				},
 			},
-			["Xandreari"] = {
-				["name"] = "Xandreari",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Jurohh"] = {
-				["name"] = "Jurohh",
-				["class"] = "ROGUE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Murderlock"] = {
-				["name"] = "Murderlock",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
 			["Deathmurt"] = {
 				["name"] = "Deathmurt",
 				["class"] = "DEATHKNIGHT",
@@ -318,9 +383,33 @@ DeathGraphsDBDeaths = {
 				["deaths"] = {
 				},
 			},
-			["Shamanewdles"] = {
-				["name"] = "Shamanewdles",
-				["class"] = "SHAMAN",
+			["Etuscan"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Etuscan",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Dreari"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Dreari",
+				["class"] = "ROGUE",
+			},
+			["Meowpheus"] = {
+				["name"] = "Meowpheus",
+				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Sezy"] = {
+				["name"] = "Sezy",
+				["class"] = "HUNTER",
 				["overall"] = {
 				},
 				["deaths"] = {
@@ -329,6 +418,30 @@ DeathGraphsDBDeaths = {
 			["Càtàlyst"] = {
 				["name"] = "Càtàlyst",
 				["class"] = "MAGE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Earthcrush"] = {
+				["name"] = "Earthcrush",
+				["class"] = "SHAMAN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Psifi"] = {
+				["name"] = "Psifi",
+				["class"] = "PRIEST",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Murderlock"] = {
+				["name"] = "Murderlock",
+				["class"] = "WARLOCK",
 				["overall"] = {
 				},
 				["deaths"] = {
@@ -343,13 +456,6 @@ DeathGraphsDBDeaths = {
 				},
 			},
 		},
-	},
-	["237715"] = {
-		["hash"] = "237715",
-		["type"] = "deaths",
-		["name"] = "Dark Inquisitor Xanesh",
-		["id"] = 2377,
-		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 4,
@@ -363,6 +469,13 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["killed"] = true,
 		},
+	},
+	["236415"] = {
+		["hash"] = "236415",
+		["type"] = "deaths",
+		["name"] = "Ra-den the Despoiled",
+		["id"] = 2364,
+		["diff"] = 15,
 		["player_db"] = {
 			["Seiche"] = {
 				["overall"] = {
@@ -372,13 +485,13 @@ DeathGraphsDBDeaths = {
 				["name"] = "Seiche",
 				["class"] = "MONK",
 			},
-			["Aeila"] = {
+			["Deathmurt"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Aeila",
-				["class"] = "WARLOCK",
+				["name"] = "Deathmurt",
+				["class"] = "DEATHKNIGHT",
 			},
 			["Pallyness"] = {
 				["overall"] = {
@@ -388,53 +501,21 @@ DeathGraphsDBDeaths = {
 				["name"] = "Pallyness",
 				["class"] = "PALADIN",
 			},
-			["Deathmurt"] = {
+			["Tauryn"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Deathmurt",
+				["name"] = "Tauryn",
 				["class"] = "DEATHKNIGHT",
 			},
-			["Etuscan"] = {
-				["name"] = "Etuscan",
-				["class"] = "DEATHKNIGHT",
+			["Skeetshots"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-			},
-			["Dreari"] = {
-				["name"] = "Dreari",
-				["class"] = "ROGUE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Meowpheus"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Meowpheus",
-				["class"] = "DRUID",
-			},
-			["Sezy"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Sezy",
+				["name"] = "Skeetshots",
 				["class"] = "HUNTER",
-			},
-			["Càtàlyst"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Càtàlyst",
-				["class"] = "MAGE",
 			},
 			["Psifi"] = {
 				["overall"] = {
@@ -444,13 +525,37 @@ DeathGraphsDBDeaths = {
 				["name"] = "Psifi",
 				["class"] = "PRIEST",
 			},
-			["Earthcrush"] = {
+			["Meowpheus"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Earthcrush",
-				["class"] = "SHAMAN",
+				["name"] = "Meowpheus",
+				["class"] = "DRUID",
+			},
+			["Xandreari"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Xandreari",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Nenka"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Nenka",
+				["class"] = "WARRIOR",
+			},
+			["Sezy"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Sezy",
+				["class"] = "HUNTER",
 			},
 			["Murderlock"] = {
 				["overall"] = {
@@ -460,22 +565,39 @@ DeathGraphsDBDeaths = {
 				["name"] = "Murderlock",
 				["class"] = "WARLOCK",
 			},
-			["Malkizor"] = {
+			["Earthcrush"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Malkizor",
-				["class"] = "ROGUE",
+				["name"] = "Earthcrush",
+				["class"] = "SHAMAN",
+			},
+			["Càtàlyst"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Càtàlyst",
+				["class"] = "MAGE",
+			},
+			["Jurow"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Jurow",
+				["class"] = "SHAMAN",
+			},
+			["Calcnerd"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Calcnerd",
+				["class"] = "WARRIOR",
 			},
 		},
-	},
-	["236415"] = {
-		["hash"] = "236415",
-		["type"] = "deaths",
-		["name"] = "Ra-den the Despoiled",
-		["id"] = 2364,
-		["diff"] = 15,
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 10,
@@ -489,216 +611,12 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Seiche"] = {
-				["name"] = "Seiche",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Deathmurt"] = {
-				["name"] = "Deathmurt",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Pallyness"] = {
-				["name"] = "Pallyness",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Tauryn"] = {
-				["name"] = "Tauryn",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Skeetshots"] = {
-				["name"] = "Skeetshots",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Psifi"] = {
-				["name"] = "Psifi",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Meowpheus"] = {
-				["name"] = "Meowpheus",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Xandreari"] = {
-				["name"] = "Xandreari",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Nenka"] = {
-				["name"] = "Nenka",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Sezy"] = {
-				["name"] = "Sezy",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Murderlock"] = {
-				["name"] = "Murderlock",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Earthcrush"] = {
-				["name"] = "Earthcrush",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Càtàlyst"] = {
-				["name"] = "Càtàlyst",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Jurow"] = {
-				["name"] = "Jurow",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Calcnerd"] = {
-				["name"] = "Calcnerd",
-				["class"] = "WARRIOR",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["236715"] = {
 		["hash"] = "236715",
 		["type"] = "deaths",
 		["name"] = "Shad'har the Insatiable",
 		["id"] = 2367,
-		["player_db"] = {
-			["Calcnerd"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Calcnerd",
-				["overall"] = {
-				},
-			},
-			["Pallyness"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Pallyness",
-				["overall"] = {
-				},
-			},
-			["Splashfest"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Splashfest",
-				["overall"] = {
-				},
-			},
-			["Dreari"] = {
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-				["name"] = "Dreari",
-				["overall"] = {
-				},
-			},
-			["Etuscan"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Etuscan",
-				["overall"] = {
-				},
-			},
-			["Murderlock"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Murderlock",
-				["overall"] = {
-				},
-			},
-			["Nenka"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Nenka",
-				["overall"] = {
-				},
-			},
-			["Ghosthenkan"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Ghosthenkan",
-				["overall"] = {
-				},
-			},
-			["Jurow"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Jurow",
-				["overall"] = {
-				},
-			},
-			["Malkizor"] = {
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-				["name"] = "Malkizor",
-				["overall"] = {
-				},
-			},
-		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 6,
@@ -711,6 +629,88 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["encounter"] = "Shad'har the Insatiable",
 		},
+		["player_db"] = {
+			["Calcnerd"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Calcnerd",
+			},
+			["Pallyness"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Pallyness",
+			},
+			["Splashfest"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Splashfest",
+			},
+			["Dreari"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Dreari",
+			},
+			["Etuscan"] = {
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Etuscan",
+			},
+			["Murderlock"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Murderlock",
+			},
+			["Nenka"] = {
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Nenka",
+			},
+			["Ghosthenkan"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Ghosthenkan",
+			},
+			["Jurow"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Jurow",
+			},
+			["Malkizor"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Malkizor",
+			},
+		},
 		["diff"] = 15,
 	},
 	["236815"] = {
@@ -718,6 +718,24 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "Wrathion",
 		["id"] = 2368,
+		["player_db"] = {
+			["Seiche"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Seiche",
+				["overall"] = {
+				},
+			},
+			["Murderlock"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Murderlock",
+				["overall"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 1,
@@ -731,24 +749,6 @@ DeathGraphsDBDeaths = {
 			["id"] = 2329,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Seiche"] = {
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Seiche",
-			},
-			["Murderlock"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Murderlock",
-			},
-		},
 		["diff"] = 15,
 	},
 	["237415"] = {
@@ -757,6 +757,8 @@ DeathGraphsDBDeaths = {
 		["name"] = "Il'gynoth, Corruption Reborn",
 		["id"] = 2374,
 		["diff"] = 15,
+		["player_db"] = {
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 8,
@@ -770,8 +772,6 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["killed"] = true,
 		},
-		["player_db"] = {
-		},
 	},
 	["236615"] = {
 		["hash"] = "236615",
@@ -779,6 +779,112 @@ DeathGraphsDBDeaths = {
 		["name"] = "Carapace of N'Zoth",
 		["id"] = 2366,
 		["diff"] = 15,
+		["player_db"] = {
+			["Seiche"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Seiche",
+				["class"] = "MONK",
+			},
+			["Deathmurt"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Deathmurt",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Pallyness"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Pallyness",
+				["class"] = "PALADIN",
+			},
+			["Tauryn"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Tauryn",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Xandreari"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Xandreari",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Jurohh"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Jurohh",
+				["class"] = "ROGUE",
+			},
+			["Meowpheus"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Meowpheus",
+				["class"] = "DRUID",
+			},
+			["Earthcrush"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Earthcrush",
+				["class"] = "SHAMAN",
+			},
+			["Càtàlyst"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Càtàlyst",
+				["class"] = "MAGE",
+			},
+			["Psifi"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Psifi",
+				["class"] = "PRIEST",
+			},
+			["Murderlock"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Murderlock",
+				["class"] = "WARLOCK",
+			},
+			["Shamanewdles"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Shamanewdles",
+				["class"] = "SHAMAN",
+			},
+			["Malkizor"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Malkizor",
+				["class"] = "ROGUE",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 11,
@@ -791,118 +897,30 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["diff"] = 15,
 		},
-		["player_db"] = {
-			["Seiche"] = {
-				["name"] = "Seiche",
-				["class"] = "MONK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Deathmurt"] = {
-				["name"] = "Deathmurt",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Pallyness"] = {
-				["name"] = "Pallyness",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Tauryn"] = {
-				["name"] = "Tauryn",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Jurohh"] = {
-				["name"] = "Jurohh",
-				["class"] = "ROGUE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Xandreari"] = {
-				["name"] = "Xandreari",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Murderlock"] = {
-				["name"] = "Murderlock",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Earthcrush"] = {
-				["name"] = "Earthcrush",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Meowpheus"] = {
-				["name"] = "Meowpheus",
-				["class"] = "DRUID",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Psifi"] = {
-				["name"] = "Psifi",
-				["class"] = "PRIEST",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Shamanewdles"] = {
-				["name"] = "Shamanewdles",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Càtàlyst"] = {
-				["name"] = "Càtàlyst",
-				["class"] = "MAGE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Malkizor"] = {
-				["name"] = "Malkizor",
-				["class"] = "ROGUE",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["236915"] = {
 		["hash"] = "236915",
 		["type"] = "deaths",
 		["name"] = "Prophet Skitra",
 		["id"] = 2369,
+		["player_db"] = {
+			["Psifi"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Psifi",
+				["overall"] = {
+				},
+			},
+			["Murderlock"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Murderlock",
+				["overall"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 3,
@@ -916,24 +934,6 @@ DeathGraphsDBDeaths = {
 			["id"] = 2334,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Psifi"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Psifi",
-			},
-			["Murderlock"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Murderlock",
-			},
-		},
 		["diff"] = 15,
 	},
 	["237215"] = {
@@ -942,6 +942,32 @@ DeathGraphsDBDeaths = {
 		["name"] = "The Hivemind",
 		["id"] = 2372,
 		["diff"] = 15,
+		["player_db"] = {
+			["Deathmurt"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Deathmurt",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Tissia"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Tissia",
+				["class"] = "HUNTER",
+			},
+			["Murderlock"] = {
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+				["name"] = "Murderlock",
+				["class"] = "WARLOCK",
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 5,
@@ -955,38 +981,54 @@ DeathGraphsDBDeaths = {
 			["ej_instance_id"] = 1180,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Deathmurt"] = {
-				["name"] = "Deathmurt",
-				["class"] = "DEATHKNIGHT",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Tissia"] = {
-				["name"] = "Tissia",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Murderlock"] = {
-				["name"] = "Murderlock",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
 	},
 	["236515"] = {
 		["hash"] = "236515",
 		["type"] = "deaths",
 		["name"] = "Maut",
 		["id"] = 2365,
+		["player_db"] = {
+			["Càtàlyst"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Càtàlyst",
+				["overall"] = {
+				},
+			},
+			["Psifi"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Psifi",
+				["overall"] = {
+				},
+			},
+			["Ghosthenkan"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Ghosthenkan",
+				["overall"] = {
+				},
+			},
+			["Murderlock"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Murderlock",
+				["overall"] = {
+				},
+			},
+			["Malkizor"] = {
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+				["name"] = "Malkizor",
+				["overall"] = {
+				},
+			},
+		},
 		["boss_table"] = {
 			["diff_string"] = "Heroic",
 			["index"] = 2,
@@ -1000,48 +1042,6 @@ DeathGraphsDBDeaths = {
 			["id"] = 2327,
 			["killed"] = true,
 		},
-		["player_db"] = {
-			["Càtàlyst"] = {
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Càtàlyst",
-			},
-			["Psifi"] = {
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Psifi",
-			},
-			["Ghosthenkan"] = {
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Ghosthenkan",
-			},
-			["Murderlock"] = {
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Murderlock",
-			},
-			["Malkizor"] = {
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-				["overall"] = {
-				},
-				["name"] = "Malkizor",
-			},
-		},
 		["diff"] = 15,
 	},
 }
@@ -1052,18 +1052,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Vexiona",
 		["id"] = 2370,
 		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 9,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2336,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Vexiona",
-			["encounter"] = "Vexiona",
-			["ej_instance_id"] = 1180,
-			["diff"] = 15,
-		},
 		["player_db"] = {
 			["Calcnerd"] = {
 				["encounters"] = 3,
@@ -1332,12 +1320,37 @@ DeathGraphsDBEndurance = {
 				["class"] = "ROGUE",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 9,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2336,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Vexiona",
+			["encounter"] = "Vexiona",
+			["ej_instance_id"] = 1180,
+			["diff"] = 15,
+		},
 	},
 	["237315"] = {
 		["hash"] = "237315",
 		["type"] = "endurance",
 		["name"] = "Drest'agath",
 		["id"] = 2373,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 7,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Drest'agath",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Drest'agath",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["id"] = 2343,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Calcnerd"] = {
 				["encounters"] = 1,
@@ -1407,10 +1420,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Meowpheus"] = {
+			["Càtàlyst"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DRUID",
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
 			},
@@ -1421,10 +1434,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Càtàlyst"] = {
+			["Meowpheus"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "MAGE",
+				["class"] = "DRUID",
 				["deaths"] = {
 				},
 			},
@@ -1462,19 +1475,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 7,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Drest'agath",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Drest'agath",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["id"] = 2343,
-			["killed"] = true,
-		},
 		["diff"] = 15,
 	},
 	["237515"] = {
@@ -1483,18 +1483,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "N'Zoth the Corruptor",
 		["id"] = 2375,
 		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 12,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2344,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "N'Zoth the Corruptor",
-			["encounter"] = "N'Zoth the Corruptor",
-			["ej_instance_id"] = 1180,
-			["diff"] = 15,
-		},
 		["player_db"] = {
 			["Seiche"] = {
 				["encounters"] = 1,
@@ -1536,20 +1524,6 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DEATHKNIGHT",
 			},
-			["Càtàlyst"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Jurohh"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-			},
 			["Shamanewdles"] = {
 				["encounters"] = 1,
 				["points"] = 90,
@@ -1562,26 +1536,26 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "SHAMAN",
 			},
+			["Xandreari"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Càtàlyst"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+			},
 			["Sezy"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
 				["class"] = "HUNTER",
-			},
-			["Meowpheus"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Earthcrush"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
 			},
 			["Murderlock"] = {
 				["encounters"] = 1,
@@ -1595,12 +1569,26 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARLOCK",
 			},
-			["Xandreari"] = {
+			["Earthcrush"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
+				["class"] = "SHAMAN",
+			},
+			["Meowpheus"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Jurohh"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
 			},
 			["Malkizor"] = {
 				["encounters"] = 1,
@@ -1610,6 +1598,18 @@ DeathGraphsDBEndurance = {
 				["class"] = "ROGUE",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 12,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2344,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "N'Zoth the Corruptor",
+			["encounter"] = "N'Zoth the Corruptor",
+			["ej_instance_id"] = 1180,
+			["diff"] = 15,
+		},
 	},
 	["237715"] = {
 		["hash"] = "237715",
@@ -1617,19 +1617,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Dark Inquisitor Xanesh",
 		["id"] = 2377,
 		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 4,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Dark Inquisitor Xanesh",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Dark Inquisitor Xanesh",
-			["diff"] = 15,
-			["id"] = 2328,
-			["ej_instance_id"] = 1180,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Calcnerd"] = {
 				["encounters"] = 1,
@@ -1833,6 +1820,19 @@ DeathGraphsDBEndurance = {
 				["class"] = "ROGUE",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 4,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Dark Inquisitor Xanesh",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Dark Inquisitor Xanesh",
+			["diff"] = 15,
+			["id"] = 2328,
+			["ej_instance_id"] = 1180,
+			["killed"] = true,
+		},
 	},
 	["236415"] = {
 		["hash"] = "236415",
@@ -1840,19 +1840,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Ra-den the Despoiled",
 		["id"] = 2364,
 		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 10,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Ra-den the Despoiled",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Ra-den the Despoiled",
-			["diff"] = 15,
-			["id"] = 2331,
-			["ej_instance_id"] = 1180,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Calcnerd"] = {
 				["encounters"] = 1,
@@ -2020,13 +2007,6 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "SHAMAN",
 			},
-			["Psifi"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
 			["Nenka"] = {
 				["encounters"] = 1,
 				["points"] = 90,
@@ -2038,6 +2018,13 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 				["class"] = "WARRIOR",
+			},
+			["Psifi"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
 			},
 			["Tauryn"] = {
 				["encounters"] = 2,
@@ -2054,12 +2041,37 @@ DeathGraphsDBEndurance = {
 				["class"] = "ROGUE",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 10,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Ra-den the Despoiled",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Ra-den the Despoiled",
+			["diff"] = 15,
+			["id"] = 2331,
+			["ej_instance_id"] = 1180,
+			["killed"] = true,
+		},
 	},
 	["236715"] = {
 		["hash"] = "236715",
 		["type"] = "endurance",
 		["name"] = "Shad'har the Insatiable",
 		["id"] = 2367,
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 6,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2335,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Shad'har the Insatiable",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["encounter"] = "Shad'har the Insatiable",
+		},
 		["player_db"] = {
 			["Calcnerd"] = {
 				["encounters"] = 2,
@@ -2206,18 +2218,6 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 6,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2335,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Shad'har the Insatiable",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["encounter"] = "Shad'har the Insatiable",
-		},
 		["diff"] = 15,
 	},
 	["236815"] = {
@@ -2225,19 +2225,6 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "Wrathion",
 		["id"] = 2368,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 1,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Wrathion",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Wrathion",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["id"] = 2329,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Seiche"] = {
 				["encounters"] = 1,
@@ -2272,10 +2259,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Jurohh"] = {
+			["Xandreari"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "ROGUE",
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
 			},
@@ -2286,10 +2273,10 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 			},
-			["Xandreari"] = {
+			["Jurohh"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
+				["class"] = "ROGUE",
 				["deaths"] = {
 				},
 			},
@@ -2348,6 +2335,19 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 1,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Wrathion",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Wrathion",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["id"] = 2329,
+			["killed"] = true,
+		},
 		["diff"] = 15,
 	},
 	["237415"] = {
@@ -2356,19 +2356,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Il'gynoth, Corruption Reborn",
 		["id"] = 2374,
 		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 8,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Il'gynoth, Corruption Reborn",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Il'gynoth, Corruption Reborn",
-			["diff"] = 15,
-			["id"] = 2345,
-			["ej_instance_id"] = 1180,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Calcnerd"] = {
 				["encounters"] = 1,
@@ -2447,12 +2434,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "HUNTER",
 			},
-			["Càtàlyst"] = {
+			["Meowpheus"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
+				["class"] = "DRUID",
 			},
 			["Nenka"] = {
 				["encounters"] = 1,
@@ -2461,12 +2448,12 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARRIOR",
 			},
-			["Meowpheus"] = {
+			["Càtàlyst"] = {
 				["encounters"] = 1,
 				["points"] = 100,
 				["deaths"] = {
 				},
-				["class"] = "DRUID",
+				["class"] = "MAGE",
 			},
 			["Jurow"] = {
 				["encounters"] = 1,
@@ -2483,6 +2470,19 @@ DeathGraphsDBEndurance = {
 				["class"] = "ROGUE",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 8,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Il'gynoth, Corruption Reborn",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Il'gynoth, Corruption Reborn",
+			["diff"] = 15,
+			["id"] = 2345,
+			["ej_instance_id"] = 1180,
+			["killed"] = true,
+		},
 	},
 	["236615"] = {
 		["hash"] = "236615",
@@ -2490,18 +2490,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "Carapace of N'Zoth",
 		["id"] = 2366,
 		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 11,
-			["zone"] = "Ny'alotha, the Waking City",
-			["id"] = 2337,
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Carapace of N'Zoth",
-			["encounter"] = "Carapace of N'Zoth",
-			["ej_instance_id"] = 1180,
-			["diff"] = 15,
-		},
 		["player_db"] = {
 			["Seiche"] = {
 				["encounters"] = 3,
@@ -2553,12 +2541,17 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "DEATHKNIGHT",
 			},
-			["Meowpheus"] = {
+			["Càtàlyst"] = {
 				["encounters"] = 3,
-				["points"] = 300,
+				["points"] = 290,
 				["deaths"] = {
+					{
+						2, -- [1]
+						97.45900000000074, -- [2]
+						"Growth-Covered Tentacle |cFFFF333339,727|r", -- [3]
+					}, -- [1]
 				},
-				["class"] = "DRUID",
+				["class"] = "MAGE",
 			},
 			["Psifi"] = {
 				["encounters"] = 1,
@@ -2572,24 +2565,24 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "PRIEST",
 			},
-			["Jurohh"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-			},
-			["Càtàlyst"] = {
+			["Xandreari"] = {
 				["encounters"] = 3,
 				["points"] = 290,
 				["deaths"] = {
 					{
 						2, -- [1]
-						97.45900000000074, -- [2]
-						"Growth-Covered Tentacle |cFFFF333339,727|r", -- [3]
+						121.0220000000008, -- [2]
+						"Black Scar |cFFFF333319,987|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "MAGE",
+				["class"] = "DEATHKNIGHT",
+			},
+			["Meowpheus"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
 			},
 			["Sezy"] = {
 				["encounters"] = 3,
@@ -2597,20 +2590,6 @@ DeathGraphsDBEndurance = {
 				["deaths"] = {
 				},
 				["class"] = "HUNTER",
-			},
-			["Shamanewdles"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Earthcrush"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
 			},
 			["Murderlock"] = {
 				["encounters"] = 3,
@@ -2634,17 +2613,26 @@ DeathGraphsDBEndurance = {
 				},
 				["class"] = "WARLOCK",
 			},
-			["Xandreari"] = {
+			["Earthcrush"] = {
 				["encounters"] = 3,
-				["points"] = 290,
+				["points"] = 300,
 				["deaths"] = {
-					{
-						2, -- [1]
-						121.0220000000008, -- [2]
-						"Black Scar |cFFFF333319,987|r", -- [3]
-					}, -- [1]
 				},
-				["class"] = "DEATHKNIGHT",
+				["class"] = "SHAMAN",
+			},
+			["Shamanewdles"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Jurohh"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
 			},
 			["Malkizor"] = {
 				["encounters"] = 3,
@@ -2654,25 +2642,24 @@ DeathGraphsDBEndurance = {
 				["class"] = "ROGUE",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 11,
+			["zone"] = "Ny'alotha, the Waking City",
+			["id"] = 2337,
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Carapace of N'Zoth",
+			["encounter"] = "Carapace of N'Zoth",
+			["ej_instance_id"] = 1180,
+			["diff"] = 15,
+		},
 	},
 	["236915"] = {
 		["hash"] = "236915",
 		["type"] = "endurance",
 		["name"] = "Prophet Skitra",
 		["id"] = 2369,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 3,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Prophet Skitra",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Prophet Skitra",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["id"] = 2334,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Calcnerd"] = {
 				["encounters"] = 1,
@@ -2846,6 +2833,19 @@ DeathGraphsDBEndurance = {
 				},
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 3,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Prophet Skitra",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Prophet Skitra",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["id"] = 2334,
+			["killed"] = true,
+		},
 		["diff"] = 15,
 	},
 	["237215"] = {
@@ -2854,19 +2854,6 @@ DeathGraphsDBEndurance = {
 		["name"] = "The Hivemind",
 		["id"] = 2372,
 		["diff"] = 15,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 5,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "The Hivemind",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "The Hivemind",
-			["diff"] = 15,
-			["id"] = 2333,
-			["ej_instance_id"] = 1180,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Calcnerd"] = {
 				["encounters"] = 1,
@@ -3045,25 +3032,25 @@ DeathGraphsDBEndurance = {
 				["class"] = "ROGUE",
 			},
 		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 5,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "The Hivemind",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "The Hivemind",
+			["diff"] = 15,
+			["id"] = 2333,
+			["ej_instance_id"] = 1180,
+			["killed"] = true,
+		},
 	},
 	["236515"] = {
 		["hash"] = "236515",
 		["type"] = "endurance",
 		["name"] = "Maut",
 		["id"] = 2365,
-		["boss_table"] = {
-			["diff_string"] = "Heroic",
-			["index"] = 2,
-			["zone"] = "Ny'alotha, the Waking City",
-			["encounter"] = "Maut",
-			["mapid"] = 2217,
-			["try_number"] = 1,
-			["name"] = "Maut",
-			["diff"] = 15,
-			["ej_instance_id"] = 1180,
-			["id"] = 2327,
-			["killed"] = true,
-		},
 		["player_db"] = {
 			["Calcnerd"] = {
 				["encounters"] = 1,
@@ -3251,6 +3238,19 @@ DeathGraphsDBEndurance = {
 					}, -- [1]
 				},
 			},
+		},
+		["boss_table"] = {
+			["diff_string"] = "Heroic",
+			["index"] = 2,
+			["zone"] = "Ny'alotha, the Waking City",
+			["encounter"] = "Maut",
+			["mapid"] = 2217,
+			["try_number"] = 1,
+			["name"] = "Maut",
+			["diff"] = 15,
+			["ej_instance_id"] = 1180,
+			["id"] = 2327,
+			["killed"] = true,
 		},
 		["diff"] = 15,
 	},
@@ -7347,13 +7347,13 @@ DeathGraphsDBGraph = {
 			[96] = {
 				1603332254, -- [1]
 			},
+			[100] = {
+				1602816198, -- [1]
+			},
 			[51] = {
 				1602814993, -- [1]
 				1602815326, -- [2]
 				1602816198, -- [3]
-			},
-			[100] = {
-				1602816198, -- [1]
 			},
 			[52] = {
 				1603331910, -- [1]
@@ -7452,16 +7452,16 @@ DeathGraphsDBGraph = {
 	},
 	["236715"] = {
 		["deaths"] = {
-			[32] = {
-				1602811323, -- [1]
+			[91] = {
+				1602811693, -- [1]
 			},
 			[169] = {
 				1602811323, -- [1]
 			},
-			[91] = {
-				1602811693, -- [1]
+			[32] = {
+				1602811323, -- [1]
 			},
-			[163] = {
+			[149] = {
 				1602811323, -- [1]
 			},
 			[22] = {
@@ -7470,7 +7470,7 @@ DeathGraphsDBGraph = {
 			[42] = {
 				1602811323, -- [1]
 			},
-			[149] = {
+			[163] = {
 				1602811323, -- [1]
 			},
 		},
@@ -7515,7 +7515,7 @@ DeathGraphsDBGraph = {
 			[7] = {
 				1603336429, -- [1]
 			},
-			[201] = {
+			[97] = {
 				1603336429, -- [1]
 			},
 			[64] = {
@@ -7524,7 +7524,7 @@ DeathGraphsDBGraph = {
 			[57] = {
 				1603335900, -- [1]
 			},
-			[97] = {
+			[201] = {
 				1603336429, -- [1]
 			},
 			[121] = {
@@ -7568,9 +7568,9 @@ DeathGraphsDBGraph = {
 			[107] = {
 				1603335162, -- [1]
 			},
-			[84] = {
-				1602817743, -- [1]
-				1602817743, -- [2]
+			[220] = {
+				1603334470, -- [1]
+				1603335162, -- [2]
 			},
 			[217] = {
 				1602817743, -- [1]
@@ -7584,19 +7584,19 @@ DeathGraphsDBGraph = {
 			[151] = {
 				1603334470, -- [1]
 			},
-			[220] = {
-				1603334470, -- [1]
-				1603335162, -- [2]
-			},
-			[242] = {
+			[84] = {
 				1602817743, -- [1]
-				1603335162, -- [2]
+				1602817743, -- [2]
+			},
+			[227] = {
+				1603334470, -- [1]
 			},
 			[205] = {
 				1603335162, -- [1]
 			},
-			[227] = {
-				1603334470, -- [1]
+			[242] = {
+				1602817743, -- [1]
+				1603335162, -- [2]
 			},
 		},
 		["spells"] = {

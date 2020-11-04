@@ -26,6 +26,7 @@ SimulationCraftDB = {
 		["Lilobv - Mal'Ganis"] = "Lilobv - Mal'Ganis",
 		["Obq - Mal'Ganis"] = "Obq - Mal'Ganis",
 		["Affixe - Stormrage"] = "Affixe - Stormrage",
+		["Õbv - Frostmourne"] = "Õbv - Frostmourne",
 		["Pallyneess - Illidan"] = "Pallyneess - Illidan",
 		["Pallybank - Illidan"] = "Pallybank - Illidan",
 		["Mylilbank - Area 52"] = "Mylilbank - Area 52",
@@ -113,6 +114,8 @@ SimulationCraftDB = {
 		["Obq - Mal'Ganis"] = {
 		},
 		["Affixe - Stormrage"] = {
+		},
+		["Õbv - Frostmourne"] = {
 		},
 		["Pallyneess - Illidan"] = {
 		},

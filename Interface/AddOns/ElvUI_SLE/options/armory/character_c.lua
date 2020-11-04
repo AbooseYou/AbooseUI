@@ -1,18 +1,11 @@
 local SLE, T, E, L, V, P, G = unpack(select(2, ...))
-local Armory = SLE:GetModule("Armory_Core")
-local CA = SLE:GetModule("Armory_Character")
-local M = E:GetModule("Misc")
+local Armory = SLE:GetModule('Armory_Core')
+local CA = SLE:GetModule('Armory_Character')
+local M = E:GetModule('Misc')
 
 local function configTable()
 	if not SLE.initialized then return end
 	local ACH = E.Libs.ACH
-
-	local FontStyleList = {
-		NONE = NONE,
-		OUTLINE = 'OUTLINE',
-		MONOCHROMEOUTLINE = 'MONOCROMEOUTLINE',
-		THICKOUTLINE = 'THICKOUTLINE'
-	}
 
 	E.Options.args.sle.args.modules.args.armory.args.character = {
 		type = 'group',
@@ -24,7 +17,7 @@ local function configTable()
 			header = ACH:Header(L["Character Armory"], 1),
 			showWarning = {
 				order = 2,
-				type = "toggle",
+				type = 'toggle',
 				name = L["Show Warning Icon"],
 				desc = L["Show Missing Enchants or Gems"],
 				get = function(info) return E.db.sle.armory.character[(info[#info])] end,
@@ -44,9 +37,9 @@ local function configTable()
 						order = 1,
 						set = function(info, value) E.db.sle.armory.character[(info[#info - 1])][(info[#info])] = value; M:UpdateCharacterInfo() end,
 						values = {
-							["NONE"] = NONE,
-							["QUALITY"] = COLORBLIND_ITEM_QUALITY,
-							["GRADIENT"] = L["Gradient"],
+							NONE = NONE,
+							QUALITY = COLORBLIND_ITEM_QUALITY,
+							GRADIENT = L["Gradient"],
 						},
 					},
 					xOffset = {
@@ -69,7 +62,7 @@ local function configTable()
 					},
 					fontSize = {
 						type = 'range',
-						name = L["Font Size"],
+						name = L["FONT_SIZE"],
 						order = 21,
 						min = 6, max = 22, step = 1,
 					},
@@ -77,7 +70,7 @@ local function configTable()
 						type = 'select',
 						name = L["Font Outline"],
 						order = 22,
-						values = FontStyleList,
+						values = T.Values.FontFlags,
 					},
 				}
 			},
@@ -97,7 +90,7 @@ local function configTable()
 					},
 					fontSize = {
 						type = 'range',
-						name = L["Font Size"],
+						name = L["FONT_SIZE"],
 						order = 2,
 						min = 6, max = 22, step = 1,
 					},
@@ -105,7 +98,7 @@ local function configTable()
 						type = 'select',
 						name = L["Font Outline"],
 						order = 3,
-						values = FontStyleList,
+						values = T.Values.FontFlags,
 					},
 					xOffset = {
 						type = 'range',
@@ -154,17 +147,17 @@ local function configTable()
 				type = 'group',
 				name = L["Transmog"],
 				get = function(info) return E.db.sle.armory.character[(info[#info - 1])][(info[#info])] end,
-				set = function(info, value) E.db.sle.armory.character[(info[#info - 1])][(info[#info])] = value; Armory:UpdatePageInfo(_G.CharacterFrame, "Character") end,
+				set = function(info, value) E.db.sle.armory.character[(info[#info - 1])][(info[#info])] = value; Armory:UpdatePageInfo(_G.CharacterFrame, 'Character') end,
 				args = {
 					enableArrow = {
 						order = 1,
-						type = "toggle",
+						type = 'toggle',
 						name = L["Enable Arrow"],
 						desc = L["Enables a small arrow-like indicator on the item slot. Howering over this arrow will show the item this slot is transmogged into."],
 					},
 					enableGlow = {
 						order = 2,
-						type = "toggle",
+						type = 'toggle',
 						name = L["Enable Glow"],
 					},
 					glowNumber = {
@@ -239,7 +232,7 @@ local function configTable()
 					},
 					fontSize = {
 						type = 'range',
-						name = L["Font Size"],
+						name = L["FONT_SIZE"],
 						order = 4,
 						min = 6, max = 22, step = 1,
 					},
@@ -247,7 +240,7 @@ local function configTable()
 						type = 'select',
 						name = L["Font Outline"],
 						order = 5,
-						values = FontStyleList,
+						values = T.Values.FontFlags,
 					},
 					xOffset = {
 						type = 'range',
@@ -286,7 +279,7 @@ local function configTable()
 						hidden = function() return E.db.sle.armory.character.background.selectedBG ~= 'CUSTOM' end
 					},
 					overlay = {
-						type = "toggle",
+						type = 'toggle',
 						order = 3,
 						name = L["Overlay"],
 						desc = L["Show ElvUI skin's backdrop overlay"],

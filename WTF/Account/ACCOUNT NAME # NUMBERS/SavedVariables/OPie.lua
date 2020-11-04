@@ -19,27 +19,37 @@ OneRing_Config = {
 				["Tr"] = "CTRL-C",
 				["CommonTrades"] = false,
 				["RaidStuff"] = "SHIFT-Z",
+				["ReadyPull"] = "SHIFT-V",
 				["Gear2"] = "ALT-C",
 				["Mounts"] = "SHIFT-Q",
-				["ReadyPull"] = "SHIFT-V",
 				["DruidShift"] = false,
-				["FParth"] = "\\",
 				["MiniMsp"] = "ALT-V",
+				["FParth"] = "\\",
 				["OPieAutoQuest"] = false,
+				["AurasFroms"] = "SHIFT-TAB",
 				["Gear1"] = "SHIFT-B",
 				["MageTravel"] = "SHIFT-C",
 			},
 			["RotationTokens"] = {
-				["ABuep5u5q8r"] = "OPCCTa",
 				["ABue4QlA7k2"] = "ABue4QlA7ky",
-				["ABuepzwUFKwJ"] = "ABuegI7hs=k",
+				["ABuep5u5q8r"] = "OPCCTg",
+				["ABuepzwUFKwK"] = "ABuepzwUFK=",
+				["ABuepzwUFKwJ"] = "ABuehHjmvn1",
 				["ABuea=SLMywS"] = "ABuea=SLMyw=",
-				["ABueffl0Xmh"] = "ABueffl0Xms",
+				["ABueffl0Xmh"] = "ABueffl0Xma",
 			},
 		},
 	},
 	["PersistentStorage"] = {
 		["RingKeeper"] = {
+			["OPieDeletedRings"] = {
+				["TrinketSlots"] = true,
+				["WorldMarkers"] = true,
+				["SpecMenu"] = true,
+			},
+			["OPieFlagStore"] = {
+				["StoreVersion"] = 2,
+			},
 			["Shit"] = {
 				{
 					"item", -- [1]
@@ -125,8 +135,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABueaG4xxMr",
 				}, -- [17]
 				{
-					["sliceToken"] = "ABueswVOqZr",
 					["id"] = 126892,
+					["sliceToken"] = "ABueswVOqZr",
 				}, -- [18]
 				{
 					"item", -- [1]
@@ -184,10 +194,77 @@ OneRing_Config = {
 				["name"] = "Eng Teles",
 				["save"] = true,
 			},
-			["OPieDeletedRings"] = {
-				["TrinketSlots"] = true,
-				["WorldMarkers"] = true,
-				["SpecMenu"] = true,
+			["Gear"] = {
+				{
+					"equipmentset", -- [1]
+					"Sholder-Clock", -- [2]
+					["show"] = "[spec:103/105/102] hide;",
+					["sliceToken"] = "ABue3ty4Lby",
+				}, -- [1]
+				{
+					"equipmentset", -- [1]
+					"Chest - Luffa ST", -- [2]
+					["show"] = "[spec:102/103/105] hide;",
+					["sliceToken"] = "ABues9xTM2v",
+				}, -- [2]
+				{
+					"equipmentset", -- [1]
+					"Chest-Luffa", -- [2]
+					["show"] = "[spec:105/103/102] hide;",
+					["sliceToken"] = "ABue3qtIKIu",
+				}, -- [3]
+				{
+					"equipmentset", -- [1]
+					"Neck-Luffa", -- [2]
+					["show"] = "[spec:105/103/102] hide;",
+					["sliceToken"] = "ABues9xTM2c",
+				}, -- [4]
+				{
+					"equipmentset", -- [1]
+					"MASS AOE", -- [2]
+					["show"] = "[spec:105/103/102] hide;",
+					["sliceToken"] = "ABue3qtIKIy",
+				}, -- [5]
+				{
+					"equipmentset", -- [1]
+					"Chest-Neck", -- [2]
+					["show"] = "[spec:105/103/102] hide;",
+					["sliceToken"] = "ABues9xTM2x",
+				}, -- [6]
+				{
+					"equipmentset", -- [1]
+					"Luffa-legs AOE", -- [2]
+					["show"] = "[spec:105/103/102] hide;",
+					["sliceToken"] = "ABues9xTM25",
+				}, -- [7]
+				{
+					"equipmentset", -- [1]
+					"Cat - ST", -- [2]
+					["show"] = "[spec:105/104/102] hide;",
+					["sliceToken"] = "ABuesDua8Hf",
+				}, -- [8]
+				{
+					"equipmentset", -- [1]
+					"Cat - AOE", -- [2]
+					["show"] = "[spec:105/104/102] hide;",
+					["sliceToken"] = "ABuesDua8Hd",
+				}, -- [9]
+				{
+					"equipmentset", -- [1]
+					"Resto Kek", -- [2]
+					["show"] = "[spec:102/103/104] hide;",
+					["sliceToken"] = "ABuesCAnSbs",
+				}, -- [10]
+				{
+					"equipmentset", -- [1]
+					"Boomken", -- [2]
+					["show"] = "[spec:105/104/103] hide;",
+					["sliceToken"] = "ABuesCAnSba",
+				}, -- [11]
+				["limit"] = "Iabooseyou-Stormrage",
+				["save"] = true,
+				["hotkey"] = "ALT-C",
+				["name"] = "Gear",
 			},
 			["MiniMsp"] = {
 				{
@@ -276,9 +353,6 @@ OneRing_Config = {
 				}, -- [8]
 				["name"] = "Pets",
 				["save"] = true,
-			},
-			["OPieFlagStore"] = {
-				["StoreVersion"] = 2,
 			},
 			["MageTravel"] = {
 				{
@@ -416,17 +490,31 @@ OneRing_Config = {
 				["save"] = true,
 				["hotkey"] = "SHIFT-F",
 			},
-			["Tr"] = {
+			["ReadyPull"] = {
 				{
-					"equipmentset", -- [1]
-					"Apoc - Fever", -- [2]
-					["show"] = "[spec:105/103/102] hide;",
-					["sliceToken"] = "ABuesCAnSb3",
+					["sliceToken"] = "ABuea=SLMyw7",
+					["c"] = "ff00d3",
+					["id"] = "/readycheck\n",
+					["icon"] = 132161,
 				}, -- [1]
-				["limit"] = "Iabooseyou-Stormrage",
+				{
+					["sliceToken"] = "ABuea=SLMywE",
+					["c"] = "6f00ff",
+					["id"] = "/rt pull 0",
+					["icon"] = 132147,
+				}, -- [2]
+				{
+					"ring", -- [1]
+					"Pull", -- [2]
+					["sliceToken"] = "ABuea=SLMywS",
+				}, -- [3]
+				{
+					["sliceToken"] = "ABueaVNoK81",
+					["icon"] = 132181,
+					["id"] = "/rt inv",
+				}, -- [4]
+				["name"] = "Ready/Pull",
 				["save"] = true,
-				["hotkey"] = "CTRL-C",
-				["name"] = "Tr",
 			},
 			["arthStones"] = {
 				{
@@ -665,23 +753,58 @@ OneRing_Config = {
 				["name"] = "Raid Stuff",
 				["save"] = true,
 			},
-			["Bing"] = {
+			["Toys"] = {
 				{
 					"toy", -- [1]
-					87214, -- [2]
-					["sliceToken"] = "ABue4QlA7ku",
+					86589, -- [2]
+					["sliceToken"] = "ABuegI7hs=z",
 				}, -- [1]
 				{
 					"toy", -- [1]
-					111821, -- [2]
-					["sliceToken"] = "ABue4QlA7ky",
+					141862, -- [2]
+					["sliceToken"] = "ABuegI7hs=l",
 				}, -- [2]
 				{
 					"toy", -- [1]
-					168667, -- [2]
-					["sliceToken"] = "ABue4QlA7kt",
+					1973, -- [2]
+					["sliceToken"] = "ABuegI7hs=k",
 				}, -- [3]
-				["name"] = "Bing",
+				{
+					"toy", -- [1]
+					35275, -- [2]
+					["sliceToken"] = "ABuegI7hs=j",
+				}, -- [4]
+				{
+					"toy", -- [1]
+					119092, -- [2]
+					["sliceToken"] = "ABuegI7hs=4",
+				}, -- [5]
+				{
+					"toy", -- [1]
+					169275, -- [2]
+					["sliceToken"] = "ABuegI7hs=d",
+				}, -- [6]
+				{
+					"toy", -- [1]
+					134032, -- [2]
+					["sliceToken"] = "ABuehkvoR9r",
+				}, -- [7]
+				{
+					"toy", -- [1]
+					163736, -- [2]
+					["sliceToken"] = "ABuegI7hs=s",
+				}, -- [8]
+				{
+					"toy", -- [1]
+					128807, -- [2]
+					["sliceToken"] = "ABuehHjmvn1",
+				}, -- [9]
+				{
+					"toy", -- [1]
+					166779, -- [2]
+					["sliceToken"] = "ABuehL0KNye",
+				}, -- [10]
+				["name"] = "Toys",
 				["save"] = true,
 			},
 			["Gear2"] = {
@@ -855,59 +978,17 @@ OneRing_Config = {
 				["name"] = "Gear",
 				["limit"] = "Pallyness-Stormrage",
 			},
-			["Toys"] = {
+			["Tr"] = {
 				{
-					"toy", -- [1]
-					86589, -- [2]
-					["sliceToken"] = "ABuegI7hs=z",
+					"equipmentset", -- [1]
+					"Apoc - Fever", -- [2]
+					["show"] = "[spec:105/103/102] hide;",
+					["sliceToken"] = "ABuesCAnSb3",
 				}, -- [1]
-				{
-					"toy", -- [1]
-					141862, -- [2]
-					["sliceToken"] = "ABuegI7hs=l",
-				}, -- [2]
-				{
-					"toy", -- [1]
-					1973, -- [2]
-					["sliceToken"] = "ABuegI7hs=k",
-				}, -- [3]
-				{
-					"toy", -- [1]
-					35275, -- [2]
-					["sliceToken"] = "ABuegI7hs=j",
-				}, -- [4]
-				{
-					"toy", -- [1]
-					119092, -- [2]
-					["sliceToken"] = "ABuegI7hs=4",
-				}, -- [5]
-				{
-					"toy", -- [1]
-					169275, -- [2]
-					["sliceToken"] = "ABuegI7hs=d",
-				}, -- [6]
-				{
-					"toy", -- [1]
-					134032, -- [2]
-					["sliceToken"] = "ABuehkvoR9r",
-				}, -- [7]
-				{
-					"toy", -- [1]
-					163736, -- [2]
-					["sliceToken"] = "ABuegI7hs=s",
-				}, -- [8]
-				{
-					"toy", -- [1]
-					128807, -- [2]
-					["sliceToken"] = "ABuehHjmvn1",
-				}, -- [9]
-				{
-					"toy", -- [1]
-					166779, -- [2]
-					["sliceToken"] = "ABuehL0KNye",
-				}, -- [10]
-				["name"] = "Toys",
+				["limit"] = "Iabooseyou-Stormrage",
 				["save"] = true,
+				["hotkey"] = "CTRL-C",
+				["name"] = "Tr",
 			},
 			["FParth"] = {
 				{
@@ -956,77 +1037,24 @@ OneRing_Config = {
 				["name"] = "Pull",
 				["save"] = true,
 			},
-			["Gear"] = {
+			["Bing"] = {
 				{
-					"equipmentset", -- [1]
-					"Sholder-Clock", -- [2]
-					["show"] = "[spec:103/105/102] hide;",
-					["sliceToken"] = "ABue3ty4Lby",
+					"toy", -- [1]
+					87214, -- [2]
+					["sliceToken"] = "ABue4QlA7ku",
 				}, -- [1]
 				{
-					"equipmentset", -- [1]
-					"Chest - Luffa ST", -- [2]
-					["show"] = "[spec:102/103/105] hide;",
-					["sliceToken"] = "ABues9xTM2v",
+					"toy", -- [1]
+					111821, -- [2]
+					["sliceToken"] = "ABue4QlA7ky",
 				}, -- [2]
 				{
-					"equipmentset", -- [1]
-					"Chest-Luffa", -- [2]
-					["show"] = "[spec:105/103/102] hide;",
-					["sliceToken"] = "ABue3qtIKIu",
+					"toy", -- [1]
+					168667, -- [2]
+					["sliceToken"] = "ABue4QlA7kt",
 				}, -- [3]
-				{
-					"equipmentset", -- [1]
-					"Neck-Luffa", -- [2]
-					["show"] = "[spec:105/103/102] hide;",
-					["sliceToken"] = "ABues9xTM2c",
-				}, -- [4]
-				{
-					"equipmentset", -- [1]
-					"MASS AOE", -- [2]
-					["show"] = "[spec:105/103/102] hide;",
-					["sliceToken"] = "ABue3qtIKIy",
-				}, -- [5]
-				{
-					"equipmentset", -- [1]
-					"Chest-Neck", -- [2]
-					["show"] = "[spec:105/103/102] hide;",
-					["sliceToken"] = "ABues9xTM2x",
-				}, -- [6]
-				{
-					"equipmentset", -- [1]
-					"Luffa-legs AOE", -- [2]
-					["show"] = "[spec:105/103/102] hide;",
-					["sliceToken"] = "ABues9xTM25",
-				}, -- [7]
-				{
-					"equipmentset", -- [1]
-					"Cat - ST", -- [2]
-					["show"] = "[spec:105/104/102] hide;",
-					["sliceToken"] = "ABuesDua8Hf",
-				}, -- [8]
-				{
-					"equipmentset", -- [1]
-					"Cat - AOE", -- [2]
-					["show"] = "[spec:105/104/102] hide;",
-					["sliceToken"] = "ABuesDua8Hd",
-				}, -- [9]
-				{
-					"equipmentset", -- [1]
-					"Resto Kek", -- [2]
-					["show"] = "[spec:102/103/104] hide;",
-					["sliceToken"] = "ABuesCAnSbs",
-				}, -- [10]
-				{
-					"equipmentset", -- [1]
-					"Boomken", -- [2]
-					["show"] = "[spec:105/104/103] hide;",
-					["sliceToken"] = "ABuesCAnSba",
-				}, -- [11]
-				["limit"] = "Iabooseyou-Stormrage",
+				["name"] = "Bing",
 				["save"] = true,
-				["hotkey"] = "ALT-C",
-				["name"] = "Gear",
 			},
 			["Gear1"] = {
 				{
@@ -1079,31 +1107,22 @@ OneRing_Config = {
 				["name"] = "Gear",
 				["save"] = true,
 			},
-			["ReadyPull"] = {
+			["AurasFroms"] = {
 				{
-					["sliceToken"] = "ABuea=SLMyw7",
-					["c"] = "ff00d3",
-					["id"] = "/readycheck\n",
-					["icon"] = 132161,
+					["id"] = 183435,
+					["sliceToken"] = "ABuekx79dZu",
 				}, -- [1]
 				{
-					["sliceToken"] = "ABuea=SLMywE",
-					["c"] = "6f00ff",
-					["id"] = "/rt pull 0",
-					["icon"] = 132147,
+					["id"] = 465,
+					["sliceToken"] = "ABuekx79dZy",
 				}, -- [2]
 				{
-					"ring", -- [1]
-					"Pull", -- [2]
-					["sliceToken"] = "ABuea=SLMywS",
+					["id"] = 32223,
+					["sliceToken"] = "ABuekx79dZt",
 				}, -- [3]
-				{
-					["sliceToken"] = "ABueaVNoK81",
-					["icon"] = 132181,
-					["id"] = "/rt inv",
-				}, -- [4]
-				["name"] = "Ready/Pull",
+				["name"] = "Auras/Froms",
 				["save"] = true,
+				["hotkey"] = "SHIFT-TAB",
 			},
 		},
 	},

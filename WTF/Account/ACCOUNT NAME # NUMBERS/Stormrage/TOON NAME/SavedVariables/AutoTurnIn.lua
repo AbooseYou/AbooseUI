@@ -20,7 +20,7 @@ AutoTurnInCharacterDB = {
 	["stat"] = {
 	},
 	["togglekey"] = 4,
-	["enabled"] = true,
+	["enabled"] = false,
 	["todarkmoon"] = true,
 	["autoequip"] = false,
 	["version"] = "7.5.1",

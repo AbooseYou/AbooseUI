@@ -215,18 +215,6 @@ P["sle"] = {
 			["visibility"] = "show",
 		},
 	},
-	--Bags
-	["bags"] = {
-		["petLevel"] = {
-			["enable"] = false,
-			["color"] = {r = 230, g = 204, b = 128},
-			["fonts"] = {
-				["font"] = "PT Sans Narrow",
-				["size"] = 14,
-				["outline"] = "OUTLINE",
-			},
-		},
-	},
 	--Blizzard
 	["blizzard"] = {
 		["rumouseover"] = false,
@@ -270,26 +258,25 @@ P["sle"] = {
 	},
 	--Databars
 	["databars"] = {
-		["exp"] = {
-			["longtext"] = false,
-			["chatfilter"] = {
-				["enable"] = false,
-				["iconsize"] = 12,
-				["style"] = "STYLE1",
+		experience = {
+			longtext = false,
+			chatfilter = {
+				enable = false,
+				iconsize = 12,
+				style = "STYLE1",
 			},
 		},
-		["rep"] = {
-			["longtext"] = false,
-			["autotrack"] = false,
-			["ignoreGuild"] = true,
-			["chatfilter"] = {
-				["enable"] = false,
-				["iconsize"] = 12,
-				["style"] = "STYLE1",
-				["styleDec"] = "STYLE1",
-				["showAll"] = false,
-				["chatframe"] = "AUTO",
+		reputation = {
+			chatfilter = {
+				enable = false,
+				chatframe = "AUTO",
+				iconsize = 12,
+				showAll = false,
+				style = "STYLE1",
+				styleDec = "STYLE1",
 			},
+			ignoreGuild = true,
+			longtext = false,
 		},
 		["honor"] = {
 			["longtext"] = false,
@@ -499,56 +486,47 @@ P["sle"] = {
 		},
 	},
 	--Media
-	["media"] = {
-		["fonts"] = {
-			["zone"] = {
-				["font"] = "PT Sans Narrow",
-				["size"] = 32,
-				["outline"] = "OUTLINE",
-				["width"] = 512,
+	media = {
+		fonts = {
+			zone = {
+				font = "PT Sans Narrow",
+				size = 32,
+				outline = "OUTLINE",
 			},
-			["subzone"] = {
-				["font"] = "PT Sans Narrow",
-				["size"] = 25,
-				["outline"] = "OUTLINE",
-				["offset"] = 0,
-				["width"] = 512,
+			subzone = {
+				font = "PT Sans Narrow",
+				size = 25,
+				outline = "OUTLINE",
+				offset = 0,
 			},
-			["pvp"] = {
-				["font"] = "PT Sans Narrow",
-				["size"] = 22,
-				["outline"] = "OUTLINE",
-				["width"] = 512,
+			pvp = {
+				font = "PT Sans Narrow",
+				size = 22,
+				outline = "OUTLINE",
 			},
-			["mail"] = {
-				["font"] = "PT Sans Narrow",
-				["size"] = 12,
-				["outline"] = "NONE",
+			mail = {
+				font = "PT Sans Narrow",
+				size = 12,
+				outline = "NONE",
 			},
-			["editbox"] = {
-				["font"] = "PT Sans Narrow",
-				["size"] = 12,
-				["outline"] = "NONE",
+			gossip = {
+				font = "PT Sans Narrow",
+				size = 12,
 			},
-			["gossip"] = {
-				["font"] = "PT Sans Narrow",
-				["size"] = 12,
-				["outline"] = "NONE",
+			objective = {
+				font = "PT Sans Narrow",
+				size = 12,
+				outline = "NONE",
 			},
-			["objective"] = {
-				["font"] = "PT Sans Narrow",
-				["size"] = 12,
-				["outline"] = "NONE",
+			objectiveHeader = {
+				font = "PT Sans Narrow",
+				size = 12,
+				outline = "NONE",
 			},
-			["objectiveHeader"] = {
-				["font"] = "PT Sans Narrow",
-				["size"] = 12,
-				["outline"] = "NONE",
-			},
-			["questFontSuperHuge"] = {
-				["font"] = "PT Sans Narrow",
-				["size"] = 24,
-				["outline"] = "NONE",
+			questFontSuperHuge = {
+				font = "PT Sans Narrow",
+				size = 24,
+				outline = "NONE",
 			},
 		},
 	},
@@ -757,10 +735,144 @@ P["sle"] = {
 		["panelTemplate"] = "Transparent",
 	},
 	--Shadows
-	['shadows'] = {
+	shadows = {
 		shadowcolor = { ['r'] = 0, ['g'] = 0, ['b'] = 0 },
-		size = 3,
+		actionbars = {
+			bar1 = {
+				backdrop = false,
+				buttons = false,
+				size = 3,
+			},
+			bar2 = {
+				backdrop = false,
+				buttons = false,
+				size = 3,
+			},
+			bar3 = {
+				backdrop = false,
+				buttons = false,
+				size = 3,
+			},
+			bar4 = {
+				backdrop = false,
+				buttons = false,
+				size = 3,
+			},
+			bar5 = {
+				backdrop = false,
+				buttons = false,
+				size = 3,
+			},
+			bar6 = {
+				backdrop = false,
+				buttons = false,
+				size = 3,
+			},
+			bar7 = {
+				backdrop = false,
+				buttons = false,
+				size = 3,
+			},
+			bar8 = {
+				backdrop = false,
+				buttons = false,
+				size = 3,
+			},
+			bar9 = {
+				backdrop = false,
+				buttons = false,
+				size = 3,
+			},
+			bar10 = {
+				backdrop = false,
+				buttons = false,
+				size = 3,
+			},
+			stancebar = {
+				backdrop = false,
+				buttons = false,
+				size = 3,
+			},
+			microbar = {
+				backdrop = false,
+				buttons = false,
+				size = 3,
+			},
+			petbar = {
+				backdrop = true,
+				buttons = false,
+				size = 3,
+			},
+			-- vehicle = { -- TODO: Add Enhanced Vehicle UI Later
+			-- 	backdrop = false,
+			-- 	buttons = false,
+			-- 	size = 3,
+			-- },
+		},
+		chat = {
+			LeftChatPanel = {
+				backdrop = false,
+				size = 3,
+			},
+			RightChatPanel = {
+				backdrop = false,
+				size = 3,
+			},
+		},
+		databars = {
+			threat = {
+				backdrop = false,
+				size = 3,
+			},
+			experience = {
+				backdrop = false,
+				size = 3,
+			},
+			honor = {
+				backdrop = false,
+				size = 3,
+			},
+			reputation = {
+				backdrop = false,
+				size = 3,
+			},
+			azerite = {
+				backdrop = false,
+				size = 3,
+			},
+		},
+		datatexts = {
+			panels = {
+				LeftChatDataPanel = {
+					backdrop = false,
+					size = 3,
+				},
+				RightChatDataPanel = {
+					backdrop = false,
+					size = 3,
+				},
+				MinimapPanel = {
+					backdrop = false,
+					size = 3,
+				},
+			},
+		},
+		general = {
+			bottomPanel = {
+				backdrop = false,
+				size = 3,
+			},
+			topPanel = {
+				backdrop = false,
+				size = 3,
+			},
+		},
+		minimap = {
+			backdrop = false,
+			size = 3,
+		},
 		unitframes = {
+			size = 3,
 			player = {
 				legacy = false,
 				health = false,

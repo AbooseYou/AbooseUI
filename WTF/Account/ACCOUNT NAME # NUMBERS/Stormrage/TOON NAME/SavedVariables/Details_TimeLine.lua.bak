@@ -3,28 +3,28 @@ DetailsTimeLineDB = {
 	["max_segments"] = 4,
 	["combat_data"] = {
 		{
-			["date_start"] = "20:07:47",
-			["date_end"] = "20:08:16",
+			["date_end"] = "11:35:41",
+			["date_start"] = "11:34:14",
 			["name"] = "Gorak Tul",
-			["total_time"] = 29.99300000000039,
+			["total_time"] = 87.1860000000006,
 		}, -- [1]
 		{
-			["date_start"] = "20:05:30",
-			["date_end"] = "20:06:33",
+			["date_end"] = "11:21:25",
+			["date_start"] = "11:19:45",
 			["name"] = "Lord and Lady Waycrest",
-			["total_time"] = 64.78400000000147,
+			["total_time"] = 100.4769999999999,
 		}, -- [2]
 		{
-			["date_start"] = "20:00:35",
-			["date_end"] = "20:02:07",
+			["date_end"] = "11:12:01",
+			["date_start"] = "11:09:53",
 			["name"] = "Heartsbane Triad",
-			["total_time"] = 92.12900000000081,
+			["total_time"] = 127.7779999999998,
 		}, -- [3]
 		{
-			["date_start"] = "19:57:12",
-			["date_end"] = "19:57:54",
+			["date_end"] = "11:05:04",
+			["date_start"] = "11:03:31",
 			["name"] = "Soulbound Goliath",
-			["total_time"] = 42.40600000000086,
+			["total_time"] = 92.60199999999986,
 		}, -- [4]
 	},
 	["hide_on_combat"] = false,
@@ -32,17 +32,1949 @@ DetailsTimeLineDB = {
 		{
 			[273658] = {
 				{
-					15.55699999999888, -- [1]
+					34.83800000000065, -- [1]
 					"Deathtouched Slaver", -- [2]
 					273658, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
+				{
+					58.14700000000084, -- [1]
+					"Deathtouched Slaver", -- [2]
+					273658, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					74.98700000000008, -- [1]
+					"Deathtouched Slaver", -- [2]
+					273658, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[266266] = {
+				{
+					4.418000000000575, -- [1]
+					"Gorak Tul", -- [2]
+					266266, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					22.63600000000042, -- [1]
+					"Gorak Tul", -- [2]
+					266266, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					40.83900000000085, -- [1]
+					"Gorak Tul", -- [2]
+					266266, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					62.70400000000063, -- [1]
+					"Gorak Tul", -- [2]
+					266266, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					79.71500000000015, -- [1]
+					"Gorak Tul", -- [2]
+					266266, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
 			},
 			[273657] = {
 				{
-					15.15600000000086, -- [1]
+					34.28800000000047, -- [1]
 					"Deathtouched Slaver", -- [2]
 					273657, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					41.67300000000068, -- [1]
+					"Deathtouched Slaver", -- [2]
+					273657, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					57.63500000000022, -- [1]
+					"Deathtouched Slaver", -- [2]
+					273657, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					74.4960000000001, -- [1]
+					"Deathtouched Slaver", -- [2]
+					273657, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[268202] = {
+				{
+					14.09000000000015, -- [1]
+					"Deathtouched Slaver", -- [2]
+					268202, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [1]
+				{
+					50.52300000000014, -- [1]
+					"Deathtouched Slaver", -- [2]
+					268202, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [2]
+				{
+					66.31500000000051, -- [1]
+					"Deathtouched Slaver", -- [2]
+					268202, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [3]
+				{
+					72.41900000000078, -- [1]
+					"Deathtouched Slaver", -- [2]
+					268202, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [4]
+			},
+			[266258] = {
+				{
+					4.418000000000575, -- [1]
+					"Drust Slaver Summoning Portal", -- [2]
+					266258, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					22.63600000000042, -- [1]
+					"Drust Slaver Summoning Portal", -- [2]
+					266258, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					40.83900000000085, -- [1]
+					"Drust Slaver Summoning Portal", -- [2]
+					266258, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					62.70400000000063, -- [1]
+					"Drust Slaver Summoning Portal", -- [2]
+					266258, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					79.71500000000015, -- [1]
+					"Drust Slaver Summoning Portal", -- [2]
+					266258, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+			},
+			[266225] = {
+				{
+					43.78800000000047, -- [1]
+					"Gorak Tul", -- [2]
+					266225, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [1]
+				{
+					68.06700000000001, -- [1]
+					"Gorak Tul", -- [2]
+					266225, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [2]
+			},
+			[266181] = {
+				{
+					28.49900000000071, -- [1]
+					"Gorak Tul", -- [2]
+					266181, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					57.62400000000071, -- [1]
+					"Gorak Tul", -- [2]
+					266181, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					86.81200000000081, -- [1]
+					"Gorak Tul", -- [2]
+					266181, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+		}, -- [1]
+		{
+			[261446] = {
+				{
+					16.82499999999982, -- [1]
+					"Lady Waycrest", -- [2]
+					261446, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lord Waycrest", -- [5]
+				}, -- [1]
+				{
+					36.69499999999971, -- [1]
+					"Lady Waycrest", -- [2]
+					261446, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lord Waycrest", -- [5]
+				}, -- [2]
+				{
+					56.02300000000014, -- [1]
+					"Lady Waycrest", -- [2]
+					261446, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lord Waycrest", -- [5]
+				}, -- [3]
+			},
+			[268271] = {
+				{
+					4.489999999999782, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [1]
+				{
+					4.728000000000066, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [2]
+				{
+					6.925999999999476, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [3]
+				{
+					7.125, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [4]
+				{
+					9.51299999999992, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [5]
+				{
+					9.734999999999673, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [6]
+				{
+					11.66799999999967, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [7]
+				{
+					12.02099999999973, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [8]
+				{
+					13.80000000000018, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [9]
+				{
+					14.10999999999967, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [10]
+				{
+					16.5619999999999, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [11]
+				{
+					16.6309999999994, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [12]
+				{
+					30.01599999999962, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [13]
+				{
+					30.26999999999953, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [14]
+				{
+					32.34799999999996, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [15]
+				{
+					32.69999999999982, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [16]
+				{
+					35.01199999999972, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [17]
+				{
+					35.01199999999972, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [18]
+				{
+					37.22800000000007, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [19]
+				{
+					37.83899999999994, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [20]
+				{
+					43.19700000000012, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [21]
+				{
+					43.46399999999994, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [22]
+				{
+					53.1909999999998, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [23]
+				{
+					53.40799999999945, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [24]
+				{
+					55.50799999999981, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [25]
+				{
+					55.61299999999937, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [26]
+				{
+					71.16299999999956, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [27]
+				{
+					71.16299999999956, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [28]
+				{
+					80.94799999999941, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [29]
+				{
+					81.10199999999986, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [30]
+				{
+					97.92900000000009, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [31]
+				{
+					98.52799999999934, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [32]
+			},
+			[271590] = {
+				{
+					0.1, -- [1]
+					"Lady Waycrest", -- [2]
+					271590, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[261439] = {
+				{
+					10.65399999999954, -- [1]
+					"Lord Waycrest", -- [2]
+					261439, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					26.86999999999989, -- [1]
+					"Lord Waycrest", -- [2]
+					261439, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					43.79699999999957, -- [1]
+					"Lord Waycrest", -- [2]
+					261439, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					60.82799999999952, -- [1]
+					"Lord Waycrest", -- [2]
+					261439, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					77.8149999999996, -- [1]
+					"Lord Waycrest", -- [2]
+					261439, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+			},
+			[268306] = {
+				{
+					21.59299999999985, -- [1]
+					"Lady Waycrest", -- [2]
+					268306, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					44.57399999999961, -- [1]
+					"Lady Waycrest", -- [2]
+					268306, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[261447] = {
+				{
+					19.33399999999983, -- [1]
+					"Lord Waycrest", -- [2]
+					261447, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					39.20100000000002, -- [1]
+					"Lord Waycrest", -- [2]
+					261447, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					58.49699999999939, -- [1]
+					"Lord Waycrest", -- [2]
+					261447, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[261438] = {
+				{
+					7.670999999999367, -- [1]
+					"Lord Waycrest", -- [2]
+					261438, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [1]
+				{
+					24.77099999999973, -- [1]
+					"Lord Waycrest", -- [2]
+					261438, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [2]
+				{
+					42.91799999999967, -- [1]
+					"Lord Waycrest", -- [2]
+					261438, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [3]
+				{
+					59.89899999999943, -- [1]
+					"Lord Waycrest", -- [2]
+					261438, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [4]
+				{
+					76.88400000000001, -- [1]
+					"Lord Waycrest", -- [2]
+					261438, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [5]
+			},
+			[261440] = {
+				{
+					12.16399999999976, -- [1]
+					"Lord Waycrest", -- [2]
+					261440, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [1]
+				{
+					28.34199999999964, -- [1]
+					"Lord Waycrest", -- [2]
+					261440, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [2]
+				{
+					45.34199999999964, -- [1]
+					"Lord Waycrest", -- [2]
+					261440, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [3]
+				{
+					62.33799999999974, -- [1]
+					"Lord Waycrest", -- [2]
+					261440, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [4]
+				{
+					79.35800000000017, -- [1]
+					"Lord Waycrest", -- [2]
+					261440, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [5]
+			},
+			[268278] = {
+				{
+					3.324999999999818, -- [1]
+					"Lady Waycrest", -- [2]
+					268278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					5.760000000000218, -- [1]
+					"Lady Waycrest", -- [2]
+					268278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					8.219000000000051, -- [1]
+					"Lady Waycrest", -- [2]
+					268278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					10.65399999999954, -- [1]
+					"Lady Waycrest", -- [2]
+					268278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					12.66199999999935, -- [1]
+					"Lady Waycrest", -- [2]
+					268278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					15.10999999999967, -- [1]
+					"Lady Waycrest", -- [2]
+					268278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					28.86700000000019, -- [1]
+					"Lady Waycrest", -- [2]
+					268278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					31.28299999999945, -- [1]
+					"Lady Waycrest", -- [2]
+					268278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					33.71699999999964, -- [1]
+					"Lady Waycrest", -- [2]
+					268278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					36.14699999999994, -- [1]
+					"Lady Waycrest", -- [2]
+					268278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					42.19999999999982, -- [1]
+					"Lady Waycrest", -- [2]
+					268278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					51.86700000000019, -- [1]
+					"Lady Waycrest", -- [2]
+					268278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					54.32499999999982, -- [1]
+					"Lady Waycrest", -- [2]
+					268278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+				{
+					69.85300000000007, -- [1]
+					"Lady Waycrest", -- [2]
+					268278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [14]
+				{
+					79.85899999999947, -- [1]
+					"Lady Waycrest", -- [2]
+					268278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [15]
+				{
+					96.84400000000005, -- [1]
+					"Lady Waycrest", -- [2]
+					268278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [16]
+			},
+		}, -- [2]
+		{
+			[261266] = {
+				{
+					34.78699999999981, -- [1]
+					"Sister Malady", -- [2]
+					261266, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[260805] = {
+				{
+					1.33199999999988, -- [1]
+					"Sister Solena", -- [2]
+					260805, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					16.7529999999997, -- [1]
+					"Sister Malady", -- [2]
+					260805, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					37.73199999999997, -- [1]
+					"Sister Briar", -- [2]
+					260805, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					57.59899999999971, -- [1]
+					"Sister Solena", -- [2]
+					260805, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					86.75999999999976, -- [1]
+					"Sister Malady", -- [2]
+					260805, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					109.8379999999997, -- [1]
+					"Sister Briar", -- [2]
+					260805, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+			},
+			[268077] = {
+				{
+					2.228999999999815, -- [1]
+					"Sister Solena", -- [2]
+					268077, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					58.10199999999986, -- [1]
+					"Sister Solena", -- [2]
+					268077, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[260852] = {
+				{
+					15.20899999999983, -- [1]
+					"Sister Malady", -- [2]
+					260852, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Focusing Iris", -- [5]
+				}, -- [1]
+				{
+					36.26699999999983, -- [1]
+					"Sister Briar", -- [2]
+					260852, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Focusing Iris", -- [5]
+				}, -- [2]
+				{
+					56.11200000000008, -- [1]
+					"Sister Solena", -- [2]
+					260852, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Focusing Iris", -- [5]
+				}, -- [3]
+				{
+					85.24400000000014, -- [1]
+					"Sister Malady", -- [2]
+					260852, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Focusing Iris", -- [5]
+				}, -- [4]
+				{
+					108.3199999999997, -- [1]
+					"Sister Briar", -- [2]
+					260852, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Focusing Iris", -- [5]
+				}, -- [5]
+			},
+			[260701] = {
+				{
+					1.846000000000004, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [1]
+				{
+					4.246000000000095, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [2]
+				{
+					6.692999999999756, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [3]
+				{
+					9.097999999999956, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [4]
+				{
+					11.54099999999971, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [5]
+				{
+					13.97299999999996, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [6]
+				{
+					16.42599999999993, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [7]
+				{
+					18.8130000000001, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [8]
+				{
+					21.22399999999971, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [9]
+				{
+					23.65299999999979, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [10]
+				{
+					26.0619999999999, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [11]
+				{
+					28.53600000000006, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [12]
+				{
+					30.9409999999998, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [13]
+				{
+					33.40499999999975, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [14]
+				{
+					35.84799999999996, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [15]
+				{
+					56.48999999999978, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [16]
+				{
+					58.91499999999996, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [17]
+				{
+					61.3130000000001, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [18]
+				{
+					63.74400000000014, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [19]
+				{
+					66.16499999999996, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [20]
+				{
+					68.62199999999984, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [21]
+				{
+					72.26199999999972, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [22]
+				{
+					74.68499999999995, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [23]
+				{
+					77.1279999999997, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [24]
+				{
+					83.17799999999988, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [25]
+				{
+					85.60699999999997, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [26]
+				{
+					88.00599999999986, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [27]
+				{
+					95.30299999999988, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [28]
+				{
+					97.73500000000013, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [29]
+				{
+					100.1549999999998, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [30]
+				{
+					102.6469999999999, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [31]
+				{
+					105.049, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [32]
+				{
+					107.48, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [33]
+			},
+			[2139] = {
+				{
+					13.19299999999976, -- [1]
+					"Càtàlyst", -- [2]
+					2139, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Magus of the Dead", -- [5]
+				}, -- [1]
+			},
+			[260907] = {
+				{
+					12.75700000000006, -- [1]
+					"Sister Solena", -- [2]
+					260907, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					69.80400000000009, -- [1]
+					"Sister Solena", -- [2]
+					260907, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[260698] = {
+				{
+					10.31500000000006, -- [1]
+					"Sister Solena", -- [2]
+					260698, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [1]
+				{
+					78.346, -- [1]
+					"Sister Solena", -- [2]
+					260698, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [2]
+			},
+			[261264] = {
+				{
+					13.4079999999999, -- [1]
+					"Sister Solena", -- [2]
+					261264, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[260741] = {
+				{
+					46.79500000000007, -- [1]
+					"Sister Briar", -- [2]
+					260741, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [1]
+				{
+					117.2190000000001, -- [1]
+					"Sister Briar", -- [2]
+					260741, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [2]
+			},
+			[268088] = {
+				{
+					16.83699999999999, -- [1]
+					"Sister Malady", -- [2]
+					268088, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					87.25900000000001, -- [1]
+					"Sister Malady", -- [2]
+					268088, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[260699] = {
+				{
+					21.22399999999971, -- [1]
+					"Sister Solena", -- [2]
+					260699, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [1]
+				{
+					23.65299999999979, -- [1]
+					"Sister Solena", -- [2]
+					260699, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [2]
+				{
+					26.0619999999999, -- [1]
+					"Sister Solena", -- [2]
+					260699, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [3]
+				{
+					28.53600000000006, -- [1]
+					"Sister Solena", -- [2]
+					260699, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [4]
+				{
+					30.9409999999998, -- [1]
+					"Sister Solena", -- [2]
+					260699, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [5]
+				{
+					33.40499999999975, -- [1]
+					"Sister Solena", -- [2]
+					260699, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [6]
+				{
+					35.84799999999996, -- [1]
+					"Sister Solena", -- [2]
+					260699, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [7]
+				{
+					38.22199999999975, -- [1]
+					"Sister Solena", -- [2]
+					260699, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [8]
+				{
+					40.69799999999987, -- [1]
+					"Sister Solena", -- [2]
+					260699, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [9]
+				{
+					43.11599999999999, -- [1]
+					"Sister Solena", -- [2]
+					260699, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [10]
+				{
+					45.53899999999976, -- [1]
+					"Sister Solena", -- [2]
+					260699, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [11]
+				{
+					47.97499999999991, -- [1]
+					"Sister Solena", -- [2]
+					260699, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [12]
+				{
+					50.42299999999977, -- [1]
+					"Sister Solena", -- [2]
+					260699, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [13]
+				{
+					52.80799999999999, -- [1]
+					"Sister Solena", -- [2]
+					260699, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [14]
+				{
+					55.26199999999972, -- [1]
+					"Sister Solena", -- [2]
+					260699, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [15]
+			},
+			[260703] = {
+				{
+					26.13099999999986, -- [1]
+					"Sister Malady", -- [2]
+					260703, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					96.50999999999976, -- [1]
+					"Sister Malady", -- [2]
+					260703, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[261265] = {
+				{
+					54.29399999999987, -- [1]
+					"Sister Briar", -- [2]
+					261265, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[11426] = {
+				{
+					87.25900000000001, -- [1]
+					"Càtàlyst", -- [2]
+					11426, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[122] = {
+				{
+					86.02399999999989, -- [1]
+					"Càtàlyst", -- [2]
+					122, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[260700] = {
+				{
+					1.846000000000004, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [1]
+				{
+					4.246000000000095, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [2]
+				{
+					6.646999999999935, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [3]
+				{
+					9.097999999999956, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [4]
+				{
+					11.54099999999971, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [5]
+				{
+					13.97299999999996, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [6]
+				{
+					38.22199999999975, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [7]
+				{
+					44.29199999999992, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [8]
+				{
+					46.79500000000007, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [9]
+				{
+					49.20499999999993, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [10]
+				{
+					51.61000000000013, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [11]
+				{
+					54.04700000000003, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [12]
+				{
+					56.48999999999978, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [13]
+				{
+					58.91499999999996, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [14]
+				{
+					61.3130000000001, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [15]
+				{
+					63.74400000000014, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [16]
+				{
+					66.16499999999996, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [17]
+				{
+					68.62199999999984, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [18]
+				{
+					71.03099999999995, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [19]
+				{
+					73.45399999999972, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [20]
+				{
+					75.91199999999981, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [21]
+				{
+					78.346, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [22]
+				{
+					80.76299999999992, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [23]
+				{
+					83.17799999999988, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [24]
+			},
+			[45438] = {
+				{
+					75.16800000000012, -- [1]
+					"Càtàlyst", -- [2]
+					45438, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[260696] = {
+				{
+					28.53600000000006, -- [1]
+					"Sister Malady", -- [2]
+					260696, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [1]
+				{
+					35.84799999999996, -- [1]
+					"Sister Malady", -- [2]
+					260696, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [2]
+				{
+					98.97899999999981, -- [1]
+					"Sister Malady", -- [2]
+					260696, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [3]
+			},
+			[268122] = {
+				{
+					38.72600000000011, -- [1]
+					"Sister Briar", -- [2]
+					268122, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					110.3499999999999, -- [1]
+					"Sister Briar", -- [2]
+					268122, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[116014] = {
+				{
+					75.34799999999996, -- [1]
+					"Càtàlyst", -- [2]
+					116014, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[260697] = {
+				{
+					49.20499999999993, -- [1]
+					"Sister Briar", -- [2]
+					260697, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [1]
+				{
+					114.7950000000001, -- [1]
+					"Sister Briar", -- [2]
+					260697, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [2]
+				{
+					122.0889999999999, -- [1]
+					"Sister Briar", -- [2]
+					260697, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [3]
+			},
+		}, -- [3]
+		{
+			[260551] = {
+				{
+					10.19899999999961, -- [1]
+					"Soulbound Goliath", -- [2]
+					260551, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					31.80799999999999, -- [1]
+					"Soulbound Goliath", -- [2]
+					260551, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					53.6579999999999, -- [1]
+					"Soulbound Goliath", -- [2]
+					260551, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					75.53099999999995, -- [1]
+					"Soulbound Goliath", -- [2]
+					260551, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[260508] = {
+				{
+					8.052999999999884, -- [1]
+					"Soulbound Goliath", -- [2]
+					260508, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [1]
+				{
+					26.23599999999988, -- [1]
+					"Soulbound Goliath", -- [2]
+					260508, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [2]
+				{
+					44.44899999999961, -- [1]
+					"Soulbound Goliath", -- [2]
+					260508, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [3]
+				{
+					63.86199999999963, -- [1]
+					"Soulbound Goliath", -- [2]
+					260508, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [4]
+				{
+					82.04499999999962, -- [1]
+					"Soulbound Goliath", -- [2]
+					260508, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [5]
+			},
+			[314397] = {
+				{
+					92.60199999999986, -- [1]
+					"Urg'roth, Breaker of Heroes", -- [2]
+					314397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+		}, -- [4]
+		{
+			[264694] = {
+				{
+					7.518000000000029, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264694, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [1]
+				{
+					38.70600000000013, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264694, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [2]
+				{
+					59.35899999999992, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264694, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [3]
+				{
+					82.41100000000006, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264694, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [4]
+				{
+					103.0969999999998, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264694, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [5]
+				{
+					126.1089999999999, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264694, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [6]
+			},
+			[264693] = {
+				{
+					5.166999999999916, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264693, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					36.30099999999993, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264693, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					56.9670000000001, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264693, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					80.04500000000007, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264693, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					100.636, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264693, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					123.6770000000001, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264693, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+			},
+			[265391] = {
+				{
+					18.46499999999969, -- [1]
+					"Banquet Steward", -- [2]
+					265391, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [1]
+				{
+					26.59099999999989, -- [1]
+					"Banquet Steward", -- [2]
+					265391, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [2]
+				{
+					32.63699999999972, -- [1]
+					"Banquet Steward", -- [2]
+					265391, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [3]
+				{
+					42.3779999999997, -- [1]
+					"Banquet Steward", -- [2]
+					265391, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [4]
+				{
+					48.43399999999974, -- [1]
+					"Banquet Steward", -- [2]
+					265391, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [5]
+				{
+					54.5029999999997, -- [1]
+					"Banquet Steward", -- [2]
+					265391, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [6]
+				{
+					60.54500000000007, -- [1]
+					"Banquet Steward", -- [2]
+					265391, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [7]
+				{
+					69.07699999999977, -- [1]
+					"Banquet Steward", -- [2]
+					265391, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [8]
+				{
+					75.17399999999998, -- [1]
+					"Banquet Steward", -- [2]
+					265391, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [9]
+				{
+					81.20399999999972, -- [1]
+					"Banquet Steward", -- [2]
+					265391, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [10]
+				{
+					87.31500000000005, -- [1]
+					"Banquet Steward", -- [2]
+					265391, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [11]
+			},
+			[265407] = {
+				{
+					52.12199999999984, -- [1]
+					"Banquet Steward", -- [2]
+					265407, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					80.14800000000014, -- [1]
+					"Banquet Steward", -- [2]
+					265407, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[264734] = {
+				{
+					46.08399999999983, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264734, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[264931] = {
+				{
+					35.83899999999994, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264931, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					79.59799999999996, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264931, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					123.261, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264931, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[264923] = {
+				{
+					24.41800000000012, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264923, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [1]
+				{
+					28.90200000000004, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264923, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [2]
+				{
+					32.52199999999994, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264923, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [3]
+				{
+					68.92700000000013, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264923, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [4]
+				{
+					72.60399999999981, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264923, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [5]
+				{
+					76.19799999999987, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264923, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [6]
+				{
+					112.6459999999997, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264923, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [7]
+				{
+					116.2570000000001, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264923, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [8]
+				{
+					119.9069999999997, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264923, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [9]
+			},
+			[268234] = {
+				{
+					15.90000000000009, -- [1]
+					"Bile Oozeling", -- [2]
+					268234, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					16.86999999999989, -- [1]
+					"Bile Oozeling", -- [2]
+					268234, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					17.1210000000001, -- [1]
+					"Bile Oozeling", -- [2]
+					268234, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					44.85100000000011, -- [1]
+					"Bile Oozeling", -- [2]
+					268234, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					51.1279999999997, -- [1]
+					"Bile Oozeling", -- [2]
+					268234, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					57.24299999999994, -- [1]
+					"Bile Oozeling", -- [2]
+					268234, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					65.42900000000009, -- [1]
+					"Bile Oozeling", -- [2]
+					268234, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					74.82799999999997, -- [1]
+					"Bile Oozeling", -- [2]
+					268234, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					75.67499999999973, -- [1]
+					"Bile Oozeling", -- [2]
+					268234, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					79.11499999999978, -- [1]
+					"Bile Oozeling", -- [2]
+					268234, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					80.14800000000014, -- [1]
+					"Bile Oozeling", -- [2]
+					268234, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					80.38699999999972, -- [1]
+					"Bile Oozeling", -- [2]
+					268234, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					90.28999999999996, -- [1]
+					"Bile Oozeling", -- [2]
+					268234, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+				{
+					91.44299999999976, -- [1]
+					"Bile Oozeling", -- [2]
+					268234, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [14]
+				{
+					107.277, -- [1]
+					"Bile Oozeling", -- [2]
+					268234, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [15]
+				{
+					114.0059999999999, -- [1]
+					"Bile Oozeling", -- [2]
+					268234, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [16]
+				{
+					116.2930000000001, -- [1]
+					"Bile Oozeling", -- [2]
+					268234, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [17]
+				{
+					122.306, -- [1]
+					"Bile Oozeling", -- [2]
+					268234, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [18]
+				{
+					122.7849999999999, -- [1]
+					"Bile Oozeling", -- [2]
+					268234, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [19]
+				{
+					124.221, -- [1]
+					"Bile Oozeling", -- [2]
+					268234, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [20]
+			},
+		}, -- [5]
+		{
+			[273658] = {
+				{
+					15.55699999999888, -- [1]
+					"Deathtouched Slaver", -- [2]
+					273658, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
@@ -59,6 +1991,14 @@ DetailsTimeLineDB = {
 					266258, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
+			},
+			[273657] = {
+				{
+					15.15600000000086, -- [1]
+					"Deathtouched Slaver", -- [2]
+					273657, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
 			},
 			[266181] = {
 				{
@@ -91,7 +2031,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-		}, -- [1]
+		}, -- [6]
 		{
 			[261438] = {
 				{
@@ -374,7 +2314,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [2]
+		}, -- [7]
 		{
 			[261266] = {
 				{
@@ -857,22 +2797,6 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-			[781] = {
-				{
-					16.64599999999882, -- [1]
-					"Teloran", -- [2]
-					781, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			[186265] = {
-				{
-					18.11700000000019, -- [1]
-					"Teloran", -- [2]
-					186265, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
 			[266035] = {
 				{
 					8.411000000000058, -- [1]
@@ -902,6 +2826,23 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Invinoverita-WyrmrestAccord", -- [5]
 				}, -- [4]
+			},
+			[260696] = {
+				{
+					45.64999999999964, -- [1]
+					"Sister Malady", -- [2]
+					260696, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Invinoverita-WyrmrestAccord", -- [5]
+				}, -- [1]
+			},
+			[781] = {
+				{
+					16.64599999999882, -- [1]
+					"Teloran", -- [2]
+					781, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
 			},
 			[260699] = {
 				{
@@ -1208,13 +3149,12 @@ DetailsTimeLineDB = {
 					"Pallyness", -- [5]
 				}, -- [1]
 			},
-			[260696] = {
+			[186265] = {
 				{
-					45.64999999999964, -- [1]
-					"Sister Malady", -- [2]
-					260696, -- [3]
+					18.11700000000019, -- [1]
+					"Teloran", -- [2]
+					186265, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
 				}, -- [1]
 			},
 			[268122] = {
@@ -1249,7 +3189,7 @@ DetailsTimeLineDB = {
 					"Pallyness", -- [5]
 				}, -- [1]
 			},
-		}, -- [3]
+		}, -- [8]
 		{
 			[260508] = {
 				{
@@ -1281,7 +3221,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-		}, -- [4]
+		}, -- [9]
 		{
 			[264694] = {
 				{
@@ -1305,6 +3245,29 @@ DetailsTimeLineDB = {
 					264693, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
+			},
+			[264923] = {
+				{
+					23.33400000000074, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264923, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Gatepriest-Malfurion", -- [5]
+				}, -- [1]
+				{
+					26.94900000000052, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264923, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Harlyjaine-Malfurion", -- [5]
+				}, -- [2]
+				{
+					31.00699999999961, -- [1]
+					"Raal the Gluttonous", -- [2]
+					264923, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Gatepriest-Malfurion", -- [5]
+				}, -- [3]
 			},
 			[268234] = {
 				{
@@ -1332,29 +3295,6 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
 			},
-			[264923] = {
-				{
-					23.33400000000074, -- [1]
-					"Raal the Gluttonous", -- [2]
-					264923, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Gatepriest-Malfurion", -- [5]
-				}, -- [1]
-				{
-					26.94900000000052, -- [1]
-					"Raal the Gluttonous", -- [2]
-					264923, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Harlyjaine-Malfurion", -- [5]
-				}, -- [2]
-				{
-					31.00699999999961, -- [1]
-					"Raal the Gluttonous", -- [2]
-					264923, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Gatepriest-Malfurion", -- [5]
-				}, -- [3]
-			},
 			[264931] = {
 				{
 					34.37299999999959, -- [1]
@@ -1363,7 +3303,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [5]
+		}, -- [10]
 		{
 			[296080] = {
 				{
@@ -1735,7 +3675,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [6]
+		}, -- [11]
 		{
 			[297985] = {
 				{
@@ -1859,7 +3799,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
-		}, -- [7]
+		}, -- [12]
 		{
 			[298473] = {
 				{
@@ -2588,7 +4528,7 @@ DetailsTimeLineDB = {
 					"Pallyness", -- [5]
 				}, -- [3]
 			},
-		}, -- [8]
+		}, -- [13]
 		{
 			[298897] = {
 				{
@@ -2803,7 +4743,7 @@ DetailsTimeLineDB = {
 					"Orek", -- [5]
 				}, -- [10]
 			},
-		}, -- [9]
+		}, -- [14]
 		{
 			[318449] = {
 				{
@@ -3282,123 +5222,6 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
-			[316711] = {
-				{
-					21.02299999999923, -- [1]
-					"Psychus", -- [2]
-					316711, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Xandreari", -- [5]
-				}, -- [1]
-				{
-					29.51399999999921, -- [1]
-					"Psychus", -- [2]
-					316711, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Xandreari", -- [5]
-				}, -- [2]
-				{
-					47.78699999999844, -- [1]
-					"Psychus", -- [2]
-					316711, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Xandreari", -- [5]
-				}, -- [3]
-				{
-					61.09199999999873, -- [1]
-					"Psychus", -- [2]
-					316711, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Xandreari", -- [5]
-				}, -- [4]
-				{
-					188.6589999999997, -- [1]
-					"Psychus", -- [2]
-					316711, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Pallyness", -- [5]
-				}, -- [5]
-				{
-					202.0239999999994, -- [1]
-					"Psychus", -- [2]
-					316711, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Deathmurt", -- [5]
-				}, -- [6]
-				{
-					210.5229999999992, -- [1]
-					"Psychus", -- [2]
-					316711, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Jurohh", -- [5]
-				}, -- [7]
-			},
-			[318714] = {
-				{
-					121.1799999999985, -- [1]
-					"Unknown", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					121.1799999999985, -- [1]
-					"Unknown", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					121.1799999999985, -- [1]
-					"Unknown", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					121.1799999999985, -- [1]
-					"Unknown", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-				{
-					121.1799999999985, -- [1]
-					"Unknown", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [5]
-				{
-					121.1799999999985, -- [1]
-					"Unknown", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
-				{
-					121.1799999999985, -- [1]
-					"Unknown", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [7]
-				{
-					121.1799999999985, -- [1]
-					"Unknown", -- [2]
-					318714, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [8]
-			},
-			[316463] = {
-				{
-					171.1679999999997, -- [1]
-					"Mindgate", -- [2]
-					316463, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			[317292] = {
-				{
-					88.12799999999879, -- [1]
-					"N'Zoth the Corruptor", -- [2]
-					317292, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
 			[311176] = {
 				{
 					3.997999999999593, -- [1]
@@ -3406,22 +5229,6 @@ DetailsTimeLineDB = {
 					311176, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
-			},
-			[313400] = {
-				{
-					143.348, -- [1]
-					"Corruptor Tentacle", -- [2]
-					313400, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Sezy", -- [5]
-				}, -- [1]
-				{
-					202.494999999999, -- [1]
-					"Corruptor Tentacle", -- [2]
-					313400, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Meowpheus", -- [5]
-				}, -- [2]
 			},
 			[314889] = {
 				{
@@ -3971,20 +5778,6 @@ DetailsTimeLineDB = {
 					"Jurohh", -- [5]
 				}, -- [78]
 			},
-			[315927] = {
-				{
-					148.3469999999998, -- [1]
-					"N'Zoth the Corruptor", -- [2]
-					315927, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					205.491, -- [1]
-					"N'Zoth the Corruptor", -- [2]
-					315927, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-			},
 			[309698] = {
 				{
 					135.5849999999991, -- [1]
@@ -4015,6 +5808,153 @@ DetailsTimeLineDB = {
 					"Xandreari", -- [5]
 				}, -- [4]
 			},
+			[317292] = {
+				{
+					88.12799999999879, -- [1]
+					"N'Zoth the Corruptor", -- [2]
+					317292, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[316711] = {
+				{
+					21.02299999999923, -- [1]
+					"Psychus", -- [2]
+					316711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Xandreari", -- [5]
+				}, -- [1]
+				{
+					29.51399999999921, -- [1]
+					"Psychus", -- [2]
+					316711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Xandreari", -- [5]
+				}, -- [2]
+				{
+					47.78699999999844, -- [1]
+					"Psychus", -- [2]
+					316711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Xandreari", -- [5]
+				}, -- [3]
+				{
+					61.09199999999873, -- [1]
+					"Psychus", -- [2]
+					316711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Xandreari", -- [5]
+				}, -- [4]
+				{
+					188.6589999999997, -- [1]
+					"Psychus", -- [2]
+					316711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [5]
+				{
+					202.0239999999994, -- [1]
+					"Psychus", -- [2]
+					316711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [6]
+				{
+					210.5229999999992, -- [1]
+					"Psychus", -- [2]
+					316711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Jurohh", -- [5]
+				}, -- [7]
+			},
+			[313400] = {
+				{
+					143.348, -- [1]
+					"Corruptor Tentacle", -- [2]
+					313400, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Sezy", -- [5]
+				}, -- [1]
+				{
+					202.494999999999, -- [1]
+					"Corruptor Tentacle", -- [2]
+					313400, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [2]
+			},
+			[318714] = {
+				{
+					121.1799999999985, -- [1]
+					"Unknown", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					121.1799999999985, -- [1]
+					"Unknown", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					121.1799999999985, -- [1]
+					"Unknown", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					121.1799999999985, -- [1]
+					"Unknown", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					121.1799999999985, -- [1]
+					"Unknown", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					121.1799999999985, -- [1]
+					"Unknown", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					121.1799999999985, -- [1]
+					"Unknown", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					121.1799999999985, -- [1]
+					"Unknown", -- [2]
+					318714, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+			},
+			[315927] = {
+				{
+					148.3469999999998, -- [1]
+					"N'Zoth the Corruptor", -- [2]
+					315927, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					205.491, -- [1]
+					"N'Zoth the Corruptor", -- [2]
+					315927, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[316463] = {
+				{
+					171.1679999999997, -- [1]
+					"Mindgate", -- [2]
+					316463, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
 			[312866] = {
 				{
 					198.3029999999999, -- [1]
@@ -4031,7 +5971,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [10]
+		}, -- [15]
 		{
 			[311980] = {
 				{
@@ -4923,7 +6863,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-		}, -- [11]
+		}, -- [16]
 		{
 			[311980] = {
 				{
@@ -5460,7 +7400,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [16]
 			},
-		}, -- [12]
+		}, -- [17]
 		{
 			[306988] = {
 				{
@@ -5620,7 +7560,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-		}, -- [13]
+		}, -- [18]
 		{
 			[306733] = {
 				{
@@ -6208,7 +8148,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
 			},
-		}, -- [14]
+		}, -- [19]
 		{
 			[306733] = {
 				{
@@ -6878,7 +8818,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-		}, -- [15]
+		}, -- [20]
 		{
 			[313129] = {
 				{
@@ -7314,49 +9254,103 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-			[315311] = {
+			[313420] = {
 				{
-					29.9369999999999, -- [1]
-					"Aqir Ravager", -- [2]
-					315311, -- [3]
+					60.94700000000012, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Meowpheus", -- [5]
 				}, -- [1]
 				{
-					43.29100000000108, -- [1]
-					"Aqir Ravager", -- [2]
-					315311, -- [3]
+					60.94700000000012, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Xandreari", -- [5]
 				}, -- [2]
 				{
-					56.72800000000098, -- [1]
-					"Aqir Ravager", -- [2]
-					315311, -- [3]
+					60.94700000000012, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Xandreari", -- [5]
 				}, -- [3]
 				{
-					211.7780000000003, -- [1]
-					"Aqir Ravager", -- [2]
-					315311, -- [3]
+					60.94700000000012, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Xandreari", -- [5]
 				}, -- [4]
 				{
-					225.1290000000008, -- [1]
-					"Aqir Ravager", -- [2]
-					315311, -- [3]
+					126.1910000000007, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Xandreari", -- [5]
 				}, -- [5]
 				{
-					238.4660000000004, -- [1]
-					"Aqir Ravager", -- [2]
-					315311, -- [3]
+					126.1910000000007, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Xandreari", -- [5]
 				}, -- [6]
+				{
+					126.1910000000007, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					126.1910000000007, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					186.1080000000002, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					186.1080000000002, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					186.1080000000002, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					186.1080000000002, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					249.264000000001, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+				{
+					249.264000000001, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [14]
+				{
+					249.264000000001, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [15]
+				{
+					249.264000000001, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [16]
 			},
 			[308360] = {
 				{
@@ -8913,103 +10907,49 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
 			},
-			[313420] = {
+			[315311] = {
 				{
-					60.94700000000012, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
+					29.9369999999999, -- [1]
+					"Aqir Ravager", -- [2]
+					315311, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
 				}, -- [1]
 				{
-					60.94700000000012, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
+					43.29100000000108, -- [1]
+					"Aqir Ravager", -- [2]
+					315311, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Xandreari", -- [5]
 				}, -- [2]
 				{
-					60.94700000000012, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
+					56.72800000000098, -- [1]
+					"Aqir Ravager", -- [2]
+					315311, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Xandreari", -- [5]
 				}, -- [3]
 				{
-					60.94700000000012, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
+					211.7780000000003, -- [1]
+					"Aqir Ravager", -- [2]
+					315311, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Xandreari", -- [5]
 				}, -- [4]
 				{
-					126.1910000000007, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
+					225.1290000000008, -- [1]
+					"Aqir Ravager", -- [2]
+					315311, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Xandreari", -- [5]
 				}, -- [5]
 				{
-					126.1910000000007, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
+					238.4660000000004, -- [1]
+					"Aqir Ravager", -- [2]
+					315311, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Xandreari", -- [5]
 				}, -- [6]
-				{
-					126.1910000000007, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [7]
-				{
-					126.1910000000007, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [8]
-				{
-					186.1080000000002, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [9]
-				{
-					186.1080000000002, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [10]
-				{
-					186.1080000000002, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [11]
-				{
-					186.1080000000002, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [12]
-				{
-					249.264000000001, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [13]
-				{
-					249.264000000001, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [14]
-				{
-					249.264000000001, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [15]
-				{
-					249.264000000001, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [16]
 			},
 			[307635] = {
 				{
@@ -9090,7 +11030,7 @@ DetailsTimeLineDB = {
 					"Aqir Drone", -- [5]
 				}, -- [1]
 			},
-		}, -- [16]
+		}, -- [21]
 		{
 			[307075] = {
 				{
@@ -9670,7 +11610,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [9]
 			},
-		}, -- [17]
+		}, -- [22]
 		{
 			[307075] = {
 				{
@@ -9962,7 +11902,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
 			},
-		}, -- [18]
+		}, -- [23]
 		{
 			[307075] = {
 				{
@@ -10152,85 +12092,49 @@ DetailsTimeLineDB = {
 					"Malkizor", -- [5]
 				}, -- [22]
 			},
-			[310298] = {
+			[307403] = {
 				{
-					44.15400000000045, -- [1]
-					"Sinister Soulcarver", -- [2]
-					310298, -- [3]
+					14.29900000000089, -- [1]
+					"Void Ascendant", -- [2]
+					307403, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					45.3760000000002, -- [1]
-					"Sinister Soulcarver", -- [2]
-					310298, -- [3]
+					27.7450000000008, -- [1]
+					"Void Ascendant", -- [2]
+					307403, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 				{
-					61.46500000000015, -- [1]
-					"Sinister Soulcarver", -- [2]
-					310298, -- [3]
+					98.14999999999964, -- [1]
+					"Void Ascendant", -- [2]
+					307403, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 				{
-					148.5949999999994, -- [1]
-					"Sinister Soulcarver", -- [2]
-					310298, -- [3]
+					112.7469999999994, -- [1]
+					"Void Ascendant", -- [2]
+					307403, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
 				{
-					164.3760000000002, -- [1]
-					"Sinister Soulcarver", -- [2]
-					310298, -- [3]
+					227.8199999999997, -- [1]
+					"Void Ascendant", -- [2]
+					307403, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [5]
 				{
-					215.9200000000001, -- [1]
-					"Sinister Soulcarver", -- [2]
-					310298, -- [3]
+					242.3809999999994, -- [1]
+					"Void Ascendant", -- [2]
+					307403, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [6]
 				{
-					217.1360000000004, -- [1]
-					"Sinister Soulcarver", -- [2]
-					310298, -- [3]
+					257.027, -- [1]
+					"Void Ascendant", -- [2]
+					307403, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [7]
-				{
-					218.7720000000008, -- [1]
-					"Sinister Soulcarver", -- [2]
-					310298, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [8]
-				{
-					232.1280000000006, -- [1]
-					"Sinister Soulcarver", -- [2]
-					310298, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [9]
-				{
-					232.9210000000003, -- [1]
-					"Sinister Soulcarver", -- [2]
-					310298, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [10]
-				{
-					276.3140000000003, -- [1]
-					"Sinister Soulcarver", -- [2]
-					310298, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [11]
-				{
-					292.2430000000004, -- [1]
-					"Sinister Soulcarver", -- [2]
-					310298, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [12]
-				{
-					308.4930000000004, -- [1]
-					"Sinister Soulcarver", -- [2]
-					310298, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [13]
 			},
 			[307020] = {
 				{
@@ -10325,72 +12229,93 @@ DetailsTimeLineDB = {
 					"Sezy", -- [5]
 				}, -- [13]
 			},
-			[310324] = {
+			[307639] = {
 				{
-					281.7440000000006, -- [1]
+					296.4300000000003, -- [1]
 					"Vexiona", -- [2]
-					310324, -- [3]
+					307639, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Xandreari", -- [5]
 				}, -- [1]
-				{
-					314.7039999999997, -- [1]
-					"Vexiona", -- [2]
-					310324, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Earthcrush", -- [5]
-				}, -- [2]
-				{
-					320.7780000000003, -- [1]
-					"Vexiona", -- [2]
-					310324, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Càtàlyst", -- [5]
-				}, -- [3]
 			},
-			[307403] = {
+			[310298] = {
 				{
-					14.29900000000089, -- [1]
-					"Void Ascendant", -- [2]
-					307403, -- [3]
+					44.15400000000045, -- [1]
+					"Sinister Soulcarver", -- [2]
+					310298, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					27.7450000000008, -- [1]
-					"Void Ascendant", -- [2]
-					307403, -- [3]
+					45.3760000000002, -- [1]
+					"Sinister Soulcarver", -- [2]
+					310298, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 				{
-					98.14999999999964, -- [1]
-					"Void Ascendant", -- [2]
-					307403, -- [3]
+					61.46500000000015, -- [1]
+					"Sinister Soulcarver", -- [2]
+					310298, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 				{
-					112.7469999999994, -- [1]
-					"Void Ascendant", -- [2]
-					307403, -- [3]
+					148.5949999999994, -- [1]
+					"Sinister Soulcarver", -- [2]
+					310298, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
 				{
-					227.8199999999997, -- [1]
-					"Void Ascendant", -- [2]
-					307403, -- [3]
+					164.3760000000002, -- [1]
+					"Sinister Soulcarver", -- [2]
+					310298, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [5]
 				{
-					242.3809999999994, -- [1]
-					"Void Ascendant", -- [2]
-					307403, -- [3]
+					215.9200000000001, -- [1]
+					"Sinister Soulcarver", -- [2]
+					310298, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [6]
 				{
-					257.027, -- [1]
-					"Void Ascendant", -- [2]
-					307403, -- [3]
+					217.1360000000004, -- [1]
+					"Sinister Soulcarver", -- [2]
+					310298, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [7]
+				{
+					218.7720000000008, -- [1]
+					"Sinister Soulcarver", -- [2]
+					310298, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					232.1280000000006, -- [1]
+					"Sinister Soulcarver", -- [2]
+					310298, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					232.9210000000003, -- [1]
+					"Sinister Soulcarver", -- [2]
+					310298, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					276.3140000000003, -- [1]
+					"Sinister Soulcarver", -- [2]
+					310298, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					292.2430000000004, -- [1]
+					"Sinister Soulcarver", -- [2]
+					310298, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					308.4930000000004, -- [1]
+					"Sinister Soulcarver", -- [2]
+					310298, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
 			},
 			[315762] = {
 				{
@@ -11251,15 +13176,30 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-			[307639] = {
+			[310324] = {
 				{
-					296.4300000000003, -- [1]
+					281.7440000000006, -- [1]
 					"Vexiona", -- [2]
-					307639, -- [3]
+					310324, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Xandreari", -- [5]
 				}, -- [1]
+				{
+					314.7039999999997, -- [1]
+					"Vexiona", -- [2]
+					310324, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [2]
+				{
+					320.7780000000003, -- [1]
+					"Vexiona", -- [2]
+					310324, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [3]
 			},
-		}, -- [19]
+		}, -- [24]
 		{
 			[307403] = {
 				{
@@ -11300,7 +13240,7 @@ DetailsTimeLineDB = {
 					"Aeila", -- [5]
 				}, -- [2]
 			},
-		}, -- [20]
+		}, -- [25]
 		{
 			[312336] = {
 				{
@@ -11636,7 +13576,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [5]
 			},
-		}, -- [21]
+		}, -- [26]
 		{
 			[312336] = {
 				{
@@ -11729,7 +13669,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-		}, -- [22]
+		}, -- [27]
 		{
 			[305722] = {
 				{
@@ -12089,7 +14029,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-		}, -- [23]
+		}, -- [28]
 		{
 			[313239] = {
 				{
@@ -12780,7 +14720,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [43]
 			},
-		}, -- [24]
+		}, -- [29]
 		{
 			[306995] = {
 				{
@@ -12816,13 +14756,19 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
 			},
-			[307974] = {
+			[306735] = {
 				{
-					87.86400000000049, -- [1]
+					68.66200000000026, -- [1]
 					"Wrathion", -- [2]
-					307974, -- [3]
+					306735, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
+				{
+					144.8410000000004, -- [1]
+					"Wrathion", -- [2]
+					306735, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
 			},
 			[306289] = {
 				{
@@ -12982,21 +14928,15 @@ DetailsTimeLineDB = {
 					"Xandreari", -- [5]
 				}, -- [14]
 			},
-			[306735] = {
+			[307974] = {
 				{
-					68.66200000000026, -- [1]
+					87.86400000000049, -- [1]
 					"Wrathion", -- [2]
-					306735, -- [3]
+					307974, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
-				{
-					144.8410000000004, -- [1]
-					"Wrathion", -- [2]
-					306735, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
 			},
-		}, -- [25]
+		}, -- [30]
 		{
 			[267459] = {
 				{
@@ -13021,22 +14961,6 @@ DetailsTimeLineDB = {
 					"Meowpheus", -- [5]
 				}, -- [1]
 			},
-			[267299] = {
-				{
-					73.41799999999785, -- [1]
-					"Vol'zith the Whisperer", -- [2]
-					267299, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			[267360] = {
-				{
-					24.65799999999945, -- [1]
-					"Vol'zith the Whisperer", -- [2]
-					267360, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
 			[269399] = {
 				{
 					15.14999999999782, -- [1]
@@ -13056,6 +14980,22 @@ DetailsTimeLineDB = {
 					269399, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
+			},
+			[267360] = {
+				{
+					24.65799999999945, -- [1]
+					"Vol'zith the Whisperer", -- [2]
+					267360, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[267299] = {
+				{
+					73.41799999999785, -- [1]
+					"Vol'zith the Whisperer", -- [2]
+					267299, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
 			},
 			[267385] = {
 				{
@@ -13173,6 +15113,14 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [19]
 			},
+			[267548] = {
+				{
+					24.68199999999706, -- [1]
+					"Unknown", -- [2]
+					267548, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
 			[267310] = {
 				{
 					81.77899999999863, -- [1]
@@ -13199,15 +15147,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
 			},
-			[267548] = {
-				{
-					24.68199999999706, -- [1]
-					"Unknown", -- [2]
-					267548, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-		}, -- [26]
+		}, -- [31]
 		{
 			[269131] = {
 				{
@@ -13323,7 +15263,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
 			},
-		}, -- [27]
+		}, -- [32]
 		{
 			[267901] = {
 				{
@@ -13423,7 +15363,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-		}, -- [28]
+		}, -- [33]
 		{
 			[264903] = {
 				{
@@ -13632,7 +15572,7 @@ DetailsTimeLineDB = {
 					"Pallyness", -- [5]
 				}, -- [1]
 			},
-		}, -- [29]
+		}, -- [34]
 		{
 			[296080] = {
 				{
@@ -13803,7 +15743,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [5]
 			},
-		}, -- [30]
+		}, -- [35]
 		{
 			[298473] = {
 				{
@@ -14189,7 +16129,7 @@ DetailsTimeLineDB = {
 					"Pallyness", -- [5]
 				}, -- [2]
 			},
-		}, -- [31]
+		}, -- [36]
 		{
 			[298897] = {
 				{
@@ -14333,7 +16273,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [32]
+		}, -- [37]
 		{
 			[268936] = {
 				{
@@ -14366,6 +16306,20 @@ DetailsTimeLineDB = {
 					33.93800000000192, -- [1]
 					"Reban", -- [2]
 					269232, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[269369] = {
+				{
+					36.50900000000183, -- [1]
+					"T'zala", -- [2]
+					269369, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					49.88100000000122, -- [1]
+					"T'zala", -- [2]
+					269369, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
@@ -14419,20 +16373,6 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Orek", -- [5]
 				}, -- [7]
-			},
-			[269369] = {
-				{
-					36.50900000000183, -- [1]
-					"T'zala", -- [2]
-					269369, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					49.88100000000122, -- [1]
-					"T'zala", -- [2]
-					269369, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
 			},
 			[269231] = {
 				{
@@ -14510,7 +16450,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [5]
 			},
-		}, -- [33]
+		}, -- [38]
 		{
 			[266939] = {
 				{
@@ -14678,7 +16618,7 @@ DetailsTimeLineDB = {
 					"Orek", -- [5]
 				}, -- [1]
 			},
-		}, -- [34]
+		}, -- [39]
 		{
 			[271561] = {
 				{
@@ -14972,8 +16912,30 @@ DetailsTimeLineDB = {
 					"Meowpheus", -- [5]
 				}, -- [2]
 			},
-		}, -- [35]
+		}, -- [40]
 		{
+			[265923] = {
+				{
+					43.98300000000018, -- [1]
+					"The Golden Serpent", -- [2]
+					265923, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[265781] = {
+				{
+					15.65400000000227, -- [1]
+					"The Golden Serpent", -- [2]
+					265781, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					37.90100000000166, -- [1]
+					"The Golden Serpent", -- [2]
+					265781, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
 			[265773] = {
 				{
 					9.690000000002328, -- [1]
@@ -15013,29 +16975,7 @@ DetailsTimeLineDB = {
 					"Pallyness", -- [5]
 				}, -- [2]
 			},
-			[265923] = {
-				{
-					43.98300000000018, -- [1]
-					"The Golden Serpent", -- [2]
-					265923, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			[265781] = {
-				{
-					15.65400000000227, -- [1]
-					"The Golden Serpent", -- [2]
-					265781, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					37.90100000000166, -- [1]
-					"The Golden Serpent", -- [2]
-					265781, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-			},
-		}, -- [36]
+		}, -- [41]
 		{
 			[257316] = {
 				{
@@ -15087,15 +17027,6 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-			[257314] = {
-				{
-					85.40699999999924, -- [1]
-					"Irontide Grenadier", -- [2]
-					257314, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Càtàlyst", -- [5]
-				}, -- [1]
-			},
 			[314406] = {
 				{
 					26.44000000000233, -- [1]
@@ -15105,7 +17036,16 @@ DetailsTimeLineDB = {
 					"Meowpheus", -- [5]
 				}, -- [1]
 			},
-		}, -- [37]
+			[257314] = {
+				{
+					85.40699999999924, -- [1]
+					"Irontide Grenadier", -- [2]
+					257314, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [1]
+			},
+		}, -- [42]
 		{
 			[256363] = {
 				{
@@ -15458,7 +17398,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [21]
 			},
-		}, -- [38]
+		}, -- [43]
 		{
 			[258352] = {
 				{
@@ -15661,7 +17601,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [39]
+		}, -- [44]
 		{
 			[255952] = {
 				{
@@ -15803,7 +17743,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [40]
+		}, -- [45]
 		{
 			[306733] = {
 				{
@@ -16271,7 +18211,7 @@ DetailsTimeLineDB = {
 					"Bird of Prey", -- [5]
 				}, -- [1]
 			},
-		}, -- [41]
+		}, -- [46]
 		{
 			[313129] = {
 				{
@@ -16703,42 +18643,79 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
-			[315311] = {
+			[313420] = {
 				{
-					29.82500000000073, -- [1]
-					"Aqir Ravager", -- [2]
-					315311, -- [3]
+					60.92299999999887, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Tissia", -- [5]
 				}, -- [1]
 				{
-					43.22699999999895, -- [1]
-					"Aqir Ravager", -- [2]
-					315311, -- [3]
+					60.92299999999887, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Deathmurt", -- [5]
 				}, -- [2]
 				{
-					56.56599999999889, -- [1]
-					"Aqir Ravager", -- [2]
-					315311, -- [3]
+					60.92299999999887, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Nenka", -- [5]
 				}, -- [3]
 				{
-					212.5590000000011, -- [1]
-					"Aqir Ravager", -- [2]
-					315311, -- [3]
+					60.92299999999887, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Pallyness", -- [5]
 				}, -- [4]
 				{
-					225.9199999999983, -- [1]
-					"Aqir Ravager", -- [2]
-					315311, -- [3]
+					126.8420000000006, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Hammathorn", -- [5]
 				}, -- [5]
+				{
+					126.8420000000006, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					126.8420000000006, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					126.8420000000006, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					186.0099999999984, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					186.0099999999984, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					186.0240000000013, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					186.0240000000013, -- [1]
+					"Acidic Aqir", -- [2]
+					313420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
 			},
 			[308360] = {
 				{
@@ -18016,18 +19993,20 @@ DetailsTimeLineDB = {
 					"Malkizor", -- [5]
 				}, -- [182]
 			},
-			[313652] = {
+			[308227] = {
 				{
-					177.4670000000006, -- [1]
-					"Ka'zir", -- [2]
-					313652, -- [3]
+					21.45799999999872, -- [1]
+					"Tek'ris", -- [2]
+					308227, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Aqir Drone", -- [5]
 				}, -- [1]
 				{
-					207.4529999999977, -- [1]
-					"Ka'zir", -- [2]
-					313652, -- [3]
+					202.6949999999997, -- [1]
+					"Tek'ris", -- [2]
+					308227, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Aqir Drone", -- [5]
 				}, -- [2]
 			},
 			[310343] = {
@@ -18050,79 +20029,42 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
-			[313420] = {
+			[315311] = {
 				{
-					60.92299999999887, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
+					29.82500000000073, -- [1]
+					"Aqir Ravager", -- [2]
+					315311, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Tissia", -- [5]
 				}, -- [1]
 				{
-					60.92299999999887, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
+					43.22699999999895, -- [1]
+					"Aqir Ravager", -- [2]
+					315311, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
 				}, -- [2]
 				{
-					60.92299999999887, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
+					56.56599999999889, -- [1]
+					"Aqir Ravager", -- [2]
+					315311, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Nenka", -- [5]
 				}, -- [3]
 				{
-					60.92299999999887, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
+					212.5590000000011, -- [1]
+					"Aqir Ravager", -- [2]
+					315311, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
 				}, -- [4]
 				{
-					126.8420000000006, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
+					225.9199999999983, -- [1]
+					"Aqir Ravager", -- [2]
+					315311, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Hammathorn", -- [5]
 				}, -- [5]
-				{
-					126.8420000000006, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
-				{
-					126.8420000000006, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [7]
-				{
-					126.8420000000006, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [8]
-				{
-					186.0099999999984, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [9]
-				{
-					186.0099999999984, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [10]
-				{
-					186.0240000000013, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [11]
-				{
-					186.0240000000013, -- [1]
-					"Acidic Aqir", -- [2]
-					313420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [12]
 			},
 			[307201] = {
 				{
@@ -18160,20 +20102,18 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-			[308227] = {
+			[313652] = {
 				{
-					21.45799999999872, -- [1]
-					"Tek'ris", -- [2]
-					308227, -- [3]
+					177.4670000000006, -- [1]
+					"Ka'zir", -- [2]
+					313652, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Aqir Drone", -- [5]
 				}, -- [1]
 				{
-					202.6949999999997, -- [1]
-					"Tek'ris", -- [2]
-					308227, -- [3]
+					207.4529999999977, -- [1]
+					"Ka'zir", -- [2]
+					313652, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Aqir Drone", -- [5]
 				}, -- [2]
 			},
 			[308178] = {
@@ -18185,7 +20125,7 @@ DetailsTimeLineDB = {
 					"Aqir Drone", -- [5]
 				}, -- [1]
 			},
-		}, -- [42]
+		}, -- [47]
 		{
 			[307075] = {
 				{
@@ -18434,7 +20374,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
 			},
-		}, -- [43]
+		}, -- [48]
 		{
 			[307075] = {
 				{
@@ -18683,7 +20623,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
 			},
-		}, -- [44]
+		}, -- [49]
 		{
 			[307075] = {
 				{
@@ -18859,25 +20799,49 @@ DetailsTimeLineDB = {
 					"Deathmurt", -- [5]
 				}, -- [21]
 			},
-			[307403] = {
+			[310298] = {
 				{
-					15.53099999999904, -- [1]
-					"Void Ascendant", -- [2]
-					307403, -- [3]
+					45.06200000000172, -- [1]
+					"Sinister Soulcarver", -- [2]
+					310298, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					98.95100000000093, -- [1]
-					"Void Ascendant", -- [2]
-					307403, -- [3]
+					47.45500000000175, -- [1]
+					"Sinister Soulcarver", -- [2]
+					310298, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 				{
-					113.5570000000007, -- [1]
-					"Void Ascendant", -- [2]
-					307403, -- [3]
+					60.91900000000169, -- [1]
+					"Sinister Soulcarver", -- [2]
+					310298, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
+				{
+					63.37900000000082, -- [1]
+					"Sinister Soulcarver", -- [2]
+					310298, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					154.7949999999983, -- [1]
+					"Sinister Soulcarver", -- [2]
+					310298, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					170.5979999999981, -- [1]
+					"Sinister Soulcarver", -- [2]
+					310298, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					186.4480000000003, -- [1]
+					"Sinister Soulcarver", -- [2]
+					310298, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
 			},
 			[307020] = {
 				{
@@ -18972,63 +20936,41 @@ DetailsTimeLineDB = {
 					"Meowpheus", -- [5]
 				}, -- [13]
 			},
-			[307639] = {
+			[310324] = {
 				{
-					229.5400000000009, -- [1]
+					214.9409999999989, -- [1]
 					"Vexiona", -- [2]
-					307639, -- [3]
+					310324, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Hammathorn", -- [5]
 				}, -- [1]
 				{
-					261.1870000000017, -- [1]
+					247.8339999999989, -- [1]
 					"Vexiona", -- [2]
-					307639, -- [3]
+					310324, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Nenka", -- [5]
 				}, -- [2]
 			},
-			[310298] = {
+			[307403] = {
 				{
-					45.06200000000172, -- [1]
-					"Sinister Soulcarver", -- [2]
-					310298, -- [3]
+					15.53099999999904, -- [1]
+					"Void Ascendant", -- [2]
+					307403, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					47.45500000000175, -- [1]
-					"Sinister Soulcarver", -- [2]
-					310298, -- [3]
+					98.95100000000093, -- [1]
+					"Void Ascendant", -- [2]
+					307403, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 				{
-					60.91900000000169, -- [1]
-					"Sinister Soulcarver", -- [2]
-					310298, -- [3]
+					113.5570000000007, -- [1]
+					"Void Ascendant", -- [2]
+					307403, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
-				{
-					63.37900000000082, -- [1]
-					"Sinister Soulcarver", -- [2]
-					310298, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-				{
-					154.7949999999983, -- [1]
-					"Sinister Soulcarver", -- [2]
-					310298, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [5]
-				{
-					170.5979999999981, -- [1]
-					"Sinister Soulcarver", -- [2]
-					310298, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
-				{
-					186.4480000000003, -- [1]
-					"Sinister Soulcarver", -- [2]
-					310298, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [7]
 			},
 			[315762] = {
 				{
@@ -19801,23 +21743,21 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-			[310324] = {
+			[307639] = {
 				{
-					214.9409999999989, -- [1]
+					229.5400000000009, -- [1]
 					"Vexiona", -- [2]
-					310324, -- [3]
+					307639, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Hammathorn", -- [5]
 				}, -- [1]
 				{
-					247.8339999999989, -- [1]
+					261.1870000000017, -- [1]
 					"Vexiona", -- [2]
-					310324, -- [3]
+					307639, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Nenka", -- [5]
 				}, -- [2]
 			},
-		}, -- [45]
+		}, -- [50]
 		{
 			[307403] = {
 				{
@@ -19845,7 +21785,7 @@ DetailsTimeLineDB = {
 					"Nenka", -- [5]
 				}, -- [1]
 			},
-		}, -- [46]
+		}, -- [51]
 		{
 			[312336] = {
 				{
@@ -20190,7 +22130,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
 			},
-		}, -- [47]
+		}, -- [52]
 		{
 			[317672] = {
 				{
@@ -20544,7 +22484,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [7]
 			},
-		}, -- [48]
+		}, -- [53]
 		{
 			[310552] = {
 				{
@@ -23845,6 +25785,116 @@ DetailsTimeLineDB = {
 					"Splashfest", -- [5]
 				}, -- [46]
 			},
+			[310329] = {
+				{
+					20.23099999999977, -- [1]
+					"Drest'agath", -- [2]
+					310329, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					65.65699999999924, -- [1]
+					"Drest'agath", -- [2]
+					310329, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					110.9650000000002, -- [1]
+					"Drest'agath", -- [2]
+					310329, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					155.762999999999, -- [1]
+					"Drest'agath", -- [2]
+					310329, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					201.2000000000007, -- [1]
+					"Drest'agath", -- [2]
+					310329, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					246.3460000000014, -- [1]
+					"Drest'agath", -- [2]
+					310329, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+			},
+			[310078] = {
+				{
+					72.1810000000005, -- [1]
+					"Maw of Drest'agath", -- [2]
+					310078, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					166.2520000000004, -- [1]
+					"Maw of Drest'agath", -- [2]
+					310078, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					257.7829999999995, -- [1]
+					"Maw of Drest'agath", -- [2]
+					310078, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[310352] = {
+				{
+					32.47999999999956, -- [1]
+					"Maw of Drest'agath", -- [2]
+					310352, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					134.0869999999995, -- [1]
+					"Maw of Drest'agath", -- [2]
+					310352, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					134.0869999999995, -- [1]
+					"Maw of Drest'agath", -- [2]
+					310352, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					242.6389999999992, -- [1]
+					"Maw of Drest'agath", -- [2]
+					310352, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[310348] = {
+				{
+					65.65699999999924, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310348, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					111, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310348, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					155.7870000000003, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310348, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					246.3460000000014, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					310348, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
 			[310614] = {
 				{
 					30.72799999999916, -- [1]
@@ -24045,117 +26095,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [33]
 			},
-			[310348] = {
-				{
-					65.65699999999924, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310348, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					111, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310348, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					155.7870000000003, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310348, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					246.3460000000014, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					310348, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-			},
-			[310352] = {
-				{
-					32.47999999999956, -- [1]
-					"Maw of Drest'agath", -- [2]
-					310352, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					134.0869999999995, -- [1]
-					"Maw of Drest'agath", -- [2]
-					310352, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					134.0869999999995, -- [1]
-					"Maw of Drest'agath", -- [2]
-					310352, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					242.6389999999992, -- [1]
-					"Maw of Drest'agath", -- [2]
-					310352, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-			},
-			[310078] = {
-				{
-					72.1810000000005, -- [1]
-					"Maw of Drest'agath", -- [2]
-					310078, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					166.2520000000004, -- [1]
-					"Maw of Drest'agath", -- [2]
-					310078, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					257.7829999999995, -- [1]
-					"Maw of Drest'agath", -- [2]
-					310078, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-			},
-			[310329] = {
-				{
-					20.23099999999977, -- [1]
-					"Drest'agath", -- [2]
-					310329, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					65.65699999999924, -- [1]
-					"Drest'agath", -- [2]
-					310329, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					110.9650000000002, -- [1]
-					"Drest'agath", -- [2]
-					310329, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					155.762999999999, -- [1]
-					"Drest'agath", -- [2]
-					310329, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-				{
-					201.2000000000007, -- [1]
-					"Drest'agath", -- [2]
-					310329, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [5]
-				{
-					246.3460000000014, -- [1]
-					"Drest'agath", -- [2]
-					310329, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
-			},
-		}, -- [49]
+		}, -- [54]
 		{
 			[316030] = {
 				{
@@ -24416,7 +26356,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [8]
 			},
-		}, -- [50]
+		}, -- [55]
 		{
 			[316030] = {
 				{
@@ -24766,7 +26706,7 @@ DetailsTimeLineDB = {
 					"Aeila", -- [5]
 				}, -- [7]
 			},
-		}, -- [51]
+		}, -- [56]
 		{
 			[305722] = {
 				{
@@ -25019,7 +26959,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [52]
+		}, -- [57]
 		{
 			[313239] = {
 				{
@@ -25513,517 +27453,128 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-		}, -- [53]
+		}, -- [58]
 	},
 	["useicons"] = true,
 	["cooldowns_timeline"] = {
 		{
+			["Deathmurt"] = {
+				{
+					71.15700000000015, -- [1]
+					"Deathmurt", -- [2]
+					48707, -- [3]
+				}, -- [1]
+				{
+					73.69200000000001, -- [1]
+					"Deathmurt", -- [2]
+					48792, -- [3]
+				}, -- [2]
+			},
 		}, -- [1]
 		{
-			["Harlyjaine-Malfurion"] = {
+			["Meowpheus"] = {
 				{
-					43.76899999999841, -- [1]
-					"Harlyjaine-Malfurion", -- [2]
-					184364, -- [3]
+					68.28999999999996, -- [1]
+					"Meowpheus", -- [2]
+					22812, -- [3]
 				}, -- [1]
 			},
-			["Invinoverita-WyrmrestAccord"] = {
+			["Deathmurt"] = {
 				{
-					38.60099999999875, -- [1]
-					"Invinoverita-WyrmrestAccord", -- [2]
+					32.63000000000011, -- [1]
+					"Deathmurt", -- [2]
 					48707, -- [3]
 				}, -- [1]
 			},
 			["Pallyness"] = {
 				{
-					6.233000000000175, -- [1]
+					26.25, -- [1]
 					"Pallyness", -- [2]
-					105809, -- [3]
+					31850, -- [3]
 				}, -- [1]
 			},
 		}, -- [2]
 		{
-			["Harlyjaine-Malfurion"] = {
+			["Meowpheus"] = {
 				{
-					56.59900000000016, -- [1]
-					"Harlyjaine-Malfurion", -- [2]
-					184364, -- [3]
+					119.4589999999998, -- [1]
+					"Càtàlyst", -- [2]
+					203651, -- [3]
 				}, -- [1]
 			},
-			["Invinoverita-WyrmrestAccord"] = {
+			["Càtàlyst"] = {
 				{
-					7.018000000000029, -- [1]
-					"Invinoverita-WyrmrestAccord", -- [2]
-					48792, -- [3]
+					75.16800000000012, -- [1]
+					"Càtàlyst", -- [2]
+					45438, -- [3]
 				}, -- [1]
 			},
-			["Teloran"] = {
+			["Deathmurt"] = {
 				{
-					18.11700000000019, -- [1]
-					"Teloran", -- [2]
-					186265, -- [3]
+					11.74199999999973, -- [1]
+					"Deathmurt", -- [2]
+					48707, -- [3]
 				}, -- [1]
 				{
-					43.52299999999923, -- [1]
-					"Teloran", -- [2]
-					109304, -- [3]
+					30.69999999999982, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					51052, -- [3]
 				}, -- [2]
+				{
+					98.52199999999993, -- [1]
+					"Deathmurt", -- [2]
+					48707, -- [3]
+				}, -- [3]
 			},
 			["Pallyness"] = {
 				{
-					12.70299999999952, -- [1]
-					"Invinoverita-WyrmrestAccord", -- [2]
+					33.78200000000015, -- [1]
+					"Earthcrush", -- [2]
 					633, -- [3]
 				}, -- [1]
 				{
-					21.53499999999985, -- [1]
+					36.98099999999977, -- [1]
+					"Meowpheus", -- [2]
+					204018, -- [3]
+				}, -- [2]
+			},
+		}, -- [3]
+		{
+			["Meowpheus"] = {
+				{
+					62.68399999999974, -- [1]
+					"Earthcrush", -- [2]
+					102342, -- [3]
+				}, -- [1]
+				{
+					65.77299999999968, -- [1]
 					"Pallyness", -- [2]
-					642, -- [3]
+					203651, -- [3]
 				}, -- [2]
 				{
-					36.6869999999999, -- [1]
-					"Pallyness", -- [2]
-					105809, -- [3]
+					90.14999999999964, -- [1]
+					"Meowpheus", -- [2]
+					33891, -- [3]
 				}, -- [3]
 			},
-		}, -- [3]
-		{
-			["Pallyness"] = {
+			["Deathmurt"] = {
 				{
-					19.17599999999948, -- [1]
-					"Invinoverita-WyrmrestAccord", -- [2]
-					6940, -- [3]
+					11.95299999999998, -- [1]
+					"Deathmurt", -- [2]
+					48792, -- [3]
 				}, -- [1]
 			},
-			["Invinoverita-WyrmrestAccord"] = {
+			["Pallyness"] = {
 				{
-					27.12199999999939, -- [1]
-					"Invinoverita-WyrmrestAccord", -- [2]
-					55233, -- [3]
+					43.13899999999967, -- [1]
+					"Pallyness", -- [2]
+					31850, -- [3]
 				}, -- [1]
-			},
-		}, -- [4]
-	},
-	["window_scale"] = 1,
-	["deaths_data"] = {
-		{
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-		}, -- [3]
-		{
-		}, -- [4]
-	},
-	["debuff_timeline"] = {
-		{
-		}, -- [1]
-		{
-			["Harlyjaine-Malfurion"] = {
-				[261440] = {
-					27.83899999999994, -- [1]
-					32.84499999999935, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Lord Waycrest",
-					["active"] = false,
-				},
-			},
-			["Invinoverita-WyrmrestAccord"] = {
-				[261438] = {
-					22.76299999999901, -- [1]
-					27.76699999999983, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Lord Waycrest",
-					["active"] = false,
-				},
-			},
-			["Pallyness"] = {
-				[261440] = {
-					10.26199999999881, -- [1]
-					15.26899999999841, -- [2]
-					43.31599999999889, -- [3]
-					45.84699999999975, -- [4]
-					["stacks"] = {
-					},
-					["source"] = "Lord Waycrest",
-					["active"] = false,
-				},
-			},
-		}, -- [2]
-		{
-			["Gatepriest-Malfurion"] = {
-				[268125] = {
-					49.69700000000012, -- [1]
-					63.84599999999955, -- [2]
-					89.78899999999885, -- [3]
-					92.12900000000081, -- [4]
-					["stacks"] = {
-					},
-					["source"] = "[*] Aura of Thorns",
-					["active"] = false,
-				},
-				[260703] = {
-					43.90799999999945, -- [1]
-					49.90799999999945, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Sister Malady",
-					["active"] = false,
-				},
-				[268086] = {
-					34.09699999999975, -- [1]
-					35.11399999999958, -- [2]
-					35.11399999999958, -- [3]
-					36.62799999999879, -- [4]
-					36.62799999999879, -- [5]
-					38.14400000000023, -- [6]
-					38.14400000000023, -- [7]
-					38.65499999999884, -- [8]
-					38.65499999999884, -- [9]
-					46.68000000000029, -- [10]
-					79.0619999999999, -- [11]
-					87.10499999999956, -- [12]
-					["stacks"] = {
-					},
-					["source"] = "[*] Aura of Dread",
-					["active"] = false,
-				},
-				[268080] = {
-					2.493000000000393, -- [1]
-					30.10299999999916, -- [2]
-					66.7510000000002, -- [3]
-					75.63899999999921, -- [4]
-					["stacks"] = {
-					},
-					["source"] = "[*] Aura of Apathy",
-					["active"] = false,
-				},
-			},
-			["Invinoverita-WyrmrestAccord"] = {
-				[265352] = {
-					29.30699999999888, -- [1]
-					33.32499999999891, -- [2]
-					33.9429999999993, -- [3]
-					34.15699999999924, -- [4]
-					["stacks"] = {
-					},
-					["source"] = "Blight Toad",
-					["active"] = false,
-				},
-				[266035] = {
-					8.662000000000262, -- [1]
-					18.66799999999967, -- [2]
-					25.52999999999884, -- [3]
-					35.53199999999924, -- [4]
-					54.77099999999882, -- [5]
-					64.77099999999882, -- [6]
-					["stacks"] = {
-					},
-					["source"] = "Thistle Acolyte",
-					["active"] = false,
-				},
-				[268086] = {
-					37.94599999999991, -- [1]
-					39.46299999999974, -- [2]
-					39.46299999999974, -- [3]
-					41.49499999999898, -- [4]
-					41.49499999999898, -- [5]
-					43.01599999999962, -- [6]
-					43.01599999999962, -- [7]
-					43.52299999999923, -- [8]
-					43.52299999999923, -- [9]
-					44.52999999999884, -- [10]
-					44.52999999999884, -- [11]
-					45.04399999999987, -- [12]
-					45.04399999999987, -- [13]
-					46.04899999999907, -- [14]
-					79.04999999999927, -- [15]
-					79.5630000000001, -- [16]
-					79.5630000000001, -- [17]
-					80.07099999999991, -- [18]
-					80.07099999999991, -- [19]
-					87.10499999999956, -- [20]
-					["stacks"] = {
-					},
-					["source"] = "[*] Aura of Dread",
-					["active"] = false,
-				},
-				[268125] = {
-					49.69700000000012, -- [1]
-					63.84599999999955, -- [2]
-					89.78899999999885, -- [3]
-					92.12900000000081, -- [4]
-					["stacks"] = {
-					},
-					["source"] = "[*] Aura of Thorns",
-					["active"] = false,
-				},
-				[266036] = {
-					13.27099999999882, -- [1]
-					21.25900000000002, -- [2]
-					27.82799999999952, -- [3]
-					35.83300000000054, -- [4]
-					43.62299999999959, -- [5]
-					51.62299999999959, -- [6]
-					["stacks"] = {
-					},
-					["source"] = "Thistle Acolyte",
-					["active"] = false,
-				},
-				[268080] = {
-					2.424999999999272, -- [1]
-					30.08499999999913, -- [2]
-					66.7510000000002, -- [3]
-					75.63899999999921, -- [4]
-					["stacks"] = {
-					},
-					["source"] = "[*] Aura of Apathy",
-					["active"] = false,
-				},
-				[260703] = {
-					43.39199999999983, -- [1]
-					49.40899999999965, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Sister Malady",
-					["active"] = false,
-				},
-			},
-			["Pallyness"] = {
-				[1604] = {
-					15.93199999999888, -- [1]
-					19.94999999999891, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Teloran",
-					["active"] = false,
-				},
-				[268086] = {
-					34.17299999999887, -- [1]
-					34.67399999999907, -- [2]
-					34.67399999999907, -- [3]
-					37.21500000000015, -- [4]
-					37.21500000000015, -- [5]
-					43.76299999999901, -- [6]
-					43.76299999999901, -- [7]
-					44.27900000000045, -- [8]
-					44.27900000000045, -- [9]
-					45.28299999999945, -- [10]
-					45.28299999999945, -- [11]
-					45.78399999999965, -- [12]
-					45.78399999999965, -- [13]
-					46.79099999999926, -- [14]
-					78.98300000000017, -- [15]
-					79.4930000000004, -- [16]
-					79.4930000000004, -- [17]
-					84.52800000000025, -- [18]
-					84.52800000000025, -- [19]
-					85.03299999999945, -- [20]
-					85.03299999999945, -- [21]
-					85.53099999999904, -- [22]
-					85.53099999999904, -- [23]
-					86.03099999999904, -- [24]
-					86.03099999999904, -- [25]
-					87.04700000000048, -- [26]
-					["stacks"] = {
-					},
-					["source"] = "[*] Aura of Dread",
-					["active"] = false,
-				},
-				[265352] = {
-					19.67599999999948, -- [1]
-					21.53499999999985, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Blight Toad",
-					["active"] = false,
-				},
-				[268125] = {
-					49.71299999999974, -- [1]
-					63.84599999999955, -- [2]
-					89.81500000000051, -- [3]
-					92.12900000000081, -- [4]
-					["stacks"] = {
-					},
-					["source"] = "[*] Aura of Thorns",
-					["active"] = false,
-				},
-				[266035] = {
-					39.10599999999977, -- [1]
-					49.09399999999914, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Thistle Acolyte",
-					["active"] = false,
-				},
-				[268080] = {
-					2.397999999999229, -- [1]
-					21.53499999999985, -- [2]
-					29.53099999999904, -- [3]
-					30.08499999999913, -- [4]
-					66.7510000000002, -- [5]
-					75.63899999999921, -- [6]
-					["stacks"] = {
-					},
-					["source"] = "[*] Aura of Apathy",
-					["active"] = false,
-				},
-				[260703] = {
-					43.32899999999972, -- [1]
-					49.34399999999914, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Sister Malady",
-					["active"] = false,
-				},
-			},
-			["Harlyjaine-Malfurion"] = {
-				[265352] = {
-					19.67599999999948, -- [1]
-					23.68900000000031, -- [2]
-					29.30699999999888, -- [3]
-					33.32499999999891, -- [4]
-					33.9429999999993, -- [5]
-					34.15699999999924, -- [6]
-					["stacks"] = {
-					},
-					["source"] = "Blight Toad",
-					["active"] = false,
-				},
-				[268086] = {
-					37.94599999999991, -- [1]
-					45.99799999999959, -- [2]
-					78.92000000000007, -- [3]
-					79.41699999999946, -- [4]
-					79.41699999999946, -- [5]
-					82.48699999999917, -- [6]
-					82.48699999999917, -- [7]
-					86.48400000000038, -- [8]
-					["stacks"] = {
-					},
-					["source"] = "[*] Aura of Dread",
-					["active"] = false,
-				},
-				[260741] = {
-					56.56999999999971, -- [1]
-					59.57200000000012, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Sister Briar",
-					["active"] = false,
-				},
-				[268125] = {
-					49.69700000000012, -- [1]
-					63.84599999999955, -- [2]
-					89.81500000000051, -- [3]
-					92.12900000000081, -- [4]
-					["stacks"] = {
-					},
-					["source"] = "[*] Aura of Thorns",
-					["active"] = false,
-				},
-				[268080] = {
-					2.440000000000509, -- [1]
-					30.10299999999916, -- [2]
-					66.7510000000002, -- [3]
-					75.63899999999921, -- [4]
-					["stacks"] = {
-					},
-					["source"] = "[*] Aura of Apathy",
-					["active"] = false,
-				},
-				[260703] = {
-					43.56599999999889, -- [1]
-					49.56400000000031, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Sister Malady",
-					["active"] = false,
-				},
-			},
-			["Teloran"] = {
-				[260703] = {
-					44.0059999999994, -- [1]
-					50.00699999999961, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Sister Malady",
-					["active"] = false,
-				},
-				[260900] = {
-					12.85399999999936, -- [1]
-					92.12900000000081, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Sister Solena",
-					["active"] = false,
-				},
-				[268086] = {
-					34.14500000000044, -- [1]
-					45.22799999999916, -- [2]
-					45.22799999999916, -- [3]
-					45.72600000000057, -- [4]
-					45.72600000000057, -- [5]
-					46.72699999999895, -- [6]
-					79.04999999999927, -- [7]
-					87.10499999999956, -- [8]
-					["stacks"] = {
-					},
-					["source"] = "[*] Aura of Dread",
-					["active"] = false,
-				},
-				[268125] = {
-					49.69700000000012, -- [1]
-					63.84599999999955, -- [2]
-					89.78899999999885, -- [3]
-					92.12900000000081, -- [4]
-					["stacks"] = {
-					},
-					["source"] = "[*] Aura of Thorns",
-					["active"] = false,
-				},
-				[268080] = {
-					2.397999999999229, -- [1]
-					30.08499999999913, -- [2]
-					66.7510000000002, -- [3]
-					75.63899999999921, -- [4]
-					["stacks"] = {
-					},
-					["source"] = "[*] Aura of Apathy",
-					["active"] = false,
-				},
-				[260926] = {
-					12.85399999999936, -- [1]
-					92.12900000000081, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Sister Solena",
-					["active"] = false,
-				},
-			},
-		}, -- [3]
-		{
-			["Harlyjaine-Malfurion"] = {
-				[267907] = {
-					9.058999999999287, -- [1]
-					12.72099999999955, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "[*] Soul Thorns",
-					["active"] = false,
-				},
-			},
-			["Teloran"] = {
-				[267907] = {
-					30.93599999999969, -- [1]
-					42.40600000000086, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "[*] Soul Thorns",
-					["active"] = false,
-				},
+				{
+					63.99099999999999, -- [1]
+					"Pallyness", -- [2]
+					86659, -- [3]
+				}, -- [2]
 			},
 		}, -- [4]
 	},
@@ -26033,1200 +27584,2327 @@ DetailsTimeLineDB = {
 		0, -- [3]
 		0.4, -- [4]
 	},
+	["deaths_data"] = {
+		{
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+			["Earthcrush"] = {
+				{
+					["time"] = 102.4670000000001,
+					["events"] = {
+						{
+							true, -- [1]
+							268086, -- [2]
+							2855, -- [3]
+							1603933894.977, -- [4]
+							1959, -- [5]
+							"[*] Aura of Dread", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							260703, -- [2]
+							892, -- [3]
+							1603933895.708, -- [4]
+							1206, -- [5]
+							"Sister Malady", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							268086, -- [2]
+							2855, -- [3]
+							1603933895.971, -- [4]
+							1, -- [5]
+							"[*] Aura of Dread", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							1648, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+			["Meowpheus"] = {
+				{
+					["time"] = 99.38699999999972,
+					["events"] = {
+						{
+							true, -- [1]
+							260703, -- [2]
+							844, -- [3]
+							1603933892.362, -- [4]
+							1518, -- [5]
+							"Sister Malady", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							260702, -- [2]
+							1975, -- [3]
+							1603933892.855, -- [4]
+							1813, -- [5]
+							"[*] Unstable Runic Mark", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							268086, -- [2]
+							4057, -- [3]
+							1603933892.922, -- [4]
+							1, -- [5]
+							"[*] Aura of Dread", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							2244, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			["Pallyness"] = {
+				{
+					["time"] = 90.14999999999964,
+					["events"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							18483, -- [3]
+							1603933499.321, -- [4]
+							26101, -- [5]
+							"Soulbound Goliath", -- [6]
+							1733, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							1, -- [2]
+							14948, -- [3]
+							1603933501.307, -- [4]
+							12087, -- [5]
+							"Soulbound Goliath", -- [6]
+							330, -- [7]
+							1, -- [8]
+							false, -- [9]
+							2531, -- [10]
+						}, -- [2]
+					},
+				}, -- [1]
+			},
+		}, -- [4]
+	},
+	["debuff_timeline"] = {
+		{
+			["Earthcrush"] = {
+				[268202] = {
+					50.52300000000014, -- [1]
+					52.76000000000022, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Deathtouched Slaver",
+					["active"] = false,
+				},
+			},
+			["Deathmurt"] = {
+				[268202] = {
+					72.41900000000078, -- [1]
+					73.69200000000001, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Deathtouched Slaver",
+					["active"] = false,
+				},
+			},
+			["Càtàlyst"] = {
+				[268202] = {
+					14.09000000000015, -- [1]
+					16.69400000000042, -- [2]
+					66.31500000000051, -- [3]
+					67.33200000000033, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "Deathtouched Slaver",
+					["active"] = false,
+				},
+			},
+		}, -- [1]
+		{
+			["Càtàlyst"] = {
+				[261440] = {
+					45.66399999999976, -- [1]
+					50.67399999999998, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Lord Waycrest",
+					["active"] = false,
+				},
+			},
+			["Meowpheus"] = {
+				[261440] = {
+					12.64599999999973, -- [1]
+					17.67999999999938, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Lord Waycrest",
+					["active"] = false,
+				},
+			},
+			["Deathmurt"] = {
+				[261440] = {
+					28.49299999999948, -- [1]
+					33.4989999999998, -- [2]
+					62.52499999999964, -- [3]
+					67.49200000000019, -- [4]
+					79.51599999999962, -- [5]
+					84.48899999999958, -- [6]
+					["stacks"] = {
+					},
+					["source"] = "Lord Waycrest",
+					["active"] = false,
+				},
+			},
+			["Pallyness"] = {
+				[261438] = {
+					7.670999999999367, -- [1]
+					12.69700000000012, -- [2]
+					24.77099999999973, -- [3]
+					29.73300000000018, -- [4]
+					42.91799999999967, -- [5]
+					47.93299999999999, -- [6]
+					59.89899999999943, -- [7]
+					64.92799999999988, -- [8]
+					76.88400000000001, -- [9]
+					81.88699999999972, -- [10]
+					["stacks"] = {
+					},
+					["source"] = "Lord Waycrest",
+					["active"] = false,
+				},
+			},
+		}, -- [2]
+		{
+			["Deathmurt"] = {
+				[260703] = {
+					26.18199999999979, -- [1]
+					32.21500000000015, -- [2]
+					96.61299999999983, -- [3]
+					102.6469999999999, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "Sister Malady",
+					["active"] = false,
+				},
+				[289308] = {
+					69.97699999999986, -- [1]
+					74.46500000000015, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Càtàlyst",
+					["active"] = false,
+				},
+				[268086] = {
+					16.83699999999999, -- [1]
+					18.86999999999989, -- [2]
+					18.86999999999989, -- [3]
+					19.86699999999973, -- [4]
+					19.86699999999973, -- [5]
+					20.36099999999988, -- [6]
+					20.36099999999988, -- [7]
+					21.39599999999973, -- [8]
+					21.39599999999973, -- [9]
+					21.90099999999984, -- [10]
+					21.90099999999984, -- [11]
+					22.42900000000009, -- [12]
+					22.42900000000009, -- [13]
+					23.4079999999999, -- [14]
+					23.42700000000014, -- [15]
+					24.96399999999994, -- [16]
+					24.96399999999994, -- [17]
+					25.94399999999996, -- [18]
+					25.94399999999996, -- [19]
+					26.43499999999995, -- [20]
+					26.43499999999995, -- [21]
+					26.95899999999983, -- [22]
+					26.95899999999983, -- [23]
+					27.45899999999983, -- [24]
+					27.45899999999983, -- [25]
+					27.96500000000015, -- [26]
+					27.96500000000015, -- [27]
+					28.46599999999989, -- [28]
+					28.46599999999989, -- [29]
+					28.99299999999994, -- [30]
+					28.99299999999994, -- [31]
+					30.01099999999997, -- [32]
+					30.01099999999997, -- [33]
+					31.02700000000004, -- [34]
+					31.02700000000004, -- [35]
+					31.51999999999998, -- [36]
+					31.51999999999998, -- [37]
+					32.01800000000003, -- [38]
+					32.01800000000003, -- [39]
+					32.61000000000013, -- [40]
+					32.61000000000013, -- [41]
+					33.06899999999996, -- [42]
+					33.06899999999996, -- [43]
+					33.55099999999993, -- [44]
+					33.55099999999993, -- [45]
+					34.55600000000004, -- [46]
+					34.55600000000004, -- [47]
+					35.58500000000004, -- [48]
+					87.31799999999976, -- [49]
+					88.34299999999985, -- [50]
+					88.34299999999985, -- [51]
+					89.35100000000011, -- [52]
+					89.35100000000011, -- [53]
+					89.83899999999994, -- [54]
+					89.83899999999994, -- [55]
+					90.36699999999973, -- [56]
+					90.36699999999973, -- [57]
+					90.86900000000014, -- [58]
+					90.86900000000014, -- [59]
+					91.3779999999997, -- [60]
+					91.3779999999997, -- [61]
+					92.42200000000003, -- [62]
+					92.42200000000003, -- [63]
+					92.91899999999987, -- [64]
+					92.91899999999987, -- [65]
+					93.90499999999975, -- [66]
+					93.90499999999975, -- [67]
+					94.42700000000013, -- [68]
+					94.42700000000013, -- [69]
+					94.92999999999984, -- [70]
+					94.92999999999984, -- [71]
+					95.42900000000009, -- [72]
+					95.42900000000009, -- [73]
+					95.92700000000013, -- [74]
+					95.92700000000013, -- [75]
+					96.92399999999998, -- [76]
+					96.92399999999998, -- [77]
+					97.93600000000015, -- [78]
+					97.93600000000015, -- [79]
+					98.44799999999987, -- [80]
+					98.44799999999987, -- [81]
+					99.44599999999991, -- [82]
+					99.44599999999991, -- [83]
+					99.95199999999977, -- [84]
+					99.95199999999977, -- [85]
+					100.453, -- [86]
+					100.453, -- [87]
+					100.9549999999999, -- [88]
+					100.9549999999999, -- [89]
+					101.4749999999999, -- [90]
+					101.4749999999999, -- [91]
+					101.9879999999998, -- [92]
+					101.9879999999998, -- [93]
+					102.4670000000001, -- [94]
+					102.4670000000001, -- [95]
+					102.9859999999999, -- [96]
+					102.9859999999999, -- [97]
+					103.9879999999998, -- [98]
+					103.9879999999998, -- [99]
+					105.0129999999999, -- [100]
+					105.0129999999999, -- [101]
+					107.0450000000001, -- [102]
+					["stacks"] = {
+					},
+					["source"] = "[*] Aura of Dread",
+					["active"] = false,
+				},
+				[268125] = {
+					38.72600000000011, -- [1]
+					54.29399999999987, -- [2]
+					110.3980000000001, -- [3]
+					127.7779999999998, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "[*] Aura of Thorns",
+					["active"] = false,
+				},
+				[268080] = {
+					2.317000000000007, -- [1]
+					13.4079999999999, -- [2]
+					58.17099999999982, -- [3]
+					83.22800000000007, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "[*] Aura of Apathy",
+					["active"] = false,
+				},
+				[122] = {
+					86.02399999999989, -- [1]
+					88.16800000000012, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Càtàlyst",
+					["active"] = false,
+				},
+			},
+			["Càtàlyst"] = {
+				[260703] = {
+					26.51600000000008, -- [1]
+					32.21500000000015, -- [2]
+					96.80899999999974, -- [3]
+					102.788, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "Sister Malady",
+					["active"] = false,
+				},
+				[260900] = {
+					12.75700000000006, -- [1]
+					127.7779999999998, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Sister Solena",
+					["active"] = false,
+				},
+				[268086] = {
+					21.39599999999973, -- [1]
+					21.90099999999984, -- [2]
+					21.90099999999984, -- [3]
+					26.43499999999995, -- [4]
+					26.43499999999995, -- [5]
+					26.95899999999983, -- [6]
+					26.95899999999983, -- [7]
+					27.96500000000015, -- [8]
+					27.96500000000015, -- [9]
+					29.49499999999989, -- [10]
+					29.49499999999989, -- [11]
+					31.51999999999998, -- [12]
+					31.51999999999998, -- [13]
+					32.01800000000003, -- [14]
+					32.01800000000003, -- [15]
+					34.07200000000012, -- [16]
+					34.07200000000012, -- [17]
+					35.0920000000001, -- [18]
+					89.35100000000011, -- [19]
+					89.83899999999994, -- [20]
+					89.83899999999994, -- [21]
+					98.93600000000015, -- [22]
+					98.93600000000015, -- [23]
+					99.42799999999988, -- [24]
+					99.42799999999988, -- [25]
+					99.92200000000003, -- [26]
+					99.92200000000003, -- [27]
+					100.453, -- [28]
+					100.453, -- [29]
+					100.9549999999999, -- [30]
+					100.9549999999999, -- [31]
+					101.9549999999999, -- [32]
+					101.9549999999999, -- [33]
+					102.4670000000001, -- [34]
+					102.4670000000001, -- [35]
+					102.9739999999997, -- [36]
+					102.9739999999997, -- [37]
+					103.489, -- [38]
+					103.489, -- [39]
+					103.9879999999998, -- [40]
+					103.9879999999998, -- [41]
+					107.0009999999998, -- [42]
+					["stacks"] = {
+					},
+					["source"] = "[*] Aura of Dread",
+					["active"] = false,
+				},
+				[260741] = {
+					117.2190000000001, -- [1]
+					123.2370000000001, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Sister Briar",
+					["active"] = false,
+				},
+				[268125] = {
+					38.72600000000011, -- [1]
+					54.29399999999987, -- [2]
+					110.3980000000001, -- [3]
+					127.7779999999998, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "[*] Aura of Thorns",
+					["active"] = false,
+				},
+				[268080] = {
+					2.317000000000007, -- [1]
+					127.7779999999998, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "[*] Aura of Apathy",
+					["active"] = false,
+				},
+				[260926] = {
+					12.75700000000006, -- [1]
+					127.7779999999998, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Sister Solena",
+					["active"] = false,
+				},
+			},
+			["Earthcrush"] = {
+				[268086] = {
+					17.02599999999984, -- [1]
+					17.5329999999999, -- [2]
+					17.5329999999999, -- [3]
+					21.59400000000005, -- [4]
+					21.59400000000005, -- [5]
+					22.59999999999991, -- [6]
+					22.59999999999991, -- [7]
+					25.10799999999972, -- [8]
+					25.10799999999972, -- [9]
+					25.62899999999991, -- [10]
+					25.62899999999991, -- [11]
+					26.13099999999986, -- [12]
+					26.13099999999986, -- [13]
+					27.11900000000014, -- [14]
+					27.11900000000014, -- [15]
+					30.15200000000004, -- [16]
+					30.15200000000004, -- [17]
+					30.69999999999982, -- [18]
+					30.69999999999982, -- [19]
+					35.71199999999999, -- [20]
+					87.31799999999976, -- [21]
+					88.82699999999977, -- [22]
+					88.82699999999977, -- [23]
+					91.84999999999991, -- [24]
+					91.84999999999991, -- [25]
+					95.3789999999999, -- [26]
+					95.3789999999999, -- [27]
+					102.4360000000002, -- [28]
+					["stacks"] = {
+					},
+					["source"] = "[*] Aura of Dread",
+					["active"] = false,
+				},
+				[260703] = {
+					26.72399999999971, -- [1]
+					32.71599999999989, -- [2]
+					97.17399999999998, -- [3]
+					102.4360000000002, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "Sister Malady",
+					["active"] = false,
+				},
+				[268080] = {
+					2.317000000000007, -- [1]
+					13.4079999999999, -- [2]
+					58.19499999999971, -- [3]
+					83.22800000000007, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "[*] Aura of Apathy",
+					["active"] = false,
+				},
+				[268125] = {
+					38.72600000000011, -- [1]
+					54.29399999999987, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "[*] Aura of Thorns",
+					["active"] = false,
+				},
+			},
+			["Meowpheus"] = {
+				[260703] = {
+					26.32999999999993, -- [1]
+					32.33899999999994, -- [2]
+					96.80899999999974, -- [3]
+					99.31999999999971, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "Sister Malady",
+					["active"] = false,
+				},
+				[268086] = {
+					16.83699999999999, -- [1]
+					19.35799999999972, -- [2]
+					19.35799999999972, -- [3]
+					24.40599999999995, -- [4]
+					24.40599999999995, -- [5]
+					26.43499999999995, -- [6]
+					26.43499999999995, -- [7]
+					26.95899999999983, -- [8]
+					26.95899999999983, -- [9]
+					27.96500000000015, -- [10]
+					27.96500000000015, -- [11]
+					28.46599999999989, -- [12]
+					28.46599999999989, -- [13]
+					28.99299999999994, -- [14]
+					28.99299999999994, -- [15]
+					29.49499999999989, -- [16]
+					29.49499999999989, -- [17]
+					31.02700000000004, -- [18]
+					31.02700000000004, -- [19]
+					32.53200000000015, -- [20]
+					32.53200000000015, -- [21]
+					33.06899999999996, -- [22]
+					33.06899999999996, -- [23]
+					35.0920000000001, -- [24]
+					87.31799999999976, -- [25]
+					99.3710000000001, -- [26]
+					["stacks"] = {
+					},
+					["source"] = "[*] Aura of Dread",
+					["active"] = false,
+				},
+				[260741] = {
+					46.79500000000007, -- [1]
+					50.82299999999987, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Sister Briar",
+					["active"] = false,
+				},
+				[268125] = {
+					38.72600000000011, -- [1]
+					54.29399999999987, -- [2]
+					113.846, -- [3]
+					127.7779999999998, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "[*] Aura of Thorns",
+					["active"] = false,
+				},
+				[268080] = {
+					2.317000000000007, -- [1]
+					13.4079999999999, -- [2]
+					58.19499999999971, -- [3]
+					83.22800000000007, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "[*] Aura of Apathy",
+					["active"] = false,
+				},
+			},
+			["Pallyness"] = {
+				[260703] = {
+					26.18199999999979, -- [1]
+					32.15099999999984, -- [2]
+					96.61299999999983, -- [3]
+					102.6469999999999, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "Sister Malady",
+					["active"] = false,
+				},
+				[289308] = {
+					69.97699999999986, -- [1]
+					74.95399999999972, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Càtàlyst",
+					["active"] = false,
+				},
+				[268086] = {
+					16.83699999999999, -- [1]
+					18.38400000000002, -- [2]
+					18.38400000000002, -- [3]
+					18.86999999999989, -- [4]
+					18.86999999999989, -- [5]
+					19.35799999999972, -- [6]
+					19.35799999999972, -- [7]
+					20.89499999999998, -- [8]
+					20.89499999999998, -- [9]
+					21.90099999999984, -- [10]
+					21.90099999999984, -- [11]
+					22.42900000000009, -- [12]
+					22.42900000000009, -- [13]
+					23.90099999999984, -- [14]
+					23.90099999999984, -- [15]
+					24.40599999999995, -- [16]
+					24.40599999999995, -- [17]
+					25.43600000000015, -- [18]
+					25.43600000000015, -- [19]
+					25.92599999999993, -- [20]
+					25.92599999999993, -- [21]
+					26.43499999999995, -- [22]
+					26.43499999999995, -- [23]
+					27.45899999999983, -- [24]
+					27.45899999999983, -- [25]
+					27.96500000000015, -- [26]
+					27.96500000000015, -- [27]
+					28.46599999999989, -- [28]
+					28.46599999999989, -- [29]
+					29.49499999999989, -- [30]
+					29.49499999999989, -- [31]
+					29.96000000000004, -- [32]
+					29.96000000000004, -- [33]
+					30.529, -- [34]
+					30.529, -- [35]
+					31.02700000000004, -- [36]
+					31.02700000000004, -- [37]
+					31.51999999999998, -- [38]
+					31.51999999999998, -- [39]
+					32, -- [40]
+					32, -- [41]
+					32.53200000000015, -- [42]
+					32.53200000000015, -- [43]
+					33.06899999999996, -- [44]
+					33.06899999999996, -- [45]
+					33.55099999999993, -- [46]
+					33.55099999999993, -- [47]
+					34.04199999999992, -- [48]
+					34.04199999999992, -- [49]
+					34.55600000000004, -- [50]
+					34.55600000000004, -- [51]
+					35.53999999999996, -- [52]
+					87.31799999999976, -- [53]
+					89.33199999999988, -- [54]
+					89.33199999999988, -- [55]
+					89.83899999999994, -- [56]
+					89.83899999999994, -- [57]
+					90.33799999999974, -- [58]
+					90.33799999999974, -- [59]
+					90.86900000000014, -- [60]
+					90.86900000000014, -- [61]
+					91.35899999999992, -- [62]
+					91.35899999999992, -- [63]
+					91.84999999999991, -- [64]
+					91.84999999999991, -- [65]
+					92.37599999999975, -- [66]
+					92.37599999999975, -- [67]
+					92.8710000000001, -- [68]
+					92.8710000000001, -- [69]
+					93.38200000000006, -- [70]
+					93.38200000000006, -- [71]
+					93.8779999999997, -- [72]
+					93.8779999999997, -- [73]
+					94.39800000000014, -- [74]
+					94.39800000000014, -- [75]
+					94.89599999999973, -- [76]
+					94.89599999999973, -- [77]
+					95.89699999999993, -- [78]
+					95.89699999999993, -- [79]
+					96.41499999999996, -- [80]
+					96.41499999999996, -- [81]
+					96.92399999999998, -- [82]
+					96.92399999999998, -- [83]
+					97.39800000000014, -- [84]
+					97.39800000000014, -- [85]
+					97.91199999999981, -- [86]
+					97.91199999999981, -- [87]
+					98.44799999999987, -- [88]
+					98.44799999999987, -- [89]
+					98.93600000000015, -- [90]
+					98.93600000000015, -- [91]
+					99.44599999999991, -- [92]
+					99.44599999999991, -- [93]
+					99.95199999999977, -- [94]
+					99.95199999999977, -- [95]
+					100.453, -- [96]
+					100.453, -- [97]
+					100.9549999999999, -- [98]
+					100.9549999999999, -- [99]
+					102.4670000000001, -- [100]
+					102.4670000000001, -- [101]
+					103.489, -- [102]
+					103.489, -- [103]
+					104.4960000000001, -- [104]
+					104.4960000000001, -- [105]
+					105.491, -- [106]
+					105.491, -- [107]
+					106.5099999999998, -- [108]
+					["stacks"] = {
+					},
+					["source"] = "[*] Aura of Dread",
+					["active"] = false,
+				},
+				[268125] = {
+					38.72600000000011, -- [1]
+					54.29399999999987, -- [2]
+					110.3829999999998, -- [3]
+					127.7779999999998, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "[*] Aura of Thorns",
+					["active"] = false,
+				},
+				[268080] = {
+					2.317000000000007, -- [1]
+					13.4079999999999, -- [2]
+					58.19499999999971, -- [3]
+					83.22800000000007, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "[*] Aura of Apathy",
+					["active"] = false,
+				},
+			},
+		}, -- [3]
+		{
+			["Earthcrush"] = {
+				[260569] = {
+					78.85500000000002, -- [1]
+					80.17899999999963, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "[*] Wildfire",
+					["active"] = false,
+				},
+				[314392] = {
+					92.60199999999986, -- [1]
+					92.60199999999986, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Unknown",
+					["active"] = false,
+				},
+				[267907] = {
+					53.6579999999999, -- [1]
+					62.54299999999967, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "[*] Soul Thorns",
+					["active"] = false,
+				},
+			},
+			["Pallyness"] = {
+				[314392] = {
+					92.60199999999986, -- [1]
+					["stacks"] = {
+					},
+					["source"] = "Malicious Growth",
+					["active"] = true,
+				},
+			},
+			["Deathmurt"] = {
+				[267907] = {
+					9.948999999999614, -- [1]
+					11.95299999999998, -- [2]
+					31.80799999999999, -- [3]
+					35.07799999999998, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "[*] Soul Thorns",
+					["active"] = false,
+				},
+				[314392] = {
+					92.60199999999986, -- [1]
+					["stacks"] = {
+					},
+					["source"] = "Malicious Growth",
+					["active"] = true,
+				},
+			},
+			["Meowpheus"] = {
+				[267907] = {
+					75.53099999999995, -- [1]
+					79.83599999999979, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "[*] Soul Thorns",
+					["active"] = false,
+				},
+			},
+		}, -- [4]
+	},
+	["window_scale"] = 1,
 	["BossSpellCast"] = {
 		{
 			["Deathtouched Slaver"] = {
 				{
-					15.15600000000086, -- [1]
+					14.09000000000015, -- [1]
+					"Deathtouched Slaver", -- [2]
+					268202, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [1]
+				{
+					34.28800000000047, -- [1]
 					"Deathtouched Slaver", -- [2]
 					273657, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
+				}, -- [2]
 				{
-					15.55699999999888, -- [1]
+					34.83800000000065, -- [1]
 					"Deathtouched Slaver", -- [2]
 					273658, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-			},
-			["Gorak Tul"] = {
-				{
-					3.325999999999112, -- [1]
-					"Gorak Tul", -- [2]
-					266266, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					20.79999999999745, -- [1]
-					"Gorak Tul", -- [2]
-					266266, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					23.73099999999795, -- [1]
-					"Gorak Tul", -- [2]
-					266225, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Gatepriest-Malfurion", -- [5]
 				}, -- [3]
 				{
-					27.87699999999859, -- [1]
-					"Gorak Tul", -- [2]
-					266181, -- [3]
+					41.67300000000068, -- [1]
+					"Deathtouched Slaver", -- [2]
+					273657, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
+				{
+					50.52300000000014, -- [1]
+					"Deathtouched Slaver", -- [2]
+					268202, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [5]
+				{
+					57.63500000000022, -- [1]
+					"Deathtouched Slaver", -- [2]
+					273657, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					58.14700000000084, -- [1]
+					"Deathtouched Slaver", -- [2]
+					273658, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					66.31500000000051, -- [1]
+					"Deathtouched Slaver", -- [2]
+					268202, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [8]
+				{
+					72.41900000000078, -- [1]
+					"Deathtouched Slaver", -- [2]
+					268202, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [9]
+				{
+					74.4960000000001, -- [1]
+					"Deathtouched Slaver", -- [2]
+					273657, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					74.98700000000008, -- [1]
+					"Deathtouched Slaver", -- [2]
+					273658, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
 			},
 			["Drust Slaver Summoning Portal"] = {
 				{
-					3.325999999999112, -- [1]
+					4.418000000000575, -- [1]
 					"Drust Slaver Summoning Portal", -- [2]
 					266258, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					20.79999999999745, -- [1]
+					22.63600000000042, -- [1]
 					"Drust Slaver Summoning Portal", -- [2]
 					266258, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
+				{
+					40.83900000000085, -- [1]
+					"Drust Slaver Summoning Portal", -- [2]
+					266258, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					62.70400000000063, -- [1]
+					"Drust Slaver Summoning Portal", -- [2]
+					266258, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					79.71500000000015, -- [1]
+					"Drust Slaver Summoning Portal", -- [2]
+					266258, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+			},
+			["Gorak Tul"] = {
+				{
+					4.418000000000575, -- [1]
+					"Gorak Tul", -- [2]
+					266266, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					22.63600000000042, -- [1]
+					"Gorak Tul", -- [2]
+					266266, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					28.49900000000071, -- [1]
+					"Gorak Tul", -- [2]
+					266181, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					40.83900000000085, -- [1]
+					"Gorak Tul", -- [2]
+					266266, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					43.78800000000047, -- [1]
+					"Gorak Tul", -- [2]
+					266225, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [5]
+				{
+					57.62400000000071, -- [1]
+					"Gorak Tul", -- [2]
+					266181, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					62.70400000000063, -- [1]
+					"Gorak Tul", -- [2]
+					266266, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					68.06700000000001, -- [1]
+					"Gorak Tul", -- [2]
+					266225, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [8]
+				{
+					79.71500000000015, -- [1]
+					"Gorak Tul", -- [2]
+					266266, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					86.81200000000081, -- [1]
+					"Gorak Tul", -- [2]
+					266181, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
 			},
 		}, -- [1]
 		{
 			["Lady Waycrest"] = {
 				{
-					1.390999999999622, -- [1]
+					0.1, -- [1]
 					"Lady Waycrest", -- [2]
-					268278, -- [3]
+					271590, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					2.479999999999563, -- [1]
+					3.324999999999818, -- [1]
 					"Lady Waycrest", -- [2]
-					268271, -- [3]
+					268278, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Pallyness", -- [5]
 				}, -- [2]
 				{
-					2.78899999999885, -- [1]
+					4.489999999999782, -- [1]
 					"Lady Waycrest", -- [2]
 					268271, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Muffin", -- [5]
+					"Deathmurt", -- [5]
 				}, -- [3]
 				{
-					2.804999999998472, -- [1]
+					4.728000000000066, -- [1]
 					"Lady Waycrest", -- [2]
 					268271, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Teloran", -- [5]
+					"Càtàlyst", -- [5]
 				}, -- [4]
 				{
-					3.817999999999302, -- [1]
+					5.760000000000218, -- [1]
 					"Lady Waycrest", -- [2]
 					268278, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [5]
 				{
-					4.979999999999563, -- [1]
+					6.925999999999476, -- [1]
 					"Lady Waycrest", -- [2]
 					268271, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Harlyjaine-Malfurion", -- [5]
+					"Deathmurt", -- [5]
 				}, -- [6]
 				{
-					5.239999999999782, -- [1]
+					7.125, -- [1]
 					"Lady Waycrest", -- [2]
 					268271, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Pallyness", -- [5]
+					"Meowpheus", -- [5]
 				}, -- [7]
 				{
-					6.2549999999992, -- [1]
+					8.219000000000051, -- [1]
 					"Lady Waycrest", -- [2]
 					268278, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [8]
 				{
-					7.634000000000015, -- [1]
+					9.51299999999992, -- [1]
 					"Lady Waycrest", -- [2]
 					268271, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Pallyness", -- [5]
+					"Deathmurt", -- [5]
 				}, -- [9]
 				{
-					7.968999999999141, -- [1]
+					9.734999999999673, -- [1]
 					"Lady Waycrest", -- [2]
 					268271, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Muffin", -- [5]
+					"Earthcrush", -- [5]
 				}, -- [10]
 				{
-					7.968999999999141, -- [1]
-					"Lady Waycrest", -- [2]
-					268271, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Teloran", -- [5]
-				}, -- [11]
-				{
-					8.688000000000102, -- [1]
+					10.65399999999954, -- [1]
 					"Lady Waycrest", -- [2]
 					268278, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					11.66799999999967, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
 				}, -- [12]
 				{
-					10.17499999999927, -- [1]
+					12.02099999999973, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [13]
+				{
+					12.66199999999935, -- [1]
+					"Lady Waycrest", -- [2]
+					268278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [14]
+				{
+					13.80000000000018, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [15]
+				{
+					14.10999999999967, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [16]
+				{
+					15.10999999999967, -- [1]
+					"Lady Waycrest", -- [2]
+					268278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [17]
+				{
+					16.5619999999999, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [18]
+				{
+					16.6309999999994, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [19]
+				{
+					16.82499999999982, -- [1]
 					"Lady Waycrest", -- [2]
 					261446, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Lord Waycrest", -- [5]
-				}, -- [13]
+				}, -- [20]
 				{
-					10.21999999999935, -- [1]
-					"Lady Waycrest", -- [2]
-					268271, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Teloran", -- [5]
-				}, -- [14]
-				{
-					10.31499999999869, -- [1]
-					"Lady Waycrest", -- [2]
-					268271, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Gatepriest-Malfurion", -- [5]
-				}, -- [15]
-				{
-					15.5729999999985, -- [1]
+					21.59299999999985, -- [1]
 					"Lady Waycrest", -- [2]
 					268306, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [16]
-				{
-					21.17299999999887, -- [1]
-					"Lady Waycrest", -- [2]
-					261446, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Lord Waycrest", -- [5]
-				}, -- [17]
-				{
-					26.49699999999939, -- [1]
-					"Lady Waycrest", -- [2]
-					268278, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [18]
-				{
-					27.6880000000001, -- [1]
-					"Lady Waycrest", -- [2]
-					268271, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Pallyness", -- [5]
-				}, -- [19]
-				{
-					28.23499999999876, -- [1]
-					"Lady Waycrest", -- [2]
-					268271, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Teloran", -- [5]
-				}, -- [20]
-				{
-					29.32099999999991, -- [1]
-					"Lady Waycrest", -- [2]
-					268278, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [21]
 				{
-					30.18099999999868, -- [1]
+					28.86700000000019, -- [1]
 					"Lady Waycrest", -- [2]
-					261446, -- [3]
+					268278, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Lord Waycrest", -- [5]
 				}, -- [22]
 				{
-					30.4479999999985, -- [1]
+					30.01599999999962, -- [1]
 					"Lady Waycrest", -- [2]
 					268271, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Pallyness", -- [5]
+					"Deathmurt", -- [5]
 				}, -- [23]
 				{
-					30.50199999999859, -- [1]
+					30.26999999999953, -- [1]
 					"Lady Waycrest", -- [2]
 					268271, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Harlyjaine-Malfurion", -- [5]
+					"Earthcrush", -- [5]
 				}, -- [24]
 				{
-					43.52299999999923, -- [1]
+					31.28299999999945, -- [1]
 					"Lady Waycrest", -- [2]
 					268278, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [25]
 				{
-					44.47999999999956, -- [1]
+					32.34799999999996, -- [1]
 					"Lady Waycrest", -- [2]
 					268271, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Harlyjaine-Malfurion", -- [5]
+					"Deathmurt", -- [5]
 				}, -- [26]
 				{
-					45.20899999999892, -- [1]
+					32.69999999999982, -- [1]
 					"Lady Waycrest", -- [2]
 					268271, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Teloran", -- [5]
+					"Earthcrush", -- [5]
 				}, -- [27]
 				{
-					62.14699999999903, -- [1]
+					33.71699999999964, -- [1]
 					"Lady Waycrest", -- [2]
 					268278, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [28]
+				{
+					35.01199999999972, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [29]
+				{
+					35.01199999999972, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [30]
+				{
+					36.14699999999994, -- [1]
+					"Lady Waycrest", -- [2]
+					268278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [31]
+				{
+					36.69499999999971, -- [1]
+					"Lady Waycrest", -- [2]
+					261446, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lord Waycrest", -- [5]
+				}, -- [32]
+				{
+					37.22800000000007, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [33]
+				{
+					37.83899999999994, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [34]
+				{
+					42.19999999999982, -- [1]
+					"Lady Waycrest", -- [2]
+					268278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [35]
+				{
+					43.19700000000012, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [36]
+				{
+					43.46399999999994, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [37]
+				{
+					44.57399999999961, -- [1]
+					"Lady Waycrest", -- [2]
+					268306, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [38]
+				{
+					51.86700000000019, -- [1]
+					"Lady Waycrest", -- [2]
+					268278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [39]
+				{
+					53.1909999999998, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [40]
+				{
+					53.40799999999945, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [41]
+				{
+					54.32499999999982, -- [1]
+					"Lady Waycrest", -- [2]
+					268278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [42]
+				{
+					55.50799999999981, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [43]
+				{
+					55.61299999999937, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [44]
+				{
+					56.02300000000014, -- [1]
+					"Lady Waycrest", -- [2]
+					261446, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lord Waycrest", -- [5]
+				}, -- [45]
+				{
+					69.85300000000007, -- [1]
+					"Lady Waycrest", -- [2]
+					268278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [46]
+				{
+					71.16299999999956, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [47]
+				{
+					71.16299999999956, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [48]
+				{
+					79.85899999999947, -- [1]
+					"Lady Waycrest", -- [2]
+					268278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [49]
+				{
+					80.94799999999941, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [50]
+				{
+					81.10199999999986, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [51]
+				{
+					96.84400000000005, -- [1]
+					"Lady Waycrest", -- [2]
+					268278, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [52]
+				{
+					97.92900000000009, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [53]
+				{
+					98.52799999999934, -- [1]
+					"Lady Waycrest", -- [2]
+					268271, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [54]
 			},
 			["Lord Waycrest"] = {
 				{
-					5.763999999999214, -- [1]
+					7.670999999999367, -- [1]
 					"Lord Waycrest", -- [2]
 					261438, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Muffin", -- [5]
+					"Pallyness", -- [5]
 				}, -- [1]
 				{
-					8.703999999999724, -- [1]
+					10.65399999999954, -- [1]
 					"Lord Waycrest", -- [2]
 					261439, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 				{
-					10.20099999999911, -- [1]
+					12.16399999999976, -- [1]
 					"Lord Waycrest", -- [2]
 					261440, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Pallyness", -- [5]
+					"Meowpheus", -- [5]
 				}, -- [3]
 				{
-					12.69899999999871, -- [1]
+					19.33399999999983, -- [1]
 					"Lord Waycrest", -- [2]
 					261447, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
 				{
-					22.76299999999901, -- [1]
+					24.77099999999973, -- [1]
 					"Lord Waycrest", -- [2]
 					261438, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
+					"Pallyness", -- [5]
 				}, -- [5]
 				{
-					23.68199999999888, -- [1]
-					"Lord Waycrest", -- [2]
-					261447, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
-				{
-					26.10800000000018, -- [1]
+					26.86999999999989, -- [1]
 					"Lord Waycrest", -- [2]
 					261439, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [7]
+				}, -- [6]
 				{
-					27.60199999999895, -- [1]
+					28.34199999999964, -- [1]
 					"Lord Waycrest", -- [2]
 					261440, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Harlyjaine-Malfurion", -- [5]
+					"Deathmurt", -- [5]
+				}, -- [7]
+				{
+					39.20100000000002, -- [1]
+					"Lord Waycrest", -- [2]
+					261447, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [8]
 				{
-					32.69499999999971, -- [1]
-					"Lord Waycrest", -- [2]
-					261447, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [9]
-				{
-					39.78099999999904, -- [1]
+					42.91799999999967, -- [1]
 					"Lord Waycrest", -- [2]
 					261438, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [10]
-				{
-					41.52700000000004, -- [1]
-					"Lord Waycrest", -- [2]
-					261439, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [11]
-				{
-					43.0099999999984, -- [1]
-					"Lord Waycrest", -- [2]
-					261440, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Pallyness", -- [5]
-				}, -- [12]
-			},
-		}, -- [2]
-		{
-			["Thistle Acolyte"] = {
-				{
-					8.411000000000058, -- [1]
-					"Thistle Acolyte", -- [2]
-					266035, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [1]
-				{
-					13.24799999999959, -- [1]
-					"Thistle Acolyte", -- [2]
-					266036, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [2]
-				{
-					25.38999999999942, -- [1]
-					"Thistle Acolyte", -- [2]
-					266035, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [3]
-				{
-					27.82799999999952, -- [1]
-					"Thistle Acolyte", -- [2]
-					266036, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [4]
-				{
-					38.77399999999943, -- [1]
-					"Thistle Acolyte", -- [2]
-					266035, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Pallyness", -- [5]
-				}, -- [5]
-				{
-					43.62299999999959, -- [1]
-					"Thistle Acolyte", -- [2]
-					266036, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [6]
-				{
-					54.53700000000026, -- [1]
-					"Thistle Acolyte", -- [2]
-					266035, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [7]
-			},
-			["Sister Briar"] = {
-				{
-					3.159999999999855, -- [1]
-					"Sister Briar", -- [2]
-					260701, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [1]
-				{
-					5.593999999999141, -- [1]
-					"Sister Briar", -- [2]
-					260701, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [2]
-				{
-					8.003999999998996, -- [1]
-					"Sister Briar", -- [2]
-					260701, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [3]
-				{
-					10.42799999999988, -- [1]
-					"Sister Briar", -- [2]
-					260701, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Harlyjaine-Malfurion", -- [5]
-				}, -- [4]
-				{
-					12.84000000000015, -- [1]
-					"Sister Briar", -- [2]
-					260701, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Harlyjaine-Malfurion", -- [5]
-				}, -- [5]
-				{
-					15.25, -- [1]
-					"Sister Briar", -- [2]
-					260701, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Pallyness", -- [5]
-				}, -- [6]
-				{
-					17.70700000000034, -- [1]
-					"Sister Briar", -- [2]
-					260701, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Pallyness", -- [5]
-				}, -- [7]
-				{
-					20.1309999999994, -- [1]
-					"Sister Briar", -- [2]
-					260701, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Harlyjaine-Malfurion", -- [5]
-				}, -- [8]
-				{
-					22.55699999999888, -- [1]
-					"Sister Briar", -- [2]
-					260701, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Pallyness", -- [5]
 				}, -- [9]
 				{
-					24.97500000000036, -- [1]
-					"Sister Briar", -- [2]
-					260701, -- [3]
+					43.79699999999957, -- [1]
+					"Lord Waycrest", -- [2]
+					261439, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Harlyjaine-Malfurion", -- [5]
 				}, -- [10]
 				{
-					27.40899999999965, -- [1]
-					"Sister Briar", -- [2]
-					260701, -- [3]
+					45.34199999999964, -- [1]
+					"Lord Waycrest", -- [2]
+					261440, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Harlyjaine-Malfurion", -- [5]
+					"Càtàlyst", -- [5]
 				}, -- [11]
 				{
-					29.84799999999996, -- [1]
-					"Sister Briar", -- [2]
-					260701, -- [3]
+					58.49699999999939, -- [1]
+					"Lord Waycrest", -- [2]
+					261447, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Pallyness", -- [5]
 				}, -- [12]
 				{
-					32.27999999999884, -- [1]
-					"Sister Briar", -- [2]
-					260701, -- [3]
+					59.89899999999943, -- [1]
+					"Lord Waycrest", -- [2]
+					261438, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Teloran", -- [5]
+					"Pallyness", -- [5]
 				}, -- [13]
 				{
-					34.70700000000034, -- [1]
-					"Sister Briar", -- [2]
-					260701, -- [3]
+					60.82799999999952, -- [1]
+					"Lord Waycrest", -- [2]
+					261439, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Teloran", -- [5]
 				}, -- [14]
 				{
-					37.14300000000003, -- [1]
-					"Sister Briar", -- [2]
-					260701, -- [3]
+					62.33799999999974, -- [1]
+					"Lord Waycrest", -- [2]
+					261440, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Teloran", -- [5]
+					"Deathmurt", -- [5]
 				}, -- [15]
 				{
-					39.57200000000012, -- [1]
-					"Sister Briar", -- [2]
-					260701, -- [3]
+					76.88400000000001, -- [1]
+					"Lord Waycrest", -- [2]
+					261438, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Pallyness", -- [5]
 				}, -- [16]
 				{
-					42.0049999999992, -- [1]
-					"Sister Briar", -- [2]
-					260701, -- [3]
+					77.8149999999996, -- [1]
+					"Lord Waycrest", -- [2]
+					261439, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Harlyjaine-Malfurion", -- [5]
 				}, -- [17]
 				{
-					44.43399999999929, -- [1]
-					"Sister Briar", -- [2]
-					260701, -- [3]
+					79.35800000000017, -- [1]
+					"Lord Waycrest", -- [2]
+					261440, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Teloran", -- [5]
+					"Deathmurt", -- [5]
+				}, -- [18]
+			},
+		}, -- [2]
+		{
+			["Càtàlyst"] = {
+				{
+					13.19299999999976, -- [1]
+					"Càtàlyst", -- [2]
+					2139, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Magus of the Dead", -- [5]
+				}, -- [1]
+				{
+					75.16800000000012, -- [1]
+					"Càtàlyst", -- [2]
+					45438, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					75.34799999999996, -- [1]
+					"Càtàlyst", -- [2]
+					116014, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					86.02399999999989, -- [1]
+					"Càtàlyst", -- [2]
+					122, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					87.25900000000001, -- [1]
+					"Càtàlyst", -- [2]
+					11426, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+			},
+			["Sister Malady"] = {
+				{
+					1.846000000000004, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [1]
+				{
+					4.246000000000095, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [2]
+				{
+					6.646999999999935, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [3]
+				{
+					9.097999999999956, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [4]
+				{
+					11.54099999999971, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [5]
+				{
+					13.97299999999996, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [6]
+				{
+					15.20899999999983, -- [1]
+					"Sister Malady", -- [2]
+					260852, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Focusing Iris", -- [5]
+				}, -- [7]
+				{
+					16.7529999999997, -- [1]
+					"Sister Malady", -- [2]
+					260805, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					16.83699999999999, -- [1]
+					"Sister Malady", -- [2]
+					268088, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					26.13099999999986, -- [1]
+					"Sister Malady", -- [2]
+					260703, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					28.53600000000006, -- [1]
+					"Sister Malady", -- [2]
+					260696, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [11]
+				{
+					34.78699999999981, -- [1]
+					"Sister Malady", -- [2]
+					261266, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					35.84799999999996, -- [1]
+					"Sister Malady", -- [2]
+					260696, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [13]
+				{
+					38.22199999999975, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [14]
+				{
+					44.29199999999992, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [15]
+				{
+					46.79500000000007, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [16]
+				{
+					49.20499999999993, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [17]
+				{
+					51.61000000000013, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
 				}, -- [18]
 				{
-					46.85599999999977, -- [1]
+					54.04700000000003, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [19]
+				{
+					56.48999999999978, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [20]
+				{
+					58.91499999999996, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [21]
+				{
+					61.3130000000001, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [22]
+				{
+					63.74400000000014, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [23]
+				{
+					66.16499999999996, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [24]
+				{
+					68.62199999999984, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [25]
+				{
+					71.03099999999995, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [26]
+				{
+					73.45399999999972, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [27]
+				{
+					75.91199999999981, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [28]
+				{
+					78.346, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [29]
+				{
+					80.76299999999992, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [30]
+				{
+					83.17799999999988, -- [1]
+					"Sister Malady", -- [2]
+					260700, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [31]
+				{
+					85.24400000000014, -- [1]
+					"Sister Malady", -- [2]
+					260852, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Focusing Iris", -- [5]
+				}, -- [32]
+				{
+					86.75999999999976, -- [1]
+					"Sister Malady", -- [2]
+					260805, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [33]
+				{
+					87.25900000000001, -- [1]
+					"Sister Malady", -- [2]
+					268088, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [34]
+				{
+					96.50999999999976, -- [1]
+					"Sister Malady", -- [2]
+					260703, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [35]
+				{
+					98.97899999999981, -- [1]
+					"Sister Malady", -- [2]
+					260696, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [36]
+			},
+			["Sister Briar"] = {
+				{
+					1.846000000000004, -- [1]
 					"Sister Briar", -- [2]
 					260701, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Gatepriest-Malfurion", -- [5]
-				}, -- [19]
+					"Pallyness", -- [5]
+				}, -- [1]
 				{
-					47.28199999999924, -- [1]
+					4.246000000000095, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [2]
+				{
+					6.692999999999756, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [3]
+				{
+					9.097999999999956, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [4]
+				{
+					11.54099999999971, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [5]
+				{
+					13.97299999999996, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [6]
+				{
+					16.42599999999993, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [7]
+				{
+					18.8130000000001, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [8]
+				{
+					21.22399999999971, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [9]
+				{
+					23.65299999999979, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [10]
+				{
+					26.0619999999999, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [11]
+				{
+					28.53600000000006, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [12]
+				{
+					30.9409999999998, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [13]
+				{
+					33.40499999999975, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [14]
+				{
+					35.84799999999996, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [15]
+				{
+					36.26699999999983, -- [1]
 					"Sister Briar", -- [2]
 					260852, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Focusing Iris", -- [5]
-				}, -- [20]
+				}, -- [16]
 				{
-					48.79799999999887, -- [1]
+					37.73199999999997, -- [1]
 					"Sister Briar", -- [2]
 					260805, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [21]
+				}, -- [17]
 				{
-					49.68299999999908, -- [1]
+					38.72600000000011, -- [1]
 					"Sister Briar", -- [2]
 					268122, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [22]
+				}, -- [18]
 				{
-					52.90200000000004, -- [1]
+					46.79500000000007, -- [1]
+					"Sister Briar", -- [2]
+					260741, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [19]
+				{
+					49.20499999999993, -- [1]
 					"Sister Briar", -- [2]
 					260697, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Pallyness", -- [5]
-				}, -- [23]
+				}, -- [20]
 				{
-					56.55199999999968, -- [1]
-					"Sister Briar", -- [2]
-					260741, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Harlyjaine-Malfurion", -- [5]
-				}, -- [24]
-				{
-					63.84599999999955, -- [1]
+					54.29399999999987, -- [1]
 					"Sister Briar", -- [2]
 					261265, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [21]
+				{
+					56.48999999999978, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [22]
+				{
+					58.91499999999996, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [23]
+				{
+					61.3130000000001, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [24]
+				{
+					63.74400000000014, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
 				}, -- [25]
 				{
-					66.26299999999901, -- [1]
+					66.16499999999996, -- [1]
 					"Sister Briar", -- [2]
 					260701, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Gatepriest-Malfurion", -- [5]
+					"Deathmurt", -- [5]
 				}, -- [26]
 				{
-					68.71099999999933, -- [1]
+					68.62199999999984, -- [1]
 					"Sister Briar", -- [2]
 					260701, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Teloran", -- [5]
+					"Càtàlyst", -- [5]
 				}, -- [27]
 				{
-					71.13799999999901, -- [1]
+					72.26199999999972, -- [1]
 					"Sister Briar", -- [2]
 					260701, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Gatepriest-Malfurion", -- [5]
+					"Deathmurt", -- [5]
 				}, -- [28]
 				{
-					73.55400000000009, -- [1]
+					74.68499999999995, -- [1]
 					"Sister Briar", -- [2]
 					260701, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Teloran", -- [5]
+					"Earthcrush", -- [5]
 				}, -- [29]
 				{
-					75.96600000000035, -- [1]
+					77.1279999999997, -- [1]
 					"Sister Briar", -- [2]
 					260701, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Gatepriest-Malfurion", -- [5]
+					"Meowpheus", -- [5]
 				}, -- [30]
 				{
-					78.38999999999942, -- [1]
+					83.17799999999988, -- [1]
 					"Sister Briar", -- [2]
 					260701, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Pallyness", -- [5]
+					"Meowpheus", -- [5]
 				}, -- [31]
 				{
-					80.82400000000052, -- [1]
+					85.60699999999997, -- [1]
 					"Sister Briar", -- [2]
 					260701, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Pallyness", -- [5]
+					"Deathmurt", -- [5]
 				}, -- [32]
 				{
-					83.2430000000004, -- [1]
+					88.00599999999986, -- [1]
 					"Sister Briar", -- [2]
 					260701, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Gatepriest-Malfurion", -- [5]
+					"Earthcrush", -- [5]
 				}, -- [33]
 				{
-					85.66899999999987, -- [1]
+					95.30299999999988, -- [1]
 					"Sister Briar", -- [2]
 					260701, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Teloran", -- [5]
+					"Deathmurt", -- [5]
 				}, -- [34]
 				{
-					88.11999999999898, -- [1]
+					97.73500000000013, -- [1]
 					"Sister Briar", -- [2]
 					260701, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Pallyness", -- [5]
+					"Meowpheus", -- [5]
 				}, -- [35]
 				{
-					88.16499999999905, -- [1]
+					100.1549999999998, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [36]
+				{
+					102.6469999999999, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [37]
+				{
+					105.049, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [38]
+				{
+					107.48, -- [1]
+					"Sister Briar", -- [2]
+					260701, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [39]
+				{
+					108.3199999999997, -- [1]
 					"Sister Briar", -- [2]
 					260852, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Focusing Iris", -- [5]
-				}, -- [36]
+				}, -- [40]
 				{
-					89.65599999999904, -- [1]
+					109.8379999999997, -- [1]
 					"Sister Briar", -- [2]
 					260805, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [37]
+				}, -- [41]
 				{
-					89.7440000000006, -- [1]
+					110.3499999999999, -- [1]
 					"Sister Briar", -- [2]
 					268122, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [38]
-			},
-			["Blight Toad"] = {
+				}, -- [42]
 				{
-					4.997999999999593, -- [1]
-					"Blight Toad", -- [2]
-					265364, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [1]
-				{
-					6.19800000000032, -- [1]
-					"Blight Toad", -- [2]
-					265364, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [2]
-				{
-					6.19800000000032, -- [1]
-					"Blight Toad", -- [2]
-					265364, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [3]
-				{
-					6.19800000000032, -- [1]
-					"Blight Toad", -- [2]
-					265364, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [4]
-				{
-					12.25, -- [1]
-					"Blight Toad", -- [2]
-					265364, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [5]
-				{
-					13.45299999999952, -- [1]
-					"Blight Toad", -- [2]
-					265364, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [6]
-				{
-					13.45299999999952, -- [1]
-					"Blight Toad", -- [2]
-					265364, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [7]
-				{
-					14.67000000000007, -- [1]
-					"Blight Toad", -- [2]
-					265364, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [8]
-				{
-					19.67599999999948, -- [1]
-					"Blight Toad", -- [2]
-					265352, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [9]
-				{
-					20.73799999999937, -- [1]
-					"Blight Toad", -- [2]
-					265364, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [10]
-				{
-					21.96899999999914, -- [1]
-					"Blight Toad", -- [2]
-					265364, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [11]
-				{
-					21.96899999999914, -- [1]
-					"Blight Toad", -- [2]
-					265364, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [12]
-				{
-					28.03800000000047, -- [1]
-					"Blight Toad", -- [2]
-					265364, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [13]
-				{
-					29.30699999999888, -- [1]
-					"Blight Toad", -- [2]
-					265352, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [14]
-				{
-					30.14099999999962, -- [1]
-					"Blight Toad", -- [2]
-					265352, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [15]
-				{
-					33.92799999999988, -- [1]
-					"Blight Toad", -- [2]
-					265352, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [16]
-			},
-			["Sister Malady"] = {
-				{
-					1.963999999999942, -- [1]
-					"Sister Malady", -- [2]
-					260700, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [1]
-				{
-					4.375, -- [1]
-					"Sister Malady", -- [2]
-					260700, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [2]
-				{
-					6.796000000000277, -- [1]
-					"Sister Malady", -- [2]
-					260700, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [3]
-				{
-					9.19800000000032, -- [1]
-					"Sister Malady", -- [2]
-					260700, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Harlyjaine-Malfurion", -- [5]
-				}, -- [4]
-				{
-					11.6299999999992, -- [1]
-					"Sister Malady", -- [2]
-					260700, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Teloran", -- [5]
-				}, -- [5]
-				{
-					15.25, -- [1]
-					"Sister Malady", -- [2]
-					260700, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Harlyjaine-Malfurion", -- [5]
-				}, -- [6]
-				{
-					17.70700000000034, -- [1]
-					"Sister Malady", -- [2]
-					260700, -- [3]
+					114.7950000000001, -- [1]
+					"Sister Briar", -- [2]
+					260697, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Pallyness", -- [5]
-				}, -- [7]
+				}, -- [43]
 				{
-					20.1309999999994, -- [1]
-					"Sister Malady", -- [2]
-					260700, -- [3]
+					117.2190000000001, -- [1]
+					"Sister Briar", -- [2]
+					260741, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Càtàlyst", -- [5]
+				}, -- [44]
+				{
+					122.0889999999999, -- [1]
+					"Sister Briar", -- [2]
+					260697, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Pallyness", -- [5]
-				}, -- [8]
-				{
-					23.76100000000042, -- [1]
-					"Sister Malady", -- [2]
-					260700, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Harlyjaine-Malfurion", -- [5]
-				}, -- [9]
-				{
-					26.20600000000013, -- [1]
-					"Sister Malady", -- [2]
-					260700, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Gatepriest-Malfurion", -- [5]
-				}, -- [10]
-				{
-					28.64500000000044, -- [1]
-					"Sister Malady", -- [2]
-					260700, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Gatepriest-Malfurion", -- [5]
-				}, -- [11]
-				{
-					31.0619999999999, -- [1]
-					"Sister Malady", -- [2]
-					260700, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Teloran", -- [5]
-				}, -- [12]
-				{
-					32.3169999999991, -- [1]
-					"Sister Malady", -- [2]
-					260852, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Focusing Iris", -- [5]
-				}, -- [13]
-				{
-					33.83399999999892, -- [1]
-					"Sister Malady", -- [2]
-					260805, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [14]
-				{
-					33.92799999999988, -- [1]
-					"Sister Malady", -- [2]
-					268088, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [15]
-				{
-					43.22299999999996, -- [1]
-					"Sister Malady", -- [2]
-					260703, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [16]
-				{
-					45.64999999999964, -- [1]
-					"Sister Malady", -- [2]
-					260696, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [17]
-				{
-					45.87799999999879, -- [1]
-					"Sister Malady", -- [2]
-					261266, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [18]
-				{
-					48.04799999999887, -- [1]
-					"Sister Malady", -- [2]
-					260700, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Teloran", -- [5]
-				}, -- [19]
-				{
-					50.47999999999956, -- [1]
-					"Sister Malady", -- [2]
-					260700, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Pallyness", -- [5]
-				}, -- [20]
-				{
-					52.90200000000004, -- [1]
-					"Sister Malady", -- [2]
-					260700, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Gatepriest-Malfurion", -- [5]
-				}, -- [21]
-				{
-					55.34599999999955, -- [1]
-					"Sister Malady", -- [2]
-					260700, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Harlyjaine-Malfurion", -- [5]
-				}, -- [22]
-				{
-					57.76100000000042, -- [1]
-					"Sister Malady", -- [2]
-					260700, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Teloran", -- [5]
-				}, -- [23]
-				{
-					60.19900000000052, -- [1]
-					"Sister Malady", -- [2]
-					260700, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Harlyjaine-Malfurion", -- [5]
-				}, -- [24]
-				{
-					62.61999999999898, -- [1]
-					"Sister Malady", -- [2]
-					260700, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Harlyjaine-Malfurion", -- [5]
-				}, -- [25]
-				{
-					65.03700000000026, -- [1]
-					"Sister Malady", -- [2]
-					260700, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Gatepriest-Malfurion", -- [5]
-				}, -- [26]
-				{
-					67.48899999999958, -- [1]
-					"Sister Malady", -- [2]
-					260700, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Teloran", -- [5]
-				}, -- [27]
-				{
-					69.91499999999905, -- [1]
-					"Sister Malady", -- [2]
-					260700, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Gatepriest-Malfurion", -- [5]
-				}, -- [28]
-				{
-					72.34299999999894, -- [1]
-					"Sister Malady", -- [2]
-					260700, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Harlyjaine-Malfurion", -- [5]
-				}, -- [29]
-				{
-					74.74799999999959, -- [1]
-					"Sister Malady", -- [2]
-					260700, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Harlyjaine-Malfurion", -- [5]
-				}, -- [30]
-				{
-					77.17499999999927, -- [1]
-					"Sister Malady", -- [2]
-					260700, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Harlyjaine-Malfurion", -- [5]
-				}, -- [31]
-				{
-					77.21199999999953, -- [1]
-					"Sister Malady", -- [2]
-					260852, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Focusing Iris", -- [5]
-				}, -- [32]
-				{
-					78.71700000000055, -- [1]
-					"Sister Malady", -- [2]
-					260805, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [33]
-				{
-					78.82400000000052, -- [1]
-					"Sister Malady", -- [2]
-					268088, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [34]
-			},
-			["Teloran"] = {
-				{
-					13.24799999999959, -- [1]
-					"Teloran", -- [2]
-					186257, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					15.6880000000001, -- [1]
-					"Teloran", -- [2]
-					53209, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Pallyness", -- [5]
-				}, -- [2]
-				{
-					16.64599999999882, -- [1]
-					"Teloran", -- [2]
-					781, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					18.11700000000019, -- [1]
-					"Teloran", -- [2]
-					186265, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
+				}, -- [45]
 			},
 			["Sister Solena"] = {
 				{
-					1.490999999999985, -- [1]
+					1.33199999999988, -- [1]
 					"Sister Solena", -- [2]
 					260805, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					2.377000000000408, -- [1]
+					2.228999999999815, -- [1]
 					"Sister Solena", -- [2]
 					268077, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 				{
-					5.593999999999141, -- [1]
+					10.31500000000006, -- [1]
 					"Sister Solena", -- [2]
 					260698, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
+					"Pallyness", -- [5]
 				}, -- [3]
 				{
-					10.42799999999988, -- [1]
-					"Sister Solena", -- [2]
-					260698, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [4]
-				{
-					12.84000000000015, -- [1]
+					12.75700000000006, -- [1]
 					"Sister Solena", -- [2]
 					260907, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [5]
+				}, -- [4]
 				{
-					24.97500000000036, -- [1]
-					"Sister Solena", -- [2]
-					260698, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [6]
-				{
-					29.84799999999996, -- [1]
-					"Sister Solena", -- [2]
-					260698, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [7]
-				{
-					30.08499999999913, -- [1]
+					13.4079999999999, -- [1]
 					"Sister Solena", -- [2]
 					261264, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					21.22399999999971, -- [1]
+					"Sister Solena", -- [2]
+					260699, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Earthcrush", -- [5]
+				}, -- [6]
+				{
+					23.65299999999979, -- [1]
+					"Sister Solena", -- [2]
+					260699, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [7]
+				{
+					26.0619999999999, -- [1]
+					"Sister Solena", -- [2]
+					260699, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
 				}, -- [8]
 				{
-					36.70899999999892, -- [1]
+					28.53600000000006, -- [1]
 					"Sister Solena", -- [2]
 					260699, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Teloran", -- [5]
+					"Earthcrush", -- [5]
 				}, -- [9]
 				{
-					39.57200000000012, -- [1]
+					30.9409999999998, -- [1]
 					"Sister Solena", -- [2]
 					260699, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Teloran", -- [5]
+					"Meowpheus", -- [5]
 				}, -- [10]
 				{
-					42.0049999999992, -- [1]
+					33.40499999999975, -- [1]
 					"Sister Solena", -- [2]
 					260699, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Harlyjaine-Malfurion", -- [5]
+					"Meowpheus", -- [5]
 				}, -- [11]
 				{
-					44.43399999999929, -- [1]
+					35.84799999999996, -- [1]
 					"Sister Solena", -- [2]
 					260699, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Pallyness", -- [5]
+					"Deathmurt", -- [5]
 				}, -- [12]
 				{
-					46.85599999999977, -- [1]
+					38.22199999999975, -- [1]
 					"Sister Solena", -- [2]
 					260699, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Teloran", -- [5]
+					"Deathmurt", -- [5]
 				}, -- [13]
 				{
-					55.34599999999955, -- [1]
+					40.69799999999987, -- [1]
 					"Sister Solena", -- [2]
 					260699, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Harlyjaine-Malfurion", -- [5]
+					"Earthcrush", -- [5]
 				}, -- [14]
 				{
-					57.7489999999998, -- [1]
+					43.11599999999999, -- [1]
 					"Sister Solena", -- [2]
 					260699, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Pallyness", -- [5]
+					"Meowpheus", -- [5]
 				}, -- [15]
 				{
-					60.19900000000052, -- [1]
+					45.53899999999976, -- [1]
 					"Sister Solena", -- [2]
 					260699, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Gatepriest-Malfurion", -- [5]
+					"Deathmurt", -- [5]
 				}, -- [16]
 				{
-					62.61999999999898, -- [1]
+					47.97499999999991, -- [1]
 					"Sister Solena", -- [2]
 					260699, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Pallyness", -- [5]
+					"Earthcrush", -- [5]
 				}, -- [17]
 				{
-					65.03700000000026, -- [1]
+					50.42299999999977, -- [1]
 					"Sister Solena", -- [2]
 					260699, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Harlyjaine-Malfurion", -- [5]
+					"Càtàlyst", -- [5]
 				}, -- [18]
 				{
-					65.09399999999914, -- [1]
+					52.80799999999999, -- [1]
+					"Sister Solena", -- [2]
+					260699, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Meowpheus", -- [5]
+				}, -- [19]
+				{
+					55.26199999999972, -- [1]
+					"Sister Solena", -- [2]
+					260699, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deathmurt", -- [5]
+				}, -- [20]
+				{
+					56.11200000000008, -- [1]
 					"Sister Solena", -- [2]
 					260852, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Focusing Iris", -- [5]
-				}, -- [19]
+				}, -- [21]
 				{
-					66.61199999999917, -- [1]
+					57.59899999999971, -- [1]
 					"Sister Solena", -- [2]
 					260805, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [20]
+				}, -- [22]
 				{
-					66.69599999999991, -- [1]
+					58.10199999999986, -- [1]
 					"Sister Solena", -- [2]
 					268077, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [21]
+				}, -- [23]
 				{
-					71.13799999999901, -- [1]
+					69.80400000000009, -- [1]
+					"Sister Solena", -- [2]
+					260907, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [24]
+				{
+					78.346, -- [1]
 					"Sister Solena", -- [2]
 					260698, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
-				}, -- [22]
+					"Pallyness", -- [5]
+				}, -- [25]
 			},
 		}, -- [3]
 		{
+			["Urg'roth, Breaker of Heroes"] = {
+				{
+					92.60199999999986, -- [1]
+					"Urg'roth, Breaker of Heroes", -- [2]
+					314397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
 			["Soulbound Goliath"] = {
 				{
-					7.153000000000247, -- [1]
+					8.052999999999884, -- [1]
 					"Soulbound Goliath", -- [2]
 					260508, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Pallyness", -- [5]
 				}, -- [1]
 				{
-					9.377000000000407, -- [1]
+					10.19899999999961, -- [1]
 					"Soulbound Goliath", -- [2]
 					260551, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 				{
-					25.35499999999956, -- [1]
+					26.23599999999988, -- [1]
 					"Soulbound Goliath", -- [2]
 					260508, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Invinoverita-WyrmrestAccord", -- [5]
+					"Pallyness", -- [5]
 				}, -- [3]
 				{
-					30.93599999999969, -- [1]
+					31.80799999999999, -- [1]
 					"Soulbound Goliath", -- [2]
 					260551, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
+				{
+					44.44899999999961, -- [1]
+					"Soulbound Goliath", -- [2]
+					260508, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [5]
+				{
+					53.6579999999999, -- [1]
+					"Soulbound Goliath", -- [2]
+					260551, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					63.86199999999963, -- [1]
+					"Soulbound Goliath", -- [2]
+					260508, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [7]
+				{
+					75.53099999999995, -- [1]
+					"Soulbound Goliath", -- [2]
+					260551, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					82.04499999999962, -- [1]
+					"Soulbound Goliath", -- [2]
+					260508, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pallyness", -- [5]
+				}, -- [9]
 			},
 		}, -- [4]
 		{

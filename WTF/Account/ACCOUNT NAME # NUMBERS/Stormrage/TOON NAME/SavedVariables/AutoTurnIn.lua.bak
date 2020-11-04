@@ -20,7 +20,7 @@ AutoTurnInCharacterDB = {
 	},
 	["watchlevel"] = true,
 	["togglekey"] = 4,
-	["enabled"] = true,
+	["enabled"] = false,
 	["todarkmoon"] = true,
 	["autoequip"] = false,
 	["darkmoonautostart"] = true,

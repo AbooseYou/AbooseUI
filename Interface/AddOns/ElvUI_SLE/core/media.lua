@@ -22,6 +22,7 @@ local Colors = {
 local ClassColor = RAID_CLASS_COLORS[E.myclass]
 
 local function ZoneTextPos()
+	_G["SubZoneTextString"]:ClearAllPoints()
 	if ( _G["PVPInfoTextString"]:GetText() == "" ) then
 		_G["SubZoneTextString"]:SetPoint("TOP", "ZoneTextString", "BOTTOM", 0, -E.db.sle.media.fonts.subzone.offset);
 	else
@@ -48,11 +49,10 @@ function M:SetBlizzFonts()
 
 		_G["SendMailBodyEditBox"]:SetFont(E.LSM:Fetch('font', db.mail.font), db.mail.size, db.mail.outline) --Writing letter text
 		_G["OpenMailBodyText"]:SetFont(E.LSM:Fetch('font', db.mail.font), db.mail.size, db.mail.outline) --Received letter text
-		_G["QuestFont"]:SetFont(E.LSM:Fetch('font', db.gossip.font), db.gossip.size, db.gossip.outline) -- Font in Quest Log/Petitions and shit. It's fucking hedious with any outline so fuck it.
+		_G["QuestFont"]:SetFont(E.LSM:Fetch('font', db.gossip.font), db.gossip.size) -- Font in Quest Log/Petitions and shit. It's fucking hedious with any outline so fuck it.
 		-- _G["QuestFont_Large"]:SetFont(E.LSM:Fetch('font', db.questFontLarge.font), db.questFontLarge.size, db.questFontLarge.outline) -- No idea what that is for
 		_G["QuestFont_Super_Huge"]:SetFont(E.LSM:Fetch('font', db.questFontSuperHuge.font), db.questFontSuperHuge.size, db.questFontSuperHuge.outline) -- No idea what that is for
 		_G["QuestFont_Enormous"]:SetFont(E.LSM:Fetch('font', db.questFontSuperHuge.font), db.questFontSuperHuge.size, db.questFontSuperHuge.outline) -- No idea what that is for
-		_G["NumberFont_Shadow_Med"]:SetFont(E.LSM:Fetch('font', db.editbox.font), db.editbox.size, db.editbox.outline) --Chat editbox
 		--Objective Frame
 		if not SLE._Compatibility["ElvUI_MerathilisUI"] or (SLE._Compatibility["ElvUI_MerathilisUI"] and not E.private.muiSkins.blizzard.objectivetracker) then
 			local COLOR
@@ -82,6 +82,7 @@ function M:SetBlizzFonts()
 			_G["BONUS_OBJECTIVE_TRACKER_MODULE"].Header.Text:SetFont(E.LSM:Fetch('font', db.objectiveHeader.font), db.objectiveHeader.size, db.objectiveHeader.outline)
 			_G["WORLD_QUEST_TRACKER_MODULE"].Header.Text:SetFont(E.LSM:Fetch('font', db.objectiveHeader.font), db.objectiveHeader.size, db.objectiveHeader.outline)
 			_G["ObjectiveTrackerFrame"].HeaderMenu.Title:SetTextColor(COLOR.r, COLOR.g, COLOR.b)
+			_G["ObjectiveTrackerBlocksFrame"].CampaignQuestHeader.Text:SetTextColor(COLOR.r, COLOR.g, COLOR.b)
 			_G["ObjectiveTrackerBlocksFrame"].QuestHeader.Text:SetTextColor(COLOR.r, COLOR.g, COLOR.b)
 			_G["ObjectiveTrackerBlocksFrame"].AchievementHeader.Text:SetTextColor(COLOR.r, COLOR.g, COLOR.b)
 			_G["ObjectiveTrackerBlocksFrame"].ScenarioHeader.Text:SetTextColor(COLOR.r, COLOR.g, COLOR.b)
@@ -91,14 +92,6 @@ function M:SetBlizzFonts()
 			if M.BonusObjectiveBarText then M.BonusObjectiveBarText:SetFont(E.LSM:Fetch('font', db.objective.font), db.objective.size, db.objective.outline) end
 		end
 	end
-end
-
-function M:TextWidth()
-	local db = E.db.sle.media.fonts or E.db.sle.media.fonts
-	_G["ZoneTextString"]:SetWidth(db.zone.width)
-	_G["PVPInfoTextString"]:SetWidth(db.pvp.width)
-	_G["PVPArenaTextString"]:SetWidth(db.pvp.width)
-	_G["SubZoneTextString"]:SetWidth(db.subzone.width)
 end
 
 function M:TextShow()
@@ -123,18 +116,11 @@ function M:TextShow()
 	FadingFrame_Show(_G["SubZoneTextFrame"])
 end
 
-function M:Update()
-	M:TextWidth()
-end
-
 function M:Initialize()
 	if not SLE.initialized then return end
-	M:TextWidth()
 	hooksecurefunc(E, "UpdateBlizzardFonts", M.SetBlizzFonts)
 	hooksecurefunc("SetZoneText", ZoneTextPos)
 	M.SetBlizzFonts()
-
-	SLE.UpdateFunctions["Media"] = M.Update
 end
 
 SLE:RegisterModule(M:GetName())

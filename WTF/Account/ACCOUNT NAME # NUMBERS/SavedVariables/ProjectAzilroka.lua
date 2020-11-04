@@ -1,23 +1,30 @@
 
 ProjectAzilrokaDB = {
 	["profileKeys"] = {
+		["Abooseez - Frostmourne"] = "Aboose UI",
 		["Mylilbank - Area 52"] = "Aboose UI",
 		["Ureterrible - Stormrage"] = "Aboose UI",
 		["Myironballs - Stormrage"] = "Aboose UI",
 		["Iabooseyou - Stormrage"] = "Aboose UI",
 		["Aboose - Stormrage"] = "Aboose UI",
 		["Lilobv - Illidan"] = "Aboose UI",
+		["Pallyneess - Illidan"] = "Aboose UI",
 		["Abooseyou - Stormrage"] = "Aboose UI",
-		["Pallyneess - Illidan"] = "Default",
+		["Õbv - Frostmourne"] = "Default",
+		["Agateophobia - Frostmourne"] = "Default",
 		["Paintchíps - Stormrage"] = "Aboose UI",
-		["Usb - Stormrage"] = "Aboose UI",
-		["Tríggered - Stormrage"] = "Aboose UI",
-		["Affixe - Stormrage"] = "Aboose UI",
 		["Õbv - Area 52"] = "Aboose UI",
-		["Rogueness - Illidan"] = "Aboose UI",
-		["Pallybank - Illidan"] = "Aboose UI",
-		["Affixes - Stormrage"] = "Aboose UI",
+		["Abooseu - Frostmourne"] = "Default",
+		["Rogueness - Stormrage"] = "Aboose UI",
+		["Usb - Stormrage"] = "Aboose UI",
+		["Affixe - Stormrage"] = "Aboose UI",
 		["Pallyness - Stormrage"] = "Aboose UI",
+		["Tríggered - Stormrage"] = "Aboose UI",
+		["Pallybank - Illidan"] = "Aboose UI",
+		["Rogueness - Illidan"] = "Aboose UI",
+		["Gettingddos - Frostmourne"] = "Aboose UI",
+		["Affixes - Stormrage"] = "Aboose UI",
+		["Redicule - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -122,18 +129,39 @@ ProjectAzilrokaDB = {
 			["EnhancedShadows"] = {
 				["Enable"] = false,
 			},
-			["ReputationReward"] = {
-				["ShowAll"] = true,
+			["AuraReminder"] = {
+				["Enable"] = false,
+				["Sound"] = "Aggro",
+				["Filters"] = {
+					["Global"] = {
+						["RaidBuff"] = {
+							["strictFilter"] = false,
+							["enable"] = true,
+							["reverseCheck"] = false,
+							["filterType"] = "SPELL",
+							["personal"] = false,
+							["negateGroup"] = {
+							},
+							["spellGroup"] = {
+								[297034] = true,
+							},
+							["level"] = 50,
+							["size"] = 50,
+						},
+					},
+				},
 			},
 			["BigButtons"] = {
+				["SeedSize"] = 64,
+				["ToolSize"] = 64,
 				["Enable"] = false,
 			},
 			["SquareMinimapButtons"] = {
-				["BarMouseOver"] = true,
+				["IconSize"] = 31,
 				["MoveQueue"] = false,
 				["ButtonSpacing"] = 1,
 				["MoveMail"] = false,
-				["IconSize"] = 31,
+				["BarMouseOver"] = true,
 			},
 			["DragonOverlay"] = {
 				["Enable"] = false,
@@ -267,41 +295,162 @@ ProjectAzilrokaDB = {
 			["iFilger"] = {
 				["Enhancements"] = {
 					["Enable"] = false,
+					["NumPerRow"] = 6,
 				},
 				["FocusDebuffs"] = {
 					["Enable"] = false,
+					["NumPerRow"] = 6,
 				},
-				["Enable"] = true,
 				["RaidDebuffs"] = {
 					["Enable"] = false,
+					["NumPerRow"] = 6,
 				},
 				["ItemCooldowns"] = {
 					["Enable"] = false,
+					["NumPerRow"] = 6,
 				},
 				["FocusBuffs"] = {
 					["Enable"] = false,
+					["NumPerRow"] = 6,
 				},
 				["Procs"] = {
 					["Enable"] = false,
+					["NumPerRow"] = 6,
 				},
 				["Cooldowns"] = {
+					["Direction"] = "LEFT",
 					["Enable"] = false,
+					["SpellCDs"] = {
+						[203651] = false,
+						[22842] = false,
+						[42650] = false,
+						[33891] = false,
+						[47484] = false,
+						[51052] = false,
+						[49028] = false,
+						[194223] = false,
+						[106839] = false,
+						[77764] = false,
+						[5211] = false,
+						[47528] = false,
+						[2908] = false,
+						[50334] = false,
+						[49576] = false,
+						[192081] = false,
+						[2782] = false,
+						[59752] = false,
+						[48707] = false,
+						[47568] = false,
+						[5217] = false,
+						[221562] = false,
+						[51271] = false,
+						[47481] = false,
+						[61336] = false,
+						[61999] = false,
+						[102793] = false,
+						[125439] = false,
+						[48438] = false,
+						[108199] = false,
+						[197626] = false,
+						[132158] = false,
+						[275699] = false,
+						[196770] = false,
+						[55233] = false,
+						[102342] = false,
+						[127757] = false,
+						[33917] = false,
+						[48792] = false,
+						[58984] = false,
+						[63560] = false,
+						[106951] = false,
+						[20484] = false,
+						[56222] = false,
+						[202028] = false,
+						[279302] = false,
+						[49376] = false,
+						[740] = false,
+						[295258] = false,
+						[99] = false,
+						[194679] = false,
+						[48265] = false,
+						[295373] = false,
+						[50977] = false,
+						[49039] = false,
+						[132469] = false,
+						[43265] = false,
+						[22812] = false,
+						[78675] = false,
+						[29166] = false,
+						[305497] = false,
+						[193753] = false,
+						[47482] = false,
+						[22570] = false,
+						[102401] = false,
+						[194844] = false,
+						[106898] = false,
+						[1850] = false,
+						[18562] = false,
+						[6795] = false,
+						[88423] = false,
+						[50842] = false,
+					},
+					["StackCountFont"] = "Oswald",
+					["Spacing"] = 0,
+					["Size"] = 32,
+					["StackCountFontFlag"] = "OUTLINE",
+					["StatusBarHeight"] = 32,
+					["NumPerRow"] = 4,
 				},
 				["Buffs"] = {
+					["Direction"] = "LEFT",
 					["Enable"] = false,
+					["FilterByList"] = "Whitelist",
+					["StackCountFont"] = "Oswald",
+					["Spacing"] = 0,
+					["Whitelist"] = {
+						[271054] = true,
+						[22812] = true,
+						[33763] = true,
+						[195181] = true,
+					},
+					["Size"] = 32,
+					["StackCountFontFlag"] = "OUTLINE",
+					["StackCountFontSize"] = 18,
+					["StatusBarTimeEnabled"] = false,
+					["NumPerRow"] = 4,
+				},
+				["Cooldown"] = {
+					["override"] = false,
 				},
 				["TargetDebuffs"] = {
+					["Direction"] = "LEFT",
 					["Enable"] = false,
+					["FilterByList"] = "Whitelist",
+					["StackCountFont"] = "Oswald",
+					["Spacing"] = 0,
+					["Whitelist"] = {
+						[106830] = true,
+						[1822] = true,
+						[1079] = true,
+						[155722] = true,
+						[194310] = true,
+						[191587] = true,
+					},
+					["Size"] = 32,
+					["StackCountFontFlag"] = "OUTLINE",
+					["StackCountFontSize"] = 18,
+					["NumPerRow"] = 4,
 				},
 			},
-			["AuraReminder"] = {
-				["Enable"] = false,
+			["ReputationReward"] = {
+				["ShowAll"] = true,
 			},
 			["Cooldown"] = {
+				["checkSeconds"] = true,
 				["fonts"] = {
+					["enable"] = true,
 					["font"] = "Oswald",
 				},
-				["Enable"] = false,
 			},
 			["EnhancedFriendsList"] = {
 				["NameFont"] = "Oswald",
@@ -314,6 +463,146 @@ ProjectAzilrokaDB = {
 	},
 }
 stAddonManagerProfilesDB = {
+	["AH"] = {
+		"AdvancedInterfaceOptions", -- [1]
+		"Auctionator", -- [2]
+		"AutoLootPlus", -- [3]
+		"AutoTurnIn", -- [4]
+		"BagSync", -- [5]
+		"BigWigs", -- [6]
+		"BigWigs_Azeroth", -- [7]
+		"BigWigs_BattleOfDazaralor", -- [8]
+		"BigWigs_CastleNathria", -- [9]
+		"BigWigs_Core", -- [10]
+		"BigWigs_CrucibleOfStorms", -- [11]
+		"BigWigs_Nyalotha", -- [12]
+		"BigWigs_Options", -- [13]
+		"BigWigs_Plugins", -- [14]
+		"BigWigs_EternalPalace", -- [15]
+		"BigWigs_Uldir", -- [16]
+		"BigWigs_Voice", -- [17]
+		"BindPad", -- [18]
+		"BlockChinese", -- [19]
+		"BonusRollPreview", -- [20]
+		"!BugGrabber", -- [21]
+		"BugSack", -- [22]
+		"CinematicCanceler", -- [23]
+		"CopyPasta2", -- [24]
+		"Details_RaidPowerBars", -- [25]
+		"Details_TargetCaller", -- [26]
+		"Details_CastHistory", -- [27]
+		"Details", -- [28]
+		"Details_DeathGraphs", -- [29]
+		"Details_EncounterDetails", -- [30]
+		"Details_RaidCheck", -- [31]
+		"Details_DataStorage", -- [32]
+		"Details_TimeLine", -- [33]
+		"Details_ChartViewer", -- [34]
+		"ExRT", -- [35]
+		"Gnobesy", -- [36]
+		"Guild_Roster_Manager", -- [37]
+		"Hekili", -- [38]
+		"LibGroupInSpecT-1.1", -- [39]
+		"LittleWigs", -- [40]
+		"Myslot", -- [41]
+		"MythicDungeonTools", -- [42]
+		"MythicPlusTimer", -- [43]
+		"NameplateSCT", -- [44]
+		"OPie", -- [45]
+		"PersonalLootHelper", -- [46]
+		"Plater", -- [47]
+		"Postal", -- [48]
+		"RareScanner", -- [49]
+		"SavedInstances", -- [50]
+		"Simulationcraft", -- [51]
+		"TomCats", -- [52]
+		"VocalRaidAssistant", -- [53]
+		"WeakAuras", -- [54]
+		"WeakAurasArchive", -- [55]
+		"WeakAurasCompanion", -- [56]
+		"WeakAurasOptions", -- [57]
+		"WorldQuestsList", -- [58]
+		"WoWMoneyStatistics", -- [59]
+		"AddOnSkins", -- [60]
+		"ProjectAzilroka", -- [61]
+		"ElvUI", -- [62]
+		"ElvUI_OptionsUI", -- [63]
+		"ElvUI_SLE", -- [64]
+		"ElvUI_HealerMana", -- [65]
+		"ElvUI_CustomTags", -- [66]
+	},
+	["Leveling"] = {
+		"AAP-Core", -- [1]
+		"AAP-EasternKingdoms", -- [2]
+		"AAP-Shadowlands", -- [3]
+		"AdvancedInterfaceOptions", -- [4]
+		"Auctionator", -- [5]
+		"AutoLootPlus", -- [6]
+		"AutoTurnIn", -- [7]
+		"BagSync", -- [8]
+		"BigWigs", -- [9]
+		"BigWigs_Azeroth", -- [10]
+		"BigWigs_BattleOfDazaralor", -- [11]
+		"BigWigs_CastleNathria", -- [12]
+		"BigWigs_Core", -- [13]
+		"BigWigs_CrucibleOfStorms", -- [14]
+		"BigWigs_Nyalotha", -- [15]
+		"BigWigs_Options", -- [16]
+		"BigWigs_Plugins", -- [17]
+		"BigWigs_EternalPalace", -- [18]
+		"BigWigs_Uldir", -- [19]
+		"BigWigs_Voice", -- [20]
+		"BindPad", -- [21]
+		"BlockChinese", -- [22]
+		"BonusRollPreview", -- [23]
+		"!BugGrabber", -- [24]
+		"BugSack", -- [25]
+		"CinematicCanceler", -- [26]
+		"CopyPasta2", -- [27]
+		"Details_RaidPowerBars", -- [28]
+		"Details_TargetCaller", -- [29]
+		"Details_CastHistory", -- [30]
+		"Details", -- [31]
+		"Details_DeathGraphs", -- [32]
+		"Details_EncounterDetails", -- [33]
+		"Details_RaidCheck", -- [34]
+		"Details_DataStorage", -- [35]
+		"Details_TimeLine", -- [36]
+		"Details_ChartViewer", -- [37]
+		"ExRT", -- [38]
+		"Gnobesy", -- [39]
+		"Guild_Roster_Manager", -- [40]
+		"HandyNotes", -- [41]
+		"Hekili", -- [42]
+		"LibGroupInSpecT-1.1", -- [43]
+		"LittleWigs", -- [44]
+		"Myslot", -- [45]
+		"MythicDungeonTools", -- [46]
+		"MythicPlusTimer", -- [47]
+		"NameplateSCT", -- [48]
+		"OPie", -- [49]
+		"PersonalLootHelper", -- [50]
+		"Plater", -- [51]
+		"Postal", -- [52]
+		"RareScanner", -- [53]
+		"SavedInstances", -- [54]
+		"Simulationcraft", -- [55]
+		"TomCats", -- [56]
+		"VocalRaidAssistant", -- [57]
+		"WeakAuras", -- [58]
+		"WeakAurasArchive", -- [59]
+		"WeakAurasCompanion", -- [60]
+		"WeakAurasOptions", -- [61]
+		"WorldQuestsList", -- [62]
+		"WoWMoneyStatistics", -- [63]
+		"AddOnSkins", -- [64]
+		"ProjectAzilroka", -- [65]
+		"ElvUI", -- [66]
+		"ElvUI_OptionsUI", -- [67]
+		"ElvUI_SLE", -- [68]
+		"ElvUI_HealerMana", -- [69]
+		"ElvUI_CustomTags", -- [70]
+	},
 	["Pally?"] = {
 		"AdvancedInterfaceOptions", -- [1]
 		"AutoLootPlus", -- [2]
@@ -334,60 +623,57 @@ stAddonManagerProfilesDB = {
 		"BindPad", -- [17]
 		"BlockChinese", -- [18]
 		"BonusRollPreview", -- [19]
-		"CinematicCanceler", -- [20]
-		"Details_RaidPowerBars", -- [21]
-		"Details_TargetCaller", -- [22]
-		"Details_CastHistory", -- [23]
-		"Details", -- [24]
-		"Details_DeathGraphs", -- [25]
-		"Details_EncounterDetails", -- [26]
-		"Details_RaidCheck", -- [27]
-		"Details_DataStorage", -- [28]
-		"Details_TimeLine", -- [29]
-		"Details_ChartViewer", -- [30]
-		"ExRT", -- [31]
-		"Guild_Roster_Manager", -- [32]
-		"HandyNotes", -- [33]
-		"Hekili", -- [34]
-		"LibGroupInSpecT-1.1", -- [35]
-		"LittleWigs", -- [36]
-		"Myslot", -- [37]
-		"MythicDungeonTools", -- [38]
-		"MythicPlusTimer", -- [39]
-		"NameplateSCT", -- [40]
-		"OPie", -- [41]
-		"PersonalLootHelper", -- [42]
-		"Plater", -- [43]
-		"Postal", -- [44]
-		"RareScanner", -- [45]
-		"SavedInstances", -- [46]
-		"Simulationcraft", -- [47]
-		"TomCats", -- [48]
-		"VocalRaidAssistant", -- [49]
-		"WeakAuras", -- [50]
-		"WeakAurasArchive", -- [51]
-		"WeakAurasCompanion", -- [52]
-		"WeakAurasOptions", -- [53]
-		"WorldQuestsList", -- [54]
-		"AddOnSkins", -- [55]
-		"ProjectAzilroka", -- [56]
-		"ElvUI", -- [57]
-		"ElvUI_OptionsUI", -- [58]
-		"ElvUI_SLE", -- [59]
-		"ElvUI_HealerMana", -- [60]
-		"ElvUI_CustomTags", -- [61]
+		"!BugGrabber", -- [20]
+		"BugSack", -- [21]
+		"CinematicCanceler", -- [22]
+		"CopyPasta2", -- [23]
+		"Details_RaidPowerBars", -- [24]
+		"Details_TargetCaller", -- [25]
+		"Details_CastHistory", -- [26]
+		"Details", -- [27]
+		"Details_DeathGraphs", -- [28]
+		"Details_EncounterDetails", -- [29]
+		"Details_RaidCheck", -- [30]
+		"Details_DataStorage", -- [31]
+		"Details_TimeLine", -- [32]
+		"Details_ChartViewer", -- [33]
+		"ExRT", -- [34]
+		"Gnobesy", -- [35]
+		"Guild_Roster_Manager", -- [36]
+		"Hekili", -- [37]
+		"LibGroupInSpecT-1.1", -- [38]
+		"LittleWigs", -- [39]
+		"Myslot", -- [40]
+		"MythicDungeonTools", -- [41]
+		"MythicPlusTimer", -- [42]
+		"NameplateSCT", -- [43]
+		"OPie", -- [44]
+		"PersonalLootHelper", -- [45]
+		"Plater", -- [46]
+		"Postal", -- [47]
+		"RareScanner", -- [48]
+		"SavedInstances", -- [49]
+		"Simulationcraft", -- [50]
+		"TomCats", -- [51]
+		"VocalRaidAssistant", -- [52]
+		"WeakAuras", -- [53]
+		"WeakAurasArchive", -- [54]
+		"WeakAurasCompanion", -- [55]
+		"WeakAurasOptions", -- [56]
+		"WorldQuestsList", -- [57]
+		"WoWMoneyStatistics", -- [58]
+		"AddOnSkins", -- [59]
+		"ProjectAzilroka", -- [60]
+		"ElvUI", -- [61]
+		"ElvUI_OptionsUI", -- [62]
+		"ElvUI_SLE", -- [63]
+		"ElvUI_HealerMana", -- [64]
+		"ElvUI_CustomTags", -- [65]
 	},
 }
 stAddonManagerServerDB = {
-	["Illidan"] = {
-		["Pallyneess"] = true,
-		["Rogueness"] = true,
-		["Lilobv"] = true,
-		["Pallybank"] = true,
-	},
-	["Area 52"] = {
-		["Mylilbank"] = true,
-		["Õbv"] = true,
+	["Icecrown"] = {
+		["Redicule"] = true,
 	},
 	["Stormrage"] = {
 		["Aboose"] = true,
@@ -400,6 +686,24 @@ stAddonManagerServerDB = {
 		["Paintchíps"] = true,
 		["Ureterrible"] = true,
 		["Abooseyou"] = true,
+		["Rogueness"] = true,
 		["Myironballs"] = true,
+	},
+	["Frostmourne"] = {
+		["Abooseu"] = true,
+		["Abooseez"] = true,
+		["Õbv"] = true,
+		["Gettingddos"] = true,
+		["Agateophobia"] = true,
+	},
+	["Area 52"] = {
+		["Mylilbank"] = true,
+		["Õbv"] = true,
+	},
+	["Illidan"] = {
+		["Pallyneess"] = true,
+		["Rogueness"] = true,
+		["Lilobv"] = true,
+		["Pallybank"] = true,
 	},
 }

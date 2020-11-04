@@ -7,23 +7,24 @@ Details_StreamerDB = {
 		["Abooseyou - Illidan"] = "Tríggered - Stormrage",
 		["Gettingddos - Frostmourne"] = "Tríggered - Stormrage",
 		["Mylilbank - Area 52"] = "Tríggered - Stormrage",
+		["Trollsalotz - Mal'Ganis"] = "Tríggered - Stormrage",
 		["Affixe - Mal'Ganis"] = "Tríggered - Stormrage",
 		["Lilobv - Mal'Ganis"] = "Tríggered - Stormrage",
 		["Obq - Mal'Ganis"] = "Tríggered - Stormrage",
 		["Obv - Darkspear"] = "Tríggered - Stormrage",
-		["Agateophobia - Frostmourne"] = "Tríggered - Stormrage",
-		["Trollsalotz - Mal'Ganis"] = "Tríggered - Stormrage",
 		["Pallybank - Illidan"] = "Tríggered - Stormrage",
-		["Sevensins - Scilla"] = "Tríggered - Stormrage",
+		["Õbv - Frostmourne"] = "Tríggered - Stormrage",
+		["Agateophobia - Frostmourne"] = "Tríggered - Stormrage",
+		["Lilobv - Illidan"] = "Tríggered - Stormrage",
 		["Õbv - Mal'Ganis"] = "Tríggered - Stormrage",
 		["Abooseyou - Frostmourne"] = "Tríggered - Stormrage",
 		["Pallyness - Zul'jin"] = "Tríggered - Stormrage",
 		["Monkelf - Mal'Ganis"] = "Tríggered - Stormrage",
-		["Slaphappÿ - Area 52"] = "Tríggered - Stormrage",
-		["Tríggered - Stormrage"] = "Tríggered - Stormrage",
 		["Pallyness - Stormrage"] = "Tríggered - Stormrage",
+		["Tríggered - Stormrage"] = "Tríggered - Stormrage",
+		["Slaphappÿ - Area 52"] = "Tríggered - Stormrage",
 		["Yikz - Mal'Ganis"] = "Tríggered - Stormrage",
-		["Lilobv - Illidan"] = "Tríggered - Stormrage",
+		["Sevensins - Scilla"] = "Tríggered - Stormrage",
 		["Dateandrape - Scilla"] = "Tríggered - Stormrage",
 		["Õbv - Area 52"] = "Tríggered - Stormrage",
 		["Redicule - Icecrown"] = "Tríggered - Stormrage",
@@ -54,17 +55,12 @@ Details_StreamerDB = {
 			},
 			["arrow_anchor_x"] = 0,
 			["row_texture"] = "Details Serenity",
-			["use_spark"] = true,
-			["main_frame_locked"] = false,
-			["arrow_anchor_y"] = 0,
+			["scale"] = 1,
+			["point"] = "CENTER",
+			["y"] = 4.57763671875e-05,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["author"] = "Details! Team",
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -74,7 +70,7 @@ Details_StreamerDB = {
 			},
 			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["y"] = 4.57763671875e-05,
+			["row_height"] = 20,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -82,17 +78,22 @@ Details_StreamerDB = {
 				["font_shadow"] = true,
 				["y"] = 3.0517578125e-05,
 				["x"] = 0,
-				["attribute_type"] = 1,
 				["update_speed"] = 0.05,
 				["size"] = 32,
+				["attribute_type"] = 1,
 			},
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["arrow_anchor_y"] = 0,
+			["use_spark"] = true,
+			["main_frame_locked"] = false,
 			["font_size"] = 10,
-			["author"] = "Details! Team",
-			["point"] = "CENTER",
-			["row_height"] = 20,
-			["scale"] = 1,
 		},
 	},
 }

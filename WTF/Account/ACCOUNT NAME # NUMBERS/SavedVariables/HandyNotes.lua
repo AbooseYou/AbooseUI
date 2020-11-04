@@ -1,30 +1,43 @@
 
 HandyNotesDB = {
 	["profileKeys"] = {
-		["Affixe - Stormrage"] = "Affixe - Stormrage",
-		["Pallybank - Illidan"] = "ABooseUI",
-		["Paintchíps - Stormrage"] = "Paintchíps - Stormrage",
-		["Aboose - Stormrage"] = "Aboose - Stormrage",
-		["Usb - Stormrage"] = "Usb - Stormrage",
 		["Ureterrible - Stormrage"] = "ABooseUI",
-		["Tríggered - Stormrage"] = "Tríggered - Stormrage",
+		["Gettingddos - Frostmourne"] = "ABooseUI",
 		["Iabooseyou - Stormrage"] = "Iabooseyou - Stormrage",
-		["Pallyness - Stormrage"] = "ABooseUI",
-		["Rogueness - Illidan"] = "ABooseUI",
+		["Aboose - Stormrage"] = "Aboose - Stormrage",
+		["Lilobv - Illidan"] = "Lilobv - Illidan",
+		["Affixe - Stormrage"] = "Affixe - Stormrage",
+		["Pallyneess - Illidan"] = "Pallyneess - Illidan",
+		["Paintchíps - Stormrage"] = "Paintchíps - Stormrage",
+		["Usb - Stormrage"] = "Usb - Stormrage",
+		["Rogueness - Stormrage"] = "Rogueness - Stormrage",
 		["Abooseyou - Stormrage"] = "ABooseUI",
-		["Affixes - Stormrage"] = "Affixes - Stormrage",
+		["Tríggered - Stormrage"] = "Tríggered - Stormrage",
+		["Pallyness - Stormrage"] = "ABooseUI",
 		["Myironballs - Stormrage"] = "Myironballs - Stormrage",
+		["Rogueness - Illidan"] = "ABooseUI",
+		["Pallybank - Illidan"] = "ABooseUI",
+		["Affixes - Stormrage"] = "Affixes - Stormrage",
+		["Redicule - Icecrown"] = "Redicule - Icecrown",
 	},
 	["profiles"] = {
 		["Affixe - Stormrage"] = {
+		},
+		["Pallyneess - Illidan"] = {
 		},
 		["Paintchíps - Stormrage"] = {
 		},
 		["Usb - Stormrage"] = {
 		},
+		["Rogueness - Stormrage"] = {
+		},
 		["Tríggered - Stormrage"] = {
 		},
+		["Myironballs - Stormrage"] = {
+		},
 		["Iabooseyou - Stormrage"] = {
+		},
+		["Lilobv - Illidan"] = {
 		},
 		["Aboose - Stormrage"] = {
 		},
@@ -32,26 +45,31 @@ HandyNotesDB = {
 		},
 		["Affixes - Stormrage"] = {
 		},
-		["Myironballs - Stormrage"] = {
+		["Redicule - Icecrown"] = {
 		},
 	},
 }
 HandyNotes_HandyNotesDB = {
 	["profileKeys"] = {
+		["Abooseez - Frostmourne"] = "Abooseez - Frostmourne",
 		["Mylilbank - Area 52"] = "Mylilbank - Area 52",
+		["Gettingddos - Frostmourne"] = "Gettingddos - Frostmourne",
 		["Abooseyou - Illidan"] = "Abooseyou - Illidan",
+		["Õbv - Area 52"] = "Õbv - Area 52",
 		["Ureterrible - Stormrage"] = "Ureterrible - Stormrage",
 		["Myironballs - Stormrage"] = "Myironballs - Stormrage",
 		["Iabooseyou - Stormrage"] = "Iabooseyou - Stormrage",
+		["Agateophobia - Frostmourne"] = "Agateophobia - Frostmourne",
 		["Aboose - Stormrage"] = "Aboose - Stormrage",
 		["Lilobv - Illidan"] = "Lilobv - Illidan",
 		["Obq - Mal'Ganis"] = "Obq - Mal'Ganis",
 		["Obv - Darkspear"] = "Obv - Darkspear",
 		["Abooseyou - Stormrage"] = "Abooseyou - Stormrage",
+		["Õbv - Frostmourne"] = "Õbv - Frostmourne",
 		["Pallyneess - Illidan"] = "Pallyneess - Illidan",
 		["Paintchíps - Stormrage"] = "Paintchíps - Stormrage",
-		["Pallybank - Illidan"] = "Pallybank - Illidan",
-		["Affixes - Stormrage"] = "Affixes - Stormrage",
+		["Abooseu - Frostmourne"] = "Abooseu - Frostmourne",
+		["Slaphappÿ - Area 52"] = "Slaphappÿ - Area 52",
 		["Pallyness - Zul'jin"] = "Pallyness - Zul'jin",
 		["Rogueness - Stormrage"] = "Rogueness - Stormrage",
 		["Usb - Stormrage"] = "Usb - Stormrage",
@@ -59,20 +77,28 @@ HandyNotes_HandyNotesDB = {
 		["Tríggered - Stormrage"] = "Tríggered - Stormrage",
 		["Affixe - Stormrage"] = "Affixe - Stormrage",
 		["Rogueness - Illidan"] = "Rogueness - Illidan",
-		["Slaphappÿ - Area 52"] = "Slaphappÿ - Area 52",
-		["Õbv - Area 52"] = "Õbv - Area 52",
+		["Pallybank - Illidan"] = "Pallybank - Illidan",
+		["Affixes - Stormrage"] = "Affixes - Stormrage",
 		["Redicule - Icecrown"] = "Redicule - Icecrown",
 	},
 	["profiles"] = {
+		["Abooseez - Frostmourne"] = {
+		},
 		["Mylilbank - Area 52"] = {
 		},
+		["Gettingddos - Frostmourne"] = {
+		},
 		["Abooseyou - Illidan"] = {
+		},
+		["Õbv - Area 52"] = {
 		},
 		["Ureterrible - Stormrage"] = {
 		},
 		["Myironballs - Stormrage"] = {
 		},
 		["Iabooseyou - Stormrage"] = {
+		},
+		["Agateophobia - Frostmourne"] = {
 		},
 		["Aboose - Stormrage"] = {
 		},
@@ -84,13 +110,15 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Abooseyou - Stormrage"] = {
 		},
+		["Õbv - Frostmourne"] = {
+		},
 		["Pallyneess - Illidan"] = {
 		},
 		["Paintchíps - Stormrage"] = {
 		},
-		["Pallybank - Illidan"] = {
+		["Abooseu - Frostmourne"] = {
 		},
-		["Affixes - Stormrage"] = {
+		["Slaphappÿ - Area 52"] = {
 		},
 		["Pallyness - Zul'jin"] = {
 		},
@@ -106,9 +134,9 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Rogueness - Illidan"] = {
 		},
-		["Slaphappÿ - Area 52"] = {
+		["Pallybank - Illidan"] = {
 		},
-		["Õbv - Area 52"] = {
+		["Affixes - Stormrage"] = {
 		},
 		["Redicule - Icecrown"] = {
 		},

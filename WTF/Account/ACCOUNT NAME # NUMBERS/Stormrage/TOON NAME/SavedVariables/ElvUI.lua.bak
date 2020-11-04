@@ -1,162 +1,206 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"doing M+ after raid", -- [1]
-		"/p what is your Ilvl?", -- [2]
-		"/p do we just wanna do M+ tomorrow?", -- [3]
-		"/rt inv", -- [4]
-		"/rt dis", -- [5]
-		"/g not raiding", -- [6]
-		"/p link keys", -- [7]
-		"/p |cffa335ee|Hkeystone:158923:353:19:9:7:13:120|h[Keystone: Siege of Boralus (19)]|h|r", -- [8]
-		"/p what one you wanna do", -- [9]
-		"/p i moved channels", -- [10]
-		"/p lets do sezys", -- [11]
-		"/p can some one fly out there befor me", -- [12]
-		"/wa help", -- [13]
-		"/wa minimap", -- [14]
-		"/bp", -- [15]
-		"/exrt", -- [16]
-		"/bw", -- [17]
-		"/reload", -- [18]
-		"/ec", -- [19]
+		"/bp delete Illidan_Warlockness", -- [1]
+		"/bp delete Frostmourne_Õbv", -- [2]
+		"/bp delete Frostmourne_Abooseyou", -- [3]
+		"/bp delete Area 52_Obq", -- [4]
+		"/bp delete Stormrage_Blackfold", -- [5]
+		"/ec help", -- [6]
+		"/elvui help", -- [7]
+		"/bp delete Stormrage_Aboosedh", -- [8]
+		"/bp delete Illidan_Lilobv", -- [9]
+		"/bp delete Stormrage_Abooseddead", -- [10]
+		"/bp list", -- [11]
+		"/bp delete Stormrage_Iabooseyou_backup", -- [12]
+		"/ec", -- [13]
+		"/opie", -- [14]
+		"/myslot", -- [15]
+		"/simc", -- [16]
+		"/bp", -- [17]
+		"/g |cffa335ee|Hkeystone:158923:245:17:9:6:4:120|h[Keystone: Freehold (17)]|h|r Lolz", -- [18]
+		"/bw", -- [19]
 		"/wa", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"WTS M +15 Keys  80k each, mulitple keys ready now! pst", -- [1]
-			"Cupofsoupx-Stormrage", -- [2]
+			"wts |cff0070dd|Hbattlepet:2187:1:3:165:10:10:0000000000000000:86101|h[Filthy Slime]|h|r 15k", -- [1]
+			"Filthyslime-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Cupofsoupx-Stormrage", -- [5]
+			"Filthyslime-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			31, -- [11]
-			"Player-60-0CC9335F", -- [12]
+			4278, -- [11]
+			"Player-60-0DEE84D6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Cupofsoupx|r",
-			[51] = 1603672990,
+			[52] = "|cff006fdcFilthyslime|r",
+			[51] = 1604507998,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [1]
 		{
-			"WTB |cff0070dd|Hitem:76061::::::::46:103:::::::|h[Spirit of Harmony]|h|r BULK", -- [1]
-			"Floosiee-Stormrage", -- [2]
+			"Multi r1 wts 2s arena wins or  rating for GOLD only pst", -- [1]
+			"Cbtloverx-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Floosiee-Stormrage", -- [5]
+			"Cbtloverx-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			33, -- [11]
-			"Player-60-0B09431E", -- [12]
+			4279, -- [11]
+			"Player-60-0E0A0988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffe7b09Floosiee|r",
-			[51] = 1603673008,
+			[52] = "|cffc31d39Cbtloverx|r",
+			[51] = 1604508005,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [2]
 		{
-			";p", -- [1]
-			"Issurian-Stormrage", -- [2]
+			"WTS  any Darkmoon Faire full Replica set for Transmog! SALE!! |cffa335ee|Hitem:78263::::::::50:577::14:::::|h[Replica Darkmantle Cap]|h|r|cffa335ee|Hitem:78269::::::::50:577::14:::::|h[Replica Darkmantle Tunic]|h|r", -- [1]
+			"Cándy-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Issurian-Stormrage", -- [5]
+			"Cándy-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			34, -- [11]
-			"Player-60-0CC6589C", -- [12]
+			4280, -- [11]
+			"Player-60-0C957AE0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc59a6cIssurian|r",
-			[51] = 1603673019,
+			[52] = "|cffa22fc8Cándy|r",
+			[51] = 1604508005,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [3]
 		{
-			" |cffffd100|HclubFinder:ClubFinder-1-169666-60-96156502|h[Guild: Renowned]|h|r is recruiting more active and friendly members to join our ranks for Shadowlands. The raid team is being formed. We accept all kinds of players. Discord required.", -- [1]
-			"Issurian-Stormrage", -- [2]
+			"cheers wellonheals", -- [1]
+			"Malloth-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Issurian-Stormrage", -- [5]
+			"Malloth-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			35, -- [11]
-			"Player-60-0CC6589C", -- [12]
+			4281, -- [11]
+			"Player-60-0CA5086C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc59a6cIssurian|r",
-			[51] = 1603673020,
+			[52] = "|cffa22fc8Malloth|r",
+			[51] = 1604508005,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [4]
 		{
-			"WTS Loot Stack M+ Carries, H/M Ny'alotha & BoD Clear || 10-50 FH Leveling (Fastest Around), 0-5 Mask Visions || All Raid Glories || Op:Mecha mount, Hivemind, TLPD, Rare Mounts & Pets Pst || Get Jaina & Ny'alotha Allseer! GOLD ONLY <3", -- [1]
-			"Surelyevery-Stormrage", -- [2]
+			"Dont be so scared Republicans, the senate is still red, so nothing will get done.", -- [1]
+			"Busineswoman-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Surelyevery-Stormrage", -- [5]
+			"Busineswoman-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			36, -- [11]
-			"Player-60-0D4F3C67", -- [12]
+			4282, -- [11]
+			"Player-60-0BDDCFE1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffefefeSurelyevery|r",
-			[51] = 1603673051,
+			[52] = "|cffc59a6cBusineswoman|r",
+			[51] = 1604508007,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [5]
 		{
-			"WTS >>Heroic Ny'alotha 12/12H as well as N'zoth Only Spams<< TONIGHT - PL & funnel spots on Sale! Also selling Weekend specials on 5 Mask Visions, M+10-15s and Jaina Mount. GOLD ONLY", -- [1]
-			"Termuun-Stormrage", -- [2]
+			"Kloudd, indeed cheers", -- [1]
+			"Onares-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Termuun-Stormrage", -- [5]
+			"Onares-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			37, -- [11]
-			"Player-60-0DFBFDC7", -- [12]
+			4283, -- [11]
+			"Player-60-0E087665", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfff38bb9Termuun|r",
-			[51] = 1603673059,
+			[52] = "|cffc31d39Onares|r",
+			[51] = 1604508009,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [6]
 		{
-			"WTS |cff1eff00|Hitem:72103::::::::46:103:::::::|h[White Trillium Ore]|h|r", -- [1]
+			"•WTS 0-5 MASKS FULL CLEAR, Horrific Vision Carry :D /w for price !! Come and get your 470 (125) ilvl gear, be ready for Shadowlands! A lot of achevs, and cloak rank before is gone!!• Come with me :3", -- [1]
+			"Shenzy-Stormrage", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Shenzy-Stormrage", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4284, -- [11]
+			"Player-60-0C99703B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Shenzy|r",
+			[51] = 1604508011,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [7]
+		{
+			"Interesting that the left is a cabal controlling the election whereas the presidents lawyer isnt smart enough to not get pranked by sacha baron cohen. its almost as if, they are too dumb to do anything BUT lie", -- [1]
+			"Pleather-Stormrage", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Pleather-Stormrage", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			4285, -- [11]
+			"Player-60-0E04D3DA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cPleather|r",
+			[51] = 1604508012,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [8]
+		{
+			"WTS |cffa335ee|Hitem:17193::::::::50:103::1:1:6883::::|h[Sulfuron Hammer]|h|r|cff0070dd|Hitem:10570::::::::50:103::1:1:6710:2:9:30:28:209:::|h[Manslayer]|h|r|cff0070dd|Hitem:1481::::::::50:103::1:1:6710:2:9:30:28:200:::|h[Grimclaw]|h|r", -- [1]
 			"Floosiee-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
@@ -166,7 +210,7 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			38, -- [11]
+			4286, -- [11]
 			"Player-60-0B09431E", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -174,2031 +218,1987 @@ ElvCharacterDB = {
 			false, -- [16]
 			true, -- [17]
 			[52] = "|cfffe7b09Floosiee|r",
-			[51] = 1603673064,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [7]
-		{
-			"WTS 0-5 masks vision carry. Full run. Cheap price, gold only! pst for more info. =)", -- [1]
-			"Muleka-Stormrage", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Muleka-Stormrage", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			39, -- [11]
-			"Player-60-0BCB71E7", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cfff38bb9Muleka|r",
-			[51] = 1603673064,
-			[50] = "CHAT_MSG_CHANNEL",
-		}, -- [8]
-		{
-			"WTS Mythic+11-20 for 115ilvl   tradable loots and 120-130 weekly chest,Guarantee FULL 115  Gear,Mythic jaina mount|cffa335ee|Hitem:166705::::::::10:1448:::::::|h[Glacial Tidestorm]|h|rAll Glory ACH|cffffff00|Hachievement:14146:Player-60-0E023BDA:0:0:0:-1:0:0:0:0|h[Glory of the Ny'alotha Raider]|h|rdo now.PST", -- [1]
-			"Chipsachu-Stormrage", -- [2]
-			"", -- [3]
-			"2. Trade - City", -- [4]
-			"Chipsachu-Stormrage", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			40, -- [11]
-			"Player-60-0E023BDA", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			true, -- [17]
-			[52] = "|cffa9d271Chipsachu|r",
-			[51] = 1603673065,
+			[51] = 1604508017,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [9]
 		{
-			"selfishness is nothing to them but a little poke", -- [1]
-			"Vickipedia-Stormrage", -- [2]
+			"Yeah the mail in votes that everyone knew would be overwhelming in their support for biden, considering trump told his followers not to vote that way. WHY IS THIS SUPRISING TO YOU? ", -- [1]
+			"Arachnè-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Vickipedia-Stormrage", -- [5]
+			"Arachnè-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			267, -- [11]
-			"Player-60-0E046A6B", -- [12]
+			4287, -- [11]
+			"Player-60-0E04A1F1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffa9d271Vickipedia|r",
-			[51] = 1603789139,
+			[52] = "|cfffef367Arachnè|r",
+			[51] = 1604508017,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [10]
 		{
-			"Malia Obama 2044", -- [1]
-			"Chadkïng-Stormrage", -- [2]
+			"if trump won, it would be LEGIT POLES BLAH BLAH BLAH", -- [1]
+			"Onares-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Chadkïng-Stormrage", -- [5]
+			"Onares-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			268, -- [11]
-			"Player-60-0E010459", -- [12]
+			4288, -- [11]
+			"Player-60-0E087665", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Chadkïng|r",
-			[51] = 1603789160,
+			[52] = "|cffc31d39Onares|r",
+			[51] = 1604508022,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [11]
 		{
-			"i'm completely sober, don't need alcohol to escape myself, feels good, should try avoiding the drink for a bit Rebuke", -- [1]
-			"Setzer-Stormrage", -- [2]
+			"Yeah, great. we're going to get taxed harder, sounds fun", -- [1]
+			"Ellebell-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Setzer-Stormrage", -- [5]
+			"Ellebell-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			270, -- [11]
-			"Player-60-0E01D908", -- [12]
+			4289, -- [11]
+			"Player-60-0C43E93B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Setzer|r",
-			[51] = 1603789163,
+			[52] = "|cfffef367Ellebell|r",
+			[51] = 1604508022,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [12]
 		{
-			"Im a conservative libertarian but I will always respect a liberal no matter how misguided they think theyre doing the right thing", -- [1]
-			"Franos-Stormrage", -- [2]
+			"we all win if we just stop arguing all the time lol", -- [1]
+			"Malloth-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Franos-Stormrage", -- [5]
+			"Malloth-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			271, -- [11]
-			"Player-60-0DFEA5A8", -- [12]
+			4290, -- [11]
+			"Player-60-0CA5086C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffa9d271Franos|r",
-			[51] = 1603789163,
+			[52] = "|cffa22fc8Malloth|r",
+			[51] = 1604508024,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [13]
 		{
-			"tell us on the doll where the selfishness poked you, billy", -- [1]
-			"Arcanîst-Stormrage", -- [2]
+			"<[Guild: Dúnedain]> is a social guild  looking for active players to achieve our goal of raiding, and rbgs , but we also want to have fun, psst if you are interested in joining the fam.", -- [1]
+			"Arâgörn-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Arcanîst-Stormrage", -- [5]
+			"Arâgörn-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			272, -- [11]
-			"Player-60-0E04B697", -- [12]
+			4292, -- [11]
+			"Player-60-0DFAEA8D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaArcanîst|r",
-			[51] = 1603789168,
+			[52] = "|cfff38bb9Arâgörn|r",
+			[51] = 1604508025,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [14]
 		{
-			"hey franos didnt hitler think he was doing the right thing, too", -- [1]
-			"Chadkïng-Stormrage", -- [2]
+			"can't wait until we do the same tacitics...impeach Biden lmao", -- [1]
+			"Lunasolita-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Chadkïng-Stormrage", -- [5]
+			"Lunasolita-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			297, -- [11]
-			"Player-60-0E010459", -- [12]
+			4293, -- [11]
+			"Player-60-0DE8643A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Chadkïng|r",
-			[51] = 1603789210,
+			[52] = "|cfffe7b09Lunasolita|r",
+			[51] = 1604508027,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [15]
 		{
-			"As a conservative libertarian, you are a classical liberal, Franos. I have many liberal friends, it's the leftism that's a form of mental illness.", -- [1]
-			"Rebüke-Stormrage", -- [2]
+			"You like lotr, you like comics, movies, mangas and anime? ...Newly made guild \"Dunedain \" is a social guild  looking to expand and for all people in general.", -- [1]
+			"Arâgörn-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Rebüke-Stormrage", -- [5]
+			"Arâgörn-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			298, -- [11]
-			"Player-60-0E03CDBC", -- [12]
+			4294, -- [11]
+			"Player-60-0DFAEA8D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc31d39Rebüke|r",
-			[51] = 1603789234,
+			[52] = "|cfff38bb9Arâgörn|r",
+			[51] = 1604508028,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [16]
 		{
-			"yea hitler would have loved thanos, finally someone gets it", -- [1]
-			"Setzer-Stormrage", -- [2]
+			"HEY MAN WHAT EVER CANDITATE FULLY LEGALIZES WEED GETS MY CAST", -- [1]
+			"Filthyslime-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Setzer-Stormrage", -- [5]
+			"Filthyslime-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			299, -- [11]
-			"Player-60-0E01D908", -- [12]
+			4296, -- [11]
+			"Player-60-0DEE84D6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Setzer|r",
-			[51] = 1603789235,
+			[52] = "|cff006fdcFilthyslime|r",
+			[51] = 1604508035,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [17]
 		{
-			"WTS jaina mount run Tuesday 1st run 8:30pm EST and 2nd run 8:45pm EST pst for price. GOLD only.", -- [1]
-			"Stunsl-Stormrage", -- [2]
+			"the supreme court and the senate basically handcuff the far left agenda so maybe we get some compromise for a change", -- [1]
+			"Kloudd-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Stunsl-Stormrage", -- [5]
+			"Kloudd-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			300, -- [11]
-			"Player-60-0D058041", -- [12]
+			4297, -- [11]
+			"Player-60-095BE12B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff00fe97Stunsl|r",
-			[51] = 1603789243,
+			[52] = "|cfffe7b09Kloudd|r",
+			[51] = 1604508036,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [18]
 		{
-			"hitler was just a fake name used by the lizard people to scare people into thinking something truly monstrous happen in order to distract you from the true threat right under your nose", -- [1]
-			"Arcanîst-Stormrage", -- [2]
+			"Ellebell you make over 400k a year? nice", -- [1]
+			"Busineswoman-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Arcanîst-Stormrage", -- [5]
+			"Busineswoman-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			306, -- [11]
-			"Player-60-0E04B697", -- [12]
+			4298, -- [11]
+			"Player-60-0BDDCFE1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaArcanîst|r",
-			[51] = 1603789256,
+			[52] = "|cffc59a6cBusineswoman|r",
+			[51] = 1604508036,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [19]
 		{
-			"you're a form of mental illness Rebuke ya drunktard, stop living in sin", -- [1]
-			"Setzer-Stormrage", -- [2]
+			"OMG yeash biden won now we can finally get what who wanted?", -- [1]
+			"Faloranna-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Setzer-Stormrage", -- [5]
+			"Faloranna-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			307, -- [11]
-			"Player-60-0E01D908", -- [12]
+			4302, -- [11]
+			"Player-60-0CDB518C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Setzer|r",
-			[51] = 1603789259,
+			[52] = "|cfffe7b09Faloranna|r",
+			[51] = 1604508042,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [20]
 		{
-			"He did his journal was disgusting saying jews were rats like de blasio and cumono says we need to stamp them out", -- [1]
-			"Franos-Stormrage", -- [2]
+			"Luna, you can't Congress is still Dem held", -- [1]
+			"Onares-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Franos-Stormrage", -- [5]
+			"Onares-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			308, -- [11]
-			"Player-60-0DFEA5A8", -- [12]
+			4303, -- [11]
+			"Player-60-0E087665", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffa9d271Franos|r",
-			[51] = 1603789267,
+			[52] = "|cffc31d39Onares|r",
+			[51] = 1604508044,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [21]
 		{
-			"I support all relgions from muslims to jews", -- [1]
-			"Franos-Stormrage", -- [2]
+			"If Trump learned to keep his mouth shut and not be a child he would have easily won, but he can't.", -- [1]
+			"Ezgamebtw-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Franos-Stormrage", -- [5]
+			"Ezgamebtw-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			309, -- [11]
-			"Player-60-0DFEA5A8", -- [12]
+			4308, -- [11]
+			"Player-60-0E0D27F0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffa9d271Franos|r",
-			[51] = 1603789284,
+			[52] = "|cfffef367Ezgamebtw|r",
+			[51] = 1604508047,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [22]
 		{
-			"libertarians are low IQ individuals", -- [1]
-			"Brandite-Stormrage", -- [2]
+			"im trying to start a jihad TBH", -- [1]
+			"Noirbyt-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Brandite-Stormrage", -- [5]
+			"Noirbyt-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			310, -- [11]
-			"Player-60-0A7D595C", -- [12]
+			4309, -- [11]
+			"Player-60-0DF05A76", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfff38bb9Brandite|r",
-			[51] = 1603789287,
+			[52] = "|cff00fe97Noirbyt|r",
+			[51] = 1604508048,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [23]
 		{
-			"WTS |cff0070dd|Hitem:17050::::::::50:63:::::::|h[Chan's Imperial Robes]|h|r, PST!", -- [1]
-			"Poisonpoet-Stormrage", -- [2]
+			"i like you filthyslime.", -- [1]
+			"Arachnè-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Poisonpoet-Stormrage", -- [5]
+			"Arachnè-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			311, -- [11]
-			"Player-60-0BB89601", -- [12]
+			4310, -- [11]
+			"Player-60-0E04A1F1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaPoisonpoet|r",
-			[51] = 1603789295,
+			[52] = "|cfffef367Arachnè|r",
+			[51] = 1604508048,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [24]
 		{
-			"Aw the beautiful sweet sounds of 5am trade chat talking politics", -- [1]
-			"Uyago-Stormrage", -- [2]
+			"IN THE IMORTAL WORDS OF YOGI BERA   IT AINT OVER TILL ITS OVER ", -- [1]
+			"Dragonssoul-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Uyago-Stormrage", -- [5]
+			"Dragonssoul-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			312, -- [11]
-			"Player-60-0B631710", -- [12]
+			4312, -- [11]
+			"Player-60-0A678631", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff00fe97Uyago|r",
-			[51] = 1603789304,
+			[52] = "|cfff38bb9Dragonssoul|r",
+			[51] = 1604508049,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [25]
 		{
-			"authoritarians are low iq\\", -- [1]
-			"Franos-Stormrage", -- [2]
+			"Thats all he had to do.", -- [1]
+			"Ezgamebtw-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Franos-Stormrage", -- [5]
+			"Ezgamebtw-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			313, -- [11]
-			"Player-60-0DFEA5A8", -- [12]
+			4313, -- [11]
+			"Player-60-0E0D27F0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffa9d271Franos|r",
-			[51] = 1603789306,
+			[52] = "|cfffef367Ezgamebtw|r",
+			[51] = 1604508050,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [26]
 		{
-			"Islam isn't a religion, it's a deathcult of rape and murder", -- [1]
-			"Rebüke-Stormrage", -- [2]
+			"What happened to the lost 300k mail in balots anyway?", -- [1]
+			"Dominarm-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Rebüke-Stormrage", -- [5]
+			"Dominarm-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			314, -- [11]
-			"Player-60-0E03CDBC", -- [12]
+			4315, -- [11]
+			"Player-60-0BC4F054", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc31d39Rebüke|r",
-			[51] = 1603789311,
+			[52] = "|cff00fe97Dominarm|r",
+			[51] = 1604508052,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [27]
 		{
-			"anyone knows why we have a 4-hour maintenance later?", -- [1]
-			"Voidmancer-Stormrage", -- [2]
+			"filthy slime if you are white weed is already legal", -- [1]
+			"Pleather-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Voidmancer-Stormrage", -- [5]
+			"Pleather-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			315, -- [11]
-			"Player-60-0DE73822", -- [12]
+			4317, -- [11]
+			"Player-60-0E04D3DA", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffefefeVoidmancer|r",
-			[51] = 1603789314,
+			[52] = "|cffc59a6cPleather|r",
+			[51] = 1604508054,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [28]
 		{
-			"anyone bring up IQ is a dumbass and a racist", -- [1]
-			"Xosa-Stormrage", -- [2]
+			"Multi r1 wts 2s arena wins or  rating for GOLD only pst", -- [1]
+			"Cbtloverx-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Xosa-Stormrage", -- [5]
+			"Cbtloverx-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			316, -- [11]
-			"Player-60-0DEC0413", -- [12]
+			4322, -- [11]
+			"Player-60-0E0A0988", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffa9d271Xosa|r",
-			[51] = 1603789325,
+			[52] = "|cffc31d39Cbtloverx|r",
+			[51] = 1604508065,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [29]
 		{
-			"fixing shit.", -- [1]
-			"Thundêrstörm-Stormrage", -- [2]
+			"WINNING", -- [1]
+			"Filthyslime-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Thundêrstörm-Stormrage", -- [5]
+			"Filthyslime-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			317, -- [11]
-			"Player-60-0BE505D6", -- [12]
+			4323, -- [11]
+			"Player-60-0DEE84D6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff006fdcThundêrstörm|r",
-			[51] = 1603789327,
+			[52] = "|cff006fdcFilthyslime|r",
+			[51] = 1604508065,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [30]
 		{
-			"5am usually has the best non political convos", -- [1]
-			"Caymanisles-Stormrage", -- [2]
+			"Whoever wins, we should support them if we want our country to flourish", -- [1]
+			"Wellonheals-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Caymanisles-Stormrage", -- [5]
+			"Wellonheals-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			318, -- [11]
-			"Player-60-0DEAEBAA", -- [12]
+			4324, -- [11]
+			"Player-60-0DC5F292", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaCaymanisles|r",
-			[51] = 1603789328,
+			[52] = "|cfff38bb9Wellonheals|r",
+			[51] = 1604508065,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [31]
 		{
-			"because if it lasted longer, blizzard would need to see a doctor", -- [1]
-			"Arcanîst-Stormrage", -- [2]
+			"WTS Honeyback Harvester Mount Kit. Get this awesome Alliance only *Bee* mount, but I make it quick and easy.. pst! :)", -- [1]
+			"Qtbb-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Arcanîst-Stormrage", -- [5]
+			"Qtbb-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			319, -- [11]
-			"Player-60-0E04B697", -- [12]
+			4326, -- [11]
+			"Player-60-0C9EC42E", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaArcanîst|r",
-			[51] = 1603789330,
+			[52] = "|cfffefefeQtbb|r",
+			[51] = 1604508065,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [32]
 		{
-			"i know a dowgwhistle when i see it", -- [1]
-			"Xosa-Stormrage", -- [2]
+			"Newly formed |cffffd100|HclubFinder:ClubFinder-1-226766-60-98404549|h[Guild: Hungover]|h|r is recruiting players looking to raid and have a few drinks and a good time.  We also push keys. Active in discord! Raid times Th/Fri 7pm EST.  Cheers!", -- [1]
+			"Noraenda-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Xosa-Stormrage", -- [5]
+			"Noraenda-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			320, -- [11]
-			"Player-60-0DEC0413", -- [12]
+			4330, -- [11]
+			"Player-60-0DFE6FFC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffa9d271Xosa|r",
-			[51] = 1603789333,
+			[52] = "|cfffe7b09Noraenda|r",
+			[51] = 1604508065,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [33]
 		{
-			"its b.c shadowlands today", -- [1]
-			"Poisonpoet-Stormrage", -- [2]
+			"agreed wellon", -- [1]
+			"Shoshira-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Poisonpoet-Stormrage", -- [5]
+			"Shoshira-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			321, -- [11]
-			"Player-60-0BB89601", -- [12]
+			4332, -- [11]
+			"Player-60-0CA351E2", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaPoisonpoet|r",
-			[51] = 1603789334,
+			[52] = "|cfff38bb9Shoshira|r",
+			[51] = 1604508069,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [34]
 		{
-			"Rebuke I agree but I wont prevent them from the American dream", -- [1]
-			"Franos-Stormrage", -- [2]
+			"wts trumps |cff9d9d9d|Hitem:18233::::::::12:254:::::::|h[Tear Stained Handkerchief]|h|r", -- [1]
+			"Silencedshot-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Franos-Stormrage", -- [5]
+			"Silencedshot-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			322, -- [11]
-			"Player-60-0DFEA5A8", -- [12]
+			4333, -- [11]
+			"Player-60-0E094D9A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffa9d271Franos|r",
-			[51] = 1603789336,
+			[52] = "|cffa9d271Silencedshot|r",
+			[51] = 1604508070,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [35]
 		{
-			"<3", -- [1]
-			"Rebüke-Stormrage", -- [2]
+			"also Trump will more than likely ask for a recount in MI and Wis", -- [1]
+			"Joshambo-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Rebüke-Stormrage", -- [5]
+			"Joshambo-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			323, -- [11]
-			"Player-60-0E03CDBC", -- [12]
+			4334, -- [11]
+			"Player-60-0DDD5188", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc31d39Rebüke|r",
-			[51] = 1603789337,
+			[52] = "|cff006fdcJoshambo|r",
+			[51] = 1604508074,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [36]
 		{
-			"islam is just as much of a religion as christianity, most christians in the US seems to worship the devil though actually", -- [1]
-			"Setzer-Stormrage", -- [2]
+			"LET ME BUILD MY HEMP CAR DAMIT", -- [1]
+			"Filthyslime-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Setzer-Stormrage", -- [5]
+			"Filthyslime-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			324, -- [11]
-			"Player-60-0E01D908", -- [12]
+			4335, -- [11]
+			"Player-60-0DEE84D6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Setzer|r",
-			[51] = 1603789340,
+			[52] = "|cff006fdcFilthyslime|r",
+			[51] = 1604508074,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [37]
 		{
-			"libertarians would be the highest, cause they have the ability see bullshit from both sides and make informed decisions based on that", -- [1]
-			"Vryld-Stormrage", -- [2]
+			"IF trump had taken covid seriously, this wouldn't even be a conversation", -- [1]
+			"Onares-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Vryld-Stormrage", -- [5]
+			"Onares-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			325, -- [11]
-			"Player-60-0E00489C", -- [12]
+			4336, -- [11]
+			"Player-60-0E087665", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc59a6cVryld|r",
-			[51] = 1603789355,
+			[52] = "|cffc31d39Onares|r",
+			[51] = 1604508077,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [38]
 		{
-			"jesus christ would vote democrat", -- [1]
-			"Schizo-Stormrage", -- [2]
+			"No, the GoP will investigate Biden for Chinese Collusion for 4 years", -- [1]
+			"Roríc-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Schizo-Stormrage", -- [5]
+			"Roríc-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			326, -- [11]
-			"Player-60-0DEBAE94", -- [12]
+			4337, -- [11]
+			"Player-60-0DF43878", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc59a6cSchizo|r",
-			[51] = 1603789356,
+			[52] = "|cfffef367Roríc|r",
+			[51] = 1604508084,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [39]
 		{
-			"The American dream is for every human", -- [1]
-			"Franos-Stormrage", -- [2]
+			"wait people in trade talking politics in a semi sane civi manner? oh gods are we sure the world didn't end last night...", -- [1]
+			"Alieri-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Franos-Stormrage", -- [5]
+			"Alieri-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			327, -- [11]
-			"Player-60-0DFEA5A8", -- [12]
+			4338, -- [11]
+			"Player-60-0CC2A701", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffa9d271Franos|r",
-			[51] = 1603789371,
+			[52] = "|cff8687edAlieri|r",
+			[51] = 1604508085,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [40]
 		{
-			"^im not so sure", -- [1]
-			"Poisonpoet-Stormrage", -- [2]
+			"You like lotr, you like comics, movies, mangas and anime? ...Newly made guild \"Dunedain \" is a social guild  looking to expand and for all people in general.", -- [1]
+			"Arâgörn-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Poisonpoet-Stormrage", -- [5]
+			"Arâgörn-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			328, -- [11]
-			"Player-60-0BB89601", -- [12]
+			4339, -- [11]
+			"Player-60-0DFAEA8D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaPoisonpoet|r",
-			[51] = 1603789372,
+			[52] = "|cfff38bb9Arâgörn|r",
+			[51] = 1604508086,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [41]
 		{
-			"if we see jesus again, at least it's the rapture and it's all over", -- [1]
-			"Caymanisles-Stormrage", -- [2]
+			"<Narcissists>] is currently recruiting! Seeking moderate to hella good dps/heals for raid roster. Must also moderately shower on daily basis and be okay with being told to lust at appropriate times. If ugly, need not apply :) Raid times T/TH 8-11pm EST", -- [1]
+			"Ichyso-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Caymanisles-Stormrage", -- [5]
+			"Ichyso-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			329, -- [11]
-			"Player-60-0DEAEBAA", -- [12]
+			4340, -- [11]
+			"Player-60-0E041F39", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaCaymanisles|r",
-			[51] = 1603789377,
+			[52] = "|cff006fdcIchyso|r",
+			[51] = 1604508087,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [42]
 		{
-			"about jesus voting dem*", -- [1]
-			"Poisonpoet-Stormrage", -- [2]
+			"<[Guild: Dúnedain]> is a social guild  looking for active players to achieve our goal of raiding, and rbgs , but we also want to have fun, psst if you are interested in joining the fam.", -- [1]
+			"Arâgörn-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Poisonpoet-Stormrage", -- [5]
+			"Arâgörn-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			330, -- [11]
-			"Player-60-0BB89601", -- [12]
+			4341, -- [11]
+			"Player-60-0DFAEA8D", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaPoisonpoet|r",
-			[51] = 1603789380,
+			[52] = "|cfff38bb9Arâgörn|r",
+			[51] = 1604508088,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [43]
 		{
-			"we need rights for all", -- [1]
-			"Franos-Stormrage", -- [2]
+			"He can ask for a recount, doesn't mean we have to give him it.", -- [1]
+			"Ezgamebtw-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Franos-Stormrage", -- [5]
+			"Ezgamebtw-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			331, -- [11]
-			"Player-60-0DFEA5A8", -- [12]
+			4342, -- [11]
+			"Player-60-0E0D27F0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffa9d271Franos|r",
-			[51] = 1603789380,
+			[52] = "|cfffef367Ezgamebtw|r",
+			[51] = 1604508089,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [44]
 		{
-			"jesus christ would vote for karl marx", -- [1]
-			"Syrima-Stormrage", -- [2]
+			"recounts are good if its close", -- [1]
+			"Malloth-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Syrima-Stormrage", -- [5]
+			"Malloth-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			332, -- [11]
-			"Player-60-0DF74134", -- [12]
+			4344, -- [11]
+			"Player-60-0CA5086C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff8687edSyrima|r",
-			[51] = 1603789388,
+			[52] = "|cffa22fc8Malloth|r",
+			[51] = 1604508092,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [45]
 		{
-			"Thing is, if they come to the US then they can often escape Islam. Look at how many have successfully escaped and it's a trimuph because it's like the Mob but worse. If they find them they will kill them.", -- [1]
-			"Rebüke-Stormrage", -- [2]
+			"•WTS 0-5 MASKS FULL CLEAR, Horrific Vision Carry :D /w for price !! Come and get your 470 (125) ilvl gear, be ready for Shadowlands! A lot of achevs, and cloak rank before is gone!!• Come with me :3", -- [1]
+			"Shenzy-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Rebüke-Stormrage", -- [5]
+			"Shenzy-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			333, -- [11]
-			"Player-60-0E03CDBC", -- [12]
+			4345, -- [11]
+			"Player-60-0C99703B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc31d39Rebüke|r",
-			[51] = 1603789398,
+			[52] = "|cffa9d271Shenzy|r",
+			[51] = 1604508092,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [46]
 		{
-			"god isnt real, hayseus was a regular man?", -- [1]
-			"Panpaganboy-Stormrage", -- [2]
+			"Josh, even SCOTT WALKER said a recount wont change anything lol", -- [1]
+			"Busineswoman-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Panpaganboy-Stormrage", -- [5]
+			"Busineswoman-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			334, -- [11]
-			"Player-60-0E04A7D5", -- [12]
+			4347, -- [11]
+			"Player-60-0BDDCFE1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffefefePanpaganboy|r",
-			[51] = 1603789407,
+			[52] = "|cffc59a6cBusineswoman|r",
+			[51] = 1604508095,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [47]
 		{
-			"i don't vote because i know it's a scheme that is rigged from the very beginning. do not let the lizard people rule you! stand up for yourselves!", -- [1]
-			"Arcanîst-Stormrage", -- [2]
+			"THIS CHAT NEEDS MORE EGGS", -- [1]
+			"Silencedshot-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Arcanîst-Stormrage", -- [5]
+			"Silencedshot-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			335, -- [11]
-			"Player-60-0E04B697", -- [12]
+			4351, -- [11]
+			"Player-60-0E094D9A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaArcanîst|r",
-			[51] = 1603789408,
+			[52] = "|cffa9d271Silencedshot|r",
+			[51] = 1604508101,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [48]
 		{
-			"I don't understand any religion. \"Yeah I see your scientific proven evidence and reject it for a fake book written thousands ofyears ago\" ", -- [1]
-			"Uyago-Stormrage", -- [2]
+			"Impeach BIden and Harris!!!", -- [1]
+			"Lunasolita-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Uyago-Stormrage", -- [5]
+			"Lunasolita-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			336, -- [11]
-			"Player-60-0B631710", -- [12]
+			4354, -- [11]
+			"Player-60-0DE8643A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff00fe97Uyago|r",
-			[51] = 1603789410,
+			[52] = "|cfffe7b09Lunasolita|r",
+			[51] = 1604508108,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [49]
 		{
-			"why is stormwind being stinkbombed lol", -- [1]
-			"Amazonien-Stormrage", -- [2]
+			"EZ, if it's at a certain threshold, it has to be done", -- [1]
+			"Onares-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Amazonien-Stormrage", -- [5]
+			"Onares-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			337, -- [11]
-			"Player-60-08BC2862", -- [12]
+			4355, -- [11]
+			"Player-60-0E087665", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffa9d271Amazonien|r",
-			[51] = 1603789418,
+			[52] = "|cffc31d39Onares|r",
+			[51] = 1604508109,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [50]
 		{
-			"Symra thats thats not right he was against taxes he was a libertarian", -- [1]
-			"Franos-Stormrage", -- [2]
+			"Selling  Mythic +15-17s in time (Free funnel loot), come get your weekly chest with 120-130 loot and 120 items  in Dungeon!/ Horrific vision full clear Group rdy to go! Gold only !Pst for more inf! ", -- [1]
+			"Betiinagold-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Franos-Stormrage", -- [5]
+			"Betiinagold-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			338, -- [11]
-			"Player-60-0DFEA5A8", -- [12]
+			4356, -- [11]
+			"Player-60-0CBDE312", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffa9d271Franos|r",
-			[51] = 1603789421,
+			[52] = "|cfffef367Betiinagold|r",
+			[51] = 1604508110,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [51]
 		{
-			"SELLING M+12-24! Timed run .All tradeable is yours (Armor/Loot Stack)/Hardmode Mech mount/ jaina mount/ Mythic N'zoth mount/ Gold Only!!! <3", -- [1]
-			"Stunsl-Stormrage", -- [2]
+			"LONG LIVE TRUMP  NOT JO AND HIS HO", -- [1]
+			"Dragonssoul-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Stunsl-Stormrage", -- [5]
+			"Dragonssoul-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			339, -- [11]
-			"Player-60-0D058041", -- [12]
+			4359, -- [11]
+			"Player-60-0A678631", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff00fe97Stunsl|r",
-			[51] = 1603789427,
+			[52] = "|cfff38bb9Dragonssoul|r",
+			[51] = 1604508120,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [52]
 		{
-			"nothing scientific is proven", -- [1]
-			"Popinoptsila-Stormrage", -- [2]
+			"elections need transparency, if the recount is warranted then that's great", -- [1]
+			"Malloth-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Popinoptsila-Stormrage", -- [5]
+			"Malloth-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			340, -- [11]
-			"Player-60-0DF5B3C6", -- [12]
+			4360, -- [11]
+			"Player-60-0CA5086C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Popinoptsila|r",
-			[51] = 1603789431,
+			[52] = "|cffa22fc8Malloth|r",
+			[51] = 1604508124,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [53]
 		{
-			"quest for hallows end @amazonien", -- [1]
-			"Uyago-Stormrage", -- [2]
+			"i think within 5% or something", -- [1]
+			"Onares-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Uyago-Stormrage", -- [5]
+			"Onares-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			341, -- [11]
-			"Player-60-0B631710", -- [12]
+			4361, -- [11]
+			"Player-60-0E087665", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff00fe97Uyago|r",
-			[51] = 1603789432,
+			[52] = "|cffc31d39Onares|r",
+			[51] = 1604508125,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [54]
 		{
-			"the voting process is made of people. IT'S PEOPLEEEEEEEE", -- [1]
-			"Arcanîst-Stormrage", -- [2]
+			"I need an explanation on the 100k biden vote drop off", -- [1]
+			"Yaadora-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Arcanîst-Stormrage", -- [5]
+			"Yaadora-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			342, -- [11]
-			"Player-60-0E04B697", -- [12]
+			4362, -- [11]
+			"Player-60-0B7F2286", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaArcanîst|r",
-			[51] = 1603789433,
+			[52] = "|cffa9d271Yaadora|r",
+			[51] = 1604508128,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [55]
 		{
-			"True relgion and science coexist perfectly", -- [1]
-			"Rebüke-Stormrage", -- [2]
+			"BIDEN VICTORY INCOMING", -- [1]
+			"Merchanter-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Rebüke-Stormrage", -- [5]
+			"Merchanter-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			343, -- [11]
-			"Player-60-0E03CDBC", -- [12]
+			4365, -- [11]
+			"Player-60-06E1AD72", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc31d39Rebüke|r",
-			[51] = 1603789440,
+			[52] = "|cfffefefeMerchanter|r",
+			[51] = 1604508135,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [56]
 		{
-			"You know what i mean pop you absolute twat", -- [1]
-			"Uyago-Stormrage", -- [2]
+			"If not this entire election is false", -- [1]
+			"Yaadora-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Uyago-Stormrage", -- [5]
+			"Yaadora-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			344, -- [11]
-			"Player-60-0B631710", -- [12]
+			4368, -- [11]
+			"Player-60-0B7F2286", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff00fe97Uyago|r",
-			[51] = 1603789447,
+			[52] = "|cffa9d271Yaadora|r",
+			[51] = 1604508138,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [57]
 		{
-			"No weapons no war! Vote for me Beto O'Rourke in the 2020 election! With no weapons Azeroth will finally be safe! Please surrender your arms now!", -- [1]
-			"Chadkïng-Stormrage", -- [2]
+			"LOL", -- [1]
+			"Dragonssoul-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Chadkïng-Stormrage", -- [5]
+			"Dragonssoul-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			345, -- [11]
-			"Player-60-0E010459", -- [12]
+			4369, -- [11]
+			"Player-60-0A678631", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Chadkïng|r",
-			[51] = 1603789448,
+			[52] = "|cfff38bb9Dragonssoul|r",
+			[51] = 1604508138,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [58]
 		{
-			"and it doesnt have to be black and white ", -- [1]
-			"Popinoptsila-Stormrage", -- [2]
+			"i see i spoke to soon nevermind", -- [1]
+			"Alieri-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Popinoptsila-Stormrage", -- [5]
+			"Alieri-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			346, -- [11]
-			"Player-60-0DF5B3C6", -- [12]
+			4370, -- [11]
+			"Player-60-0CC2A701", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Popinoptsila|r",
-			[51] = 1603789448,
+			[52] = "|cff8687edAlieri|r",
+			[51] = 1604508138,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [59]
 		{
-			"Theres still a ton science doesnt know and cant explain, so I dont see the two as being mutually exclusive", -- [1]
-			"Sweetpeach-Stormrage", -- [2]
+			"sellin cheap 5 mask runs pst", -- [1]
+			"Moxbob-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Sweetpeach-Stormrage", -- [5]
+			"Moxbob-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			347, -- [11]
-			"Player-60-0E04B0C9", -- [12]
+			4374, -- [11]
+			"Player-60-0B5BD88B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaSweetpeach|r",
-			[51] = 1603789453,
+			[52] = "|cfffe7b09Moxbob|r",
+			[51] = 1604508145,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [60]
 		{
-			"my ex tried telling me the baby was mine even though we never had sex and i need to raise god's baby....wish i could say i miss her but I enjoy the extra free time", -- [1]
-			"Caymanisles-Stormrage", -- [2]
+			"not one vote for Trump in there...don't worry about thoe odds", -- [1]
+			"Lunasolita-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Caymanisles-Stormrage", -- [5]
+			"Lunasolita-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			348, -- [11]
-			"Player-60-0DEAEBAA", -- [12]
+			4376, -- [11]
+			"Player-60-0DE8643A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaCaymanisles|r",
-			[51] = 1603789453,
+			[52] = "|cfffe7b09Lunasolita|r",
+			[51] = 1604508146,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [61]
 		{
-			"It's 5AM in the US on a server with 28,000 Alliance and like 500 horde is why.", -- [1]
-			"Viina-Stormrage", -- [2]
+			"Newly formed |cffffd100|HclubFinder:ClubFinder-1-226766-60-98404549|h[Guild: Hungover]|h|r is recruiting players looking to raid and have a few drinks and a good time.  We also push keys. Active in discord! Raid times Th/Fri 7pm EST.  Cheers!", -- [1]
+			"Noraenda-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Viina-Stormrage", -- [5]
+			"Noraenda-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			349, -- [11]
-			"Player-60-0DEFE847", -- [12]
+			4377, -- [11]
+			"Player-60-0DFE6FFC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfff38bb9Viina|r",
-			[51] = 1603789456,
+			[52] = "|cfffe7b09Noraenda|r",
+			[51] = 1604508156,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [62]
 		{
-			"your face is black and white...to cats and dogs", -- [1]
-			"Arcanîst-Stormrage", -- [2]
+			"what level does warmode open?", -- [1]
+			"Dennite-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Arcanîst-Stormrage", -- [5]
+			"Dennite-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			350, -- [11]
-			"Player-60-0E04B697", -- [12]
+			4378, -- [11]
+			"Player-60-0E0C0778", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaArcanîst|r",
-			[51] = 1603789461,
+			[52] = "|cfff38bb9Dennite|r",
+			[51] = 1604508159,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [63]
 		{
-			"and my manager", -- [1]
-			"Popinoptsila-Stormrage", -- [2]
+			"Lunas you work for the polling system, how do you know that for sure?", -- [1]
+			"Ezgamebtw-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Popinoptsila-Stormrage", -- [5]
+			"Ezgamebtw-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			351, -- [11]
-			"Player-60-0DF5B3C6", -- [12]
+			4379, -- [11]
+			"Player-60-0E0D27F0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Popinoptsila|r",
-			[51] = 1603789470,
+			[52] = "|cfffef367Ezgamebtw|r",
+			[51] = 1604508162,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [64]
 		{
-			"that isnt true, cats can see several colours", -- [1]
-			"Sweetpeach-Stormrage", -- [2]
+			"THEY ALREADY SED TRUMP HAS NC AND GA  AND ALASKA   AND PA", -- [1]
+			"Dragonssoul-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Sweetpeach-Stormrage", -- [5]
+			"Dragonssoul-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			353, -- [11]
-			"Player-60-0E04B0C9", -- [12]
+			4380, -- [11]
+			"Player-60-0A678631", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaSweetpeach|r",
-			[51] = 1603789475,
+			[52] = "|cfff38bb9Dragonssoul|r",
+			[51] = 1604508162,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [65]
 		{
-			"lol, gotta love the crazy ones", -- [1]
-			"Rebüke-Stormrage", -- [2]
+			"20", -- [1]
+			"Lunasolita-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Rebüke-Stormrage", -- [5]
+			"Lunasolita-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			354, -- [11]
-			"Player-60-0E03CDBC", -- [12]
+			4381, -- [11]
+			"Player-60-0DE8643A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc31d39Rebüke|r",
-			[51] = 1603789488,
+			[52] = "|cfffe7b09Lunasolita|r",
+			[51] = 1604508164,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [66]
 		{
-			"your manager is a zebra?", -- [1]
-			"Arcanîst-Stormrage", -- [2]
+			"20 Denn", -- [1]
+			"Ezgamebtw-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Arcanîst-Stormrage", -- [5]
+			"Ezgamebtw-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			355, -- [11]
-			"Player-60-0E04B697", -- [12]
+			4382, -- [11]
+			"Player-60-0E0D27F0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaArcanîst|r",
-			[51] = 1603789490,
+			[52] = "|cfffef367Ezgamebtw|r",
+			[51] = 1604508165,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [67]
 		{
-			"I believe that everyone is entitled to the american dream, I will die for every color or religon for them to experience the American dream", -- [1]
-			"Franos-Stormrage", -- [2]
+			"Yaadora, dems were always going to vote by mail. ", -- [1]
+			"Onares-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Franos-Stormrage", -- [5]
+			"Onares-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			356, -- [11]
-			"Player-60-0DFEA5A8", -- [12]
+			4383, -- [11]
+			"Player-60-0E087665", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffa9d271Franos|r",
-			[51] = 1603789498,
+			[52] = "|cffc31d39Onares|r",
+			[51] = 1604508167,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [68]
 		{
-			"yeah?", -- [1]
-			"Popinoptsila-Stormrage", -- [2]
+			"its nothing about odds, its about him literally telling his following not to vote with mail in ballots...... ", -- [1]
+			"Arachnè-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Popinoptsila-Stormrage", -- [5]
+			"Arachnè-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			357, -- [11]
-			"Player-60-0DF5B3C6", -- [12]
+			4384, -- [11]
+			"Player-60-0E04A1F1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Popinoptsila|r",
-			[51] = 1603789500,
+			[52] = "|cfffef367Arachnè|r",
+			[51] = 1604508172,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [69]
 		{
-			"for sure Viina, this server blows, gonna have to mute trade come SL to tolerate it", -- [1]
-			"Setzer-Stormrage", -- [2]
+			"No need to lie Dragon lol", -- [1]
+			"Busineswoman-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Setzer-Stormrage", -- [5]
+			"Busineswoman-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			359, -- [11]
-			"Player-60-0E01D908", -- [12]
+			4385, -- [11]
+			"Player-60-0BDDCFE1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Setzer|r",
-			[51] = 1603789512,
+			[52] = "|cffc59a6cBusineswoman|r",
+			[51] = 1604508179,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [70]
 		{
-			"Amen Franos", -- [1]
-			"Rebüke-Stormrage", -- [2]
+			"Mail in voting has been 40 trump 60 biden", -- [1]
+			"Yaadora-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Rebüke-Stormrage", -- [5]
+			"Yaadora-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			360, -- [11]
-			"Player-60-0E03CDBC", -- [12]
+			4386, -- [11]
+			"Player-60-0B7F2286", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc31d39Rebüke|r",
-			[51] = 1603789514,
+			[52] = "|cffa9d271Yaadora|r",
+			[51] = 1604508191,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [71]
 		{
-			"hes also colorblind", -- [1]
-			"Popinoptsila-Stormrage", -- [2]
+			"lol...don't worry about fact and statistics...ammirite", -- [1]
+			"Lunasolita-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Popinoptsila-Stormrage", -- [5]
+			"Lunasolita-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			361, -- [11]
-			"Player-60-0DF5B3C6", -- [12]
+			4387, -- [11]
+			"Player-60-0DE8643A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Popinoptsila|r",
-			[51] = 1603789519,
+			[52] = "|cfffe7b09Lunasolita|r",
+			[51] = 1604508192,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [72]
 		{
-			"na...hopefully SL will give us a reason not to sit in city hubs", -- [1]
-			"Caymanisles-Stormrage", -- [2]
+			"Selling Mythic Nzoth mount...only 2 resets left to get the mount guaranteed! ...Tuesday 9pm Server......CHEAPEST PRICE on the server...one spot open.....carried out by Cutting Edge raiding guild....PST for details....gold only", -- [1]
+			"Moxbob-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Caymanisles-Stormrage", -- [5]
+			"Moxbob-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			362, -- [11]
-			"Player-60-0DEAEBAA", -- [12]
+			4388, -- [11]
+			"Player-60-0B5BD88B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaCaymanisles|r",
-			[51] = 1603789528,
+			[52] = "|cfffe7b09Moxbob|r",
+			[51] = 1604508192,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [73]
 		{
-			"A |cff71d5ff|Hspell:49322:0|h[Swift Zhevra]|h|r is your manager?", -- [1]
-			"Vickipedia-Stormrage", -- [2]
+			"he prolly does have nc alot of idiots here", -- [1]
+			"Silencedshot-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Vickipedia-Stormrage", -- [5]
+			"Silencedshot-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			363, -- [11]
-			"Player-60-0E046A6B", -- [12]
+			4389, -- [11]
+			"Player-60-0E094D9A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffa9d271Vickipedia|r",
-			[51] = 1603789531,
+			[52] = "|cffa9d271Silencedshot|r",
+			[51] = 1604508194,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [74]
 		{
-			"you all think youre real don't you", -- [1]
-			"Panpaganboy-Stormrage", -- [2]
+			"Ya'll listen to daddy trump so well. ", -- [1]
+			"Arachnè-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Panpaganboy-Stormrage", -- [5]
+			"Arachnè-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			364, -- [11]
-			"Player-60-0E04A7D5", -- [12]
+			4390, -- [11]
+			"Player-60-0E04A1F1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffefefePanpaganboy|r",
-			[51] = 1603789532,
+			[52] = "|cfffef367Arachnè|r",
+			[51] = 1604508197,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [75]
 		{
-			"That's exactly why I signed up when i was younger, that and 9/11", -- [1]
-			"Rebüke-Stormrage", -- [2]
+			"•WTS 0-5 MASKS FULL CLEAR, Horrific Vision Carry :D /w for price !! Come and get your 470 (125) ilvl gear, be ready for Shadowlands! A lot of achevs, and cloak rank before is gone!!• Come with me :3", -- [1]
+			"Shenzy-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Rebüke-Stormrage", -- [5]
+			"Shenzy-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			365, -- [11]
-			"Player-60-0E03CDBC", -- [12]
+			4391, -- [11]
+			"Player-60-0C99703B", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc31d39Rebüke|r",
-			[51] = 1603789533,
+			[52] = "|cffa9d271Shenzy|r",
+			[51] = 1604508199,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [76]
 		{
-			"lul trade too toxic for you?", -- [1]
-			"Rinroar-Stormrage", -- [2]
+			"you gonna tell me 100% went biden in michigan?", -- [1]
+			"Yaadora-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Rinroar-Stormrage", -- [5]
+			"Yaadora-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			366, -- [11]
-			"Player-60-0DFF1763", -- [12]
+			4392, -- [11]
+			"Player-60-0B7F2286", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffefefeRinroar|r",
-			[51] = 1603789535,
+			[52] = "|cffa9d271Yaadora|r",
+			[51] = 1604508203,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [77]
 		{
-			"ha", -- [1]
-			"Popinoptsila-Stormrage", -- [2]
+			"(WTS) -|cffa335ee|Hitem:174872::::::::1:269:::::::|h[Ny'alotha Allseer]|h|r Get it guaranteed before Shadowlands (Nov. 23)! Full 12/12 clear OR specific bosses also available! FREE funnels included! -GOLD ONLY <3 (PST)", -- [1]
+			"Phillysale-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Popinoptsila-Stormrage", -- [5]
+			"Phillysale-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			367, -- [11]
-			"Player-60-0DF5B3C6", -- [12]
+			4393, -- [11]
+			"Player-60-0DEF4131", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Popinoptsila|r",
-			[51] = 1603789538,
+			[52] = "|cff00fe97Phillysale|r",
+			[51] = 1604508207,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [78]
 		{
-			"WTS |cff0070dd|Hitem:17050::::::::50:63:::::::|h[Chan's Imperial Robes]|h|r, PST!", -- [1]
-			"Poisonpoet-Stormrage", -- [2]
+			"Pretty sure it's a democratic right for a recount under 1%....least i\"m not the only smart one to see the BS on biden pulling Wis and Michigan randomly over night", -- [1]
+			"Joshambo-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Poisonpoet-Stormrage", -- [5]
+			"Joshambo-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			368, -- [11]
-			"Player-60-0BB89601", -- [12]
+			4394, -- [11]
+			"Player-60-0DDD5188", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaPoisonpoet|r",
-			[51] = 1603789546,
+			[52] = "|cff006fdcJoshambo|r",
+			[51] = 1604508207,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [79]
 		{
-			"Democrats have ran on race for 200 years, im tired of race we are all American\\", -- [1]
-			"Franos-Stormrage", -- [2]
+			"i'll shut up before you peacefully burn my house", -- [1]
+			"Lunasolita-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Franos-Stormrage", -- [5]
+			"Lunasolita-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			369, -- [11]
-			"Player-60-0DFEA5A8", -- [12]
+			4395, -- [11]
+			"Player-60-0DE8643A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffa9d271Franos|r",
-			[51] = 1603789551,
+			[52] = "|cfffe7b09Lunasolita|r",
+			[51] = 1604508211,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [80]
 		{
-			"tunderfurry", -- [1]
-			"Heawer-Stormrage", -- [2]
+			"Trumps cock must taste so good, slurp it up trumptards.", -- [1]
+			"Ezgamebtw-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Heawer-Stormrage", -- [5]
+			"Ezgamebtw-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			370, -- [11]
-			"Player-60-0E035AE8", -- [12]
+			4396, -- [11]
+			"Player-60-0E0D27F0", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffefefeHeawer|r",
-			[51] = 1603789552,
+			[52] = "|cfffef367Ezgamebtw|r",
+			[51] = 1604508212,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [81]
 		{
-			"Could anyone in boralus please sign my trade charter? I'm 2 people away.", -- [1]
-			"Viina-Stormrage", -- [2]
+			"He has NC and GA probs, PA is gonna be a while", -- [1]
+			"Busineswoman-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Viina-Stormrage", -- [5]
+			"Busineswoman-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			371, -- [11]
-			"Player-60-0DEFE847", -- [12]
+			4397, -- [11]
+			"Player-60-0BDDCFE1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfff38bb9Viina|r",
-			[51] = 1603789555,
+			[52] = "|cffc59a6cBusineswoman|r",
+			[51] = 1604508221,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [82]
 		{
-			"anybody know if we are getting any events tomorrow or still undeclared?", -- [1]
-			"Caymanisles-Stormrage", -- [2]
+			"Trump just got 3k mail ins added", -- [1]
+			"Onares-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Caymanisles-Stormrage", -- [5]
+			"Onares-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			372, -- [11]
-			"Player-60-0DEAEBAA", -- [12]
+			4398, -- [11]
+			"Player-60-0E087665", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaCaymanisles|r",
-			[51] = 1603789559,
+			[52] = "|cffc31d39Onares|r",
+			[51] = 1604508221,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [83]
 		{
-			"No i know that i'm a figment of your imagination that was implanted by the obama administration", -- [1]
-			"Chadkïng-Stormrage", -- [2]
+			"WTS |cffa335ee|Hitem:156798::::::::10:102:::::::|h[The Hivemind]|h|r THE SECRET MOUNT run. takes 20 minutes. DONT WAIT BE THE BRAIN TODAY. GOLD ONLY ", -- [1]
+			"Kiralli-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Chadkïng-Stormrage", -- [5]
+			"Kiralli-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			373, -- [11]
-			"Player-60-0E010459", -- [12]
+			4399, -- [11]
+			"Player-60-0C2C18C4", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Chadkïng|r",
-			[51] = 1603789564,
+			[52] = "|cff8687edKiralli|r",
+			[51] = 1604508222,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [84]
 		{
-			"W need to work together", -- [1]
-			"Franos-Stormrage", -- [2]
+			"Dear trumptards go to work and let us smoke our now legal weed you losers", -- [1]
+			"Faloranna-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Franos-Stormrage", -- [5]
+			"Faloranna-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			374, -- [11]
-			"Player-60-0DFEA5A8", -- [12]
+			4400, -- [11]
+			"Player-60-0CDB518C", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffa9d271Franos|r",
-			[51] = 1603789565,
+			[52] = "|cfffe7b09Faloranna|r",
+			[51] = 1604508225,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [85]
 		{
-			"please wake up, Panga", -- [1]
-			"Chadkïng-Stormrage", -- [2]
+			"hell are you talking about?", -- [1]
+			"Onares-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Chadkïng-Stormrage", -- [5]
+			"Onares-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			376, -- [11]
-			"Player-60-0E010459", -- [12]
+			4401, -- [11]
+			"Player-60-0E087665", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Chadkïng|r",
-			[51] = 1603789573,
+			[52] = "|cffc31d39Onares|r",
+			[51] = 1604508225,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [86]
 		{
-			"does it ever feel like you're just...there, being guided by an invisible hand?", -- [1]
-			"Arcanîst-Stormrage", -- [2]
+			"then how is a lvl 16 in warmode?", -- [1]
+			"Dennite-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Arcanîst-Stormrage", -- [5]
+			"Dennite-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			377, -- [11]
-			"Player-60-0E04B697", -- [12]
+			4402, -- [11]
+			"Player-60-0E0C0778", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaArcanîst|r",
-			[51] = 1603789573,
+			[52] = "|cfff38bb9Dennite|r",
+			[51] = 1604508226,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [87]
 		{
-			"i mean we're all human too", -- [1]
-			"Popinoptsila-Stormrage", -- [2]
+			"- slurp slurp-", -- [1]
+			"Btwentysix-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Popinoptsila-Stormrage", -- [5]
+			"Btwentysix-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			378, -- [11]
-			"Player-60-0DF5B3C6", -- [12]
+			4403, -- [11]
+			"Player-60-0E0CD9A8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Popinoptsila|r",
-			[51] = 1603789574,
+			[52] = "|cff006fdcBtwentysix|r",
+			[51] = 1604508230,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [88]
 		{
-			"trade isn't the problem, Stormrage Alliance is lol.. every horde server I play on isn't this retarded, better players as well", -- [1]
-			"Setzer-Stormrage", -- [2]
+			"cry more cons", -- [1]
+			"Kiraé-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Setzer-Stormrage", -- [5]
+			"Kiraé-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			379, -- [11]
-			"Player-60-0E01D908", -- [12]
+			4404, -- [11]
+			"Player-60-0CB08024", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Setzer|r",
-			[51] = 1603789576,
+			[52] = "|cfffe7b09Kiraé|r",
+			[51] = 1604508232,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [89]
 		{
-			"tunderfurry bwessed bwade of da windseeker", -- [1]
-			"Heawer-Stormrage", -- [2]
+			"if there needs to be a recount so be it", -- [1]
+			"Arachnè-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Heawer-Stormrage", -- [5]
+			"Arachnè-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			380, -- [11]
-			"Player-60-0E035AE8", -- [12]
+			4405, -- [11]
+			"Player-60-0E04A1F1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffefefeHeawer|r",
-			[51] = 1603789586,
+			[52] = "|cfffef367Arachnè|r",
+			[51] = 1604508233,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [90]
 		{
-			"lost mail in dalaran", -- [1]
-			"Wormthaeline-Stormrage", -- [2]
+			"|cff9d9d9d|Hitem:18233::::::::12:254:::::::|h[Tear Stained Handkerchief]|h|r", -- [1]
+			"Silencedshot-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Wormthaeline-Stormrage", -- [5]
+			"Silencedshot-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			382, -- [11]
-			"Player-60-0C8F87A8", -- [12]
+			4406, -- [11]
+			"Player-60-0E094D9A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfff38bb9Wormthaeline|r",
-			[51] = 1603789605,
+			[52] = "|cffa9d271Silencedshot|r",
+			[51] = 1604508235,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [91]
 		{
-			"the invisible hand of the market <3", -- [1]
-			"Rebüke-Stormrage", -- [2]
+			"how you trumpettes feeling :))", -- [1]
+			"Ríseup-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Rebüke-Stormrage", -- [5]
+			"Ríseup-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			383, -- [11]
-			"Player-60-0E03CDBC", -- [12]
+			4407, -- [11]
+			"Player-60-0CD05662", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffc31d39Rebüke|r",
-			[51] = 1603789608,
+			[52] = "|cff8687edRíseup|r",
+			[51] = 1604508237,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [92]
 		{
-			"owo tundafurry?", -- [1]
-			"Rinroar-Stormrage", -- [2]
+			"seriously whoever wins maybe we can stop calling each other retards", -- [1]
+			"Cryspin-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Rinroar-Stormrage", -- [5]
+			"Cryspin-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			384, -- [11]
-			"Player-60-0DFF1763", -- [12]
+			4408, -- [11]
+			"Player-60-0C945EB6", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffefefeRinroar|r",
-			[51] = 1603789608,
+			[52] = "|cff3ec6eaCryspin|r",
+			[51] = 1604508238,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [93]
 		{
-			"yeah >~<", -- [1]
-			"Heawer-Stormrage", -- [2]
+			"if they had warmode on prior to the change", -- [1]
+			"Lunasolita-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Heawer-Stormrage", -- [5]
+			"Lunasolita-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			390, -- [11]
-			"Player-60-0E035AE8", -- [12]
+			4409, -- [11]
+			"Player-60-0DE8643A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffefefeHeawer|r",
-			[51] = 1603789619,
+			[52] = "|cfffe7b09Lunasolita|r",
+			[51] = 1604508239,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [94]
 		{
-			"WTS |cff0070dd|Hitem:17050::::::::50:63:::::::|h[Chan's Imperial Robes]|h|r, PST!", -- [1]
-			"Poisonpoet-Stormrage", -- [2]
+			"Anyone else sleep like shit last night?", -- [1]
+			"Prideborn-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Poisonpoet-Stormrage", -- [5]
+			"Prideborn-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			392, -- [11]
-			"Player-60-0BB89601", -- [12]
+			4410, -- [11]
+			"Player-60-0C447AB9", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaPoisonpoet|r",
-			[51] = 1603789627,
+			[52] = "|cffa9d271Prideborn|r",
+			[51] = 1604508244,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [95]
 		{
-			"wuts dis? Owo", -- [1]
-			"Chadkïng-Stormrage", -- [2]
+			"i slept amazing", -- [1]
+			"Silencedshot-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Chadkïng-Stormrage", -- [5]
+			"Silencedshot-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			393, -- [11]
-			"Player-60-0E010459", -- [12]
+			4411, -- [11]
+			"Player-60-0E094D9A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cfffef367Chadkïng|r",
-			[51] = 1603789627,
+			[52] = "|cffa9d271Silencedshot|r",
+			[51] = 1604508251,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [96]
 		{
-			"I look away for 2 seconds and i come back to thunderfury furries?", -- [1]
-			"Uyago-Stormrage", -- [2]
+			"lol Faloranna u think weed is gonna get federally legalized", -- [1]
+			"Pulsé-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Uyago-Stormrage", -- [5]
+			"Pulsé-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			394, -- [11]
-			"Player-60-0B631710", -- [12]
+			4412, -- [11]
+			"Player-60-0E0B0915", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff00fe97Uyago|r",
-			[51] = 1603789627,
+			[52] = "|cff3ec6eaPulsé|r",
+			[51] = 1604508251,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [97]
 		{
-			"thunderfurries", -- [1]
-			"Poisonpoet-Stormrage", -- [2]
+			"i did", -- [1]
+			"Onares-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Poisonpoet-Stormrage", -- [5]
+			"Onares-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			395, -- [11]
-			"Player-60-0BB89601", -- [12]
+			4413, -- [11]
+			"Player-60-0E087665", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cff3ec6eaPoisonpoet|r",
-			[51] = 1603789637,
+			[52] = "|cffc31d39Onares|r",
+			[51] = 1604508251,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [98]
 		{
-			"yiff", -- [1]
-			"Vickipedia-Stormrage", -- [2]
+			"THAT'D be nice cryspin. lol ", -- [1]
+			"Arachnè-Stormrage", -- [2]
 			"", -- [3]
 			"2. Trade - City", -- [4]
-			"Vickipedia-Stormrage", -- [5]
+			"Arachnè-Stormrage", -- [5]
 			"", -- [6]
 			2, -- [7]
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			396, -- [11]
-			"Player-60-0E046A6B", -- [12]
+			4414, -- [11]
+			"Player-60-0E04A1F1", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			true, -- [17]
-			[52] = "|cffa9d271Vickipedia|r",
-			[51] = 1603789645,
+			[52] = "|cfffef367Arachnè|r",
+			[51] = 1604508252,
 			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},

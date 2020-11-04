@@ -1,3 +1,34 @@
+v4.11 [November 2, 2020]
+Fixes:
+- Fixed error when using the advanced settings in S&L that overrides some defaults of elvui
+
+v4.10 [November 1, 2020]
+Fixes:
+- Fixed not having version 12.07 due to simpy taking to long to push elvui update
+
+v4.09 [November 1, 2020]
+ATTENTION:
+- Enhanced Shadows have been rewritten and if you use ProjectAzilroka, you will need to be using 1.73 or higher to be compatible!
+Fixes:
+- SubZone text offset seems to behave better now
+- Fixed (for the most part) armory mode inspect when mousing over the transmog indicator not showing a tooltip of the appearence item
+- Fixed not able to ctrl+left click to view inspected unit's transmog on yourself
+- Fixed not able to shit+left click the inspected unit's transmog indicator to post in chat
+- Fixed some errors upon switching profiles with spec switching
+Removed:
+- Old option for pet level in bag section as the functionality was removed but the option was forgotten
+- Removed obsolete option to change editbox text size due to ElvUI changes
+- Removed 'Font Outline' option from the 'Gossip & Quest Frames Text' section due to it rendering really bad
+- Removed 'Width' option from the 'Zone Text' sections due to it's lack of usefulness
+Changes:
+- Misc code formatting & clean up
+- Updated Enhanced Shadows and no settings besides the shadow color is transfered over.
+- Enhanced Shadows now has the ability to add a shadow to a custom datatext
+- Changed how shadows were applied to the micro bar since it has a new backdrop option in ElvUI
+Added:
+- Added ElvUI's Bottom Panel to Enhanced Shadows options
+- Added ElvUI's Top Panel to Enhanced Shadows options
+
 v4.08 [October 20, 2020]
 Fixes:
 - Fixed not able to invite Guild member via S&L Guild datatext
