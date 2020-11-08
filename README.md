@@ -13,6 +13,7 @@ Settings
 Use Any Profile Named AbooseUI
 
 Elvui > Profiles > AbooseUI
+
 Elvui > ProjectAzilroka > AbooseUI
 
 Elvui > General > BlizzUI Improvemts > Chat Bubbles Style > Disable
@@ -26,8 +27,13 @@ http://glitch.network/ImgUpload/Wow_i0wvG4YIgi.png
 
 
 /Exrt > AbooseUI
+
 Handynotes > AbooseUI
+
 Hekili > AbooseUI
+
 Plater > AbooseUI
+
 RareScanner > AbooseUI
+
 VocalRaidAddidtant > AbooseUI
