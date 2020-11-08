@@ -4653,17 +4653,23 @@ ElvDB = {
 					["enable"] = false,
 				},
 				["reputation"] = {
+					["fontSize"] = 16,
 					["reverseFill"] = true,
 					["enable"] = true,
-					["width"] = 7,
-					["font"] = "Oswald",
+					["textFormat"] = "CURPERCREM",
+					["mouseover"] = true,
+					["width"] = 300,
+					["font"] = "KGSmallTownSouthernGirl",
+					["height"] = 20,
 				},
 				["experience"] = {
+					["fontSize"] = 16,
+					["fontOutline"] = "OUTLINE",
 					["textFormat"] = "CURPERCREM",
 					["reverseFill"] = true,
 					["width"] = 300,
-					["font"] = "Oswald",
-					["fontOutline"] = "OUTLINE",
+					["font"] = "KGSmallTownSouthernGirl",
+					["clickThrough"] = true,
 					["height"] = 20,
 				},
 				["azerite"] = {
@@ -4858,7 +4864,7 @@ ElvDB = {
 				["copyChatLines"] = true,
 				["tabFont"] = "Arial Narrow",
 			},
-			["dbConverted"] = 12.08,
+			["dbConverted"] = 12.11,
 			["movers"] = {
 				["ElvUF_FocusCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-382,389",
 				["ElvUF_FocusTargetMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,663,408",
@@ -4876,7 +4882,7 @@ ElvDB = {
 				["ElvAB_4"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,520,0",
 				["AltPowerBarMover"] = "TOP,ElvUIParent,TOP,-1,-44",
 				["DTPanelRightMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,1,0",
-				["ReputationBarMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,0,0",
+				["ReputationBarMover"] = "TOP,ElvUIParent,TOP,0,-32",
 				["ObjectiveFrameMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,79,0",
 				["BNETMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,207",
 				["ShiftAB"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,211,204",
@@ -4900,7 +4906,7 @@ ElvDB = {
 				["OzCooldownsMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,780,-123",
 				["AzeriteBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-299,0",
 				["DTPanelMidInfoMover"] = "TOP,ElvUIParent,TOP,-380,-4",
-				["ExperienceBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,0",
+				["ExperienceBarMover"] = "TOP,ElvUIParent,TOP,0,-53",
 				["TalkingHeadFrameMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,4,-4",
 				["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,381,344",
 				["TotemBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,214,514",
@@ -5073,14 +5079,6 @@ ElvDB = {
 							["attachTo"] = "FRAME",
 							["sortMethod"] = "DURATION",
 						},
-						["aurabar"] = {
-							["maxBars"] = 7,
-							["enable"] = false,
-						},
-						["RestIcon"] = {
-							["enable"] = false,
-							["texture"] = "RESTING",
-						},
 						["power"] = {
 							["detachFromFrame"] = true,
 							["text_format"] = "",
@@ -5091,12 +5089,20 @@ ElvDB = {
 							["xOffset"] = 0,
 							["height"] = 14,
 						},
+						["aurabar"] = {
+							["maxBars"] = 7,
+							["enable"] = false,
+						},
+						["RestIcon"] = {
+							["enable"] = false,
+							["texture"] = "RESTING",
+						},
 						["castbar"] = {
 							["iconAttachedTo"] = "Castbar",
 							["iconPosition"] = "CENTER",
+							["iconXOffset"] = 0,
 							["iconSize"] = 8,
 							["icon"] = false,
-							["iconXOffset"] = 0,
 							["insideInfoPanel"] = false,
 							["iconAttached"] = false,
 							["iconYOffset"] = 22,
@@ -5804,6 +5810,7 @@ ElvDB = {
 							["yOffset"] = 17,
 							["anchorPoint"] = "BOTTOMRIGHT",
 							["priority"] = "Blacklist,Personal,nonPersonal",
+							["perrow"] = 4,
 							["attachTo"] = "HEALTH",
 							["xOffset"] = -19,
 						},
@@ -5852,7 +5859,14 @@ ElvDB = {
 						["verticalSpacing"] = 2,
 						["horizontalSpacing"] = 2,
 						["rdebuffs"] = {
+							["enable"] = false,
+							["yOffset"] = 27,
 							["font"] = "Continuum_Medium",
+							["fontOutline"] = "OUTLINE",
+							["stack"] = {
+								["position"] = "BOTTOM",
+							},
+							["size"] = 20,
 						},
 						["growthDirection"] = "RIGHT_DOWN",
 						["buffIndicator"] = {
@@ -6124,12 +6138,14 @@ ElvDB = {
 					["buttonsPerRow"] = 1,
 					["buttonsize"] = 30,
 				},
+				["extraActionButton"] = {
+					["clean"] = true,
+				},
 				["microbar"] = {
 					["enabled"] = true,
 					["mouseover"] = true,
 					["buttons"] = 11,
 				},
-				["fontSize"] = 16,
 				["bar2"] = {
 					["backdropSpacing"] = 1,
 					["enabled"] = true,
@@ -6138,9 +6154,7 @@ ElvDB = {
 					["buttonspacing"] = 1,
 					["buttonsize"] = 34,
 				},
-				["extraActionButton"] = {
-					["clean"] = true,
-				},
+				["fontSize"] = 16,
 				["bar5"] = {
 					["buttons"] = 2,
 					["alpha"] = 0.7,
@@ -6260,31 +6274,41 @@ ElvDB = {
 				},
 			},
 			["auras"] = {
-				["countYOffset"] = -11,
-				["timeYOffset"] = 22,
-				["countXOffset"] = -4,
-				["fontOutline"] = "OUTLINE",
 				["font"] = "KGSmallTownSouthernGirl",
-				["debuffs"] = {
-					["horizontalSpacing"] = 0,
-					["seperateOwn"] = 0,
-					["sortDir"] = "+",
-					["countFontSize"] = 20,
-					["durationFontSize"] = 18,
-					["wrapAfter"] = 32,
-				},
+				["countXOffset"] = -4,
+				["timeYOffset"] = 22,
+				["fontOutline"] = "OUTLINE",
+				["countYOffset"] = -11,
 				["buffs"] = {
 					["horizontalSpacing"] = 0,
+					["timeFontSize"] = 20,
+					["wrapAfter"] = 32,
+					["countFont"] = "KGSmallTownSouthernGirl",
+					["timeFont"] = "KGSmallTownSouthernGirl",
 					["seperateOwn"] = 0,
-					["maxWraps"] = 1,
+					["countFontOutline"] = "OUTLINE",
 					["sortDir"] = "+",
+					["timeFontOutline"] = "OUTLINE",
 					["countFontSize"] = 20,
 					["durationFontSize"] = 18,
-					["wrapAfter"] = 32,
+					["maxWraps"] = 1,
 				},
 				["cooldown"] = {
 					["checkSeconds"] = true,
 					["override"] = true,
+				},
+				["debuffs"] = {
+					["horizontalSpacing"] = 0,
+					["timeFontSize"] = 20,
+					["timeFontOutline"] = "OUTLINE",
+					["wrapAfter"] = 32,
+					["countFont"] = "KGSmallTownSouthernGirl",
+					["timeFont"] = "KGSmallTownSouthernGirl",
+					["seperateOwn"] = 0,
+					["countFontOutline"] = "OUTLINE",
+					["sortDir"] = "+",
+					["countFontSize"] = 20,
+					["durationFontSize"] = 18,
 				},
 			},
 		},
@@ -8911,9 +8935,9 @@ ElvDB = {
 			},
 			["Illidan"] = {
 				["Pallyneess"] = {
-					["LevelTime"] = 388715,
+					["LevelTime"] = 388983,
 					["Class"] = "PALADIN",
-					["TotalTime"] = 388715,
+					["TotalTime"] = 388983,
 					["Level"] = 50,
 				},
 				["Rogueness"] = {
@@ -8923,15 +8947,15 @@ ElvDB = {
 					["LevelTime"] = 1454734,
 				},
 				["Lilobv"] = {
-					["LevelTime"] = 68780,
+					["LevelTime"] = 71650,
 					["Class"] = "ROGUE",
-					["TotalTime"] = 2852840,
+					["TotalTime"] = 2855710,
 					["Level"] = 50,
 				},
 				["Pallybank"] = {
-					["LevelTime"] = 6096,
+					["LevelTime"] = 10051,
 					["Class"] = "PALADIN",
-					["TotalTime"] = 6096,
+					["TotalTime"] = 10051,
 					["Level"] = 10,
 				},
 			},
@@ -8967,25 +8991,25 @@ ElvDB = {
 				["Aboose"] = {
 					["Class"] = "MONK",
 					["Level"] = 50,
-					["TotalTime"] = 1209404,
-					["LevelTime"] = 567726,
+					["TotalTime"] = 1211378,
+					["LevelTime"] = 569700,
 				},
 				["Affixes"] = {
 					["Level"] = 50,
 					["Class"] = "MAGE",
-					["LevelTime"] = 70509,
-					["TotalTime"] = 181670,
+					["LevelTime"] = 72140,
+					["TotalTime"] = 183301,
 				},
 				["Pallyness"] = {
 					["Class"] = "PALADIN",
 					["Level"] = 50,
-					["TotalTime"] = 5211952,
-					["LevelTime"] = 4759624,
+					["TotalTime"] = 5218737,
+					["LevelTime"] = 4766409,
 				},
 				["Tríggered"] = {
-					["LevelTime"] = 6910243,
+					["LevelTime"] = 6914109,
 					["Class"] = "DEATHKNIGHT",
-					["TotalTime"] = 10490755,
+					["TotalTime"] = 10494621,
 					["Level"] = 50,
 				},
 				["Usb"] = {
@@ -9002,9 +9026,9 @@ ElvDB = {
 					["Class"] = "DRUID",
 				},
 				["Affixe"] = {
-					["LevelTime"] = 31021,
+					["LevelTime"] = 33289,
 					["Class"] = "SHAMAN",
-					["TotalTime"] = 140056,
+					["TotalTime"] = 142324,
 					["Level"] = 50,
 				},
 				["Paintchíps"] = {
@@ -9027,16 +9051,16 @@ ElvDB = {
 					["LastLevelTime"] = 3079,
 				},
 				["Rogueness"] = {
-					["LevelTime"] = 1458557,
+					["LevelTime"] = 1461412,
 					["Class"] = "ROGUE",
-					["TotalTime"] = 23590976,
+					["TotalTime"] = 23593831,
 					["Level"] = 50,
 				},
 				["Myironballs"] = {
-					["LevelTime"] = 14476,
+					["LevelTime"] = 15296,
 					["Class"] = "WARRIOR",
 					["Level"] = 50,
-					["TotalTime"] = 164645,
+					["TotalTime"] = 165465,
 					["LastLevelTime"] = 4247,
 				},
 			},
@@ -9136,6 +9160,15 @@ ElvPrivateDB = {
 			},
 		},
 		["Affixes - Stormrage"] = {
+			["general"] = {
+				["raidUtility"] = false,
+				["namefont"] = "KGSmallTownSouthernGirl",
+				["dmgfont"] = "KGSmallTownSouthernGirl",
+				["chatBubbles"] = "disabled",
+			},
+			["nameplates"] = {
+				["enable"] = false,
+			},
 			["sle"] = {
 				["minimap"] = {
 					["mapicons"] = {
@@ -9155,15 +9188,6 @@ ElvPrivateDB = {
 				},
 				["parchmentRemoverEnable"] = true,
 			},
-			["general"] = {
-				["raidUtility"] = false,
-				["namefont"] = "KGSmallTownSouthernGirl",
-				["dmgfont"] = "KGSmallTownSouthernGirl",
-				["chatBubbles"] = "disabled",
-			},
-			["nameplates"] = {
-				["enable"] = false,
-			},
 			["install_complete"] = "11.26",
 		},
 		["Abooseyou - Illidan"] = {
@@ -9176,13 +9200,6 @@ ElvPrivateDB = {
 			},
 		},
 		["Pallyneess - Illidan"] = {
-			["general"] = {
-				["raidUtility"] = false,
-				["chatBubbles"] = "nobackdrop",
-			},
-			["nameplates"] = {
-				["enable"] = false,
-			},
 			["sle"] = {
 				["minimap"] = {
 					["mapicons"] = {
@@ -9201,6 +9218,13 @@ ElvPrivateDB = {
 					["enable"] = true,
 				},
 				["parchmentRemoverEnable"] = true,
+			},
+			["general"] = {
+				["raidUtility"] = false,
+				["chatBubbles"] = "nobackdrop",
+			},
+			["nameplates"] = {
+				["enable"] = false,
 			},
 			["install_complete"] = 11.41,
 		},
@@ -9226,32 +9250,32 @@ ElvPrivateDB = {
 			["install_complete"] = "11.26",
 		},
 		["Myironballs - Stormrage"] = {
+			["general"] = {
+				["raidUtility"] = false,
+				["chatBubbles"] = "disabled",
+			},
+			["skins"] = {
+				["parchmentRemover"] = {
+					["enable"] = true,
+				},
+				["parchmentRemoverEnable"] = true,
+			},
 			["sle"] = {
 				["pvpreadydialogreset"] = true,
-				["install_complete"] = "3.77",
-				["characterGoldsSorting"] = {
-					["Stormrage"] = {
-					},
-				},
 				["minimap"] = {
 					["mapicons"] = {
 						["enable"] = false,
 						["barenable"] = true,
 					},
 				},
+				["characterGoldsSorting"] = {
+					["Stormrage"] = {
+					},
+				},
+				["install_complete"] = "3.77",
 			},
 			["nameplates"] = {
 				["enable"] = false,
-			},
-			["general"] = {
-				["raidUtility"] = false,
-				["chatBubbles"] = "disabled",
-			},
-			["skins"] = {
-				["parchmentRemoverEnable"] = true,
-				["parchmentRemover"] = {
-					["enable"] = true,
-				},
 			},
 			["install_complete"] = "11.26",
 		},
@@ -9298,12 +9322,17 @@ ElvPrivateDB = {
 			["install_complete"] = 12.05,
 		},
 		["Aboose - Stormrage"] = {
+			["general"] = {
+				["raidUtility"] = false,
+				["chatBubbles"] = "nobackdrop",
+			},
+			["nameplates"] = {
+				["enable"] = false,
+			},
 			["sle"] = {
 				["module"] = {
 					["blizzmove"] = {
 						["enable"] = false,
-						["points"] = {
-						},
 					},
 					["screensaver"] = true,
 				},
@@ -9312,42 +9341,35 @@ ElvPrivateDB = {
 					},
 				},
 				["pvpreadydialogreset"] = true,
+				["install_complete"] = "3.77",
 				["minimap"] = {
 					["mapicons"] = {
 						["enable"] = false,
 						["barenable"] = true,
 					},
 				},
-				["install_complete"] = "3.77",
 			},
 			["skins"] = {
+				["parchmentRemoverEnable"] = true,
 				["parchmentRemover"] = {
 					["enable"] = true,
 				},
-				["parchmentRemoverEnable"] = true,
-			},
-			["general"] = {
-				["raidUtility"] = false,
-				["chatBubbles"] = "nobackdrop",
-			},
-			["nameplates"] = {
-				["enable"] = false,
 			},
 			["install_complete"] = "11.26",
 		},
 		["Lilobv - Illidan"] = {
 			["sle"] = {
-				["install_complete"] = "4.07",
-				["characterGoldsSorting"] = {
-					["Illidan"] = {
-					},
-				},
 				["minimap"] = {
 					["mapicons"] = {
 						["enable"] = false,
 						["barenable"] = true,
 					},
 				},
+				["characterGoldsSorting"] = {
+					["Illidan"] = {
+					},
+				},
+				["install_complete"] = "4.07",
 			},
 			["skins"] = {
 				["parchmentRemover"] = {
@@ -9357,8 +9379,8 @@ ElvPrivateDB = {
 			["general"] = {
 				["raidUtility"] = false,
 				["namefont"] = "KGSmallTownSouthernGirl",
-				["chatBubbles"] = "disabled",
 				["dmgfont"] = "KGSmallTownSouthernGirl",
+				["chatBubbles"] = "disabled",
 			},
 			["nameplates"] = {
 				["enable"] = false,
@@ -9467,9 +9489,9 @@ ElvPrivateDB = {
 				["parchmentRemoverEnable"] = true,
 			},
 			["general"] = {
-				["dmgfont"] = "KGSmallTownSouthernGirl",
-				["chatBubbles"] = "disabled",
 				["namefont"] = "KGSmallTownSouthernGirl",
+				["chatBubbles"] = "disabled",
+				["dmgfont"] = "KGSmallTownSouthernGirl",
 			},
 			["nameplates"] = {
 				["enable"] = false,
@@ -9477,33 +9499,33 @@ ElvPrivateDB = {
 			["install_complete"] = "11.26",
 		},
 		["Rogueness - Stormrage"] = {
+			["general"] = {
+				["raidUtility"] = false,
+				["namefont"] = "KGSmallTownSouthernGirl",
+				["chatBubbles"] = "nobackdrop",
+				["dmgfont"] = "KGSmallTownSouthernGirl",
+			},
+			["skins"] = {
+				["parchmentRemoverEnable"] = true,
+				["parchmentRemover"] = {
+					["enable"] = true,
+				},
+			},
 			["sle"] = {
+				["install_complete"] = "4.11",
+				["characterGoldsSorting"] = {
+					["Stormrage"] = {
+					},
+				},
 				["minimap"] = {
 					["mapicons"] = {
 						["enable"] = true,
 						["barenable"] = true,
 					},
 				},
-				["characterGoldsSorting"] = {
-					["Stormrage"] = {
-					},
-				},
-				["install_complete"] = "4.11",
 			},
 			["nameplates"] = {
 				["enable"] = false,
-			},
-			["general"] = {
-				["raidUtility"] = false,
-				["namefont"] = "KGSmallTownSouthernGirl",
-				["dmgfont"] = "KGSmallTownSouthernGirl",
-				["chatBubbles"] = "nobackdrop",
-			},
-			["skins"] = {
-				["parchmentRemover"] = {
-					["enable"] = true,
-				},
-				["parchmentRemoverEnable"] = true,
 			},
 			["install_complete"] = "11.26",
 		},
@@ -9550,18 +9572,18 @@ ElvPrivateDB = {
 		["Pallyness - Stormrage"] = {
 			["general"] = {
 				["raidUtility"] = false,
-				["namefont"] = "KGSmallTownSouthernGirl",
+				["chatBubbleFont"] = "Expressway",
+				["dmgfont"] = "KGSmallTownSouthernGirl",
 				["chatBubbles"] = "disabled",
 				["chatBubbleFontOutline"] = "OUTLINE",
-				["chatBubbleFont"] = "Expressway",
 				["chatBubbleName"] = true,
-				["dmgfont"] = "KGSmallTownSouthernGirl",
+				["namefont"] = "KGSmallTownSouthernGirl",
 			},
 			["skins"] = {
-				["parchmentRemoverEnable"] = true,
 				["parchmentRemover"] = {
 					["enable"] = true,
 				},
+				["parchmentRemoverEnable"] = true,
 			},
 			["sle"] = {
 				["module"] = {
@@ -9575,13 +9597,13 @@ ElvPrivateDB = {
 					},
 				},
 				["pvpreadydialogreset"] = true,
-				["install_complete"] = "4.00",
 				["minimap"] = {
 					["mapicons"] = {
 						["enable"] = false,
 						["barenable"] = true,
 					},
 				},
+				["install_complete"] = "4.00",
 			},
 			["nameplates"] = {
 				["enable"] = false,
