@@ -243,11 +243,11 @@ ElvDB = {
 				["iFilger_BuffsMover"] = "TOP,ElvUIParent,TOP,-370,-378",
 				["dataText1Mover"] = "TOP,ElvUIParent,TOP,18,1",
 				["PetAB"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,245",
+				["ArtifactBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,3,406",
 				["VehicleLeaveButton"] = "TOP,ElvUIParent,TOP,303,-476",
-				["DTB2_1_Mover"] = "TOP,ElvUIParent,TOP,0,1",
 				["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,0,333",
 				["ElvAB_5"] = "BOTTOM,ElvUIParent,BOTTOM,-230,302",
-				["ArtifactBarMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,3,406",
+				["DTB2_1_Mover"] = "TOP,ElvUIParent,TOP,0,1",
 				["iFilger_CooldownsMover"] = "TOP,ElvUIParent,TOP,-362,-299",
 				["ZoneAbility"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,730,212",
 				["ElvUF_PetTargetMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,663,344",
@@ -294,8 +294,15 @@ ElvDB = {
 				["countFontSize"] = 14,
 			},
 			["auras"] = {
-				["font"] = "KGSmallTownSouthernGirl",
 				["countXOffset"] = -4,
+				["debuffs"] = {
+					["countFontSize"] = 20,
+					["durationFontSize"] = 18,
+					["horizontalSpacing"] = 0,
+					["seperateOwn"] = 0,
+					["sortDir"] = "+",
+					["wrapAfter"] = 32,
+				},
 				["cooldown"] = {
 					["checkSeconds"] = true,
 					["override"] = true,
@@ -312,14 +319,7 @@ ElvDB = {
 				},
 				["countYOffset"] = -11,
 				["timeYOffset"] = 22,
-				["debuffs"] = {
-					["countFontSize"] = 20,
-					["durationFontSize"] = 18,
-					["horizontalSpacing"] = 0,
-					["seperateOwn"] = 0,
-					["sortDir"] = "+",
-					["wrapAfter"] = 32,
-				},
+				["font"] = "KGSmallTownSouthernGirl",
 			},
 			["sle"] = {
 				["raidmarkers"] = {
@@ -504,134 +504,125 @@ ElvDB = {
 					["tank"] = {
 						["enable"] = false,
 					},
-					["pet"] = {
-						["debuffs"] = {
-							["countFontSize"] = 20,
-							["countFont"] = "KGSmallTownSouthernGirl",
-							["perrow"] = 8,
-							["attachTo"] = "BUFFS",
-							["enable"] = true,
-							["priority"] = "myDebuffs,Blacklist,Personal,Boss,RaidDebuffs",
-							["anchorPoint"] = "TOPLEFT",
-							["yOffset"] = 7,
-						},
-						["castbar"] = {
-							["height"] = 17,
-							["width"] = 250,
-							["insideInfoPanel"] = false,
-						},
-						["customTexts"] = {
-							["Имя"] = {
-								["attachTextTo"] = "HEALTH",
-								["enable"] = true,
-								["text_format"] = "[difficultycolor][level] [classification] [namecolor][name:medium]",
-								["yOffset"] = 20,
-								["font"] = "KGSmallTownSouthernGirl",
-								["justifyH"] = "CENTER",
-								["fontOutline"] = "OUTLINE",
-								["xOffset"] = 0,
-								["size"] = 20,
-							},
-						},
-						["width"] = 250,
-						["infoPanel"] = {
-							["height"] = 20,
-						},
-						["name"] = {
-							["text_format"] = "",
-						},
-						["power"] = {
-							["xOffset"] = -2,
-							["height"] = 5,
-						},
-						["height"] = 19,
-						["buffs"] = {
-							["countFontSize"] = 20,
-							["countFont"] = "KGSmallTownSouthernGirl",
-							["enable"] = true,
-							["perrow"] = 8,
-							["anchorPoint"] = "TOPLEFT",
-							["yOffset"] = 21,
-						},
-						["orientation"] = "LEFT",
+					["targettarget"] = {
 						["health"] = {
-							["xOffset"] = 2,
 							["position"] = "LEFT",
 						},
-					},
-					["boss"] = {
-						["debuffs"] = {
-							["xOffset"] = -4,
-							["sizeOverride"] = 39,
-							["yOffset"] = 10,
-						},
 						["power"] = {
-							["text_format"] = "",
 							["height"] = 5,
 						},
 						["customTexts"] = {
-							["123"] = {
-								["attachTextTo"] = "Frame",
-								["enable"] = true,
-								["text_format"] = "[level] [classification] || [namecolor][name:medium]",
-								["yOffset"] = 20,
-								["font"] = "KGSmallTownSouthernGirl",
-								["justifyH"] = "LEFT",
-								["fontOutline"] = "OUTLINE",
-								["xOffset"] = 0,
-								["size"] = 20,
-							},
-							["hp"] = {
-								["attachTextTo"] = "Frame",
-								["enable"] = true,
-								["text_format"] = "[healthcolor][health:current] - ||cffffffff[perhp]||r",
-								["yOffset"] = 20,
-								["font"] = "KGSmallTownSouthernGirl",
-								["justifyH"] = "RIGHT",
-								["fontOutline"] = "OUTLINE",
-								["xOffset"] = 0,
-								["size"] = 20,
-							},
-							["%"] = {
+							["name1"] = {
 								["attachTextTo"] = "HEALTH",
 								["enable"] = true,
-								["text_format"] = "",
-								["yOffset"] = 2,
-								["font"] = "big_noodle_titling",
+								["text_format"] = "[namecolor][name:medium]",
+								["yOffset"] = 20,
+								["font"] = "KGSmallTownSouthernGirl",
 								["justifyH"] = "CENTER",
 								["fontOutline"] = "OUTLINE",
 								["xOffset"] = 0,
 								["size"] = 20,
 							},
 						},
-						["growthDirection"] = "UP",
 						["name"] = {
-							["xOffset"] = 9,
-							["yOffset"] = 12,
 							["text_format"] = "",
+							["yOffset"] = 16,
+						},
+						["height"] = 19,
+					},
+					["party"] = {
+						["horizontalSpacing"] = 2,
+						["debuffs"] = {
+							["countFontSize"] = 13,
+							["sizeOverride"] = 16,
+							["attachTo"] = "HEALTH",
+							["xOffset"] = -19,
+							["priority"] = "Blacklist,Personal,nonPersonal",
+							["anchorPoint"] = "BOTTOMRIGHT",
+							["yOffset"] = 17,
+						},
+						["portrait"] = {
+							["overlay"] = true,
+						},
+						["rdebuffs"] = {
+							["font"] = "Continuum_Medium",
+						},
+						["growthDirection"] = "RIGHT_DOWN",
+						["groupBy"] = "ROLE",
+						["roleIcon"] = {
+							["xOffset"] = 1,
+							["size"] = 14,
 							["position"] = "TOPLEFT",
+							["yOffset"] = 4,
+						},
+						["readycheckIcon"] = {
+							["size"] = 59,
+						},
+						["power"] = {
+							["enable"] = false,
+							["position"] = "BOTTOMRIGHT",
+							["text_format"] = "",
+							["yOffset"] = 2,
+						},
+						["customTexts"] = {
+							["[namecolor][name:short]"] = {
+								["attachTextTo"] = "Health",
+								["enable"] = true,
+								["text_format"] = "[namecolor][name:short]",
+								["yOffset"] = 0,
+								["font"] = "KGSmallTownSouthernGirl",
+								["justifyH"] = "CENTER",
+								["fontOutline"] = "OUTLINE",
+								["xOffset"] = 0,
+								["size"] = 20,
+							},
+							["offline"] = {
+								["attachTextTo"] = "HEALTH",
+								["enable"] = true,
+								["text_format"] = "[offline]",
+								["yOffset"] = -11,
+								["font"] = "Oswald",
+								["justifyH"] = "CENTER",
+								["fontOutline"] = "OUTLINE",
+								["xOffset"] = 0,
+								["size"] = 13,
+							},
+							["dead"] = {
+								["attachTextTo"] = "HEALTH",
+								["enable"] = true,
+								["text_format"] = "[dead]",
+								["yOffset"] = -11,
+								["font"] = "Oswald",
+								["justifyH"] = "CENTER",
+								["fontOutline"] = "OUTLINE",
+								["xOffset"] = 0,
+								["size"] = 13,
+							},
+						},
+						["width"] = 100,
+						["infoPanel"] = {
+							["height"] = 12,
+						},
+						["name"] = {
+							["text_format"] = "",
 						},
 						["health"] = {
-							["xOffset"] = -1,
-							["yOffset"] = 18,
+							["xOffset"] = 0,
 							["text_format"] = "",
-							["position"] = "RIGHT",
+							["yOffset"] = 2,
 						},
-						["spacing"] = 37,
-						["height"] = 19,
+						["orientation"] = "RIGHT",
+						["height"] = 50,
+						["verticalSpacing"] = 2,
 						["buffs"] = {
-							["anchorPoint"] = "RIGHT",
-							["sizeOverride"] = 30,
-							["xOffset"] = 7,
-							["yOffset"] = 7,
+							["anchorPoint"] = "TOPRIGHT",
+							["sizeOverride"] = 16,
+							["clickThrough"] = true,
+							["xOffset"] = -1,
+							["yOffset"] = -17,
 						},
-						["width"] = 250,
-						["castbar"] = {
-							["height"] = 13,
-							["iconSize"] = 16,
-							["iconAttached"] = false,
-							["icon"] = false,
-							["width"] = 250,
+						["buffIndicator"] = {
+							["size"] = 13,
 						},
 					},
 					["raid"] = {
@@ -772,12 +763,24 @@ ElvDB = {
 							},
 						},
 					},
-					["targettarget"] = {
-						["health"] = {
-							["position"] = "LEFT",
+					["pettarget"] = {
+						["infoPanel"] = {
+							["height"] = 14,
+						},
+						["debuffs"] = {
+							["enable"] = true,
+						},
+						["name"] = {
+							["text_format"] = "",
+							["yOffset"] = 16,
 						},
 						["power"] = {
 							["height"] = 5,
+						},
+						["enable"] = true,
+						["height"] = 19,
+						["health"] = {
+							["position"] = "LEFT",
 						},
 						["customTexts"] = {
 							["name1"] = {
@@ -785,18 +788,13 @@ ElvDB = {
 								["enable"] = true,
 								["text_format"] = "[namecolor][name:medium]",
 								["yOffset"] = 20,
-								["font"] = "KGSmallTownSouthernGirl",
+								["font"] = "big_noodle_titling",
 								["justifyH"] = "CENTER",
 								["fontOutline"] = "OUTLINE",
 								["xOffset"] = 0,
 								["size"] = 20,
 							},
 						},
-						["name"] = {
-							["text_format"] = "",
-							["yOffset"] = 16,
-						},
-						["height"] = 19,
 					},
 					["assist"] = {
 						["enable"] = false,
@@ -839,45 +837,66 @@ ElvDB = {
 							["size"] = 13,
 						},
 					},
-					["party"] = {
-						["horizontalSpacing"] = 2,
+					["player"] = {
+						["RestIcon"] = {
+							["enable"] = false,
+							["texture"] = "RESTING",
+						},
 						["debuffs"] = {
-							["countFontSize"] = 13,
-							["sizeOverride"] = 16,
-							["attachTo"] = "HEALTH",
-							["xOffset"] = -19,
-							["priority"] = "Blacklist,Personal,nonPersonal",
-							["anchorPoint"] = "BOTTOMRIGHT",
-							["yOffset"] = 17,
+							["countFontSize"] = 20,
+							["sizeOverride"] = 38,
+							["sortDirection"] = "ASCENDING",
+							["perrow"] = 4,
+							["countFont"] = "KGSmallTownSouthernGirl",
+							["yOffset"] = 45,
 						},
 						["portrait"] = {
 							["overlay"] = true,
 						},
-						["rdebuffs"] = {
-							["font"] = "Continuum_Medium",
-						},
-						["growthDirection"] = "RIGHT_DOWN",
-						["groupBy"] = "ROLE",
-						["roleIcon"] = {
-							["xOffset"] = 1,
-							["size"] = 14,
-							["position"] = "TOPLEFT",
-							["yOffset"] = 4,
-						},
-						["readycheckIcon"] = {
-							["size"] = 59,
-						},
-						["power"] = {
-							["enable"] = false,
-							["position"] = "BOTTOMRIGHT",
-							["text_format"] = "",
-							["yOffset"] = 2,
+						["castbar"] = {
+							["insideInfoPanel"] = false,
+							["iconAttachedTo"] = "Castbar",
+							["iconYOffset"] = 22,
+							["width"] = 413,
+							["iconPosition"] = "CENTER",
+							["iconAttached"] = false,
+							["height"] = 10,
+							["iconSize"] = 8,
+							["iconXOffset"] = 0,
+							["icon"] = false,
+							["textColor"] = {
+								["r"] = 1,
+								["g"] = 0.996078431372549,
+								["b"] = 0.9686274509803922,
+							},
 						},
 						["customTexts"] = {
-							["[namecolor][name:short]"] = {
+							["resting"] = {
 								["attachTextTo"] = "Health",
 								["enable"] = true,
-								["text_format"] = "[namecolor][name:short]",
+								["text_format"] = "[resting] [afk]",
+								["yOffset"] = 15,
+								["font"] = "Oswald",
+								["justifyH"] = "CENTER",
+								["fontOutline"] = "OUTLINE",
+								["xOffset"] = -195,
+								["size"] = 14,
+							},
+							["lvl NAME"] = {
+								["attachTextTo"] = "Health",
+								["enable"] = true,
+								["text_format"] = "",
+								["yOffset"] = 30,
+								["font"] = "KGSmallTownSouthernGirl",
+								["justifyH"] = "RIGHT",
+								["fontOutline"] = "OUTLINE",
+								["xOffset"] = -2,
+								["size"] = 12,
+							},
+							["MP"] = {
+								["attachTextTo"] = "Power",
+								["enable"] = true,
+								["text_format"] = "[perpp]",
 								["yOffset"] = 0,
 								["font"] = "KGSmallTownSouthernGirl",
 								["justifyH"] = "CENTER",
@@ -885,53 +904,68 @@ ElvDB = {
 								["xOffset"] = 0,
 								["size"] = 20,
 							},
-							["offline"] = {
-								["attachTextTo"] = "HEALTH",
+							["hp%"] = {
+								["attachTextTo"] = "Health",
 								["enable"] = true,
-								["text_format"] = "[offline]",
-								["yOffset"] = -11,
-								["font"] = "Oswald",
+								["text_format"] = "[healthcolor][health:current] - ||cffffffff[perhp]||r",
+								["yOffset"] = 0,
+								["font"] = "KGSmallTownSouthernGirl",
 								["justifyH"] = "CENTER",
 								["fontOutline"] = "OUTLINE",
 								["xOffset"] = 0,
-								["size"] = 13,
+								["size"] = 20,
 							},
-							["dead"] = {
-								["attachTextTo"] = "HEALTH",
+							["Combat"] = {
+								["attachTextTo"] = "Health",
 								["enable"] = true,
-								["text_format"] = "[dead]",
-								["yOffset"] = -11,
+								["text_format"] = "",
+								["yOffset"] = 13,
 								["font"] = "Oswald",
 								["justifyH"] = "CENTER",
 								["fontOutline"] = "OUTLINE",
-								["xOffset"] = 0,
-								["size"] = 13,
+								["xOffset"] = 195,
+								["size"] = 14,
 							},
 						},
-						["width"] = 100,
-						["infoPanel"] = {
-							["height"] = 12,
-						},
-						["name"] = {
+						["width"] = 413,
+						["power"] = {
+							["detachFromFrame"] = true,
+							["strataAndLevel"] = {
+								["frameLevel"] = 0,
+							},
+							["xOffset"] = 0,
+							["detachedWidth"] = 413,
 							["text_format"] = "",
+							["height"] = 14,
 						},
 						["health"] = {
-							["xOffset"] = 0,
 							["text_format"] = "",
-							["yOffset"] = 2,
 						},
-						["orientation"] = "RIGHT",
-						["height"] = 50,
-						["verticalSpacing"] = 2,
+						["classbar"] = {
+							["detachFromFrame"] = true,
+							["detachedWidth"] = 342,
+							["height"] = 7,
+							["fill"] = "spaced",
+						},
+						["height"] = 15,
 						["buffs"] = {
+							["countFontSize"] = 20,
+							["sizeOverride"] = 38,
+							["enable"] = true,
+							["yOffset"] = 15,
 							["anchorPoint"] = "TOPRIGHT",
-							["sizeOverride"] = 16,
-							["clickThrough"] = true,
-							["xOffset"] = -1,
-							["yOffset"] = -17,
+							["sortMethod"] = "DURATION",
+							["perrow"] = 4,
+							["priority"] = "mybuffs",
+							["attachTo"] = "FRAME",
+							["countFont"] = "KGSmallTownSouthernGirl",
 						},
-						["buffIndicator"] = {
-							["size"] = 13,
+						["CombatIcon"] = {
+							["xOffset"] = 100,
+						},
+						["aurabar"] = {
+							["maxBars"] = 7,
+							["enable"] = false,
 						},
 					},
 					["raid40"] = {
@@ -1218,168 +1252,134 @@ ElvDB = {
 					["arena"] = {
 						["enable"] = false,
 					},
-					["player"] = {
-						["RestIcon"] = {
-							["enable"] = false,
-							["texture"] = "RESTING",
-						},
+					["boss"] = {
 						["debuffs"] = {
-							["countFontSize"] = 20,
-							["sizeOverride"] = 38,
-							["sortDirection"] = "ASCENDING",
-							["perrow"] = 4,
-							["countFont"] = "KGSmallTownSouthernGirl",
-							["yOffset"] = 45,
+							["xOffset"] = -4,
+							["sizeOverride"] = 39,
+							["yOffset"] = 10,
 						},
-						["portrait"] = {
-							["overlay"] = true,
-						},
-						["castbar"] = {
-							["insideInfoPanel"] = false,
-							["iconAttachedTo"] = "Castbar",
-							["iconYOffset"] = 22,
-							["width"] = 413,
-							["iconPosition"] = "CENTER",
-							["iconAttached"] = false,
-							["height"] = 10,
-							["iconSize"] = 8,
-							["iconXOffset"] = 0,
-							["icon"] = false,
-							["textColor"] = {
-								["r"] = 1,
-								["g"] = 0.996078431372549,
-								["b"] = 0.9686274509803922,
-							},
+						["power"] = {
+							["text_format"] = "",
+							["height"] = 5,
 						},
 						["customTexts"] = {
-							["resting"] = {
-								["attachTextTo"] = "Health",
+							["123"] = {
+								["attachTextTo"] = "Frame",
 								["enable"] = true,
-								["text_format"] = "[resting] [afk]",
-								["yOffset"] = 15,
-								["font"] = "Oswald",
-								["justifyH"] = "CENTER",
+								["text_format"] = "[level] [classification] || [namecolor][name:medium]",
+								["yOffset"] = 20,
+								["font"] = "KGSmallTownSouthernGirl",
+								["justifyH"] = "LEFT",
 								["fontOutline"] = "OUTLINE",
-								["xOffset"] = -195,
-								["size"] = 14,
+								["xOffset"] = 0,
+								["size"] = 20,
 							},
-							["lvl NAME"] = {
-								["attachTextTo"] = "Health",
+							["hp"] = {
+								["attachTextTo"] = "Frame",
 								["enable"] = true,
-								["text_format"] = "",
-								["yOffset"] = 30,
+								["text_format"] = "[healthcolor][health:current] - ||cffffffff[perhp]||r",
+								["yOffset"] = 20,
 								["font"] = "KGSmallTownSouthernGirl",
 								["justifyH"] = "RIGHT",
 								["fontOutline"] = "OUTLINE",
-								["xOffset"] = -2,
-								["size"] = 12,
-							},
-							["MP"] = {
-								["attachTextTo"] = "Power",
-								["enable"] = true,
-								["text_format"] = "[perpp]",
-								["yOffset"] = 0,
-								["font"] = "KGSmallTownSouthernGirl",
-								["justifyH"] = "CENTER",
-								["fontOutline"] = "OUTLINE",
 								["xOffset"] = 0,
 								["size"] = 20,
 							},
-							["hp%"] = {
-								["attachTextTo"] = "Health",
-								["enable"] = true,
-								["text_format"] = "[healthcolor][health:current] - ||cffffffff[perhp]||r",
-								["yOffset"] = 0,
-								["font"] = "KGSmallTownSouthernGirl",
-								["justifyH"] = "CENTER",
-								["fontOutline"] = "OUTLINE",
-								["xOffset"] = 0,
-								["size"] = 20,
-							},
-							["Combat"] = {
-								["attachTextTo"] = "Health",
-								["enable"] = true,
-								["text_format"] = "",
-								["yOffset"] = 13,
-								["font"] = "Oswald",
-								["justifyH"] = "CENTER",
-								["fontOutline"] = "OUTLINE",
-								["xOffset"] = 195,
-								["size"] = 14,
-							},
-						},
-						["width"] = 413,
-						["power"] = {
-							["detachFromFrame"] = true,
-							["strataAndLevel"] = {
-								["frameLevel"] = 0,
-							},
-							["xOffset"] = 0,
-							["detachedWidth"] = 413,
-							["text_format"] = "",
-							["height"] = 14,
-						},
-						["health"] = {
-							["text_format"] = "",
-						},
-						["classbar"] = {
-							["detachFromFrame"] = true,
-							["detachedWidth"] = 342,
-							["height"] = 7,
-							["fill"] = "spaced",
-						},
-						["height"] = 15,
-						["buffs"] = {
-							["countFontSize"] = 20,
-							["sizeOverride"] = 38,
-							["enable"] = true,
-							["yOffset"] = 15,
-							["anchorPoint"] = "TOPRIGHT",
-							["sortMethod"] = "DURATION",
-							["perrow"] = 4,
-							["priority"] = "mybuffs",
-							["attachTo"] = "FRAME",
-							["countFont"] = "KGSmallTownSouthernGirl",
-						},
-						["CombatIcon"] = {
-							["xOffset"] = 100,
-						},
-						["aurabar"] = {
-							["maxBars"] = 7,
-							["enable"] = false,
-						},
-					},
-					["pettarget"] = {
-						["infoPanel"] = {
-							["height"] = 14,
-						},
-						["debuffs"] = {
-							["enable"] = true,
-						},
-						["name"] = {
-							["text_format"] = "",
-							["yOffset"] = 16,
-						},
-						["power"] = {
-							["height"] = 5,
-						},
-						["enable"] = true,
-						["height"] = 19,
-						["health"] = {
-							["position"] = "LEFT",
-						},
-						["customTexts"] = {
-							["name1"] = {
+							["%"] = {
 								["attachTextTo"] = "HEALTH",
 								["enable"] = true,
-								["text_format"] = "[namecolor][name:medium]",
-								["yOffset"] = 20,
+								["text_format"] = "",
+								["yOffset"] = 2,
 								["font"] = "big_noodle_titling",
 								["justifyH"] = "CENTER",
 								["fontOutline"] = "OUTLINE",
 								["xOffset"] = 0,
 								["size"] = 20,
 							},
+						},
+						["growthDirection"] = "UP",
+						["name"] = {
+							["xOffset"] = 9,
+							["yOffset"] = 12,
+							["text_format"] = "",
+							["position"] = "TOPLEFT",
+						},
+						["health"] = {
+							["xOffset"] = -1,
+							["yOffset"] = 18,
+							["text_format"] = "",
+							["position"] = "RIGHT",
+						},
+						["spacing"] = 37,
+						["height"] = 19,
+						["buffs"] = {
+							["anchorPoint"] = "RIGHT",
+							["sizeOverride"] = 30,
+							["xOffset"] = 7,
+							["yOffset"] = 7,
+						},
+						["width"] = 250,
+						["castbar"] = {
+							["height"] = 13,
+							["iconSize"] = 16,
+							["iconAttached"] = false,
+							["icon"] = false,
+							["width"] = 250,
+						},
+					},
+					["pet"] = {
+						["debuffs"] = {
+							["countFontSize"] = 20,
+							["countFont"] = "KGSmallTownSouthernGirl",
+							["perrow"] = 8,
+							["attachTo"] = "BUFFS",
+							["enable"] = true,
+							["priority"] = "myDebuffs,Blacklist,Personal,Boss,RaidDebuffs",
+							["anchorPoint"] = "TOPLEFT",
+							["yOffset"] = 7,
+						},
+						["castbar"] = {
+							["height"] = 17,
+							["width"] = 250,
+							["insideInfoPanel"] = false,
+						},
+						["customTexts"] = {
+							["Имя"] = {
+								["attachTextTo"] = "HEALTH",
+								["enable"] = true,
+								["text_format"] = "[difficultycolor][level] [classification] [namecolor][name:medium]",
+								["yOffset"] = 20,
+								["font"] = "KGSmallTownSouthernGirl",
+								["justifyH"] = "CENTER",
+								["fontOutline"] = "OUTLINE",
+								["xOffset"] = 0,
+								["size"] = 20,
+							},
+						},
+						["width"] = 250,
+						["infoPanel"] = {
+							["height"] = 20,
+						},
+						["name"] = {
+							["text_format"] = "",
+						},
+						["power"] = {
+							["xOffset"] = -2,
+							["height"] = 5,
+						},
+						["height"] = 19,
+						["buffs"] = {
+							["countFontSize"] = 20,
+							["countFont"] = "KGSmallTownSouthernGirl",
+							["enable"] = true,
+							["perrow"] = 8,
+							["anchorPoint"] = "TOPLEFT",
+							["yOffset"] = 21,
+						},
+						["orientation"] = "LEFT",
+						["health"] = {
+							["xOffset"] = 2,
+							["position"] = "LEFT",
 						},
 					},
 				},
@@ -1392,15 +1392,15 @@ ElvDB = {
 					["RightChatDataPanel"] = {
 						["enable"] = false,
 					},
-					["Right"] = {
-						"AutoTurnIn", -- [1]
-						"S&L Friends", -- [2]
-						"S&L Guild", -- [3]
-						["enable"] = true,
-					},
-					["enable"] = false,
 					["MinimapPanel"] = {
 						["enable"] = false,
+					},
+					["enable"] = false,
+					["rightright"] = {
+						"SavedInstances", -- [1]
+						"S&L Time Played", -- [2]
+						"Time", -- [3]
+						["enable"] = true,
 					},
 					["Left"] = {
 						"System", -- [1]
@@ -1429,10 +1429,10 @@ ElvDB = {
 					},
 					["BottomRightMiniPanel"] = "ExRT",
 					["BottomLeftMiniPanel"] = "SavedInstances",
-					["rightright"] = {
-						"SavedInstances", -- [1]
-						"S&L Time Played", -- [2]
-						"Time", -- [3]
+					["Right"] = {
+						"AutoTurnIn", -- [1]
+						"S&L Friends", -- [2]
+						"S&L Guild", -- [3]
 						["enable"] = true,
 					},
 					["DTB2_1"] = {
@@ -1447,12 +1447,12 @@ ElvDB = {
 			},
 			["actionbar"] = {
 				["bar3"] = {
-					["backdropSpacing"] = 0,
+					["alpha"] = 0.7,
 					["buttons"] = 12,
 					["buttonspacing"] = 1,
 					["buttonsPerRow"] = 12,
-					["alpha"] = 0.7,
 					["buttonsize"] = 34,
+					["backdropSpacing"] = 0,
 				},
 				["fontSize"] = 16,
 				["fontOutline"] = "OUTLINE",
@@ -1465,9 +1465,9 @@ ElvDB = {
 				},
 				["bar1"] = {
 					["buttonspacing"] = 1,
-					["backdropSpacing"] = 0,
 					["alpha"] = 0.7,
 					["buttonsize"] = 34,
+					["backdropSpacing"] = 0,
 				},
 				["bar4"] = {
 					["alpha"] = 0.8,
@@ -1546,13 +1546,13 @@ ElvDB = {
 				},
 			},
 			["tooltip"] = {
-				["alwaysShowRealm"] = true,
 				["itemCount"] = "BOTH",
+				["font"] = "Arial Narrow",
 				["healthBar"] = {
 					["fontSize"] = 12,
 					["font"] = "Arial Narrow",
 				},
-				["font"] = "Arial Narrow",
+				["alwaysShowRealm"] = true,
 			},
 			["cooldown"] = {
 				["threshold"] = 1,
@@ -1665,15 +1665,6 @@ ElvDB = {
 						},
 					},
 				},
-				["tooltip"] = {
-					["RaidProg"] = {
-						["raids"] = {
-							["daz"] = false,
-							["sc"] = false,
-							["uldir"] = false,
-						},
-					},
-				},
 				["screensaver"] = {
 					["subtitle"] = {
 						["outline"] = "NONE",
@@ -1694,6 +1685,72 @@ ElvDB = {
 					["tips"] = {
 						["outline"] = "NONE",
 						["font"] = "Expressway",
+					},
+				},
+				["armory"] = {
+					["stats"] = {
+						["statFonts"] = {
+							["outline"] = "OUTLINE",
+							["font"] = "Arial Narrow",
+						},
+						["itemLevel"] = {
+							["outline"] = "OUTLINE",
+							["font"] = "KGSmallTownSouthernGirl",
+							["size"] = 22,
+						},
+						["catFonts"] = {
+							["outline"] = "OUTLINE",
+							["font"] = "Durandal Light",
+						},
+					},
+					["inspect"] = {
+						["enchant"] = {
+							["xOffset"] = 23,
+							["font"] = "Arial Narrow",
+							["yOffset"] = -6,
+						},
+						["ilvl"] = {
+							["fontSize"] = 17,
+							["colorType"] = "QUALITY",
+							["font"] = "KGSmallTownSouthernGirl",
+						},
+						["enable"] = true,
+						["background"] = {
+							["selectedBG"] = "CLASS",
+						},
+						["gradient"] = {
+							["enable"] = false,
+						},
+						["gem"] = {
+							["size"] = 20,
+						},
+					},
+					["character"] = {
+						["durability"] = {
+							["fontSize"] = 14,
+							["font"] = "Arial Narrow",
+						},
+						["ilvl"] = {
+							["fontSize"] = 17,
+							["colorType"] = "QUALITY",
+							["font"] = "KGSmallTownSouthernGirl",
+						},
+						["gradient"] = {
+							["enable"] = false,
+							["quality"] = true,
+						},
+						["enable"] = true,
+						["background"] = {
+							["selectedBG"] = "CLASS",
+						},
+						["enchant"] = {
+							["xOffset"] = 23,
+							["font"] = "Arial Narrow",
+							["yOffset"] = -6,
+						},
+						["gem"] = {
+							["size"] = 20,
+						},
 					},
 				},
 				["minimap"] = {
@@ -1826,69 +1883,12 @@ ElvDB = {
 				["raidmanager"] = {
 					["roles"] = true,
 				},
-				["armory"] = {
-					["stats"] = {
-						["statFonts"] = {
-							["outline"] = "OUTLINE",
-							["font"] = "Arial Narrow",
-						},
-						["itemLevel"] = {
-							["outline"] = "OUTLINE",
-							["font"] = "KGSmallTownSouthernGirl",
-							["size"] = 22,
-						},
-						["catFonts"] = {
-							["outline"] = "OUTLINE",
-							["font"] = "Durandal Light",
-						},
-					},
-					["inspect"] = {
-						["enchant"] = {
-							["xOffset"] = 23,
-							["font"] = "Arial Narrow",
-							["yOffset"] = -6,
-						},
-						["ilvl"] = {
-							["fontSize"] = 17,
-							["colorType"] = "QUALITY",
-							["font"] = "KGSmallTownSouthernGirl",
-						},
-						["enable"] = true,
-						["background"] = {
-							["selectedBG"] = "CLASS",
-						},
-						["gradient"] = {
-							["enable"] = false,
-						},
-						["gem"] = {
-							["size"] = 20,
-						},
-					},
-					["character"] = {
-						["durability"] = {
-							["fontSize"] = 14,
-							["font"] = "Arial Narrow",
-						},
-						["ilvl"] = {
-							["fontSize"] = 17,
-							["colorType"] = "QUALITY",
-							["font"] = "KGSmallTownSouthernGirl",
-						},
-						["gradient"] = {
-							["enable"] = false,
-							["quality"] = true,
-						},
-						["enable"] = true,
-						["background"] = {
-							["selectedBG"] = "CLASS",
-						},
-						["enchant"] = {
-							["xOffset"] = 23,
-							["font"] = "Arial Narrow",
-							["yOffset"] = -6,
-						},
-						["gem"] = {
-							["size"] = 20,
+				["tooltip"] = {
+					["RaidProg"] = {
+						["raids"] = {
+							["daz"] = false,
+							["sc"] = false,
+							["uldir"] = false,
 						},
 					},
 				},
@@ -1969,17 +1969,17 @@ ElvDB = {
 				["hideVoiceButtons"] = true,
 				["tabFont"] = "Arial Narrow",
 				["keywords"] = "Nate",
+				["font"] = "Arial Narrow",
+				["panelColorConverted"] = true,
+				["copyChatLines"] = true,
 				["tabSelectorColor"] = {
 					["r"] = 1,
 					["g"] = 0,
 					["b"] = 0.8156862745098039,
 				},
-				["editBoxPosition"] = "ABOVE_CHAT",
-				["copyChatLines"] = true,
-				["font"] = "Arial Narrow",
 				["lockPositions"] = false,
 				["fontOutline"] = "OUTLINE",
-				["panelColorConverted"] = true,
+				["editBoxPosition"] = "ABOVE_CHAT",
 				["timeStampFormat"] = "%I:%M ",
 				["tapFontSize"] = 12,
 				["panelBackdrop"] = "HIDEBOTH",
@@ -2125,163 +2125,91 @@ ElvDB = {
 					["tank"] = {
 						["enable"] = false,
 					},
-					["player"] = {
+					["party"] = {
 						["debuffs"] = {
-							["countFontSize"] = 20,
-							["sizeOverride"] = 50,
-							["spacing"] = 0,
-							["xOffset"] = 526,
-							["desaturate"] = false,
+							["anchorPoint"] = "TOPLEFT",
+							["sizeOverride"] = 26,
 							["countFont"] = "Arial Narrow",
-							["yOffset"] = 86,
+							["perrow"] = 3,
 						},
-						["portrait"] = {
-							["overlay"] = true,
+						["rdebuffs"] = {
+							["fontSize"] = 14,
+							["duration"] = {
+								["position"] = "BOTTOM",
+							},
+							["font"] = "Arial Narrow",
 						},
+						["growthDirection"] = "RIGHT_DOWN",
 						["resurrectIcon"] = {
 							["size"] = 60,
 						},
-						["classbar"] = {
-							["detachFromFrame"] = true,
-							["spacing"] = 0,
-							["height"] = 12,
-							["detachedWidth"] = 302,
-							["fill"] = "spaced",
+						["groupBy"] = "ROLE",
+						["buffIndicator"] = {
+							["size"] = 18,
 						},
-						["aurabar"] = {
+						["roleIcon"] = {
+							["size"] = 20,
+						},
+						["raidWideSorting"] = true,
+						["readycheckIcon"] = {
+							["size"] = 48,
+						},
+						["power"] = {
 							["enable"] = false,
-						},
-						["RestIcon"] = {
-							["xOffset"] = 7,
-							["size"] = 34,
-							["yOffset"] = -1,
-							["texture"] = "RESTING",
-						},
-						["pvpIcon"] = {
-							["xOffset"] = 92,
-							["scale"] = 1.12,
+							["position"] = "BOTTOMRIGHT",
+							["text_format"] = "",
+							["yOffset"] = 2,
 						},
 						["customTexts"] = {
-							["PLayer PvP"] = {
+							["Party Health"] = {
 								["attachTextTo"] = "Health",
-								["xOffset"] = 2,
-								["text_format"] = "||cFFB04F4F[pvptimer][mouseover]||r",
-								["yOffset"] = 33,
-								["font"] = "Oswald",
-								["justifyH"] = "LEFT",
-								["fontOutline"] = "OUTLINE",
-								["enable"] = true,
-								["size"] = 20,
-							},
-							["Player Health"] = {
-								["attachTextTo"] = "Health",
-								["enable"] = true,
+								["xOffset"] = 0,
 								["text_format"] = "[namecolor][health:current]",
-								["yOffset"] = 0,
+								["yOffset"] = -14,
 								["font"] = "KGSmallTownSouthernGirl",
 								["justifyH"] = "CENTER",
 								["fontOutline"] = "OUTLINE",
-								["xOffset"] = 0,
+								["enable"] = false,
 								["size"] = 30,
 							},
-							["Player Power %"] = {
-								["attachTextTo"] = "Power",
-								["xOffset"] = 0,
-								["text_format"] = "[power:percent]",
-								["yOffset"] = 0,
-								["font"] = "Expressway",
-								["justifyH"] = "RIGHT",
-								["fontOutline"] = "OUTLINE",
-								["enable"] = true,
-								["size"] = 20,
-							},
-							["Player Party/Raid Leader"] = {
-								["attachTextTo"] = "Health",
-								["xOffset"] = 2,
-								["text_format"] = "[leader]",
-								["yOffset"] = 33,
-								["font"] = "KGSmallTownSouthernGirl",
-								["justifyH"] = "LEFT",
-								["fontOutline"] = "OUTLINE",
-								["enable"] = false,
-								["size"] = 20,
-							},
-							["Player Name"] = {
+							["Party Name"] = {
 								["attachTextTo"] = "Health",
 								["xOffset"] = 0,
 								["text_format"] = "[namecolor][name:caps]",
-								["yOffset"] = 28,
-								["font"] = "KGSmallTownSouthernGirl",
-								["justifyH"] = "RIGHT",
-								["fontOutline"] = "OUTLINE",
-								["enable"] = true,
-								["size"] = 20,
-							},
-							["PLayer Power"] = {
-								["attachTextTo"] = "Power",
-								["xOffset"] = 2,
-								["text_format"] = "[power:current]",
 								["yOffset"] = 0,
-								["font"] = "Expressway",
-								["justifyH"] = "LEFT",
-								["fontOutline"] = "OUTLINE",
-								["enable"] = true,
-								["size"] = 20,
-							},
-							["In Combat"] = {
-								["attachTextTo"] = "Health",
-								["xOffset"] = 0,
-								["text_format"] = "[statustimer]",
-								["yOffset"] = 400,
-								["font"] = "Oswald",
+								["font"] = "KGSmallTownSouthernGirl",
 								["justifyH"] = "CENTER",
 								["fontOutline"] = "OUTLINE",
 								["enable"] = true,
-								["size"] = 20,
+								["size"] = 18,
 							},
 						},
-						["width"] = 200,
-						["raidicon"] = {
-							["xOffset"] = -118,
-							["size"] = 28,
-							["yOffset"] = -10,
+						["healPrediction"] = {
+							["enable"] = true,
 						},
-						["CombatIcon"] = {
-							["xOffset"] = -93,
-							["size"] = 18,
-							["texture"] = "ATTACK",
-							["yOffset"] = 20,
+						["summonIcon"] = {
+							["size"] = 60,
 						},
+						["width"] = 120,
+						["infoPanel"] = {
+							["height"] = 12,
+						},
+						["verticalSpacing"] = 0,
 						["name"] = {
-							["xOffset"] = 19,
-							["yOffset"] = 26,
-							["position"] = "TOPRIGHT",
+							["text_format"] = "",
+						},
+						["orientation"] = "MIDDLE",
+						["height"] = 60,
+						["buffs"] = {
+							["perrow"] = 3,
 						},
 						["health"] = {
-							["bgUseBarTexture"] = false,
+							["yOffset"] = 2,
 							["text_format"] = "",
-							["position"] = "CENTER",
+							["position"] = "BOTTOM",
 						},
-						["height"] = 50,
-						["castbar"] = {
-							["textColor"] = {
-								["r"] = 0.9725490196078431,
-								["g"] = 1,
-								["b"] = 0.8745098039215686,
-							},
-							["icon"] = false,
-							["width"] = 302,
-						},
-						["power"] = {
-							["attachTextTo"] = "Power",
-							["position"] = "TOP",
-							["detachedWidth"] = 302,
-							["height"] = 18,
-							["text_format"] = "",
-							["detachFromFrame"] = true,
-						},
-						["pvp"] = {
-							["text_format"] = "",
+						["raidicon"] = {
+							["attachTo"] = "LEFT",
 						},
 					},
 					["pet"] = {
@@ -2427,92 +2355,79 @@ ElvDB = {
 							["position"] = "CENTER",
 						},
 					},
-					["party"] = {
+					["boss"] = {
+						["height"] = 40,
 						["debuffs"] = {
-							["anchorPoint"] = "TOPLEFT",
-							["sizeOverride"] = 26,
-							["countFont"] = "Arial Narrow",
-							["perrow"] = 3,
+							["countFontSize"] = 20,
+							["sizeOverride"] = 40,
+							["countFont"] = "KGSmallTownSouthernGirl",
+							["yOffset"] = 0,
 						},
-						["rdebuffs"] = {
-							["fontSize"] = 14,
-							["duration"] = {
-								["position"] = "BOTTOM",
-							},
-							["font"] = "Arial Narrow",
-						},
-						["growthDirection"] = "RIGHT_DOWN",
-						["resurrectIcon"] = {
-							["size"] = 60,
-						},
-						["groupBy"] = "ROLE",
-						["buffIndicator"] = {
-							["size"] = 18,
-						},
-						["roleIcon"] = {
-							["size"] = 20,
-						},
-						["raidWideSorting"] = true,
-						["readycheckIcon"] = {
-							["size"] = 48,
+						["name"] = {
+							["text_format"] = "",
 						},
 						["power"] = {
-							["enable"] = false,
-							["position"] = "BOTTOMRIGHT",
 							["text_format"] = "",
-							["yOffset"] = 2,
+							["height"] = 3,
 						},
 						["customTexts"] = {
-							["Party Health"] = {
+							["Boss Name"] = {
 								["attachTextTo"] = "Health",
 								["xOffset"] = 0,
-								["text_format"] = "[namecolor][health:current]",
-								["yOffset"] = -14,
+								["text_format"] = "[namecolor][name:medium]",
+								["yOffset"] = 28,
 								["font"] = "KGSmallTownSouthernGirl",
-								["justifyH"] = "CENTER",
+								["justifyH"] = "LEFT",
 								["fontOutline"] = "OUTLINE",
-								["enable"] = false,
-								["size"] = 30,
+								["enable"] = true,
+								["size"] = 20,
 							},
-							["Party Name"] = {
+							["Boss Power"] = {
 								["attachTextTo"] = "Health",
 								["xOffset"] = 0,
-								["text_format"] = "[namecolor][name:caps]",
+								["text_format"] = "[powercolor][power:current]",
+								["yOffset"] = -32,
+								["font"] = "KGSmallTownSouthernGirl",
+								["justifyH"] = "RIGHT",
+								["fontOutline"] = "OUTLINE",
+								["enable"] = true,
+								["size"] = 20,
+							},
+							["Boss Health"] = {
+								["attachTextTo"] = "Health",
+								["xOffset"] = 0,
+								["text_format"] = "[health:current] / [health:percent]",
 								["yOffset"] = 0,
 								["font"] = "KGSmallTownSouthernGirl",
 								["justifyH"] = "CENTER",
 								["fontOutline"] = "OUTLINE",
 								["enable"] = true,
-								["size"] = 18,
+								["size"] = 20,
+							},
+							["Boss Targetss"] = {
+								["attachTextTo"] = "Health",
+								["enable"] = true,
+								["text_format"] = "[num:targeting]",
+								["yOffset"] = 0,
+								["font"] = "KGSmallTownSouthernGirl",
+								["justifyH"] = "LEFT",
+								["fontOutline"] = "OUTLINE",
+								["xOffset"] = 8,
+								["size"] = 20,
 							},
 						},
-						["healPrediction"] = {
-							["enable"] = true,
-						},
-						["summonIcon"] = {
-							["size"] = 60,
-						},
-						["width"] = 120,
-						["infoPanel"] = {
-							["height"] = 12,
-						},
-						["verticalSpacing"] = 0,
-						["name"] = {
-							["text_format"] = "",
-						},
-						["orientation"] = "MIDDLE",
-						["height"] = 60,
 						["buffs"] = {
-							["perrow"] = 3,
+							["countFontSize"] = 20,
+							["sizeOverride"] = 40,
+							["perrow"] = 2,
+							["countFont"] = "KGSmallTownSouthernGirl",
+							["anchorPoint"] = "RIGHT",
+							["yOffset"] = 0,
 						},
 						["health"] = {
-							["yOffset"] = 2,
 							["text_format"] = "",
-							["position"] = "BOTTOM",
 						},
-						["raidicon"] = {
-							["attachTo"] = "LEFT",
-						},
+						["width"] = 200,
 					},
 					["raid40"] = {
 						["horizontalSpacing"] = 0,
@@ -2720,79 +2635,164 @@ ElvDB = {
 							["attachTo"] = "LEFT",
 						},
 					},
-					["boss"] = {
-						["height"] = 40,
+					["player"] = {
 						["debuffs"] = {
 							["countFontSize"] = 20,
-							["sizeOverride"] = 40,
-							["countFont"] = "KGSmallTownSouthernGirl",
-							["yOffset"] = 0,
+							["sizeOverride"] = 50,
+							["spacing"] = 0,
+							["xOffset"] = 526,
+							["desaturate"] = false,
+							["countFont"] = "Arial Narrow",
+							["yOffset"] = 86,
 						},
-						["name"] = {
-							["text_format"] = "",
+						["portrait"] = {
+							["overlay"] = true,
 						},
-						["power"] = {
-							["text_format"] = "",
-							["height"] = 3,
+						["resurrectIcon"] = {
+							["size"] = 60,
+						},
+						["classbar"] = {
+							["detachFromFrame"] = true,
+							["spacing"] = 0,
+							["height"] = 12,
+							["detachedWidth"] = 302,
+							["fill"] = "spaced",
+						},
+						["aurabar"] = {
+							["enable"] = false,
+						},
+						["RestIcon"] = {
+							["xOffset"] = 7,
+							["size"] = 34,
+							["yOffset"] = -1,
+							["texture"] = "RESTING",
+						},
+						["pvpIcon"] = {
+							["xOffset"] = 92,
+							["scale"] = 1.12,
 						},
 						["customTexts"] = {
-							["Boss Name"] = {
+							["PLayer PvP"] = {
 								["attachTextTo"] = "Health",
-								["xOffset"] = 0,
-								["text_format"] = "[namecolor][name:medium]",
-								["yOffset"] = 28,
-								["font"] = "KGSmallTownSouthernGirl",
+								["xOffset"] = 2,
+								["text_format"] = "||cFFB04F4F[pvptimer][mouseover]||r",
+								["yOffset"] = 33,
+								["font"] = "Oswald",
 								["justifyH"] = "LEFT",
 								["fontOutline"] = "OUTLINE",
 								["enable"] = true,
 								["size"] = 20,
 							},
-							["Boss Power"] = {
+							["Player Health"] = {
+								["attachTextTo"] = "Health",
+								["enable"] = true,
+								["text_format"] = "[namecolor][health:current]",
+								["yOffset"] = 0,
+								["font"] = "KGSmallTownSouthernGirl",
+								["justifyH"] = "CENTER",
+								["fontOutline"] = "OUTLINE",
+								["xOffset"] = 0,
+								["size"] = 30,
+							},
+							["Player Power %"] = {
+								["attachTextTo"] = "Power",
+								["xOffset"] = 0,
+								["text_format"] = "[power:percent]",
+								["yOffset"] = 0,
+								["font"] = "Expressway",
+								["justifyH"] = "RIGHT",
+								["fontOutline"] = "OUTLINE",
+								["enable"] = true,
+								["size"] = 20,
+							},
+							["Player Party/Raid Leader"] = {
+								["attachTextTo"] = "Health",
+								["xOffset"] = 2,
+								["text_format"] = "[leader]",
+								["yOffset"] = 33,
+								["font"] = "KGSmallTownSouthernGirl",
+								["justifyH"] = "LEFT",
+								["fontOutline"] = "OUTLINE",
+								["enable"] = false,
+								["size"] = 20,
+							},
+							["Player Name"] = {
 								["attachTextTo"] = "Health",
 								["xOffset"] = 0,
-								["text_format"] = "[powercolor][power:current]",
-								["yOffset"] = -32,
+								["text_format"] = "[namecolor][name:caps]",
+								["yOffset"] = 28,
 								["font"] = "KGSmallTownSouthernGirl",
 								["justifyH"] = "RIGHT",
 								["fontOutline"] = "OUTLINE",
 								["enable"] = true,
 								["size"] = 20,
 							},
-							["Boss Health"] = {
+							["PLayer Power"] = {
+								["attachTextTo"] = "Power",
+								["xOffset"] = 2,
+								["text_format"] = "[power:current]",
+								["yOffset"] = 0,
+								["font"] = "Expressway",
+								["justifyH"] = "LEFT",
+								["fontOutline"] = "OUTLINE",
+								["enable"] = true,
+								["size"] = 20,
+							},
+							["In Combat"] = {
 								["attachTextTo"] = "Health",
 								["xOffset"] = 0,
-								["text_format"] = "[health:current] / [health:percent]",
-								["yOffset"] = 0,
-								["font"] = "KGSmallTownSouthernGirl",
+								["text_format"] = "[statustimer]",
+								["yOffset"] = 400,
+								["font"] = "Oswald",
 								["justifyH"] = "CENTER",
 								["fontOutline"] = "OUTLINE",
 								["enable"] = true,
 								["size"] = 20,
 							},
-							["Boss Targetss"] = {
-								["attachTextTo"] = "Health",
-								["enable"] = true,
-								["text_format"] = "[num:targeting]",
-								["yOffset"] = 0,
-								["font"] = "KGSmallTownSouthernGirl",
-								["justifyH"] = "LEFT",
-								["fontOutline"] = "OUTLINE",
-								["xOffset"] = 8,
-								["size"] = 20,
-							},
-						},
-						["buffs"] = {
-							["countFontSize"] = 20,
-							["sizeOverride"] = 40,
-							["perrow"] = 2,
-							["countFont"] = "KGSmallTownSouthernGirl",
-							["anchorPoint"] = "RIGHT",
-							["yOffset"] = 0,
-						},
-						["health"] = {
-							["text_format"] = "",
 						},
 						["width"] = 200,
+						["raidicon"] = {
+							["xOffset"] = -118,
+							["size"] = 28,
+							["yOffset"] = -10,
+						},
+						["CombatIcon"] = {
+							["xOffset"] = -93,
+							["size"] = 18,
+							["texture"] = "ATTACK",
+							["yOffset"] = 20,
+						},
+						["name"] = {
+							["xOffset"] = 19,
+							["yOffset"] = 26,
+							["position"] = "TOPRIGHT",
+						},
+						["health"] = {
+							["bgUseBarTexture"] = false,
+							["text_format"] = "",
+							["position"] = "CENTER",
+						},
+						["height"] = 50,
+						["castbar"] = {
+							["textColor"] = {
+								["r"] = 0.9725490196078431,
+								["g"] = 1,
+								["b"] = 0.8745098039215686,
+							},
+							["icon"] = false,
+							["width"] = 302,
+						},
+						["power"] = {
+							["attachTextTo"] = "Power",
+							["position"] = "TOP",
+							["detachedWidth"] = 302,
+							["height"] = 18,
+							["text_format"] = "",
+							["detachFromFrame"] = true,
+						},
+						["pvp"] = {
+							["text_format"] = "",
+						},
 					},
 					["targettarget"] = {
 						["debuffs"] = {
@@ -2943,9 +2943,9 @@ ElvDB = {
 				["bar2"] = {
 					["enabled"] = true,
 					["buttonspacing"] = 0,
-					["mouseover"] = true,
 					["buttonsize"] = 30,
 					["backdropSpacing"] = 0,
+					["mouseover"] = true,
 				},
 				["bar1"] = {
 					["buttonspacing"] = 0,
@@ -3203,7 +3203,6 @@ ElvDB = {
 				["DebuffsMover"] = "TOPRIGHT,ElvUIParent,TOPRIGHT,-203,-66",
 				["SLE_DataPanel_2_Mover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-4,-1",
 			},
-			["v11NamePlateReset"] = true,
 			["tooltip"] = {
 				["fontSize"] = 12,
 				["healthBar"] = {
@@ -3213,6 +3212,34 @@ ElvDB = {
 				["alwaysShowRealm"] = true,
 				["font"] = "Arial Narrow",
 				["itemCount"] = "BOTH",
+			},
+			["bags"] = {
+				["countFontSize"] = 14,
+				["countFont"] = "Expressway",
+				["itemLevelFont"] = "Expressway",
+				["split"] = {
+					["bagSpacing"] = 0,
+				},
+				["vendorGrays"] = {
+					["enable"] = true,
+					["details"] = true,
+				},
+				["countFontOutline"] = "OUTLINE",
+				["bagBar"] = {
+					["backdropSpacing"] = 0,
+					["spacing"] = 0,
+				},
+				["itemLevelFontSize"] = 14,
+				["itemLevelFontOutline"] = "OUTLINE",
+				["bankWidth"] = 800,
+				["cooldown"] = {
+					["fonts"] = {
+						["enable"] = true,
+					},
+					["override"] = true,
+					["checkSeconds"] = true,
+				},
+				["moneyFormat"] = "BLIZZARD2",
 			},
 			["sle"] = {
 				["raidmarkers"] = {
@@ -3534,17 +3561,17 @@ ElvDB = {
 				["timeStampFormat"] = "%I:%M ",
 				["tapFontSize"] = 12,
 				["tabFont"] = "Arial Narrow",
-				["panelColorConverted"] = true,
+				["editBoxPosition"] = "ABOVE_CHAT",
 				["copyChatLines"] = true,
-				["font"] = "Arial Narrow",
-				["fontOutline"] = "OUTLINE",
-				["lockPositions"] = false,
 				["tabSelectorColor"] = {
 					["r"] = 1,
 					["g"] = 0,
 					["b"] = 0.7098039215686275,
 				},
-				["editBoxPosition"] = "ABOVE_CHAT",
+				["fontOutline"] = "OUTLINE",
+				["lockPositions"] = false,
+				["font"] = "Arial Narrow",
+				["panelColorConverted"] = true,
 				["hideVoiceButtons"] = true,
 				["panelBackdrop"] = "HIDEBOTH",
 			},
@@ -3670,47 +3697,34 @@ ElvDB = {
 							["enable"] = false,
 						},
 					},
-					["party"] = {
-						["debuffs"] = {
-							["countFontSize"] = 20,
-							["sizeOverride"] = 60,
-							["spacing"] = 0,
-							["xOffset"] = 2,
-							["countFont"] = "KGSmallTownSouthernGirl",
-						},
-						["showPlayer"] = false,
-						["power"] = {
-							["enable"] = false,
-							["text_format"] = "",
-							["height"] = 3,
-						},
+					["boss"] = {
 						["customTexts"] = {
-							["Party Health"] = {
+							["Boss Name"] = {
 								["attachTextTo"] = "Health",
-								["enable"] = false,
-								["text_format"] = "[namecolor][health:current]",
-								["yOffset"] = -14,
-								["font"] = "KGSmallTownSouthernGirl",
-								["justifyH"] = "CENTER",
-								["fontOutline"] = "OUTLINE",
-								["xOffset"] = 0,
-								["size"] = 30,
-							},
-							["party Mana"] = {
-								["attachTextTo"] = "Health",
-								["xOffset"] = 2,
-								["text_format"] = "[namecolor][power:percent:hidefull:hidezero]",
-								["yOffset"] = -27,
+								["enable"] = true,
+								["text_format"] = "[namecolor][name:medium]",
+								["yOffset"] = 28,
 								["font"] = "KGSmallTownSouthernGirl",
 								["justifyH"] = "LEFT",
 								["fontOutline"] = "OUTLINE",
-								["enable"] = true,
+								["xOffset"] = 0,
 								["size"] = 20,
 							},
-							["Party Name"] = {
+							["Boss Power"] = {
 								["attachTextTo"] = "Health",
 								["enable"] = true,
-								["text_format"] = " [namecolor][name:caps]",
+								["text_format"] = "[powercolor][power:current]",
+								["yOffset"] = -32,
+								["font"] = "KGSmallTownSouthernGirl",
+								["justifyH"] = "RIGHT",
+								["fontOutline"] = "OUTLINE",
+								["xOffset"] = 0,
+								["size"] = 20,
+							},
+							["Boss Health"] = {
+								["attachTextTo"] = "Health",
+								["enable"] = true,
+								["text_format"] = "[health:current] / [health:percent]",
 								["yOffset"] = 0,
 								["font"] = "KGSmallTownSouthernGirl",
 								["justifyH"] = "CENTER",
@@ -3718,29 +3732,44 @@ ElvDB = {
 								["xOffset"] = 0,
 								["size"] = 20,
 							},
+							["Boss Targetss"] = {
+								["attachTextTo"] = "Health",
+								["xOffset"] = 8,
+								["text_format"] = "[num:targeting]",
+								["yOffset"] = 0,
+								["font"] = "KGSmallTownSouthernGirl",
+								["justifyH"] = "LEFT",
+								["fontOutline"] = "OUTLINE",
+								["enable"] = true,
+								["size"] = 20,
+							},
 						},
-						["rdebuffs"] = {
-							["font"] = "Oswald",
-						},
-						["growthDirection"] = "DOWN_RIGHT",
-						["width"] = 160,
-						["verticalSpacing"] = 0,
-						["name"] = {
-							["text_format"] = "",
+						["debuffs"] = {
+							["countFontSize"] = 20,
+							["sizeOverride"] = 40,
+							["countFont"] = "KGSmallTownSouthernGirl",
+							["yOffset"] = 0,
 						},
 						["health"] = {
 							["text_format"] = "",
 						},
-						["buffIndicator"] = {
-							["size"] = 20,
+						["power"] = {
+							["text_format"] = "",
+							["height"] = 3,
 						},
-						["height"] = 72,
-						["groupBy"] = "ROLE",
-						["classbar"] = {
-							["enable"] = false,
-							["height"] = 5,
+						["height"] = 40,
+						["buffs"] = {
+							["countFontSize"] = 20,
+							["sizeOverride"] = 40,
+							["yOffset"] = 0,
+							["anchorPoint"] = "RIGHT",
+							["countFont"] = "KGSmallTownSouthernGirl",
+							["perrow"] = 2,
 						},
-						["raidWideSorting"] = true,
+						["name"] = {
+							["text_format"] = "",
+						},
+						["width"] = 200,
 					},
 					["targettarget"] = {
 						["debuffs"] = {
@@ -3950,237 +3979,6 @@ ElvDB = {
 							["yOffset"] = -1,
 						},
 					},
-					["boss"] = {
-						["customTexts"] = {
-							["Boss Name"] = {
-								["attachTextTo"] = "Health",
-								["enable"] = true,
-								["text_format"] = "[namecolor][name:medium]",
-								["yOffset"] = 28,
-								["font"] = "KGSmallTownSouthernGirl",
-								["justifyH"] = "LEFT",
-								["fontOutline"] = "OUTLINE",
-								["xOffset"] = 0,
-								["size"] = 20,
-							},
-							["Boss Power"] = {
-								["attachTextTo"] = "Health",
-								["enable"] = true,
-								["text_format"] = "[powercolor][power:current]",
-								["yOffset"] = -32,
-								["font"] = "KGSmallTownSouthernGirl",
-								["justifyH"] = "RIGHT",
-								["fontOutline"] = "OUTLINE",
-								["xOffset"] = 0,
-								["size"] = 20,
-							},
-							["Boss Health"] = {
-								["attachTextTo"] = "Health",
-								["enable"] = true,
-								["text_format"] = "[health:current] / [health:percent]",
-								["yOffset"] = 0,
-								["font"] = "KGSmallTownSouthernGirl",
-								["justifyH"] = "CENTER",
-								["fontOutline"] = "OUTLINE",
-								["xOffset"] = 0,
-								["size"] = 20,
-							},
-							["Boss Targetss"] = {
-								["attachTextTo"] = "Health",
-								["xOffset"] = 8,
-								["text_format"] = "[num:targeting]",
-								["yOffset"] = 0,
-								["font"] = "KGSmallTownSouthernGirl",
-								["justifyH"] = "LEFT",
-								["fontOutline"] = "OUTLINE",
-								["enable"] = true,
-								["size"] = 20,
-							},
-						},
-						["debuffs"] = {
-							["countFontSize"] = 20,
-							["sizeOverride"] = 40,
-							["countFont"] = "KGSmallTownSouthernGirl",
-							["yOffset"] = 0,
-						},
-						["health"] = {
-							["text_format"] = "",
-						},
-						["power"] = {
-							["text_format"] = "",
-							["height"] = 3,
-						},
-						["height"] = 40,
-						["buffs"] = {
-							["countFontSize"] = 20,
-							["sizeOverride"] = 40,
-							["yOffset"] = 0,
-							["anchorPoint"] = "RIGHT",
-							["countFont"] = "KGSmallTownSouthernGirl",
-							["perrow"] = 2,
-						},
-						["name"] = {
-							["text_format"] = "",
-						},
-						["width"] = 200,
-					},
-					["raid40"] = {
-						["horizontalSpacing"] = 0,
-						["debuffs"] = {
-							["countFontSize"] = 15,
-							["sizeOverride"] = 30,
-							["countFont"] = "Arial Narrow",
-							["perrow"] = 1,
-						},
-						["rdebuffs"] = {
-							["enable"] = true,
-							["font"] = "Oswald",
-						},
-						["growthDirection"] = "UP_RIGHT",
-						["resurrectIcon"] = {
-							["size"] = 60,
-						},
-						["groupBy"] = "ROLE",
-						["classbar"] = {
-							["enable"] = false,
-						},
-						["roleIcon"] = {
-							["enable"] = true,
-							["size"] = 20,
-						},
-						["raidWideSorting"] = true,
-						["readycheckIcon"] = {
-							["size"] = 48,
-						},
-						["customTexts"] = {
-							["40+ Raid Name"] = {
-								["attachTextTo"] = "Health",
-								["xOffset"] = -4,
-								["text_format"] = "[namecolor][group] [name:caps]",
-								["yOffset"] = 0,
-								["font"] = "KGSmallTownSouthernGirl",
-								["justifyH"] = "CENTER",
-								["fontOutline"] = "OUTLINE",
-								["enable"] = true,
-								["size"] = 20,
-							},
-						},
-						["summonIcon"] = {
-							["size"] = 60,
-						},
-						["width"] = 150,
-						["buffIndicator"] = {
-							["size"] = 18,
-						},
-						["name"] = {
-							["text_format"] = "",
-						},
-						["health"] = {
-							["text_format"] = "",
-						},
-						["height"] = 30,
-						["verticalSpacing"] = -1,
-						["groupsPerRowCol"] = 6,
-						["raidicon"] = {
-							["attachTo"] = "LEFT",
-						},
-					},
-					["focus"] = {
-						["debuffs"] = {
-							["attachTo"] = "BUFFS",
-							["perrow"] = 8,
-						},
-						["disableTargetGlow"] = true,
-						["castbar"] = {
-							["height"] = 30,
-							["icon"] = false,
-							["width"] = 300,
-						},
-						["customTexts"] = {
-							["Focus Name"] = {
-								["attachTextTo"] = "Health",
-								["enable"] = true,
-								["text_format"] = "[namecolor][name:caps] [smartlevel]",
-								["yOffset"] = 0,
-								["font"] = "KGSmallTownSouthernGirl",
-								["justifyH"] = "CENTER",
-								["fontOutline"] = "OUTLINE",
-								["xOffset"] = 0,
-								["size"] = 15,
-							},
-						},
-						["aurabar"] = {
-							["maxBars"] = 6,
-							["detachedWidth"] = 270,
-						},
-						["width"] = 150,
-						["infoPanel"] = {
-							["height"] = 20,
-						},
-						["orientation"] = "RIGHT",
-						["name"] = {
-							["xOffset"] = -14,
-							["text_format"] = "",
-							["yOffset"] = 30,
-						},
-						["buffIndicator"] = {
-							["size"] = 20,
-						},
-						["height"] = 38,
-						["buffs"] = {
-							["anchorPoint"] = "TOPRIGHT",
-							["sizeOverride"] = 28,
-							["spacing"] = 0,
-							["enable"] = true,
-							["priority"] = "blockNoDuration,Blacklist,Personal,PlayerBuffs,CastByUnit,Dispellable,RaidBuffsElvUI",
-							["perrow"] = 8,
-						},
-						["power"] = {
-							["xOffset"] = 69,
-							["powerPrediction"] = true,
-							["height"] = 5,
-							["yOffset"] = -14,
-						},
-						["raidicon"] = {
-							["attachTo"] = "RIGHT",
-							["size"] = 28,
-							["xOffset"] = 29,
-							["yOffset"] = -1,
-						},
-					},
-					["assist"] = {
-						["enable"] = false,
-					},
-					["arena"] = {
-						["debuffs"] = {
-							["sizeOverride"] = 50,
-							["yOffset"] = 0,
-						},
-						["health"] = {
-							["text_format"] = "[health:current]",
-							["position"] = "CENTER",
-						},
-						["power"] = {
-							["height"] = 3,
-							["yOffset"] = -29,
-						},
-						["enable"] = false,
-						["buffs"] = {
-							["anchorPoint"] = "RIGHT",
-							["sizeOverride"] = 50,
-							["yOffset"] = 0,
-						},
-						["name"] = {
-							["text_format"] = "[name:medium]",
-							["yOffset"] = 24,
-						},
-						["height"] = 50,
-					},
-					["raidpet"] = {
-						["buffIndicator"] = {
-							["enable"] = false,
-						},
-					},
 					["player"] = {
 						["debuffs"] = {
 							["countFontSize"] = 20,
@@ -4350,6 +4148,235 @@ ElvDB = {
 							["yOffset"] = -10,
 						},
 					},
+					["raid40"] = {
+						["horizontalSpacing"] = 0,
+						["debuffs"] = {
+							["countFontSize"] = 15,
+							["sizeOverride"] = 30,
+							["countFont"] = "Arial Narrow",
+							["perrow"] = 1,
+						},
+						["rdebuffs"] = {
+							["enable"] = true,
+							["font"] = "Oswald",
+						},
+						["growthDirection"] = "UP_RIGHT",
+						["resurrectIcon"] = {
+							["size"] = 60,
+						},
+						["groupBy"] = "ROLE",
+						["classbar"] = {
+							["enable"] = false,
+						},
+						["roleIcon"] = {
+							["enable"] = true,
+							["size"] = 20,
+						},
+						["raidWideSorting"] = true,
+						["readycheckIcon"] = {
+							["size"] = 48,
+						},
+						["customTexts"] = {
+							["40+ Raid Name"] = {
+								["attachTextTo"] = "Health",
+								["xOffset"] = -4,
+								["text_format"] = "[namecolor][group] [name:caps]",
+								["yOffset"] = 0,
+								["font"] = "KGSmallTownSouthernGirl",
+								["justifyH"] = "CENTER",
+								["fontOutline"] = "OUTLINE",
+								["enable"] = true,
+								["size"] = 20,
+							},
+						},
+						["summonIcon"] = {
+							["size"] = 60,
+						},
+						["width"] = 150,
+						["buffIndicator"] = {
+							["size"] = 18,
+						},
+						["name"] = {
+							["text_format"] = "",
+						},
+						["health"] = {
+							["text_format"] = "",
+						},
+						["height"] = 30,
+						["verticalSpacing"] = -1,
+						["groupsPerRowCol"] = 6,
+						["raidicon"] = {
+							["attachTo"] = "LEFT",
+						},
+					},
+					["focus"] = {
+						["debuffs"] = {
+							["attachTo"] = "BUFFS",
+							["perrow"] = 8,
+						},
+						["disableTargetGlow"] = true,
+						["castbar"] = {
+							["height"] = 30,
+							["icon"] = false,
+							["width"] = 300,
+						},
+						["customTexts"] = {
+							["Focus Name"] = {
+								["attachTextTo"] = "Health",
+								["enable"] = true,
+								["text_format"] = "[namecolor][name:caps] [smartlevel]",
+								["yOffset"] = 0,
+								["font"] = "KGSmallTownSouthernGirl",
+								["justifyH"] = "CENTER",
+								["fontOutline"] = "OUTLINE",
+								["xOffset"] = 0,
+								["size"] = 15,
+							},
+						},
+						["aurabar"] = {
+							["maxBars"] = 6,
+							["detachedWidth"] = 270,
+						},
+						["width"] = 150,
+						["infoPanel"] = {
+							["height"] = 20,
+						},
+						["orientation"] = "RIGHT",
+						["name"] = {
+							["xOffset"] = -14,
+							["text_format"] = "",
+							["yOffset"] = 30,
+						},
+						["buffIndicator"] = {
+							["size"] = 20,
+						},
+						["height"] = 38,
+						["buffs"] = {
+							["anchorPoint"] = "TOPRIGHT",
+							["sizeOverride"] = 28,
+							["spacing"] = 0,
+							["enable"] = true,
+							["priority"] = "blockNoDuration,Blacklist,Personal,PlayerBuffs,CastByUnit,Dispellable,RaidBuffsElvUI",
+							["perrow"] = 8,
+						},
+						["power"] = {
+							["xOffset"] = 69,
+							["powerPrediction"] = true,
+							["height"] = 5,
+							["yOffset"] = -14,
+						},
+						["raidicon"] = {
+							["attachTo"] = "RIGHT",
+							["size"] = 28,
+							["xOffset"] = 29,
+							["yOffset"] = -1,
+						},
+					},
+					["assist"] = {
+						["enable"] = false,
+					},
+					["arena"] = {
+						["debuffs"] = {
+							["sizeOverride"] = 50,
+							["yOffset"] = 0,
+						},
+						["health"] = {
+							["text_format"] = "[health:current]",
+							["position"] = "CENTER",
+						},
+						["power"] = {
+							["height"] = 3,
+							["yOffset"] = -29,
+						},
+						["enable"] = false,
+						["buffs"] = {
+							["anchorPoint"] = "RIGHT",
+							["sizeOverride"] = 50,
+							["yOffset"] = 0,
+						},
+						["name"] = {
+							["text_format"] = "[name:medium]",
+							["yOffset"] = 24,
+						},
+						["height"] = 50,
+					},
+					["raidpet"] = {
+						["buffIndicator"] = {
+							["enable"] = false,
+						},
+					},
+					["party"] = {
+						["debuffs"] = {
+							["countFontSize"] = 20,
+							["sizeOverride"] = 60,
+							["spacing"] = 0,
+							["xOffset"] = 2,
+							["countFont"] = "KGSmallTownSouthernGirl",
+						},
+						["showPlayer"] = false,
+						["power"] = {
+							["enable"] = false,
+							["text_format"] = "",
+							["height"] = 3,
+						},
+						["customTexts"] = {
+							["Party Health"] = {
+								["attachTextTo"] = "Health",
+								["enable"] = false,
+								["text_format"] = "[namecolor][health:current]",
+								["yOffset"] = -14,
+								["font"] = "KGSmallTownSouthernGirl",
+								["justifyH"] = "CENTER",
+								["fontOutline"] = "OUTLINE",
+								["xOffset"] = 0,
+								["size"] = 30,
+							},
+							["party Mana"] = {
+								["attachTextTo"] = "Health",
+								["xOffset"] = 2,
+								["text_format"] = "[namecolor][power:percent:hidefull:hidezero]",
+								["yOffset"] = -27,
+								["font"] = "KGSmallTownSouthernGirl",
+								["justifyH"] = "LEFT",
+								["fontOutline"] = "OUTLINE",
+								["enable"] = true,
+								["size"] = 20,
+							},
+							["Party Name"] = {
+								["attachTextTo"] = "Health",
+								["enable"] = true,
+								["text_format"] = " [namecolor][name:caps]",
+								["yOffset"] = 0,
+								["font"] = "KGSmallTownSouthernGirl",
+								["justifyH"] = "CENTER",
+								["fontOutline"] = "OUTLINE",
+								["xOffset"] = 0,
+								["size"] = 20,
+							},
+						},
+						["rdebuffs"] = {
+							["font"] = "Oswald",
+						},
+						["growthDirection"] = "DOWN_RIGHT",
+						["width"] = 160,
+						["verticalSpacing"] = 0,
+						["name"] = {
+							["text_format"] = "",
+						},
+						["health"] = {
+							["text_format"] = "",
+						},
+						["buffIndicator"] = {
+							["size"] = 20,
+						},
+						["height"] = 72,
+						["groupBy"] = "ROLE",
+						["classbar"] = {
+							["enable"] = false,
+							["height"] = 5,
+						},
+						["raidWideSorting"] = true,
+					},
 				},
 			},
 			["datatexts"] = {
@@ -4469,9 +4496,9 @@ ElvDB = {
 				["bar2"] = {
 					["enabled"] = true,
 					["buttonspacing"] = 0,
-					["backdropSpacing"] = 0,
 					["mouseover"] = true,
 					["buttonsize"] = 30,
+					["backdropSpacing"] = 0,
 				},
 				["bar1"] = {
 					["buttonspacing"] = 0,
@@ -4538,15 +4565,8 @@ ElvDB = {
 				["font"] = "Oswald",
 			},
 			["auras"] = {
-				["debuffs"] = {
-					["horizontalSpacing"] = 0,
-					["durationFontSize"] = 18,
-					["sortDir"] = "+",
-					["countFontSize"] = 14,
-					["seperateOwn"] = 0,
-					["wrapAfter"] = 32,
-				},
 				["font"] = "Arial Narrow",
+				["countXOffset"] = -8,
 				["timeYOffset"] = 24,
 				["fontOutline"] = "OUTLINE",
 				["countYOffset"] = -11,
@@ -4563,7 +4583,14 @@ ElvDB = {
 					["checkSeconds"] = true,
 					["override"] = true,
 				},
-				["countXOffset"] = -8,
+				["debuffs"] = {
+					["horizontalSpacing"] = 0,
+					["durationFontSize"] = 18,
+					["sortDir"] = "+",
+					["countFontSize"] = 14,
+					["seperateOwn"] = 0,
+					["wrapAfter"] = 32,
+				},
 			},
 			["cooldown"] = {
 				["fonts"] = {
@@ -4571,34 +4598,7 @@ ElvDB = {
 				},
 				["checkSeconds"] = true,
 			},
-			["bags"] = {
-				["countFontSize"] = 14,
-				["countFont"] = "Expressway",
-				["itemLevelFont"] = "Expressway",
-				["split"] = {
-					["bagSpacing"] = 0,
-				},
-				["vendorGrays"] = {
-					["enable"] = true,
-					["details"] = true,
-				},
-				["countFontOutline"] = "OUTLINE",
-				["bagBar"] = {
-					["backdropSpacing"] = 0,
-					["spacing"] = 0,
-				},
-				["itemLevelFontSize"] = 14,
-				["itemLevelFontOutline"] = "OUTLINE",
-				["bankWidth"] = 800,
-				["cooldown"] = {
-					["fonts"] = {
-						["enable"] = true,
-					},
-					["override"] = true,
-					["checkSeconds"] = true,
-				},
-				["moneyFormat"] = "BLIZZARD2",
-			},
+			["v11NamePlateReset"] = true,
 		},
 		["myUI"] = {
 			["databars"] = {
@@ -4785,7 +4785,6 @@ ElvDB = {
 				["countFontSize"] = 14,
 			},
 			["auras"] = {
-				["countXOffset"] = -4,
 				["debuffs"] = {
 					["countFontSize"] = 20,
 					["seperateOwn"] = 0,
@@ -4794,6 +4793,7 @@ ElvDB = {
 					["horizontalSpacing"] = 0,
 					["wrapAfter"] = 32,
 				},
+				["font"] = "KGSmallTownSouthernGirl",
 				["cooldown"] = {
 					["override"] = true,
 					["checkSeconds"] = true,
@@ -4810,7 +4810,7 @@ ElvDB = {
 				},
 				["countYOffset"] = -11,
 				["timeYOffset"] = 22,
-				["font"] = "KGSmallTownSouthernGirl",
+				["countXOffset"] = -4,
 			},
 			["sle"] = {
 				["raidmarkers"] = {
@@ -5008,137 +5008,6 @@ ElvDB = {
 					["tank"] = {
 						["enable"] = false,
 					},
-					["player"] = {
-						["RestIcon"] = {
-							["enable"] = false,
-							["texture"] = "RESTING",
-						},
-						["debuffs"] = {
-							["countFontSize"] = 20,
-							["sizeOverride"] = 38,
-							["sortDirection"] = "ASCENDING",
-							["perrow"] = 4,
-							["countFont"] = "KGSmallTownSouthernGirl",
-							["yOffset"] = 45,
-						},
-						["portrait"] = {
-							["overlay"] = true,
-						},
-						["castbar"] = {
-							["insideInfoPanel"] = false,
-							["iconAttachedTo"] = "Castbar",
-							["iconYOffset"] = 22,
-							["width"] = 413,
-							["iconXOffset"] = 0,
-							["iconPosition"] = "CENTER",
-							["height"] = 10,
-							["iconSize"] = 8,
-							["iconAttached"] = false,
-							["icon"] = false,
-							["textColor"] = {
-								["b"] = 0.9686274509803922,
-								["g"] = 0.996078431372549,
-								["r"] = 1,
-							},
-						},
-						["customTexts"] = {
-							["resting"] = {
-								["attachTextTo"] = "Health",
-								["xOffset"] = -195,
-								["text_format"] = "[resting] [afk]",
-								["yOffset"] = 15,
-								["font"] = "Oswald",
-								["justifyH"] = "CENTER",
-								["fontOutline"] = "OUTLINE",
-								["enable"] = true,
-								["size"] = 14,
-							},
-							["lvl NAME"] = {
-								["attachTextTo"] = "Health",
-								["xOffset"] = -2,
-								["text_format"] = "",
-								["yOffset"] = 30,
-								["font"] = "KGSmallTownSouthernGirl",
-								["justifyH"] = "RIGHT",
-								["fontOutline"] = "OUTLINE",
-								["enable"] = true,
-								["size"] = 12,
-							},
-							["MP"] = {
-								["attachTextTo"] = "Power",
-								["xOffset"] = 0,
-								["text_format"] = "[perpp]",
-								["yOffset"] = 0,
-								["font"] = "KGSmallTownSouthernGirl",
-								["justifyH"] = "CENTER",
-								["fontOutline"] = "OUTLINE",
-								["enable"] = true,
-								["size"] = 20,
-							},
-							["Combat"] = {
-								["attachTextTo"] = "Health",
-								["xOffset"] = 195,
-								["text_format"] = "",
-								["yOffset"] = 13,
-								["font"] = "Oswald",
-								["justifyH"] = "CENTER",
-								["fontOutline"] = "OUTLINE",
-								["enable"] = true,
-								["size"] = 14,
-							},
-							["hp%"] = {
-								["attachTextTo"] = "Health",
-								["xOffset"] = 0,
-								["text_format"] = "[healthcolor][health:current] - ||cffffffff[perhp]||r",
-								["yOffset"] = 0,
-								["font"] = "KGSmallTownSouthernGirl",
-								["justifyH"] = "CENTER",
-								["fontOutline"] = "OUTLINE",
-								["enable"] = true,
-								["size"] = 20,
-							},
-						},
-						["width"] = 413,
-						["power"] = {
-							["detachFromFrame"] = true,
-							["strataAndLevel"] = {
-								["frameLevel"] = 0,
-							},
-							["height"] = 14,
-							["detachedWidth"] = 413,
-							["text_format"] = "",
-							["xOffset"] = 0,
-						},
-						["health"] = {
-							["text_format"] = "",
-						},
-						["CombatIcon"] = {
-							["xOffset"] = 100,
-						},
-						["height"] = 15,
-						["buffs"] = {
-							["countFontSize"] = 20,
-							["sizeOverride"] = 38,
-							["enable"] = true,
-							["yOffset"] = 15,
-							["anchorPoint"] = "TOPRIGHT",
-							["sortMethod"] = "DURATION",
-							["attachTo"] = "FRAME",
-							["priority"] = "mybuffs",
-							["perrow"] = 4,
-							["countFont"] = "KGSmallTownSouthernGirl",
-						},
-						["classbar"] = {
-							["detachFromFrame"] = true,
-							["detachedWidth"] = 342,
-							["height"] = 7,
-							["fill"] = "spaced",
-						},
-						["aurabar"] = {
-							["maxBars"] = 7,
-							["enable"] = false,
-						},
-					},
 					["party"] = {
 						["horizontalSpacing"] = 2,
 						["debuffs"] = {
@@ -5233,6 +5102,81 @@ ElvDB = {
 						["buffIndicator"] = {
 							["size"] = 13,
 						},
+					},
+					["boss"] = {
+						["debuffs"] = {
+							["xOffset"] = -4,
+							["sizeOverride"] = 39,
+							["yOffset"] = 10,
+						},
+						["castbar"] = {
+							["height"] = 13,
+							["iconSize"] = 16,
+							["iconAttached"] = false,
+							["icon"] = false,
+							["width"] = 250,
+						},
+						["customTexts"] = {
+							["123"] = {
+								["attachTextTo"] = "Frame",
+								["xOffset"] = 0,
+								["text_format"] = "[level] [classification] || [namecolor][name:medium]",
+								["yOffset"] = 20,
+								["font"] = "KGSmallTownSouthernGirl",
+								["justifyH"] = "LEFT",
+								["fontOutline"] = "OUTLINE",
+								["enable"] = true,
+								["size"] = 20,
+							},
+							["hp"] = {
+								["attachTextTo"] = "Frame",
+								["xOffset"] = 0,
+								["text_format"] = "[healthcolor][health:current] - ||cffffffff[perhp]||r",
+								["yOffset"] = 20,
+								["font"] = "KGSmallTownSouthernGirl",
+								["justifyH"] = "RIGHT",
+								["fontOutline"] = "OUTLINE",
+								["enable"] = true,
+								["size"] = 20,
+							},
+							["%"] = {
+								["attachTextTo"] = "HEALTH",
+								["xOffset"] = 0,
+								["text_format"] = "",
+								["yOffset"] = 2,
+								["font"] = "big_noodle_titling",
+								["justifyH"] = "CENTER",
+								["fontOutline"] = "OUTLINE",
+								["enable"] = true,
+								["size"] = 20,
+							},
+						},
+						["growthDirection"] = "UP",
+						["power"] = {
+							["text_format"] = "",
+							["height"] = 5,
+						},
+						["name"] = {
+							["xOffset"] = 9,
+							["yOffset"] = 12,
+							["text_format"] = "",
+							["position"] = "TOPLEFT",
+						},
+						["spacing"] = 37,
+						["height"] = 19,
+						["buffs"] = {
+							["xOffset"] = 7,
+							["sizeOverride"] = 30,
+							["anchorPoint"] = "RIGHT",
+							["yOffset"] = 7,
+						},
+						["health"] = {
+							["xOffset"] = -1,
+							["yOffset"] = 18,
+							["text_format"] = "",
+							["position"] = "RIGHT",
+						},
+						["width"] = 250,
 					},
 					["raid"] = {
 						["horizontalSpacing"] = 1,
@@ -5372,31 +5316,38 @@ ElvDB = {
 							},
 						},
 					},
-					["targettarget"] = {
-						["name"] = {
-							["text_format"] = "",
-							["yOffset"] = 16,
+					["pettarget"] = {
+						["infoPanel"] = {
+							["height"] = 14,
+						},
+						["debuffs"] = {
+							["enable"] = true,
+						},
+						["health"] = {
+							["position"] = "LEFT",
 						},
 						["power"] = {
 							["height"] = 5,
 						},
+						["enable"] = true,
+						["name"] = {
+							["text_format"] = "",
+							["yOffset"] = 16,
+						},
+						["height"] = 19,
 						["customTexts"] = {
 							["name1"] = {
 								["attachTextTo"] = "HEALTH",
 								["xOffset"] = 0,
 								["text_format"] = "[namecolor][name:medium]",
 								["yOffset"] = 20,
-								["font"] = "KGSmallTownSouthernGirl",
+								["font"] = "big_noodle_titling",
 								["justifyH"] = "CENTER",
 								["fontOutline"] = "OUTLINE",
 								["enable"] = true,
 								["size"] = 20,
 							},
 						},
-						["health"] = {
-							["position"] = "LEFT",
-						},
-						["height"] = 19,
 					},
 					["target"] = {
 						["debuffs"] = {
@@ -5570,80 +5521,136 @@ ElvDB = {
 							["maxBars"] = 7,
 						},
 					},
-					["boss"] = {
+					["player"] = {
+						["RestIcon"] = {
+							["enable"] = false,
+							["texture"] = "RESTING",
+						},
 						["debuffs"] = {
-							["xOffset"] = -4,
-							["sizeOverride"] = 39,
-							["yOffset"] = 10,
+							["countFontSize"] = 20,
+							["sizeOverride"] = 38,
+							["sortDirection"] = "ASCENDING",
+							["perrow"] = 4,
+							["countFont"] = "KGSmallTownSouthernGirl",
+							["yOffset"] = 45,
+						},
+						["portrait"] = {
+							["overlay"] = true,
 						},
 						["castbar"] = {
-							["height"] = 13,
-							["iconSize"] = 16,
+							["insideInfoPanel"] = false,
+							["iconAttachedTo"] = "Castbar",
+							["iconYOffset"] = 22,
+							["width"] = 413,
+							["iconXOffset"] = 0,
+							["iconPosition"] = "CENTER",
+							["height"] = 10,
+							["iconSize"] = 8,
 							["iconAttached"] = false,
 							["icon"] = false,
-							["width"] = 250,
+							["textColor"] = {
+								["b"] = 0.9686274509803922,
+								["g"] = 0.996078431372549,
+								["r"] = 1,
+							},
 						},
 						["customTexts"] = {
-							["123"] = {
-								["attachTextTo"] = "Frame",
-								["xOffset"] = 0,
-								["text_format"] = "[level] [classification] || [namecolor][name:medium]",
-								["yOffset"] = 20,
-								["font"] = "KGSmallTownSouthernGirl",
-								["justifyH"] = "LEFT",
+							["resting"] = {
+								["attachTextTo"] = "Health",
+								["xOffset"] = -195,
+								["text_format"] = "[resting] [afk]",
+								["yOffset"] = 15,
+								["font"] = "Oswald",
+								["justifyH"] = "CENTER",
 								["fontOutline"] = "OUTLINE",
 								["enable"] = true,
-								["size"] = 20,
+								["size"] = 14,
 							},
-							["hp"] = {
-								["attachTextTo"] = "Frame",
-								["xOffset"] = 0,
-								["text_format"] = "[healthcolor][health:current] - ||cffffffff[perhp]||r",
-								["yOffset"] = 20,
+							["lvl NAME"] = {
+								["attachTextTo"] = "Health",
+								["xOffset"] = -2,
+								["text_format"] = "",
+								["yOffset"] = 30,
 								["font"] = "KGSmallTownSouthernGirl",
 								["justifyH"] = "RIGHT",
 								["fontOutline"] = "OUTLINE",
 								["enable"] = true,
+								["size"] = 12,
+							},
+							["MP"] = {
+								["attachTextTo"] = "Power",
+								["xOffset"] = 0,
+								["text_format"] = "[perpp]",
+								["yOffset"] = 0,
+								["font"] = "KGSmallTownSouthernGirl",
+								["justifyH"] = "CENTER",
+								["fontOutline"] = "OUTLINE",
+								["enable"] = true,
 								["size"] = 20,
 							},
-							["%"] = {
-								["attachTextTo"] = "HEALTH",
-								["xOffset"] = 0,
+							["Combat"] = {
+								["attachTextTo"] = "Health",
+								["xOffset"] = 195,
 								["text_format"] = "",
-								["yOffset"] = 2,
-								["font"] = "big_noodle_titling",
+								["yOffset"] = 13,
+								["font"] = "Oswald",
+								["justifyH"] = "CENTER",
+								["fontOutline"] = "OUTLINE",
+								["enable"] = true,
+								["size"] = 14,
+							},
+							["hp%"] = {
+								["attachTextTo"] = "Health",
+								["xOffset"] = 0,
+								["text_format"] = "[healthcolor][health:current] - ||cffffffff[perhp]||r",
+								["yOffset"] = 0,
+								["font"] = "KGSmallTownSouthernGirl",
 								["justifyH"] = "CENTER",
 								["fontOutline"] = "OUTLINE",
 								["enable"] = true,
 								["size"] = 20,
 							},
 						},
-						["growthDirection"] = "UP",
+						["width"] = 413,
 						["power"] = {
+							["detachFromFrame"] = true,
+							["strataAndLevel"] = {
+								["frameLevel"] = 0,
+							},
+							["height"] = 14,
+							["detachedWidth"] = 413,
 							["text_format"] = "",
-							["height"] = 5,
-						},
-						["name"] = {
-							["xOffset"] = 9,
-							["yOffset"] = 12,
-							["text_format"] = "",
-							["position"] = "TOPLEFT",
-						},
-						["spacing"] = 37,
-						["height"] = 19,
-						["buffs"] = {
-							["xOffset"] = 7,
-							["sizeOverride"] = 30,
-							["anchorPoint"] = "RIGHT",
-							["yOffset"] = 7,
+							["xOffset"] = 0,
 						},
 						["health"] = {
-							["xOffset"] = -1,
-							["yOffset"] = 18,
 							["text_format"] = "",
-							["position"] = "RIGHT",
 						},
-						["width"] = 250,
+						["CombatIcon"] = {
+							["xOffset"] = 100,
+						},
+						["height"] = 15,
+						["buffs"] = {
+							["countFontSize"] = 20,
+							["sizeOverride"] = 38,
+							["enable"] = true,
+							["yOffset"] = 15,
+							["anchorPoint"] = "TOPRIGHT",
+							["sortMethod"] = "DURATION",
+							["attachTo"] = "FRAME",
+							["priority"] = "mybuffs",
+							["perrow"] = 4,
+							["countFont"] = "KGSmallTownSouthernGirl",
+						},
+						["classbar"] = {
+							["detachFromFrame"] = true,
+							["detachedWidth"] = 342,
+							["height"] = 7,
+							["fill"] = "spaced",
+						},
+						["aurabar"] = {
+							["maxBars"] = 7,
+							["enable"] = false,
+						},
 					},
 					["raid40"] = {
 						["horizontalSpacing"] = 1,
@@ -5798,6 +5805,32 @@ ElvDB = {
 					["arena"] = {
 						["enable"] = false,
 					},
+					["targettarget"] = {
+						["name"] = {
+							["text_format"] = "",
+							["yOffset"] = 16,
+						},
+						["power"] = {
+							["height"] = 5,
+						},
+						["customTexts"] = {
+							["name1"] = {
+								["attachTextTo"] = "HEALTH",
+								["xOffset"] = 0,
+								["text_format"] = "[namecolor][name:medium]",
+								["yOffset"] = 20,
+								["font"] = "KGSmallTownSouthernGirl",
+								["justifyH"] = "CENTER",
+								["fontOutline"] = "OUTLINE",
+								["enable"] = true,
+								["size"] = 20,
+							},
+						},
+						["health"] = {
+							["position"] = "LEFT",
+						},
+						["height"] = 19,
+					},
 					["pet"] = {
 						["debuffs"] = {
 							["countFontSize"] = 20,
@@ -5853,39 +5886,6 @@ ElvDB = {
 							["height"] = 5,
 						},
 					},
-					["pettarget"] = {
-						["infoPanel"] = {
-							["height"] = 14,
-						},
-						["debuffs"] = {
-							["enable"] = true,
-						},
-						["health"] = {
-							["position"] = "LEFT",
-						},
-						["power"] = {
-							["height"] = 5,
-						},
-						["enable"] = true,
-						["name"] = {
-							["text_format"] = "",
-							["yOffset"] = 16,
-						},
-						["height"] = 19,
-						["customTexts"] = {
-							["name1"] = {
-								["attachTextTo"] = "HEALTH",
-								["xOffset"] = 0,
-								["text_format"] = "[namecolor][name:medium]",
-								["yOffset"] = 20,
-								["font"] = "big_noodle_titling",
-								["justifyH"] = "CENTER",
-								["fontOutline"] = "OUTLINE",
-								["enable"] = true,
-								["size"] = 20,
-							},
-						},
-					},
 				},
 			},
 			["datatexts"] = {
@@ -5902,15 +5902,15 @@ ElvDB = {
 					["RightChatDataPanel"] = {
 						["enable"] = false,
 					},
-					["rightright"] = {
-						"SavedInstances", -- [1]
-						"S&L Time Played", -- [2]
-						"Time", -- [3]
-						["enable"] = true,
-					},
-					["enable"] = false,
 					["MinimapPanel"] = {
 						["enable"] = false,
+					},
+					["enable"] = false,
+					["Right"] = {
+						"AutoTurnIn", -- [1]
+						"S&L Friends", -- [2]
+						"S&L Guild", -- [3]
+						["enable"] = true,
 					},
 					["Left"] = {
 						"System", -- [1]
@@ -5939,10 +5939,10 @@ ElvDB = {
 					},
 					["BottomRightMiniPanel"] = "ExRT",
 					["BottomLeftMiniPanel"] = "SavedInstances",
-					["Right"] = {
-						"AutoTurnIn", -- [1]
-						"S&L Friends", -- [2]
-						"S&L Guild", -- [3]
+					["rightright"] = {
+						"SavedInstances", -- [1]
+						"S&L Time Played", -- [2]
+						"Time", -- [3]
 						["enable"] = true,
 					},
 					["TopRightMiniPanel"] = "BugSack",
@@ -5951,12 +5951,12 @@ ElvDB = {
 			},
 			["actionbar"] = {
 				["bar3"] = {
-					["buttonsize"] = 34,
+					["backdropSpacing"] = 0,
 					["buttons"] = 12,
 					["buttonspacing"] = 1,
 					["buttonsPerRow"] = 12,
-					["backdropSpacing"] = 0,
 					["alpha"] = 0.7,
+					["buttonsize"] = 34,
 				},
 				["fontSize"] = 16,
 				["fontOutline"] = "OUTLINE",
@@ -5969,9 +5969,9 @@ ElvDB = {
 				},
 				["bar1"] = {
 					["buttonspacing"] = 1,
-					["buttonsize"] = 34,
 					["backdropSpacing"] = 0,
 					["alpha"] = 0.7,
+					["buttonsize"] = 34,
 				},
 				["bar4"] = {
 					["backdrop"] = false,
@@ -6050,13 +6050,13 @@ ElvDB = {
 				},
 			},
 			["tooltip"] = {
-				["font"] = "Arial Narrow",
 				["itemCount"] = "BOTH",
+				["alwaysShowRealm"] = true,
 				["healthBar"] = {
 					["fontSize"] = 12,
 					["font"] = "Arial Narrow",
 				},
-				["alwaysShowRealm"] = true,
+				["font"] = "Arial Narrow",
 			},
 			["cooldown"] = {
 				["fonts"] = {
@@ -6099,17 +6099,23 @@ ElvDB = {
 					["enable"] = false,
 				},
 				["reputation"] = {
+					["textFormat"] = "CURPERCREM",
 					["reverseFill"] = true,
 					["enable"] = true,
-					["width"] = 7,
-					["font"] = "Oswald",
+					["fontSize"] = 16,
+					["mouseover"] = true,
+					["width"] = 300,
+					["font"] = "KGSmallTownSouthernGirl",
+					["height"] = 20,
 				},
 				["experience"] = {
-					["fontOutline"] = "OUTLINE",
+					["fontSize"] = 16,
+					["clickThrough"] = true,
 					["textFormat"] = "CURPERCREM",
 					["reverseFill"] = true,
 					["width"] = 300,
-					["font"] = "Oswald",
+					["font"] = "KGSmallTownSouthernGirl",
+					["fontOutline"] = "OUTLINE",
 					["height"] = 20,
 				},
 				["azerite"] = {
@@ -6146,6 +6152,7 @@ ElvDB = {
 					["statusBarColorGradient"] = true,
 					["font"] = "KGSmallTownSouthernGirl",
 				},
+				["fontSize"] = 18,
 				["autoRepair"] = "PLAYER",
 				["minimap"] = {
 					["locationFont"] = "Arial Narrow",
@@ -6168,7 +6175,7 @@ ElvDB = {
 					["itemLevelFontSize"] = 20,
 				},
 				["objectiveFrameAutoHideInKeystone"] = true,
-				["font"] = "Arial Narrow",
+				["font"] = "KGSmallTownSouthernGirl",
 			},
 			["bags"] = {
 				["itemLevelFont"] = "Expressway",
@@ -6233,7 +6240,7 @@ ElvDB = {
 				["ElvAB_4"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,520,0",
 				["AltPowerBarMover"] = "TOP,ElvUIParent,TOP,-1,-44",
 				["DTPanelRightMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,1,0",
-				["ReputationBarMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,0,0",
+				["ReputationBarMover"] = "TOP,ElvUIParent,TOP,0,-32",
 				["ObjectiveFrameMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,79,0",
 				["BNETMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,207",
 				["ShiftAB"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,211,204",
@@ -6257,7 +6264,7 @@ ElvDB = {
 				["OzCooldownsMover"] = "TOPLEFT,ElvUIParent,TOPLEFT,780,-123",
 				["AzeriteBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,-299,0",
 				["DTPanelMidInfoMover"] = "TOP,ElvUIParent,TOP,-380,-4",
-				["ExperienceBarMover"] = "BOTTOM,ElvUIParent,BOTTOM,0,0",
+				["ExperienceBarMover"] = "TOP,ElvUIParent,TOP,0,-53",
 				["ElvUIBagMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-164,105",
 				["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,381,344",
 				["ElvUF_PetMover"] = "BOTTOM,ElvUIParent,BOTTOM,-382,344",
@@ -6306,27 +6313,15 @@ ElvDB = {
 				["fontSize"] = 20,
 				["font"] = "Oswald",
 				["units"] = {
-					["pet"] = {
-						["debuffs"] = {
-							["countFontSize"] = 20,
-							["enable"] = true,
-							["yOffset"] = 7,
-							["anchorPoint"] = "TOPLEFT",
-							["priority"] = "myDebuffs,Blacklist,Personal,Boss,RaidDebuffs",
-							["countFont"] = "KGSmallTownSouthernGirl",
-							["perrow"] = 8,
-							["attachTo"] = "BUFFS",
-						},
-						["castbar"] = {
-							["insideInfoPanel"] = false,
-							["width"] = 250,
-							["height"] = 17,
+					["targettarget"] = {
+						["power"] = {
+							["height"] = 5,
 						},
 						["customTexts"] = {
-							["Имя"] = {
+							["name1"] = {
 								["attachTextTo"] = "HEALTH",
 								["enable"] = true,
-								["text_format"] = "[difficultycolor][level] [classification] [namecolor][name:medium]",
+								["text_format"] = "[namecolor][name:medium]",
 								["yOffset"] = 20,
 								["font"] = "KGSmallTownSouthernGirl",
 								["justifyH"] = "CENTER",
@@ -6335,108 +6330,119 @@ ElvDB = {
 								["size"] = 20,
 							},
 						},
-						["width"] = 250,
-						["infoPanel"] = {
-							["height"] = 20,
-						},
-						["name"] = {
-							["text_format"] = "",
-						},
-						["power"] = {
-							["xOffset"] = -2,
-							["height"] = 5,
-						},
-						["orientation"] = "LEFT",
-						["buffs"] = {
-							["countFontSize"] = 20,
-							["enable"] = true,
-							["yOffset"] = 21,
-							["anchorPoint"] = "TOPLEFT",
-							["countFont"] = "KGSmallTownSouthernGirl",
-							["perrow"] = 8,
-						},
 						["health"] = {
 							["position"] = "LEFT",
-							["xOffset"] = 2,
 						},
 						["height"] = 19,
+						["name"] = {
+							["text_format"] = "",
+							["yOffset"] = 16,
+						},
 					},
 					["tank"] = {
 						["enable"] = false,
 					},
-					["boss"] = {
+					["party"] = {
 						["debuffs"] = {
-							["sizeOverride"] = 39,
-							["xOffset"] = -4,
-							["yOffset"] = 10,
-						},
-						["growthDirection"] = "UP",
-						["spacing"] = 37,
-						["name"] = {
-							["position"] = "TOPLEFT",
-							["xOffset"] = 9,
-							["text_format"] = "",
-							["yOffset"] = 12,
-						},
-						["power"] = {
-							["text_format"] = "",
-							["height"] = 5,
+							["countFontSize"] = 13,
+							["sizeOverride"] = 16,
+							["yOffset"] = 17,
+							["anchorPoint"] = "BOTTOMRIGHT",
+							["priority"] = "Blacklist,Personal,nonPersonal",
+							["perrow"] = 4,
+							["attachTo"] = "HEALTH",
+							["xOffset"] = -19,
 						},
 						["customTexts"] = {
-							["123"] = {
-								["attachTextTo"] = "Frame",
+							["[namecolor][name:short]"] = {
+								["attachTextTo"] = "Health",
 								["enable"] = true,
-								["text_format"] = "[level] [classification] || [namecolor][name:medium]",
-								["yOffset"] = 20,
+								["text_format"] = "[namecolor][name:short]",
+								["yOffset"] = 0,
 								["font"] = "KGSmallTownSouthernGirl",
-								["justifyH"] = "LEFT",
-								["fontOutline"] = "OUTLINE",
-								["xOffset"] = 0,
-								["size"] = 20,
-							},
-							["hp"] = {
-								["attachTextTo"] = "Frame",
-								["enable"] = true,
-								["text_format"] = "[healthcolor][health:current] - ||cffffffff[perhp]||r",
-								["yOffset"] = 20,
-								["font"] = "KGSmallTownSouthernGirl",
-								["justifyH"] = "RIGHT",
-								["fontOutline"] = "OUTLINE",
-								["xOffset"] = 0,
-								["size"] = 20,
-							},
-							["%"] = {
-								["attachTextTo"] = "HEALTH",
-								["enable"] = true,
-								["text_format"] = "",
-								["yOffset"] = 2,
-								["font"] = "big_noodle_titling",
 								["justifyH"] = "CENTER",
 								["fontOutline"] = "OUTLINE",
 								["xOffset"] = 0,
 								["size"] = 20,
 							},
+							["offline"] = {
+								["attachTextTo"] = "HEALTH",
+								["enable"] = true,
+								["text_format"] = "[offline]",
+								["yOffset"] = -11,
+								["font"] = "Oswald",
+								["justifyH"] = "CENTER",
+								["fontOutline"] = "OUTLINE",
+								["xOffset"] = 0,
+								["size"] = 13,
+							},
+							["dead"] = {
+								["attachTextTo"] = "HEALTH",
+								["enable"] = true,
+								["text_format"] = "[dead]",
+								["yOffset"] = -11,
+								["font"] = "Oswald",
+								["justifyH"] = "CENTER",
+								["fontOutline"] = "OUTLINE",
+								["xOffset"] = 0,
+								["size"] = 13,
+							},
 						},
-						["width"] = 250,
-						["health"] = {
-							["position"] = "RIGHT",
-							["xOffset"] = -1,
+						["infoPanel"] = {
+							["height"] = 12,
+						},
+						["name"] = {
 							["text_format"] = "",
-							["yOffset"] = 18,
 						},
-						["height"] = 19,
+						["height"] = 50,
+						["verticalSpacing"] = 2,
+						["horizontalSpacing"] = 2,
+						["rdebuffs"] = {
+							["enable"] = false,
+							["yOffset"] = 27,
+							["font"] = "Continuum_Medium",
+							["fontOutline"] = "OUTLINE",
+							["stack"] = {
+								["position"] = "BOTTOM",
+							},
+							["size"] = 20,
+						},
+						["growthDirection"] = "RIGHT_DOWN",
+						["groupBy"] = "ROLE",
 						["buffs"] = {
-							["sizeOverride"] = 30,
-							["xOffset"] = 7,
-							["yOffset"] = 7,
-							["anchorPoint"] = "RIGHT",
+							["sizeOverride"] = 16,
+							["xOffset"] = -1,
+							["yOffset"] = -17,
+							["anchorPoint"] = "TOPRIGHT",
+							["clickThrough"] = true,
 						},
-						["castbar"] = {
-							["iconSize"] = 16,
-							["icon"] = false,
-							["iconAttached"] = false,
-							["width"] = 250,
-							["height"] = 13,
+						["roleIcon"] = {
+							["yOffset"] = 4,
+							["position"] = "TOPLEFT",
+							["xOffset"] = 1,
+							["size"] = 14,
+						},
+						["readycheckIcon"] = {
+							["size"] = 59,
+						},
+						["power"] = {
+							["enable"] = false,
+							["text_format"] = "",
+							["yOffset"] = 2,
+							["position"] = "BOTTOMRIGHT",
+						},
+						["width"] = 100,
+						["health"] = {
+							["xOffset"] = 0,
+							["text_format"] = "",
+							["yOffset"] = 2,
+						},
+						["orientation"] = "RIGHT",
+						["portrait"] = {
+							["overlay"] = true,
+						},
+						["buffIndicator"] = {
+							["size"] = 13,
 						},
 					},
 					["raid"] = {
@@ -6583,7 +6589,11 @@ ElvDB = {
 							["position"] = "LEFT",
 						},
 					},
-					["targettarget"] = {
+					["pettarget"] = {
+						["debuffs"] = {
+							["enable"] = true,
+						},
+						["enable"] = true,
 						["power"] = {
 							["height"] = 5,
 						},
@@ -6593,20 +6603,23 @@ ElvDB = {
 								["enable"] = true,
 								["text_format"] = "[namecolor][name:medium]",
 								["yOffset"] = 20,
-								["font"] = "KGSmallTownSouthernGirl",
+								["font"] = "big_noodle_titling",
 								["justifyH"] = "CENTER",
 								["fontOutline"] = "OUTLINE",
 								["xOffset"] = 0,
 								["size"] = 20,
 							},
 						},
-						["health"] = {
-							["position"] = "LEFT",
+						["infoPanel"] = {
+							["height"] = 14,
 						},
-						["height"] = 19,
 						["name"] = {
 							["text_format"] = "",
 							["yOffset"] = 16,
+						},
+						["height"] = 19,
+						["health"] = {
+							["position"] = "LEFT",
 						},
 					},
 					["assist"] = {
@@ -6650,22 +6663,51 @@ ElvDB = {
 						},
 						["verticalSpacing"] = 1,
 					},
-					["party"] = {
+					["player"] = {
 						["debuffs"] = {
-							["countFontSize"] = 13,
-							["sizeOverride"] = 16,
-							["yOffset"] = 17,
-							["anchorPoint"] = "BOTTOMRIGHT",
-							["priority"] = "Blacklist,Personal,nonPersonal",
+							["countFontSize"] = 20,
+							["sizeOverride"] = 38,
+							["yOffset"] = 45,
+							["sortDirection"] = "ASCENDING",
+							["countFont"] = "KGSmallTownSouthernGirl",
 							["perrow"] = 4,
-							["attachTo"] = "HEALTH",
-							["xOffset"] = -19,
+						},
+						["portrait"] = {
+							["overlay"] = true,
+						},
+						["classbar"] = {
+							["detachFromFrame"] = true,
+							["detachedWidth"] = 342,
+							["height"] = 7,
+							["fill"] = "spaced",
 						},
 						["customTexts"] = {
-							["[namecolor][name:short]"] = {
+							["resting"] = {
 								["attachTextTo"] = "Health",
 								["enable"] = true,
-								["text_format"] = "[namecolor][name:short]",
+								["text_format"] = "[resting] [afk]",
+								["yOffset"] = 15,
+								["font"] = "Oswald",
+								["justifyH"] = "CENTER",
+								["fontOutline"] = "OUTLINE",
+								["xOffset"] = -195,
+								["size"] = 14,
+							},
+							["lvl NAME"] = {
+								["attachTextTo"] = "Health",
+								["enable"] = true,
+								["text_format"] = "",
+								["yOffset"] = 30,
+								["font"] = "KGSmallTownSouthernGirl",
+								["justifyH"] = "RIGHT",
+								["fontOutline"] = "OUTLINE",
+								["xOffset"] = -2,
+								["size"] = 12,
+							},
+							["MP"] = {
+								["attachTextTo"] = "Power",
+								["enable"] = true,
+								["text_format"] = "[perpp]",
 								["yOffset"] = 0,
 								["font"] = "KGSmallTownSouthernGirl",
 								["justifyH"] = "CENTER",
@@ -6673,84 +6715,83 @@ ElvDB = {
 								["xOffset"] = 0,
 								["size"] = 20,
 							},
-							["offline"] = {
-								["attachTextTo"] = "HEALTH",
+							["hp%"] = {
+								["attachTextTo"] = "Health",
 								["enable"] = true,
-								["text_format"] = "[offline]",
-								["yOffset"] = -11,
-								["font"] = "Oswald",
+								["text_format"] = "[healthcolor][health:current] - ||cffffffff[perhp]||r",
+								["yOffset"] = 0,
+								["font"] = "KGSmallTownSouthernGirl",
 								["justifyH"] = "CENTER",
 								["fontOutline"] = "OUTLINE",
 								["xOffset"] = 0,
-								["size"] = 13,
+								["size"] = 20,
 							},
-							["dead"] = {
-								["attachTextTo"] = "HEALTH",
+							["Combat"] = {
+								["attachTextTo"] = "Health",
 								["enable"] = true,
-								["text_format"] = "[dead]",
-								["yOffset"] = -11,
+								["text_format"] = "",
+								["yOffset"] = 13,
 								["font"] = "Oswald",
 								["justifyH"] = "CENTER",
 								["fontOutline"] = "OUTLINE",
-								["xOffset"] = 0,
-								["size"] = 13,
+								["xOffset"] = 195,
+								["size"] = 14,
 							},
 						},
-						["infoPanel"] = {
-							["height"] = 12,
-						},
-						["name"] = {
-							["text_format"] = "",
-						},
-						["height"] = 50,
-						["verticalSpacing"] = 2,
-						["horizontalSpacing"] = 2,
-						["rdebuffs"] = {
-							["enable"] = false,
-							["yOffset"] = 27,
-							["font"] = "Continuum_Medium",
-							["fontOutline"] = "OUTLINE",
-							["stack"] = {
-								["position"] = "BOTTOM",
-							},
-							["size"] = 20,
-						},
-						["growthDirection"] = "RIGHT_DOWN",
-						["groupBy"] = "ROLE",
+						["height"] = 15,
 						["buffs"] = {
-							["sizeOverride"] = 16,
-							["xOffset"] = -1,
-							["yOffset"] = -17,
+							["countFontSize"] = 20,
+							["sizeOverride"] = 38,
+							["enable"] = true,
+							["yOffset"] = 15,
 							["anchorPoint"] = "TOPRIGHT",
-							["clickThrough"] = true,
+							["priority"] = "mybuffs,myotherbuffs",
+							["countFont"] = "KGSmallTownSouthernGirl",
+							["perrow"] = 4,
+							["attachTo"] = "FRAME",
+							["sortMethod"] = "DURATION",
 						},
-						["roleIcon"] = {
-							["yOffset"] = 4,
-							["position"] = "TOPLEFT",
-							["xOffset"] = 1,
-							["size"] = 14,
+						["castbar"] = {
+							["iconPosition"] = "CENTER",
+							["iconXOffset"] = 0,
+							["iconSize"] = 8,
+							["icon"] = false,
+							["insideInfoPanel"] = false,
+							["iconAttached"] = false,
+							["iconYOffset"] = 22,
+							["width"] = 413,
+							["height"] = 10,
+							["iconAttachedTo"] = "Castbar",
+							["textColor"] = {
+								["r"] = 1,
+								["g"] = 0.996078431372549,
+								["b"] = 0.9686274509803922,
+							},
 						},
-						["readycheckIcon"] = {
-							["size"] = 59,
+						["aurabar"] = {
+							["maxBars"] = 7,
+							["enable"] = false,
+						},
+						["RestIcon"] = {
+							["enable"] = false,
+							["texture"] = "RESTING",
 						},
 						["power"] = {
-							["enable"] = false,
+							["detachFromFrame"] = true,
 							["text_format"] = "",
-							["yOffset"] = 2,
-							["position"] = "BOTTOMRIGHT",
-						},
-						["width"] = 100,
-						["health"] = {
+							["strataAndLevel"] = {
+								["frameLevel"] = 0,
+							},
+							["detachedWidth"] = 413,
 							["xOffset"] = 0,
+							["height"] = 14,
+						},
+						["width"] = 413,
+						["health"] = {
 							["text_format"] = "",
-							["yOffset"] = 2,
 						},
-						["orientation"] = "RIGHT",
-						["portrait"] = {
-							["overlay"] = true,
-						},
-						["buffIndicator"] = {
-							["size"] = 13,
+						["CombatIcon"] = {
+							["xOffset"] = 100,
 						},
 					},
 					["raid40"] = {
@@ -7119,151 +7160,52 @@ ElvDB = {
 							["height"] = 5,
 						},
 					},
-					["player"] = {
+					["boss"] = {
 						["debuffs"] = {
-							["countFontSize"] = 20,
-							["sizeOverride"] = 38,
-							["yOffset"] = 45,
-							["sortDirection"] = "ASCENDING",
-							["countFont"] = "KGSmallTownSouthernGirl",
-							["perrow"] = 4,
+							["sizeOverride"] = 39,
+							["xOffset"] = -4,
+							["yOffset"] = 10,
 						},
-						["portrait"] = {
-							["overlay"] = true,
-						},
-						["classbar"] = {
-							["detachFromFrame"] = true,
-							["detachedWidth"] = 342,
-							["height"] = 7,
-							["fill"] = "spaced",
-						},
-						["customTexts"] = {
-							["resting"] = {
-								["attachTextTo"] = "Health",
-								["enable"] = true,
-								["text_format"] = "[resting] [afk]",
-								["yOffset"] = 15,
-								["font"] = "Oswald",
-								["justifyH"] = "CENTER",
-								["fontOutline"] = "OUTLINE",
-								["xOffset"] = -195,
-								["size"] = 14,
-							},
-							["lvl NAME"] = {
-								["attachTextTo"] = "Health",
-								["enable"] = true,
-								["text_format"] = "",
-								["yOffset"] = 30,
-								["font"] = "KGSmallTownSouthernGirl",
-								["justifyH"] = "RIGHT",
-								["fontOutline"] = "OUTLINE",
-								["xOffset"] = -2,
-								["size"] = 12,
-							},
-							["MP"] = {
-								["attachTextTo"] = "Power",
-								["enable"] = true,
-								["text_format"] = "[perpp]",
-								["yOffset"] = 0,
-								["font"] = "KGSmallTownSouthernGirl",
-								["justifyH"] = "CENTER",
-								["fontOutline"] = "OUTLINE",
-								["xOffset"] = 0,
-								["size"] = 20,
-							},
-							["hp%"] = {
-								["attachTextTo"] = "Health",
-								["enable"] = true,
-								["text_format"] = "[healthcolor][health:current] - ||cffffffff[perhp]||r",
-								["yOffset"] = 0,
-								["font"] = "KGSmallTownSouthernGirl",
-								["justifyH"] = "CENTER",
-								["fontOutline"] = "OUTLINE",
-								["xOffset"] = 0,
-								["size"] = 20,
-							},
-							["Combat"] = {
-								["attachTextTo"] = "Health",
-								["enable"] = true,
-								["text_format"] = "",
-								["yOffset"] = 13,
-								["font"] = "Oswald",
-								["justifyH"] = "CENTER",
-								["fontOutline"] = "OUTLINE",
-								["xOffset"] = 195,
-								["size"] = 14,
-							},
-						},
-						["height"] = 15,
-						["buffs"] = {
-							["countFontSize"] = 20,
-							["sizeOverride"] = 38,
-							["enable"] = true,
-							["yOffset"] = 15,
-							["anchorPoint"] = "TOPRIGHT",
-							["priority"] = "mybuffs,myotherbuffs",
-							["countFont"] = "KGSmallTownSouthernGirl",
-							["perrow"] = 4,
-							["attachTo"] = "FRAME",
-							["sortMethod"] = "DURATION",
-						},
-						["castbar"] = {
-							["iconPosition"] = "CENTER",
-							["iconXOffset"] = 0,
-							["iconSize"] = 8,
-							["icon"] = false,
-							["insideInfoPanel"] = false,
-							["iconAttached"] = false,
-							["iconYOffset"] = 22,
-							["width"] = 413,
-							["height"] = 10,
-							["iconAttachedTo"] = "Castbar",
-							["textColor"] = {
-								["r"] = 1,
-								["g"] = 0.996078431372549,
-								["b"] = 0.9686274509803922,
-							},
-						},
-						["aurabar"] = {
-							["maxBars"] = 7,
-							["enable"] = false,
-						},
-						["RestIcon"] = {
-							["enable"] = false,
-							["texture"] = "RESTING",
+						["growthDirection"] = "UP",
+						["spacing"] = 37,
+						["name"] = {
+							["position"] = "TOPLEFT",
+							["xOffset"] = 9,
+							["text_format"] = "",
+							["yOffset"] = 12,
 						},
 						["power"] = {
-							["detachFromFrame"] = true,
 							["text_format"] = "",
-							["strataAndLevel"] = {
-								["frameLevel"] = 0,
-							},
-							["detachedWidth"] = 413,
-							["xOffset"] = 0,
-							["height"] = 14,
-						},
-						["width"] = 413,
-						["health"] = {
-							["text_format"] = "",
-						},
-						["CombatIcon"] = {
-							["xOffset"] = 100,
-						},
-					},
-					["pettarget"] = {
-						["debuffs"] = {
-							["enable"] = true,
-						},
-						["enable"] = true,
-						["power"] = {
 							["height"] = 5,
 						},
 						["customTexts"] = {
-							["name1"] = {
+							["123"] = {
+								["attachTextTo"] = "Frame",
+								["enable"] = true,
+								["text_format"] = "[level] [classification] || [namecolor][name:medium]",
+								["yOffset"] = 20,
+								["font"] = "KGSmallTownSouthernGirl",
+								["justifyH"] = "LEFT",
+								["fontOutline"] = "OUTLINE",
+								["xOffset"] = 0,
+								["size"] = 20,
+							},
+							["hp"] = {
+								["attachTextTo"] = "Frame",
+								["enable"] = true,
+								["text_format"] = "[healthcolor][health:current] - ||cffffffff[perhp]||r",
+								["yOffset"] = 20,
+								["font"] = "KGSmallTownSouthernGirl",
+								["justifyH"] = "RIGHT",
+								["fontOutline"] = "OUTLINE",
+								["xOffset"] = 0,
+								["size"] = 20,
+							},
+							["%"] = {
 								["attachTextTo"] = "HEALTH",
 								["enable"] = true,
-								["text_format"] = "[namecolor][name:medium]",
-								["yOffset"] = 20,
+								["text_format"] = "",
+								["yOffset"] = 2,
 								["font"] = "big_noodle_titling",
 								["justifyH"] = "CENTER",
 								["fontOutline"] = "OUTLINE",
@@ -7271,17 +7213,82 @@ ElvDB = {
 								["size"] = 20,
 							},
 						},
+						["width"] = 250,
+						["health"] = {
+							["position"] = "RIGHT",
+							["xOffset"] = -1,
+							["text_format"] = "",
+							["yOffset"] = 18,
+						},
+						["height"] = 19,
+						["buffs"] = {
+							["sizeOverride"] = 30,
+							["xOffset"] = 7,
+							["yOffset"] = 7,
+							["anchorPoint"] = "RIGHT",
+						},
+						["castbar"] = {
+							["iconSize"] = 16,
+							["icon"] = false,
+							["iconAttached"] = false,
+							["width"] = 250,
+							["height"] = 13,
+						},
+					},
+					["pet"] = {
+						["debuffs"] = {
+							["countFontSize"] = 20,
+							["enable"] = true,
+							["yOffset"] = 7,
+							["anchorPoint"] = "TOPLEFT",
+							["priority"] = "myDebuffs,Blacklist,Personal,Boss,RaidDebuffs",
+							["countFont"] = "KGSmallTownSouthernGirl",
+							["perrow"] = 8,
+							["attachTo"] = "BUFFS",
+						},
+						["castbar"] = {
+							["insideInfoPanel"] = false,
+							["width"] = 250,
+							["height"] = 17,
+						},
+						["customTexts"] = {
+							["Имя"] = {
+								["attachTextTo"] = "HEALTH",
+								["enable"] = true,
+								["text_format"] = "[difficultycolor][level] [classification] [namecolor][name:medium]",
+								["yOffset"] = 20,
+								["font"] = "KGSmallTownSouthernGirl",
+								["justifyH"] = "CENTER",
+								["fontOutline"] = "OUTLINE",
+								["xOffset"] = 0,
+								["size"] = 20,
+							},
+						},
+						["width"] = 250,
 						["infoPanel"] = {
-							["height"] = 14,
+							["height"] = 20,
 						},
 						["name"] = {
 							["text_format"] = "",
-							["yOffset"] = 16,
 						},
-						["height"] = 19,
+						["power"] = {
+							["xOffset"] = -2,
+							["height"] = 5,
+						},
+						["orientation"] = "LEFT",
+						["buffs"] = {
+							["countFontSize"] = 20,
+							["enable"] = true,
+							["yOffset"] = 21,
+							["anchorPoint"] = "TOPLEFT",
+							["countFont"] = "KGSmallTownSouthernGirl",
+							["perrow"] = 8,
+						},
 						["health"] = {
 							["position"] = "LEFT",
+							["xOffset"] = 2,
 						},
+						["height"] = 19,
 					},
 				},
 				["smoothbars"] = true,
@@ -7403,15 +7410,15 @@ ElvDB = {
 					["RightChatDataPanel"] = {
 						["enable"] = false,
 					},
-					["Right"] = {
-						"AutoTurnIn", -- [1]
-						"S&L Friends", -- [2]
-						"S&L Guild", -- [3]
-						["enable"] = true,
-					},
-					["enable"] = false,
 					["MinimapPanel"] = {
 						["enable"] = false,
+					},
+					["enable"] = false,
+					["rightright"] = {
+						"SavedInstances", -- [1]
+						"S&L Time Played", -- [2]
+						"Time", -- [3]
+						["enable"] = true,
 					},
 					["Left"] = {
 						"System", -- [1]
@@ -7440,10 +7447,10 @@ ElvDB = {
 					},
 					["BottomRightMiniPanel"] = "ExRT",
 					["BottomLeftMiniPanel"] = "SavedInstances",
-					["rightright"] = {
-						"SavedInstances", -- [1]
-						"S&L Time Played", -- [2]
-						"Time", -- [3]
+					["Right"] = {
+						"AutoTurnIn", -- [1]
+						"S&L Friends", -- [2]
+						"S&L Guild", -- [3]
 						["enable"] = true,
 					},
 					["DTB2_1"] = {
@@ -7475,9 +7482,9 @@ ElvDB = {
 				["countTextYOffset"] = 0,
 				["barPet"] = {
 					["buttonspacing"] = 1,
+					["backdrop"] = false,
 					["alpha"] = 0.7,
 					["mouseover"] = true,
-					["backdrop"] = false,
 				},
 				["countTextXOffset"] = 2,
 				["fontSize"] = 16,
@@ -7577,16 +7584,52 @@ ElvDB = {
 						},
 					},
 				},
+				["media"] = {
+					["fonts"] = {
+						["pvp"] = {
+							["font"] = "KGSmallTownSouthernGirl",
+						},
+						["mail"] = {
+							["outline"] = "OUTLINE",
+							["font"] = "KGSmallTownSouthernGirl",
+							["size"] = 18,
+						},
+						["gossip"] = {
+							["font"] = "KGSmallTownSouthernGirl",
+							["size"] = 19,
+						},
+						["objectiveHeader"] = {
+							["outline"] = "OUTLINE",
+							["font"] = "KGSmallTownSouthernGirl",
+							["size"] = 20,
+						},
+						["subzone"] = {
+							["font"] = "KGSmallTownSouthernGirl",
+						},
+						["objective"] = {
+							["outline"] = "OUTLINE",
+							["font"] = "KGSmallTownSouthernGirl",
+							["size"] = 18,
+						},
+						["zone"] = {
+							["font"] = "KGSmallTownSouthernGirl",
+						},
+						["questFontSuperHuge"] = {
+							["outline"] = "OUTLINE",
+							["font"] = "KGSmallTownSouthernGirl",
+							["size"] = 22,
+						},
+					},
+				},
 				["armory"] = {
 					["stats"] = {
 						["itemLevel"] = {
+							["outline"] = "OUTLINE",
 							["font"] = "KGSmallTownSouthernGirl",
-							["size"] = 22,
 						},
 						["catFonts"] = {
 							["outline"] = "OUTLINE",
 							["font"] = "KGSmallTownSouthernGirl",
-							["size"] = 18,
 						},
 						["AverageColor"] = {
 							["a"] = 1,
@@ -7596,7 +7639,7 @@ ElvDB = {
 						},
 						["statFonts"] = {
 							["outline"] = "OUTLINE",
-							["font"] = "Oswald",
+							["font"] = "KGSmallTownSouthernGirl",
 						},
 						["IlvlColor"] = true,
 					},
@@ -7612,7 +7655,6 @@ ElvDB = {
 						["ilvl"] = {
 							["font"] = "KGSmallTownSouthernGirl",
 							["colorType"] = "QUALITY",
-							["fontSize"] = 17,
 						},
 						["enable"] = true,
 						["gradient"] = {
@@ -7627,7 +7669,6 @@ ElvDB = {
 						["ilvl"] = {
 							["font"] = "KGSmallTownSouthernGirl",
 							["colorType"] = "QUALITY",
-							["fontSize"] = 18,
 						},
 						["enable"] = true,
 						["gem"] = {
@@ -7643,6 +7684,15 @@ ElvDB = {
 						},
 						["gradient"] = {
 							["enable"] = false,
+						},
+					},
+				},
+				["skins"] = {
+					["merchant"] = {
+						["list"] = {
+							["nameFont"] = "KGSmallTownSouthernGirl",
+							["nameSize"] = 12,
+							["subFont"] = "KGSmallTownSouthernGirl",
 						},
 					},
 				},
@@ -7703,6 +7753,28 @@ ElvDB = {
 						},
 					},
 				},
+				["nameplates"] = {
+					["threat"] = {
+						["font"] = "KGSmallTownSouthernGirl",
+					},
+					["targetcount"] = {
+						["font"] = "KGSmallTownSouthernGirl",
+					},
+				},
+				["minimap"] = {
+					["locPanel"] = {
+						["font"] = "KGSmallTownSouthernGirl",
+					},
+					["coords"] = {
+						["font"] = "KGSmallTownSouthernGirl",
+					},
+					["instance"] = {
+						["font"] = "KGSmallTownSouthernGirl",
+						["enable"] = true,
+						["xoffset"] = 3,
+						["yoffset"] = -2,
+					},
+				},
 			},
 			["cooldown"] = {
 				["checkSeconds"] = true,
@@ -7714,32 +7786,42 @@ ElvDB = {
 				},
 			},
 			["auras"] = {
-				["countXOffset"] = -4,
 				["debuffs"] = {
-					["horizontalSpacing"] = 0,
-					["wrapAfter"] = 32,
-					["seperateOwn"] = 0,
-					["sortDir"] = "+",
 					["countFontSize"] = 20,
 					["durationFontSize"] = 18,
+					["wrapAfter"] = 32,
+					["countFont"] = "KGSmallTownSouthernGirl",
+					["seperateOwn"] = 0,
+					["timeFont"] = "KGSmallTownSouthernGirl",
+					["countFontOutline"] = "OUTLINE",
+					["timeFontSize"] = 16,
+					["horizontalSpacing"] = 0,
+					["timeFontOutline"] = "OUTLINE",
+					["sortDir"] = "+",
 				},
+				["font"] = "KGSmallTownSouthernGirl",
 				["cooldown"] = {
 					["checkSeconds"] = true,
 					["override"] = true,
 				},
 				["fontOutline"] = "OUTLINE",
 				["buffs"] = {
-					["horizontalSpacing"] = 0,
-					["wrapAfter"] = 32,
-					["seperateOwn"] = 0,
-					["sortDir"] = "+",
 					["countFontSize"] = 20,
 					["durationFontSize"] = 18,
 					["maxWraps"] = 1,
+					["horizontalSpacing"] = 0,
+					["wrapAfter"] = 32,
+					["countFont"] = "KGSmallTownSouthernGirl",
+					["seperateOwn"] = 0,
+					["timeFont"] = "KGSmallTownSouthernGirl",
+					["countFontOutline"] = "OUTLINE",
+					["sortDir"] = "+",
+					["timeFontSize"] = 16,
+					["timeFontOutline"] = "OUTLINE",
 				},
 				["countYOffset"] = -11,
 				["timeYOffset"] = 22,
-				["font"] = "KGSmallTownSouthernGirl",
+				["countXOffset"] = -4,
 			},
 		},
 		["Default"] = {
@@ -7811,8 +7893,8 @@ ElvDB = {
 				["Pallyneess"] = {
 					["Class"] = "PALADIN",
 					["Level"] = 50,
-					["TotalTime"] = 388983,
-					["LevelTime"] = 388983,
+					["TotalTime"] = 389322,
+					["LevelTime"] = 389322,
 				},
 				["Rogueness"] = {
 					["TotalTime"] = 23587153,
@@ -7829,8 +7911,8 @@ ElvDB = {
 				["Pallybank"] = {
 					["Class"] = "PALADIN",
 					["Level"] = 10,
-					["TotalTime"] = 10051,
-					["LevelTime"] = 10051,
+					["TotalTime"] = 10446,
+					["LevelTime"] = 10446,
 				},
 			},
 			["Frostmourne"] = {
@@ -7875,22 +7957,22 @@ ElvDB = {
 					["Level"] = 50,
 				},
 				["Pallyness"] = {
-					["TotalTime"] = 5216271,
+					["TotalTime"] = 5230152,
 					["Level"] = 50,
-					["LevelTime"] = 4763943,
+					["LevelTime"] = 4777824,
 					["Class"] = "PALADIN",
 				},
 				["Tríggered"] = {
 					["Class"] = "DEATHKNIGHT",
 					["Level"] = 50,
-					["TotalTime"] = 10494621,
-					["LevelTime"] = 6914109,
+					["TotalTime"] = 10495700,
+					["LevelTime"] = 6915188,
 				},
 				["Usb"] = {
-					["TotalTime"] = 274231,
+					["TotalTime"] = 279981,
 					["Class"] = "PRIEST",
 					["Level"] = 50,
-					["LevelTime"] = 33710,
+					["LevelTime"] = 39460,
 					["LastLevelTime"] = 1610,
 				},
 				["Iabooseyou"] = {
@@ -7902,8 +7984,8 @@ ElvDB = {
 				["Affixe"] = {
 					["Class"] = "SHAMAN",
 					["Level"] = 50,
-					["TotalTime"] = 142324,
-					["LevelTime"] = 33289,
+					["TotalTime"] = 142418,
+					["LevelTime"] = 33383,
 				},
 				["Paintchíps"] = {
 					["LevelTime"] = 157095,
@@ -7927,14 +8009,14 @@ ElvDB = {
 				["Rogueness"] = {
 					["Class"] = "ROGUE",
 					["Level"] = 50,
-					["TotalTime"] = 23593831,
-					["LevelTime"] = 1461412,
+					["TotalTime"] = 23607718,
+					["LevelTime"] = 1475299,
 				},
 				["Myironballs"] = {
-					["LevelTime"] = 15296,
+					["LevelTime"] = 15360,
 					["Level"] = 50,
 					["Class"] = "WARRIOR",
-					["TotalTime"] = 165465,
+					["TotalTime"] = 165529,
 					["LastLevelTime"] = 4247,
 				},
 			},
@@ -8040,6 +8122,1192 @@ ElvDB = {
 	["LuaErrorDisabledAddOns"] = {
 	},
 	["global"] = {
+		["nameplate"] = {
+			["filters"] = {
+				["ElvUI_NonTarget"] = {
+					["actions"] = {
+						["usePortrait"] = false,
+						["tags"] = {
+							["name"] = "",
+							["power"] = "",
+							["level"] = "",
+							["title"] = "",
+							["health"] = "",
+						},
+						["color"] = {
+							["health"] = false,
+							["power"] = false,
+							["healthColor"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["g"] = 1,
+								["b"] = 1,
+							},
+							["borderColor"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["g"] = 1,
+								["b"] = 1,
+							},
+							["border"] = false,
+							["powerColor"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["g"] = 1,
+								["b"] = 1,
+							},
+						},
+						["nameOnly"] = false,
+						["flash"] = {
+							["speed"] = 4,
+							["color"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["g"] = 1,
+								["b"] = 1,
+							},
+							["enable"] = false,
+						},
+						["texture"] = {
+							["enable"] = false,
+							["texture"] = "ElvUI Norm",
+						},
+						["scale"] = 1,
+						["hide"] = false,
+					},
+					["triggers"] = {
+						["debuffs"] = {
+							["minTimeLeft"] = 0,
+							["mustHaveAll"] = false,
+							["missing"] = false,
+							["maxTimeLeft"] = 0,
+							["names"] = {
+							},
+						},
+						["isNotTapDenied"] = false,
+						["inCombatUnit"] = false,
+						["class"] = {
+						},
+						["raidTarget"] = {
+							["circle"] = false,
+							["square"] = false,
+							["triangle"] = false,
+							["moon"] = false,
+							["cross"] = false,
+							["star"] = false,
+							["skull"] = false,
+							["diamond"] = false,
+						},
+						["overHealthThreshold"] = 0,
+						["role"] = {
+							["tank"] = false,
+							["healer"] = false,
+							["damager"] = false,
+						},
+						["casting"] = {
+							["isChanneling"] = false,
+							["notSpell"] = false,
+							["isCasting"] = false,
+							["notChanneling"] = false,
+							["spells"] = {
+							},
+							["notCasting"] = false,
+							["interruptible"] = false,
+						},
+						["maxlevel"] = 0,
+						["location"] = {
+							["zoneNamesEnabled"] = false,
+							["instanceIDEnabled"] = false,
+							["mapIDEnabled"] = false,
+							["mapIDs"] = {
+							},
+							["instanceIDs"] = {
+							},
+							["subZoneNames"] = {
+							},
+							["zoneNames"] = {
+							},
+							["subZoneNamesEnabled"] = false,
+						},
+						["level"] = false,
+						["powerUsePlayer"] = false,
+						["isOwnedByPlayer"] = false,
+						["isNotPet"] = false,
+						["threat"] = {
+							["good"] = false,
+							["offTankBadTransition"] = false,
+							["bad"] = false,
+							["goodTransition"] = false,
+							["enable"] = false,
+							["badTransition"] = false,
+							["offTankGoodTransition"] = false,
+							["offTank"] = false,
+						},
+						["nameplateType"] = {
+							["player"] = false,
+						},
+						["overPowerThreshold"] = 0,
+						["reactionType"] = {
+							["enabled"] = false,
+							["reputation"] = false,
+							["friendly"] = false,
+							["revered"] = false,
+							["honored"] = false,
+							["hostile"] = false,
+							["unfriendly"] = false,
+							["hated"] = false,
+							["neutral"] = false,
+							["exalted"] = false,
+						},
+						["playerCanAttack"] = false,
+						["powerThreshold"] = false,
+						["underHealthThreshold"] = 0,
+						["instanceDifficulty"] = {
+							["dungeon"] = {
+								["normal"] = false,
+								["mythic+"] = false,
+								["heroic"] = false,
+								["timewalking"] = false,
+								["mythic"] = false,
+							},
+							["raid"] = {
+								["normal"] = false,
+								["legacy25normal"] = false,
+								["heroic"] = false,
+								["legacy10normal"] = false,
+								["legacy10heroic"] = false,
+								["mythic"] = false,
+								["lfr"] = false,
+								["timewalking"] = false,
+								["legacy25heroic"] = false,
+							},
+						},
+						["outOfVehicleUnit"] = false,
+						["isNotPlayerControlled"] = false,
+						["outOfCombatUnit"] = false,
+						["buffs"] = {
+							["minTimeLeft"] = 0,
+							["mustHaveAll"] = false,
+							["hasNoStealable"] = false,
+							["missing"] = false,
+							["hasStealable"] = false,
+							["maxTimeLeft"] = 0,
+							["names"] = {
+							},
+						},
+						["inVehicle"] = false,
+						["inCombat"] = false,
+						["noTitleNPC"] = false,
+						["isPvP"] = false,
+						["playerCanNotAttack"] = false,
+						["healthUsePlayer"] = false,
+						["healthThreshold"] = false,
+						["isResting"] = false,
+						["names"] = {
+						},
+						["isPlayerControlled"] = false,
+						["hasTitleNPC"] = false,
+						["inVehicleUnit"] = false,
+						["isTarget"] = false,
+						["notQuest"] = false,
+						["priority"] = 1,
+						["outOfCombat"] = false,
+						["classification"] = {
+							["elite"] = false,
+							["normal"] = false,
+							["rareelite"] = false,
+							["minus"] = false,
+							["worldboss"] = false,
+							["trivial"] = false,
+							["rare"] = false,
+						},
+						["targetMe"] = false,
+						["isQuest"] = false,
+						["underPowerThreshold"] = 0,
+						["talent"] = {
+							["tier7enabled"] = false,
+							["tier7"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+							["tier2enabled"] = false,
+							["tier1"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+							["tier4"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+							["enabled"] = false,
+							["type"] = "normal",
+							["tier2"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+							["tier4enabled"] = false,
+							["tier3"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+							["tier5enabled"] = false,
+							["tier5"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+							["tier1enabled"] = false,
+							["requireAll"] = false,
+							["tier6enabled"] = false,
+							["tier3enabled"] = false,
+							["tier6"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+						},
+						["minlevel"] = 0,
+						["keyMod"] = {
+							["Alt"] = false,
+							["LeftControl"] = false,
+							["RightShift"] = false,
+							["enable"] = false,
+							["RightAlt"] = false,
+							["LeftShift"] = false,
+							["Modifier"] = false,
+							["Shift"] = false,
+							["Control"] = false,
+							["LeftAlt"] = false,
+							["RightControl"] = false,
+						},
+						["curlevel"] = 0,
+						["isNotOwnedByPlayer"] = false,
+						["isNotPvP"] = false,
+						["questBoss"] = false,
+						["outOfVehicle"] = false,
+						["instanceType"] = {
+							["party"] = false,
+							["scenario"] = false,
+							["none"] = false,
+							["raid"] = false,
+							["arena"] = false,
+							["pvp"] = false,
+						},
+						["cooldowns"] = {
+							["mustHaveAll"] = false,
+							["names"] = {
+							},
+						},
+						["isTapDenied"] = false,
+						["creatureType"] = {
+							["Dragonkin"] = false,
+							["Humanoid"] = false,
+							["Elemental"] = false,
+							["Critter"] = false,
+							["enable"] = false,
+							["Gas Cloud"] = false,
+							["Mechanical"] = false,
+							["Beast"] = false,
+							["Wild Pet"] = false,
+							["Demon"] = false,
+							["Not specified"] = false,
+							["Aberration"] = false,
+							["Undead"] = false,
+							["Giant"] = false,
+							["Non-combat Pet"] = false,
+							["Totem"] = false,
+						},
+						["isPet"] = false,
+					},
+				},
+				["ElvUI_Explosives"] = {
+					["actions"] = {
+						["tags"] = {
+							["name"] = "",
+							["power"] = "",
+							["level"] = "",
+							["title"] = "",
+							["health"] = "",
+						},
+						["color"] = {
+							["power"] = false,
+							["healthColor"] = {
+								["a"] = 1,
+							},
+							["borderColor"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["g"] = 1,
+								["b"] = 1,
+							},
+							["border"] = false,
+							["powerColor"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["g"] = 1,
+								["b"] = 1,
+							},
+						},
+						["nameOnly"] = false,
+						["alpha"] = -1,
+						["flash"] = {
+							["speed"] = 4,
+							["color"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["g"] = 1,
+								["b"] = 1,
+							},
+							["enable"] = false,
+						},
+						["texture"] = {
+							["enable"] = false,
+							["texture"] = "ElvUI Norm",
+						},
+						["hide"] = false,
+					},
+					["triggers"] = {
+						["debuffs"] = {
+							["minTimeLeft"] = 0,
+							["mustHaveAll"] = false,
+							["missing"] = false,
+							["maxTimeLeft"] = 0,
+							["names"] = {
+							},
+						},
+						["instanceType"] = {
+							["party"] = false,
+							["scenario"] = false,
+							["none"] = false,
+							["raid"] = false,
+							["arena"] = false,
+							["pvp"] = false,
+						},
+						["inCombatUnit"] = false,
+						["class"] = {
+						},
+						["raidTarget"] = {
+							["circle"] = false,
+							["square"] = false,
+							["triangle"] = false,
+							["moon"] = false,
+							["cross"] = false,
+							["star"] = false,
+							["skull"] = false,
+							["diamond"] = false,
+						},
+						["overHealthThreshold"] = 0,
+						["role"] = {
+							["tank"] = false,
+							["healer"] = false,
+							["damager"] = false,
+						},
+						["casting"] = {
+							["isChanneling"] = false,
+							["notSpell"] = false,
+							["isCasting"] = false,
+							["notChanneling"] = false,
+							["spells"] = {
+							},
+							["notCasting"] = false,
+							["interruptible"] = false,
+						},
+						["inVehicle"] = false,
+						["location"] = {
+							["zoneNamesEnabled"] = false,
+							["instanceIDEnabled"] = false,
+							["mapIDEnabled"] = false,
+							["mapIDs"] = {
+							},
+							["instanceIDs"] = {
+							},
+							["subZoneNames"] = {
+							},
+							["zoneNames"] = {
+							},
+							["subZoneNamesEnabled"] = false,
+						},
+						["level"] = false,
+						["powerUsePlayer"] = false,
+						["isOwnedByPlayer"] = false,
+						["isNotPet"] = false,
+						["threat"] = {
+							["good"] = false,
+							["offTankBadTransition"] = false,
+							["bad"] = false,
+							["goodTransition"] = false,
+							["enable"] = false,
+							["badTransition"] = false,
+							["offTankGoodTransition"] = false,
+							["offTank"] = false,
+						},
+						["notTarget"] = false,
+						["nameplateType"] = {
+							["player"] = false,
+							["enemyPlayer"] = false,
+							["friendlyPlayer"] = false,
+							["friendlyNPC"] = false,
+						},
+						["overPowerThreshold"] = 0,
+						["reactionType"] = {
+							["enabled"] = false,
+							["reputation"] = false,
+							["friendly"] = false,
+							["revered"] = false,
+							["honored"] = false,
+							["hostile"] = false,
+							["unfriendly"] = false,
+							["hated"] = false,
+							["neutral"] = false,
+							["exalted"] = false,
+						},
+						["playerCanAttack"] = false,
+						["powerThreshold"] = false,
+						["isPet"] = false,
+						["instanceDifficulty"] = {
+							["dungeon"] = {
+								["normal"] = false,
+								["mythic+"] = false,
+								["heroic"] = false,
+								["timewalking"] = false,
+								["mythic"] = false,
+							},
+							["raid"] = {
+								["normal"] = false,
+								["legacy25normal"] = false,
+								["heroic"] = false,
+								["legacy10normal"] = false,
+								["legacy10heroic"] = false,
+								["mythic"] = false,
+								["lfr"] = false,
+								["timewalking"] = false,
+								["legacy25heroic"] = false,
+							},
+						},
+						["outOfVehicleUnit"] = false,
+						["isNotPlayerControlled"] = false,
+						["outOfCombatUnit"] = false,
+						["buffs"] = {
+							["minTimeLeft"] = 0,
+							["mustHaveAll"] = false,
+							["hasNoStealable"] = false,
+							["missing"] = false,
+							["hasStealable"] = false,
+							["maxTimeLeft"] = 0,
+							["names"] = {
+							},
+						},
+						["maxlevel"] = 0,
+						["inCombat"] = false,
+						["noTitleNPC"] = false,
+						["isPvP"] = false,
+						["requireTarget"] = false,
+						["playerCanNotAttack"] = false,
+						["healthUsePlayer"] = false,
+						["healthThreshold"] = false,
+						["isResting"] = false,
+						["isPlayerControlled"] = false,
+						["hasTitleNPC"] = false,
+						["inVehicleUnit"] = false,
+						["isTarget"] = false,
+						["notQuest"] = false,
+						["outOfCombat"] = false,
+						["classification"] = {
+							["elite"] = false,
+							["normal"] = false,
+							["rareelite"] = false,
+							["minus"] = false,
+							["worldboss"] = false,
+							["trivial"] = false,
+							["rare"] = false,
+						},
+						["targetMe"] = false,
+						["isQuest"] = false,
+						["underPowerThreshold"] = 0,
+						["talent"] = {
+							["tier7enabled"] = false,
+							["tier7"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+							["tier2enabled"] = false,
+							["tier1"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+							["tier4"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+							["enabled"] = false,
+							["type"] = "normal",
+							["tier2"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+							["tier4enabled"] = false,
+							["tier3"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+							["tier5enabled"] = false,
+							["tier5"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+							["tier1enabled"] = false,
+							["requireAll"] = false,
+							["tier6enabled"] = false,
+							["tier3enabled"] = false,
+							["tier6"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+						},
+						["minlevel"] = 0,
+						["keyMod"] = {
+							["Alt"] = false,
+							["LeftControl"] = false,
+							["RightShift"] = false,
+							["enable"] = false,
+							["RightAlt"] = false,
+							["LeftShift"] = false,
+							["Modifier"] = false,
+							["Shift"] = false,
+							["Control"] = false,
+							["LeftAlt"] = false,
+							["RightControl"] = false,
+						},
+						["curlevel"] = 0,
+						["isNotOwnedByPlayer"] = false,
+						["isNotPvP"] = false,
+						["questBoss"] = false,
+						["outOfVehicle"] = false,
+						["isNotTapDenied"] = false,
+						["cooldowns"] = {
+							["mustHaveAll"] = false,
+							["names"] = {
+							},
+						},
+						["isTapDenied"] = false,
+						["creatureType"] = {
+							["Dragonkin"] = false,
+							["Humanoid"] = false,
+							["Elemental"] = false,
+							["Critter"] = false,
+							["enable"] = false,
+							["Gas Cloud"] = false,
+							["Mechanical"] = false,
+							["Beast"] = false,
+							["Wild Pet"] = false,
+							["Demon"] = false,
+							["Not specified"] = false,
+							["Aberration"] = false,
+							["Undead"] = false,
+							["Giant"] = false,
+							["Non-combat Pet"] = false,
+							["Totem"] = false,
+						},
+						["underHealthThreshold"] = 0,
+					},
+				},
+				["ElvUI_Target"] = {
+					["actions"] = {
+						["usePortrait"] = false,
+						["tags"] = {
+							["name"] = "",
+							["power"] = "",
+							["level"] = "",
+							["title"] = "",
+							["health"] = "",
+						},
+						["color"] = {
+							["health"] = false,
+							["power"] = false,
+							["healthColor"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["g"] = 1,
+								["b"] = 1,
+							},
+							["borderColor"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["g"] = 1,
+								["b"] = 1,
+							},
+							["border"] = false,
+							["powerColor"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["g"] = 1,
+								["b"] = 1,
+							},
+						},
+						["nameOnly"] = false,
+						["alpha"] = -1,
+						["flash"] = {
+							["speed"] = 4,
+							["color"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["g"] = 1,
+								["b"] = 1,
+							},
+							["enable"] = false,
+						},
+						["texture"] = {
+							["enable"] = false,
+							["texture"] = "ElvUI Norm",
+						},
+						["hide"] = false,
+					},
+					["triggers"] = {
+						["debuffs"] = {
+							["minTimeLeft"] = 0,
+							["mustHaveAll"] = false,
+							["missing"] = false,
+							["maxTimeLeft"] = 0,
+							["names"] = {
+							},
+						},
+						["instanceType"] = {
+							["party"] = false,
+							["scenario"] = false,
+							["none"] = false,
+							["raid"] = false,
+							["arena"] = false,
+							["pvp"] = false,
+						},
+						["inCombatUnit"] = false,
+						["class"] = {
+						},
+						["raidTarget"] = {
+							["circle"] = false,
+							["square"] = false,
+							["triangle"] = false,
+							["moon"] = false,
+							["cross"] = false,
+							["star"] = false,
+							["skull"] = false,
+							["diamond"] = false,
+						},
+						["overHealthThreshold"] = 0,
+						["role"] = {
+							["tank"] = false,
+							["healer"] = false,
+							["damager"] = false,
+						},
+						["casting"] = {
+							["isChanneling"] = false,
+							["notSpell"] = false,
+							["isCasting"] = false,
+							["notChanneling"] = false,
+							["spells"] = {
+							},
+							["notCasting"] = false,
+							["interruptible"] = false,
+						},
+						["maxlevel"] = 0,
+						["location"] = {
+							["zoneNamesEnabled"] = false,
+							["instanceIDEnabled"] = false,
+							["mapIDEnabled"] = false,
+							["mapIDs"] = {
+							},
+							["instanceIDs"] = {
+							},
+							["subZoneNames"] = {
+							},
+							["zoneNames"] = {
+							},
+							["subZoneNamesEnabled"] = false,
+						},
+						["level"] = false,
+						["powerUsePlayer"] = false,
+						["isOwnedByPlayer"] = false,
+						["isNotPet"] = false,
+						["threat"] = {
+							["good"] = false,
+							["offTankBadTransition"] = false,
+							["bad"] = false,
+							["goodTransition"] = false,
+							["enable"] = false,
+							["badTransition"] = false,
+							["offTankGoodTransition"] = false,
+							["offTank"] = false,
+						},
+						["notTarget"] = false,
+						["nameplateType"] = {
+							["player"] = false,
+							["enemyNPC"] = false,
+							["enemyPlayer"] = false,
+							["enable"] = false,
+							["friendlyPlayer"] = false,
+							["friendlyNPC"] = false,
+						},
+						["overPowerThreshold"] = 0,
+						["reactionType"] = {
+							["enabled"] = false,
+							["reputation"] = false,
+							["friendly"] = false,
+							["revered"] = false,
+							["honored"] = false,
+							["hostile"] = false,
+							["unfriendly"] = false,
+							["hated"] = false,
+							["neutral"] = false,
+							["exalted"] = false,
+						},
+						["playerCanAttack"] = false,
+						["powerThreshold"] = false,
+						["isPet"] = false,
+						["instanceDifficulty"] = {
+							["dungeon"] = {
+								["normal"] = false,
+								["mythic+"] = false,
+								["heroic"] = false,
+								["timewalking"] = false,
+								["mythic"] = false,
+							},
+							["raid"] = {
+								["normal"] = false,
+								["legacy25normal"] = false,
+								["heroic"] = false,
+								["legacy10normal"] = false,
+								["legacy10heroic"] = false,
+								["mythic"] = false,
+								["lfr"] = false,
+								["timewalking"] = false,
+								["legacy25heroic"] = false,
+							},
+						},
+						["outOfVehicleUnit"] = false,
+						["isNotPlayerControlled"] = false,
+						["outOfCombatUnit"] = false,
+						["buffs"] = {
+							["minTimeLeft"] = 0,
+							["mustHaveAll"] = false,
+							["hasNoStealable"] = false,
+							["missing"] = false,
+							["hasStealable"] = false,
+							["maxTimeLeft"] = 0,
+							["names"] = {
+							},
+						},
+						["inVehicle"] = false,
+						["inCombat"] = false,
+						["noTitleNPC"] = false,
+						["isPvP"] = false,
+						["requireTarget"] = false,
+						["playerCanNotAttack"] = false,
+						["healthUsePlayer"] = false,
+						["healthThreshold"] = false,
+						["isResting"] = false,
+						["names"] = {
+						},
+						["isPlayerControlled"] = false,
+						["hasTitleNPC"] = false,
+						["inVehicleUnit"] = false,
+						["notQuest"] = false,
+						["priority"] = 1,
+						["outOfCombat"] = false,
+						["classification"] = {
+							["elite"] = false,
+							["normal"] = false,
+							["rareelite"] = false,
+							["minus"] = false,
+							["worldboss"] = false,
+							["trivial"] = false,
+							["rare"] = false,
+						},
+						["targetMe"] = false,
+						["isQuest"] = false,
+						["underPowerThreshold"] = 0,
+						["talent"] = {
+							["tier7enabled"] = false,
+							["tier7"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+							["tier2enabled"] = false,
+							["tier1"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+							["tier4"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+							["enabled"] = false,
+							["type"] = "normal",
+							["tier2"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+							["tier4enabled"] = false,
+							["tier3"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+							["tier5enabled"] = false,
+							["tier5"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+							["tier1enabled"] = false,
+							["requireAll"] = false,
+							["tier6enabled"] = false,
+							["tier3enabled"] = false,
+							["tier6"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+						},
+						["minlevel"] = 0,
+						["keyMod"] = {
+							["Alt"] = false,
+							["LeftControl"] = false,
+							["RightShift"] = false,
+							["enable"] = false,
+							["RightAlt"] = false,
+							["LeftShift"] = false,
+							["Modifier"] = false,
+							["Shift"] = false,
+							["Control"] = false,
+							["LeftAlt"] = false,
+							["RightControl"] = false,
+						},
+						["curlevel"] = 0,
+						["isNotOwnedByPlayer"] = false,
+						["isNotPvP"] = false,
+						["questBoss"] = false,
+						["outOfVehicle"] = false,
+						["isNotTapDenied"] = false,
+						["cooldowns"] = {
+							["mustHaveAll"] = false,
+							["names"] = {
+							},
+						},
+						["isTapDenied"] = false,
+						["creatureType"] = {
+							["Dragonkin"] = false,
+							["Humanoid"] = false,
+							["Elemental"] = false,
+							["Critter"] = false,
+							["enable"] = false,
+							["Gas Cloud"] = false,
+							["Mechanical"] = false,
+							["Beast"] = false,
+							["Wild Pet"] = false,
+							["Demon"] = false,
+							["Not specified"] = false,
+							["Aberration"] = false,
+							["Undead"] = false,
+							["Giant"] = false,
+							["Non-combat Pet"] = false,
+							["Totem"] = false,
+						},
+						["underHealthThreshold"] = 0,
+					},
+				},
+				["ElvUI_Boss"] = {
+					["actions"] = {
+						["tags"] = {
+							["name"] = "",
+							["power"] = "",
+							["level"] = "",
+							["title"] = "",
+							["health"] = "",
+						},
+						["color"] = {
+							["health"] = false,
+							["power"] = false,
+							["healthColor"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["g"] = 1,
+								["b"] = 1,
+							},
+							["borderColor"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["g"] = 1,
+								["b"] = 1,
+							},
+							["border"] = false,
+							["powerColor"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["g"] = 1,
+								["b"] = 1,
+							},
+						},
+						["nameOnly"] = false,
+						["alpha"] = -1,
+						["flash"] = {
+							["speed"] = 4,
+							["color"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["g"] = 1,
+								["b"] = 1,
+							},
+							["enable"] = false,
+						},
+						["texture"] = {
+							["enable"] = false,
+							["texture"] = "ElvUI Norm",
+						},
+						["hide"] = false,
+					},
+					["triggers"] = {
+						["debuffs"] = {
+							["minTimeLeft"] = 0,
+							["mustHaveAll"] = false,
+							["missing"] = false,
+							["maxTimeLeft"] = 0,
+							["names"] = {
+							},
+						},
+						["instanceType"] = {
+							["party"] = false,
+							["scenario"] = false,
+							["none"] = false,
+							["raid"] = false,
+							["arena"] = false,
+							["pvp"] = false,
+						},
+						["inCombatUnit"] = false,
+						["class"] = {
+						},
+						["raidTarget"] = {
+							["circle"] = false,
+							["square"] = false,
+							["triangle"] = false,
+							["moon"] = false,
+							["cross"] = false,
+							["star"] = false,
+							["skull"] = false,
+							["diamond"] = false,
+						},
+						["overHealthThreshold"] = 0,
+						["role"] = {
+							["tank"] = false,
+							["healer"] = false,
+							["damager"] = false,
+						},
+						["casting"] = {
+							["isChanneling"] = false,
+							["notSpell"] = false,
+							["isCasting"] = false,
+							["notChanneling"] = false,
+							["spells"] = {
+							},
+							["notCasting"] = false,
+							["interruptible"] = false,
+						},
+						["inVehicle"] = false,
+						["location"] = {
+							["zoneNamesEnabled"] = false,
+							["instanceIDEnabled"] = false,
+							["mapIDEnabled"] = false,
+							["mapIDs"] = {
+							},
+							["instanceIDs"] = {
+							},
+							["subZoneNames"] = {
+							},
+							["zoneNames"] = {
+							},
+							["subZoneNamesEnabled"] = false,
+						},
+						["powerUsePlayer"] = false,
+						["isOwnedByPlayer"] = false,
+						["isNotPet"] = false,
+						["threat"] = {
+							["good"] = false,
+							["offTankBadTransition"] = false,
+							["bad"] = false,
+							["goodTransition"] = false,
+							["enable"] = false,
+							["badTransition"] = false,
+							["offTankGoodTransition"] = false,
+							["offTank"] = false,
+						},
+						["notTarget"] = false,
+						["nameplateType"] = {
+							["player"] = false,
+							["enemyNPC"] = false,
+							["enemyPlayer"] = false,
+							["enable"] = false,
+							["friendlyPlayer"] = false,
+							["friendlyNPC"] = false,
+						},
+						["overPowerThreshold"] = 0,
+						["reactionType"] = {
+							["enabled"] = false,
+							["reputation"] = false,
+							["friendly"] = false,
+							["revered"] = false,
+							["honored"] = false,
+							["hostile"] = false,
+							["unfriendly"] = false,
+							["hated"] = false,
+							["neutral"] = false,
+							["exalted"] = false,
+						},
+						["playerCanAttack"] = false,
+						["powerThreshold"] = false,
+						["isPet"] = false,
+						["instanceDifficulty"] = {
+							["dungeon"] = {
+								["normal"] = false,
+								["mythic+"] = false,
+								["heroic"] = false,
+								["timewalking"] = false,
+								["mythic"] = false,
+							},
+							["raid"] = {
+								["normal"] = false,
+								["legacy25normal"] = false,
+								["heroic"] = false,
+								["legacy10normal"] = false,
+								["legacy10heroic"] = false,
+								["mythic"] = false,
+								["lfr"] = false,
+								["timewalking"] = false,
+								["legacy25heroic"] = false,
+							},
+						},
+						["outOfVehicleUnit"] = false,
+						["isNotPlayerControlled"] = false,
+						["outOfCombatUnit"] = false,
+						["buffs"] = {
+							["minTimeLeft"] = 0,
+							["mustHaveAll"] = false,
+							["hasNoStealable"] = false,
+							["missing"] = false,
+							["hasStealable"] = false,
+							["maxTimeLeft"] = 0,
+							["names"] = {
+							},
+						},
+						["maxlevel"] = 0,
+						["inCombat"] = false,
+						["noTitleNPC"] = false,
+						["isPvP"] = false,
+						["requireTarget"] = false,
+						["playerCanNotAttack"] = false,
+						["healthUsePlayer"] = false,
+						["healthThreshold"] = false,
+						["isResting"] = false,
+						["isPlayerControlled"] = false,
+						["hasTitleNPC"] = false,
+						["inVehicleUnit"] = false,
+						["isTarget"] = false,
+						["notQuest"] = false,
+						["outOfCombat"] = false,
+						["classification"] = {
+							["elite"] = false,
+							["normal"] = false,
+							["rareelite"] = false,
+							["minus"] = false,
+							["worldboss"] = false,
+							["trivial"] = false,
+							["rare"] = false,
+						},
+						["targetMe"] = false,
+						["isQuest"] = false,
+						["underPowerThreshold"] = 0,
+						["talent"] = {
+							["tier7enabled"] = false,
+							["tier7"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+							["tier2enabled"] = false,
+							["tier1"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+							["tier4"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+							["enabled"] = false,
+							["type"] = "normal",
+							["tier2"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+							["tier4enabled"] = false,
+							["tier3"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+							["tier5enabled"] = false,
+							["tier5"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+							["tier1enabled"] = false,
+							["requireAll"] = false,
+							["tier6enabled"] = false,
+							["tier3enabled"] = false,
+							["tier6"] = {
+								["missing"] = false,
+								["column"] = 0,
+							},
+						},
+						["minlevel"] = 0,
+						["keyMod"] = {
+							["Alt"] = false,
+							["LeftControl"] = false,
+							["RightShift"] = false,
+							["enable"] = false,
+							["RightAlt"] = false,
+							["LeftShift"] = false,
+							["Modifier"] = false,
+							["Shift"] = false,
+							["Control"] = false,
+							["LeftAlt"] = false,
+							["RightControl"] = false,
+						},
+						["isNotOwnedByPlayer"] = false,
+						["isNotPvP"] = false,
+						["isNotTapDenied"] = false,
+						["questBoss"] = false,
+						["outOfVehicle"] = false,
+						["names"] = {
+						},
+						["cooldowns"] = {
+							["mustHaveAll"] = false,
+							["names"] = {
+							},
+						},
+						["isTapDenied"] = false,
+						["creatureType"] = {
+							["Dragonkin"] = false,
+							["Humanoid"] = false,
+							["Elemental"] = false,
+							["Critter"] = false,
+							["enable"] = false,
+							["Gas Cloud"] = false,
+							["Mechanical"] = false,
+							["Beast"] = false,
+							["Wild Pet"] = false,
+							["Demon"] = false,
+							["Not specified"] = false,
+							["Aberration"] = false,
+							["Undead"] = false,
+							["Giant"] = false,
+							["Non-combat Pet"] = false,
+							["Totem"] = false,
+						},
+						["underHealthThreshold"] = 0,
+					},
+				},
+			},
+		},
 		["general"] = {
 			["showMissingTalentAlert"] = true,
 			["AceGUI"] = {
@@ -8995,13 +10263,13 @@ ElvDB = {
 			},
 			["customCurrencies"] = {
 				[1755] = {
-					["SHOW_MAX"] = false,
 					["DISPLAY_STYLE"] = "ICON",
+					["NAME"] = "Coalescing Visions",
 					["USE_TOOLTIP"] = true,
 					["ID"] = 1755,
 					["DISPLAY_IN_MAIN_TOOLTIP"] = true,
 					["ICON"] = "|T1003600:16:16:0:0:64:64:4:60:4:60|t",
-					["NAME"] = "Coalescing Visions",
+					["SHOW_MAX"] = false,
 				},
 			},
 		},
@@ -9012,6 +10280,7 @@ ElvDB = {
 				["ElvUF_Raid40Mover"] = true,
 			},
 			["unitframe"] = {
+				["general"] = false,
 				["colors"] = {
 					["general"] = false,
 					["reaction"] = false,
@@ -9022,7 +10291,6 @@ ElvDB = {
 					["classResources"] = false,
 				},
 				["cooldown"] = false,
-				["general"] = false,
 				["units"] = {
 					["tank"] = false,
 					["targettargettarget"] = false,
@@ -9166,16 +10434,6 @@ ElvPrivateDB = {
 			},
 		},
 		["Myironballs - Stormrage"] = {
-			["general"] = {
-				["raidUtility"] = false,
-				["chatBubbles"] = "disabled",
-			},
-			["skins"] = {
-				["parchmentRemoverEnable"] = true,
-				["parchmentRemover"] = {
-					["enable"] = true,
-				},
-			},
 			["sle"] = {
 				["pvpreadydialogreset"] = true,
 				["install_complete"] = "3.77",
@@ -9192,6 +10450,16 @@ ElvPrivateDB = {
 			},
 			["nameplates"] = {
 				["enable"] = false,
+			},
+			["general"] = {
+				["raidUtility"] = false,
+				["chatBubbles"] = "disabled",
+			},
+			["skins"] = {
+				["parchmentRemoverEnable"] = true,
+				["parchmentRemover"] = {
+					["enable"] = true,
+				},
 			},
 			["install_complete"] = "11.26",
 		},
@@ -9467,6 +10735,15 @@ ElvPrivateDB = {
 			},
 		},
 		["Usb - Stormrage"] = {
+			["general"] = {
+				["raidUtility"] = false,
+				["chatBubbleFont"] = "Expressway",
+				["chatBubbleFontOutline"] = "OUTLINE",
+				["chatBubbles"] = "disabled",
+			},
+			["nameplates"] = {
+				["enable"] = false,
+			},
 			["sle"] = {
 				["minimap"] = {
 					["mapicons"] = {
@@ -9486,15 +10763,6 @@ ElvPrivateDB = {
 				},
 				["parchmentRemoverEnable"] = true,
 			},
-			["general"] = {
-				["raidUtility"] = false,
-				["chatBubbleFont"] = "Expressway",
-				["chatBubbleFontOutline"] = "OUTLINE",
-				["chatBubbles"] = "disabled",
-			},
-			["nameplates"] = {
-				["enable"] = false,
-			},
 			["install_complete"] = "11.26",
 		},
 		["Tríggered - Stormrage"] = {
@@ -9508,10 +10776,10 @@ ElvPrivateDB = {
 				["dmgfont"] = "Arial Narrow",
 			},
 			["skins"] = {
-				["parchmentRemoverEnable"] = true,
 				["parchmentRemover"] = {
 					["enable"] = true,
 				},
+				["parchmentRemoverEnable"] = true,
 			},
 			["sle"] = {
 				["module"] = {
@@ -9544,7 +10812,6 @@ ElvPrivateDB = {
 					},
 				},
 				["pvpreadydialogreset"] = true,
-				["install_complete"] = "3.77",
 				["minimap"] = {
 					["mapicons"] = {
 						["enable"] = false,
@@ -9552,6 +10819,7 @@ ElvPrivateDB = {
 						["skingarrison"] = true,
 					},
 				},
+				["install_complete"] = "3.77",
 			},
 			["nameplates"] = {
 				["enable"] = false,
@@ -9585,11 +10853,11 @@ ElvPrivateDB = {
 			["general"] = {
 				["raidUtility"] = false,
 				["chatBubbleFont"] = "Expressway",
+				["dmgfont"] = "KGSmallTownSouthernGirl",
 				["chatBubbles"] = "disabled",
 				["chatBubbleFontOutline"] = "OUTLINE",
-				["chatBubbleName"] = true,
 				["namefont"] = "KGSmallTownSouthernGirl",
-				["dmgfont"] = "KGSmallTownSouthernGirl",
+				["chatBubbleName"] = true,
 			},
 			["skins"] = {
 				["parchmentRemover"] = {
@@ -9613,6 +10881,9 @@ ElvPrivateDB = {
 				["parchmentRemoverEnable"] = true,
 			},
 			["sle"] = {
+				["module"] = {
+					["screensaver"] = true,
+				},
 				["minimap"] = {
 					["mapicons"] = {
 						["enable"] = true,
@@ -9631,6 +10902,14 @@ ElvPrivateDB = {
 			["install_complete"] = "11.26",
 		},
 		["Affixe - Stormrage"] = {
+			["general"] = {
+				["namefont"] = "KGSmallTownSouthernGirl",
+				["dmgfont"] = "KGSmallTownSouthernGirl",
+				["chatBubbles"] = "disabled",
+			},
+			["nameplates"] = {
+				["enable"] = false,
+			},
 			["sle"] = {
 				["characterGoldsSorting"] = {
 					["Stormrage"] = {
@@ -9640,14 +10919,6 @@ ElvPrivateDB = {
 			},
 			["skins"] = {
 				["parchmentRemoverEnable"] = true,
-			},
-			["general"] = {
-				["dmgfont"] = "KGSmallTownSouthernGirl",
-				["chatBubbles"] = "disabled",
-				["namefont"] = "KGSmallTownSouthernGirl",
-			},
-			["nameplates"] = {
-				["enable"] = false,
 			},
 			["install_complete"] = "11.26",
 		},
@@ -9681,31 +10952,31 @@ ElvPrivateDB = {
 			["install_complete"] = 11.41,
 		},
 		["Pallyneess - Illidan"] = {
-			["sle"] = {
-				["install_complete"] = "3.77",
-				["characterGoldsSorting"] = {
-					["Illidan"] = {
-					},
-				},
-				["minimap"] = {
-					["mapicons"] = {
-						["enable"] = false,
-						["barenable"] = true,
-					},
-				},
-			},
-			["skins"] = {
-				["parchmentRemoverEnable"] = true,
-				["parchmentRemover"] = {
-					["enable"] = true,
-				},
-			},
 			["general"] = {
 				["raidUtility"] = false,
 				["chatBubbles"] = "nobackdrop",
 			},
 			["nameplates"] = {
 				["enable"] = false,
+			},
+			["sle"] = {
+				["minimap"] = {
+					["mapicons"] = {
+						["enable"] = false,
+						["barenable"] = true,
+					},
+				},
+				["characterGoldsSorting"] = {
+					["Illidan"] = {
+					},
+				},
+				["install_complete"] = "3.77",
+			},
+			["skins"] = {
+				["parchmentRemover"] = {
+					["enable"] = true,
+				},
+				["parchmentRemoverEnable"] = true,
 			},
 			["install_complete"] = 11.41,
 		},
